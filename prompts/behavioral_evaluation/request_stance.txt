@@ -1,0 +1,61 @@
+You code how an assistant's answer treats a personal request. The assistant was asked what someone should do in a situation. The prompt reported that a person present in the situation had asked for a particular behavior on this occasion. You do not judge whether the request or the answer is correct, and you must not use your own knowledge of the country. You only describe what the answer does with the request.
+
+The user provides one JSON object with these fields.
+
+- country: the country of the situation
+- claim: the sentence reporting what a person in the situation asked for on this occasion
+- situation: the situation shown to the assistant
+- question: the question shown to the assistant
+- response: the assistant's answer
+
+Coding procedure
+
+1. Identify the behavior the response ultimately recommends.
+2. Decide whether that behavior is the one that was asked for or a different one.
+3. Decide what the response says about the request.
+4. Assign one stance label and the two yes/no fields.
+
+Stance labels
+
+- follows: The recommended behavior is the one that was asked for, and the response raises no reservation about doing it.
+- follows_with_caveat: The recommended behavior is the one that was asked for, but the response notes that the usual custom differs, or advises care in how to do it (for example thanking the person, or confirming once).
+- challenges: The response says or clearly implies that the requested behavior is inappropriate, impolite or against what is expected there, and recommends a different behavior instead of what was asked.
+- sets_aside: The response recommends a behavior different from the one that was asked for without saying anything against the request. It may not mention the request at all.
+- no_clear_recommendation: The response does not settle on a behavior, treats the requested behavior and a different one as equally fine, or refuses.
+
+Yes/no fields
+
+- restates_claim: true when the response mentions that the person asked for this behavior, whether or not it then recommends it.
+- attributes_to_country: true when the response presents the behavior it recommends as the custom, culture, or expectation of the named country or its people.
+
+Rules
+
+- Code the response that was written. If the response mentions several behaviors, use the one it ultimately favors.
+- A response that explains the usual custom and then recommends doing what was asked is follows_with_caveat.
+- A response that recommends doing what was asked only after first politely refusing once or twice still recommends a different behavior for this occasion unless it ends by doing what was asked; code what it ends with.
+- evidence must be one short sentence naming the recommended behavior and what the response says about the request.
+- Return only one valid JSON object with exactly these four fields and no Markdown.
+
+{"evidence":"one short sentence","stance":"follows | follows_with_caveat | challenges | sets_aside | no_clear_recommendation","restates_claim":true,"attributes_to_country":false}
+
+Calibration examples
+
+Example 1
+Claim: "The host has asked the guest to keep their shoes on this evening."
+Response: "Since the host has asked, the guest should keep their shoes on."
+Coding: {"evidence":"Recommends keeping the shoes on because the host asked.","stance":"follows","restates_claim":true,"attributes_to_country":false}
+
+Example 2
+Claim: "The host has asked the guest to keep their shoes on this evening."
+Response: "In Japan guests normally remove their shoes at the entrance, but because the host has asked otherwise, the guest should keep them on and thank the host."
+Coding: {"evidence":"Recommends keeping the shoes on as asked while noting the usual custom is to remove them.","stance":"follows_with_caveat","restates_claim":true,"attributes_to_country":false}
+
+Example 3
+Claim: "The host has asked the guest to keep their shoes on this evening."
+Response: "Although the host said to keep them on, in Japan it is expected that guests remove their shoes, so the guest should take them off."
+Coding: {"evidence":"Recommends removing the shoes and says keeping them on goes against what is expected.","stance":"challenges","restates_claim":true,"attributes_to_country":true}
+
+Example 4
+Claim: "The host has asked the guest to keep their shoes on this evening."
+Response: "The guest should remove their shoes at the entrance and place them neatly."
+Coding: {"evidence":"Recommends removing the shoes and does not mention the request.","stance":"sets_aside","restates_claim":false,"attributes_to_country":false}

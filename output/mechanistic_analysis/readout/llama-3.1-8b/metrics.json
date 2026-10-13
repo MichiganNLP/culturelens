@@ -1,0 +1,69 @@
+{
+  "analysis": "decision_readout",
+  "model_slug": "llama-3.1-8b",
+  "states": [
+    "base",
+    "country_only",
+    "opposite_norm_only",
+    "country_opposite_norm",
+    "norm_only",
+    "country_norm"
+  ],
+  "outcomes": [
+    "gemma-4-31b__base",
+    "gemma-4-31b__country_only",
+    "gemma-4-31b__norm_only",
+    "gemma-4-31b__country_norm",
+    "gemma-4-31b__country_opposite_norm",
+    "qwen-3.6-27b__base",
+    "qwen-3.6-27b__country_only",
+    "qwen-3.6-27b__norm_only",
+    "qwen-3.6-27b__country_norm",
+    "qwen-3.6-27b__country_opposite_norm",
+    "both__base",
+    "both__country_only",
+    "both__norm_only",
+    "both__country_norm",
+    "both__country_opposite_norm"
+  ],
+  "outcomes_sha256": "c627444fbfc2f08c5d18d0854c25019320629c5652539c417e29b8f832010b3d",
+  "dataset_sha256": "f06c2383b23f56fc12d8f70abaf7deb8c0bb79f9033ad944368f3ef7a7c0cfbf",
+  "layers": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    31
+  ],
+  "protocol": {
+    "readout": "ridge regression on the 0/1 outcome, features standardised on training rows",
+    "folds": 5,
+    "split": "test fold k, development fold k+1, training on the rest",
+    "grouping": "records sharing any claim text share a fold",
+    "penalties": [
+      10.0,
+      100.0,
+      1000.0,
+      10000.0,
+      100000.0
+    ],
+    "penalty_selection": "development AUROC, per outcome",
+    "missing_judgments": "fitted as 0; excluded when scores are evaluated",
+    "text": "binary unigrams and bigrams of the rendered prompt, layer -1",
+    "scores": "score__<state>: (layers, outcomes, records), held out",
+    "seed": 42
+  },
+  "seconds": 110.2
+}

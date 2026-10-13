@@ -1,0 +1,170 @@
+{
+  "analysis": "country_space",
+  "model_slug": "gemma-3-12b",
+  "dataset_sha256": "f06c2383b23f56fc12d8f70abaf7deb8c0bb79f9033ad944368f3ef7a7c0cfbf",
+  "records": 9261,
+  "countries": 75,
+  "geometry_layers": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    47
+  ],
+  "probe_layers": [
+    26
+  ],
+  "definitions": {
+    "shift_size": "mean over a country's records of |country_only - base| / |base|",
+    "rdm": "cosine distance between country mean states, centred across countries",
+    "follow": "aligned for a true norm, not aligned for a contradictory norm",
+    "transfer": "ridge probe fitted on one prompt's state, scored on every prompt's; 5 folds over records; AUROC ranked within country"
+  },
+  "follow_probe": {
+    "gemma-4-31b": {
+      "follow_rate": {
+        "norm_only": 0.7874959507612569,
+        "country_norm": 0.9399632869020624,
+        "opposite_norm_only": 0.742792355037253,
+        "country_opposite_norm": 0.8286362163913185
+      },
+      "state_transfer": {
+        "26": {
+          "norm_only": {
+            "norm_only": 0.8957783259702198,
+            "country_norm": 0.8153224806714078,
+            "opposite_norm_only": 0.8433474443508266,
+            "country_opposite_norm": 0.736494261509374
+          },
+          "country_norm": {
+            "norm_only": 0.8835525476038388,
+            "country_norm": 0.8412713482287116,
+            "opposite_norm_only": 0.8226316138299933,
+            "country_opposite_norm": 0.746770574837679
+          },
+          "opposite_norm_only": {
+            "norm_only": 0.7692968895443788,
+            "country_norm": 0.5345572708978136,
+            "opposite_norm_only": 0.8851561396718545,
+            "country_opposite_norm": 0.7621137519647107
+          },
+          "country_opposite_norm": {
+            "norm_only": 0.8445723234998701,
+            "country_norm": 0.7156629779461898,
+            "opposite_norm_only": 0.8765952706060097,
+            "country_opposite_norm": 0.8270322592723423
+          }
+        }
+      },
+      "text_transfer": {
+        "norm_only": {
+          "norm_only": 0.7159543787951248,
+          "country_norm": 0.6669178385034649,
+          "opposite_norm_only": 0.46353752626210365,
+          "country_opposite_norm": 0.49107334498324035
+        },
+        "country_norm": {
+          "norm_only": 0.6356650184663097,
+          "country_norm": 0.6805807048789457,
+          "opposite_norm_only": 0.5140630795803531,
+          "country_opposite_norm": 0.5026367891056455
+        },
+        "opposite_norm_only": {
+          "norm_only": 0.4566703273213316,
+          "country_norm": 0.5046307009533098,
+          "opposite_norm_only": 0.7082143429503317,
+          "country_opposite_norm": 0.6226363325685516
+        },
+        "country_opposite_norm": {
+          "norm_only": 0.48000372614791553,
+          "country_norm": 0.5084596423952165,
+          "opposite_norm_only": 0.6555827864871597,
+          "country_opposite_norm": 0.6765612870667476
+        }
+      }
+    },
+    "qwen-3.6-27b": {
+      "follow_rate": {
+        "norm_only": 0.7613648634056798,
+        "country_norm": 0.9212827988338192,
+        "opposite_norm_only": 0.7569376957132059,
+        "country_opposite_norm": 0.847424684159378
+      },
+      "state_transfer": {
+        "26": {
+          "norm_only": {
+            "norm_only": 0.8948456975712183,
+            "country_norm": 0.8325884574300125,
+            "opposite_norm_only": 0.8343185561528843,
+            "country_opposite_norm": 0.7325368754387142
+          },
+          "country_norm": {
+            "norm_only": 0.8833022946586313,
+            "country_norm": 0.8497804119342207,
+            "opposite_norm_only": 0.8084279233005334,
+            "country_opposite_norm": 0.7392325648755945
+          },
+          "opposite_norm_only": {
+            "norm_only": 0.734436083325686,
+            "country_norm": 0.49465363029331355,
+            "opposite_norm_only": 0.8834820599625717,
+            "country_opposite_norm": 0.770906061596375
+          },
+          "country_opposite_norm": {
+            "norm_only": 0.8231598033974835,
+            "country_norm": 0.6776002487528594,
+            "opposite_norm_only": 0.8757576439319091,
+            "country_opposite_norm": 0.8269141736157553
+          }
+        }
+      },
+      "text_transfer": {
+        "norm_only": {
+          "norm_only": 0.7153752460258839,
+          "country_norm": 0.6759535794237397,
+          "opposite_norm_only": 0.4558350354351941,
+          "country_opposite_norm": 0.4768163218634595
+        },
+        "country_norm": {
+          "norm_only": 0.65118894595356,
+          "country_norm": 0.700865924266716,
+          "opposite_norm_only": 0.5018493286546921,
+          "country_opposite_norm": 0.4911793196710608
+        },
+        "opposite_norm_only": {
+          "norm_only": 0.44700896057232664,
+          "country_norm": 0.46604407710309675,
+          "opposite_norm_only": 0.7103256374881096,
+          "country_opposite_norm": 0.6356933992856488
+        },
+        "country_opposite_norm": {
+          "norm_only": 0.46582664376093763,
+          "country_norm": 0.4792073028385994,
+          "opposite_norm_only": 0.6610503114482008,
+          "country_opposite_norm": 0.6818280521702871
+        }
+      }
+    }
+  },
+  "seconds": 1399.8
+}

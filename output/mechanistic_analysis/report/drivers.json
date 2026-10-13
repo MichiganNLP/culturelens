@@ -1,0 +1,5449 @@
+{
+ "judges": [
+  "gemma-4-31b",
+  "qwen-3.6-27b"
+ ],
+ "bootstrap_draws": 2000,
+ "models": {
+  "llama-3.1-8b": {
+   "effects": {
+    "Country, nothing else stated": {
+     "difference": 0.14372098045567433,
+     "low": 0.13378684807256236,
+     "high": 0.1536551128387863,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.5789871504157218,
+     "without": 0.4352661699600475
+    },
+    "Country, value stated": {
+     "difference": 0.11130185979971388,
+     "low": 0.09670958512160228,
+     "high": 0.12618025751072962,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.7496423462088698,
+     "without": 0.638340486409156
+    },
+    "Country, true norm stated": {
+     "difference": 0.16650469711694202,
+     "low": 0.15840352013821402,
+     "high": 0.17535903250188964,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.9307850124176654,
+     "without": 0.7642803153007235
+    },
+    "Country, false norm stated": {
+     "difference": -0.10561555075593952,
+     "low": -0.11576673866090713,
+     "high": -0.09567764578833694,
+     "p": 0.0004997501249375312,
+     "n": 9260,
+     "with": 0.17861771058315334,
+     "without": 0.2842332613390929
+    },
+    "Value, nothing else stated": {
+     "difference": 0.1530758226037196,
+     "low": 0.13791130185979972,
+     "high": 0.1682403433476395,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.638340486409156,
+     "without": 0.4852646638054363
+    },
+    "Value, country stated": {
+     "difference": 0.12703862660944207,
+     "low": 0.11215307582260371,
+     "high": 0.14277539341917025,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.7496423462088698,
+     "without": 0.6226037195994277
+    },
+    "Value, country and true norm stated": {
+     "difference": 0.01602288984263233,
+     "low": 0.00715307582260372,
+     "high": 0.025464949928469243,
+     "p": 0.0009995002498750624,
+     "n": 3495,
+     "with": 0.9359084406294707,
+     "without": 0.9198855507868383
+    },
+    "True norm, nothing else stated": {
+     "difference": 0.32901414534067597,
+     "low": 0.3183214555663535,
+     "high": 0.33938289601554905,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.7642803153007235,
+     "without": 0.4352661699600475
+    },
+    "True norm, country stated": {
+     "difference": 0.35179786200194363,
+     "low": 0.3413238311197495,
+     "high": 0.36162671417773457,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.9307850124176654,
+     "without": 0.5789871504157218
+    },
+    "False norm, nothing else stated": {
+     "difference": -0.15107991360691145,
+     "low": -0.1613390928725702,
+     "high": -0.14114200863930887,
+     "p": 0.0004997501249375312,
+     "n": 9260,
+     "with": 0.2842332613390929,
+     "without": 0.4353131749460043
+    },
+    "False norm, country stated": {
+     "difference": -0.4003887269193392,
+     "low": -0.4115106360004319,
+     "high": -0.38991199654464964,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.1785984234963827,
+     "without": 0.5789871504157218
+    },
+    "Country \u00d7 true norm (interaction)": {
+     "difference": 0.022783716661267682,
+     "low": 0.010797969981643452,
+     "high": 0.03552532123960695,
+     "p": 0.001999000499750125,
+     "n": 9261
+    }
+   },
+   "effects_second_judge": {
+    "Country, nothing else stated": {
+     "difference": 0.14652845265090164,
+     "low": 0.1368075801749271,
+     "high": 0.15635460533419718,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.5858978512039736,
+     "without": 0.439369398553072
+    },
+    "Country, value stated": {
+     "difference": 0.11931330472103004,
+     "low": 0.1044349070100143,
+     "high": 0.1344849785407725,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.7679542203147354,
+     "without": 0.6486409155937053
+    },
+    "Country, true norm stated": {
+     "difference": 0.16510096101932836,
+     "low": 0.15624392614188534,
+     "high": 0.1742792355037253,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.9204189612352878,
+     "without": 0.7553180002159594
+    },
+    "Country, false norm stated": {
+     "difference": -0.09836950653277184,
+     "low": -0.10809037900874637,
+     "high": -0.0885406543569809,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.1742792355037253,
+     "without": 0.27264874203649714
+    },
+    "Value, nothing else stated": {
+     "difference": 0.15736766809728184,
+     "low": 0.14276824034334765,
+     "high": 0.17253218884120172,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.6486409155937053,
+     "without": 0.4912732474964235
+    },
+    "Value, country stated": {
+     "difference": 0.13333333333333333,
+     "low": 0.1184549356223176,
+     "high": 0.14849785407725322,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.7679542203147354,
+     "without": 0.634620886981402
+    },
+    "Value, country and true norm stated": {
+     "difference": 0.015450643776824034,
+     "low": 0.006008583690987125,
+     "high": 0.024892703862660945,
+     "p": 0.001999000499750125,
+     "n": 3495,
+     "with": 0.9281831187410586,
+     "without": 0.9127324749642346
+    },
+    "True norm, nothing else stated": {
+     "difference": 0.31594860166288735,
+     "low": 0.30558255048050964,
+     "high": 0.32653061224489793,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.7553180002159594,
+     "without": 0.439369398553072
+    },
+    "True norm, country stated": {
+     "difference": 0.33452111003131413,
+     "low": 0.32458697764820216,
+     "high": 0.3445632221142425,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.9204189612352878,
+     "without": 0.5858978512039736
+    },
+    "False norm, nothing else stated": {
+     "difference": -0.1667206565165749,
+     "low": -0.17719738689126444,
+     "high": -0.1561386459345643,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.27264874203649714,
+     "without": 0.439369398553072
+    },
+    "False norm, country stated": {
+     "difference": -0.4116186157002484,
+     "low": -0.42252456538170824,
+     "high": -0.40071266601878847,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.1742792355037253,
+     "without": 0.5858978512039736
+    },
+    "Country \u00d7 true norm (interaction)": {
+     "difference": 0.018572508368426735,
+     "low": 0.006154842889536767,
+     "high": 0.03088759313249106,
+     "p": 0.0079960019990005,
+     "n": 9261
+    }
+   },
+   "outcome_shares": {
+    "country_only": {
+     "aligned": 0.5789871504157218,
+     "partially_aligned": 0.22913292301047403,
+     "misaligned": 0.19187992657380412
+    },
+    "country_opposite_norm": {
+     "aligned": 0.1785984234963827,
+     "partially_aligned": 0.11208292840945902,
+     "misaligned": 0.7093186480941583
+    },
+    "opposite_norm_only": {
+     "aligned": 0.2842332613390929,
+     "partially_aligned": 0.1661987041036717,
+     "misaligned": 0.5495680345572355
+    }
+   },
+   "by_category": {
+    "business_culture": {
+     "n": 1722,
+     "resist": {
+      "rate": 0.2537746806039489,
+      "low": 0.23344947735191637,
+      "high": 0.273533681765389,
+      "n": 1722
+     },
+     "country_only": 0.6056910569105691,
+     "resist_given_right": 0.36625119846596355
+    },
+    "communication": {
+     "n": 1494,
+     "resist": {
+      "rate": 0.15127175368139223,
+      "low": 0.13453815261044177,
+      "high": 0.1686746987951807,
+      "n": 1494
+     },
+     "country_only": 0.5327978580990629,
+     "resist_given_right": 0.22738693467336685
+    },
+    "core_concepts": {
+     "n": 608,
+     "resist": {
+      "rate": 0.17269736842105263,
+      "low": 0.14309210526315788,
+      "high": 0.20230263157894737,
+      "n": 608
+     },
+     "country_only": 0.6134868421052632,
+     "resist_given_right": 0.24396782841823056
+    },
+    "dos_and_donts": {
+     "n": 512,
+     "resist": {
+      "rate": 0.2890625,
+      "low": 0.249951171875,
+      "high": 0.328125,
+      "n": 512
+     },
+     "country_only": 0.7265625,
+     "resist_given_right": 0.3763440860215054
+    },
+    "etiquette": {
+     "n": 2579,
+     "resist": {
+      "rate": 0.1446297014346646,
+      "low": 0.13183404420317954,
+      "high": 0.15781310585498254,
+      "n": 2579
+     },
+     "country_only": 0.6068243505234587,
+     "resist_given_right": 0.20319488817891374
+    },
+    "family": {
+     "n": 1228,
+     "resist": {
+      "rate": 0.14087947882736157,
+      "low": 0.12133550488599348,
+      "high": 0.16042345276872963,
+      "n": 1228
+     },
+     "country_only": 0.48778501628664495,
+     "resist_given_right": 0.2287145242070117
+    },
+    "greetings": {
+     "n": 816,
+     "resist": {
+      "rate": 0.17524509803921567,
+      "low": 0.14950980392156862,
+      "high": 0.20220588235294118,
+      "n": 816
+     },
+     "country_only": 0.5416666666666666,
+     "resist_given_right": 0.251131221719457
+    },
+    "other_considerations": {
+     "n": 155,
+     "resist": {
+      "rate": 0.17419354838709677,
+      "low": 0.12258064516129032,
+      "high": 0.23225806451612904,
+      "n": 155
+     },
+     "country_only": 0.5483870967741935,
+     "resist_given_right": 0.27058823529411763
+    },
+    "religion": {
+     "n": 147,
+     "resist": {
+      "rate": 0.14965986394557823,
+      "low": 0.09523809523809523,
+      "high": 0.2108843537414966,
+      "n": 147
+     },
+     "country_only": 0.5918367346938775,
+     "resist_given_right": 0.20689655172413793
+    }
+   },
+   "resisting_model": {
+    "records": 9261,
+    "reference_category": "etiquette",
+    "odds_ratio": {
+     "Right with no country and no norm": {
+      "or": 1.6279252768241363,
+      "low": 1.431499841439467,
+      "high": 1.8289985588214008
+     },
+     "Right with the country alone": {
+      "or": 3.4535839329943983,
+      "low": 3.0239467770554262,
+      "high": 4.037944934118003
+     },
+     "Right with the true norm alone": {
+      "or": 1.3977785715122426,
+      "low": 1.160428457412649,
+      "high": 1.6796627589597792
+     },
+     "Right with country + true norm": {
+      "or": 1.7405994895434744,
+      "low": 1.2116476939109333,
+      "high": 2.6454360594279938
+     },
+     "Record has a value": {
+      "or": 1.1476404974308594,
+      "low": 1.0099423834151158,
+      "high": 1.304579460938103
+     },
+     "Category: business_culture (vs etiquette)": {
+      "or": 2.03865053544301,
+      "low": 1.7248350190105082,
+      "high": 2.3961505431322734
+     },
+     "Category: communication (vs etiquette)": {
+      "or": 1.2045488055490254,
+      "low": 0.9888003775858538,
+      "high": 1.4598190322881643
+     },
+     "Category: core_concepts (vs etiquette)": {
+      "or": 1.175592770227466,
+      "low": 0.8803049545562522,
+      "high": 1.67078750067209
+     },
+     "Category: dos_and_donts (vs etiquette)": {
+      "or": 1.9256275888354764,
+      "low": 1.5360434451377984,
+      "high": 2.37341102456297
+     },
+     "Category: family (vs etiquette)": {
+      "or": 1.2432734668625753,
+      "low": 0.9840532227186006,
+      "high": 1.5507451366540355
+     },
+     "Category: greetings (vs etiquette)": {
+      "or": 1.4685026404752763,
+      "low": 1.1770865057090023,
+      "high": 1.8361850316187744
+     },
+     "Category: other_considerations (vs etiquette)": {
+      "or": 1.3749180795610536,
+      "low": 0.8332757531390764,
+      "high": 2.1189504497170275
+     },
+     "Category: religion (vs etiquette)": {
+      "or": 1.02599286716626,
+      "low": 0.6056921469566057,
+      "high": 1.555169061553124
+     }
+    }
+   },
+   "stance": {
+    "benchmark": {
+     "n": 9261,
+     "share": {
+      "follows": {
+       "rate": 0.7041356225029695,
+       "low": 0.6940935104200411,
+       "high": 0.7133138969873664,
+       "n": 9261
+      },
+      "follows_with_caveat": {
+       "rate": 0.04481157542382032,
+       "low": 0.04049238743116294,
+       "high": 0.04891480401684483,
+       "n": 9261
+      },
+      "challenges": {
+       "rate": 0.18626498218334953,
+       "low": 0.17827448439693339,
+       "high": 0.19436345966958213,
+       "n": 9261
+      },
+      "sets_aside": {
+       "rate": 0.04815894611812979,
+       "low": 0.04394503833279344,
+       "high": 0.05248083360328257,
+       "n": 9261
+      },
+      "no_clear_recommendation": {
+       "rate": 0.016628873771730914,
+       "low": 0.014037360976136486,
+       "high": 0.019112406867508907,
+       "n": 9261
+      }
+     },
+     "restates_claim": 0.7525105280207322,
+     "attributes_to_country": 0.9728970953460749,
+     "aligned_given_stance": {
+      "follows": 0.030976844042324796,
+      "follows_with_caveat": 0.13012048192771083,
+      "challenges": 0.7310144927536232,
+      "sets_aside": 0.28699551569506726,
+      "no_clear_recommendation": 0.05844155844155844
+     },
+     "stance_given_aligned": {
+      "follows": 0.12212817412333736,
+      "follows_with_caveat": 0.032648125755743655,
+      "challenges": 0.7623941958887546,
+      "sets_aside": 0.0773881499395405,
+      "no_clear_recommendation": 0.005441354292623942
+     },
+     "stance_given_not_aligned": {
+      "follows": 0.8306822663336401,
+      "follows_with_caveat": 0.047456290258972,
+      "challenges": 0.06099645063757066,
+      "sets_aside": 0.04180360194557644,
+      "no_clear_recommendation": 0.01906139082424083
+     }
+    },
+    "arms": {
+     "false": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.6975,
+        "low": 0.65,
+        "high": 0.7425,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.045,
+        "low": 0.025,
+        "high": 0.0675,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.1825,
+        "low": 0.145,
+        "high": 0.2225,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.055,
+        "low": 0.035,
+        "high": 0.08,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.02,
+        "low": 0.0075,
+        "high": 0.035,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.745,
+      "attributes_to_country": 0.965,
+      "aligned_given_stance": {
+       "follows": 0.043010752688172046,
+       "follows_with_caveat": 0.2222222222222222,
+       "challenges": 0.7123287671232876,
+       "sets_aside": 0.18181818181818182
+      },
+      "stance_given_aligned": {
+       "follows": 0.16666666666666666,
+       "follows_with_caveat": 0.05555555555555555,
+       "challenges": 0.7222222222222222,
+       "sets_aside": 0.05555555555555555,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.8140243902439024,
+       "follows_with_caveat": 0.042682926829268296,
+       "challenges": 0.06402439024390244,
+       "sets_aside": 0.054878048780487805,
+       "no_clear_recommendation": 0.024390243902439025
+      }
+     },
+     "false-noclaim-win": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.3125,
+        "low": 0.265,
+        "high": 0.3575,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.02,
+        "low": 0.0075,
+        "high": 0.035,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.485,
+        "low": 0.44,
+        "high": 0.5325,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.16,
+        "low": 0.1275,
+        "high": 0.1975,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0225,
+        "low": 0.01,
+        "high": 0.0375,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.285,
+      "attributes_to_country": 0.9675,
+      "aligned_given_stance": {
+       "follows": 0.04,
+       "challenges": 0.8144329896907216,
+       "sets_aside": 0.34375
+      },
+      "stance_given_aligned": {
+       "follows": 0.026595744680851064,
+       "follows_with_caveat": 0.015957446808510637,
+       "challenges": 0.8404255319148937,
+       "sets_aside": 0.11702127659574468,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.5660377358490566,
+       "follows_with_caveat": 0.02358490566037736,
+       "challenges": 0.16981132075471697,
+       "sets_aside": 0.19811320754716982,
+       "no_clear_recommendation": 0.04245283018867924
+      }
+     },
+     "false-noclaim-heads": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.3275,
+        "low": 0.28,
+        "high": 0.3725,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.055,
+        "low": 0.035,
+        "high": 0.0775,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.505,
+        "low": 0.4575,
+        "high": 0.5525,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0975,
+        "low": 0.07,
+        "high": 0.1275,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.015,
+        "low": 0.005,
+        "high": 0.0275,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.3525,
+      "attributes_to_country": 0.97,
+      "aligned_given_stance": {
+       "follows": 0.05343511450381679,
+       "follows_with_caveat": 0.045454545454545456,
+       "challenges": 0.8168316831683168,
+       "sets_aside": 0.3333333333333333
+      },
+      "stance_given_aligned": {
+       "follows": 0.03763440860215054,
+       "follows_with_caveat": 0.005376344086021506,
+       "challenges": 0.8870967741935484,
+       "sets_aside": 0.06989247311827956,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.5794392523364486,
+       "follows_with_caveat": 0.09813084112149532,
+       "challenges": 0.17289719626168223,
+       "sets_aside": 0.12149532710280374,
+       "no_clear_recommendation": 0.028037383177570093
+      }
+     },
+     "false-noclaim": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.1375,
+        "low": 0.1075,
+        "high": 0.17006249999999967,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.015,
+        "low": 0.005,
+        "high": 0.0275,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.53,
+        "low": 0.4775,
+        "high": 0.58,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.305,
+        "low": 0.2575,
+        "high": 0.3525,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0125,
+        "low": 0.0025,
+        "high": 0.025,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.11,
+      "attributes_to_country": 0.9675,
+      "aligned_given_stance": {
+       "follows": 0.0,
+       "challenges": 0.839622641509434,
+       "sets_aside": 0.4426229508196721
+      },
+      "stance_given_aligned": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.0,
+       "challenges": 0.7672413793103449,
+       "sets_aside": 0.23275862068965517,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.3273809523809524,
+       "follows_with_caveat": 0.03571428571428571,
+       "challenges": 0.20238095238095238,
+       "sets_aside": 0.40476190476190477,
+       "no_clear_recommendation": 0.02976190476190476
+      }
+     },
+     "false-erase-before": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.1475,
+        "low": 0.115,
+        "high": 0.18006249999999965,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.02,
+        "low": 0.0075,
+        "high": 0.035,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.5675,
+        "low": 0.5175,
+        "high": 0.6175,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.25,
+        "low": 0.2075,
+        "high": 0.2925,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.015,
+        "low": 0.005,
+        "high": 0.0275,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.13,
+      "attributes_to_country": 0.975,
+      "aligned_given_stance": {
+       "follows": 0.05084745762711865,
+       "challenges": 0.8458149779735683,
+       "sets_aside": 0.48
+      },
+      "stance_given_aligned": {
+       "follows": 0.012295081967213115,
+       "follows_with_caveat": 0.0,
+       "challenges": 0.7868852459016393,
+       "sets_aside": 0.19672131147540983,
+       "no_clear_recommendation": 0.004098360655737705
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.358974358974359,
+       "follows_with_caveat": 0.05128205128205128,
+       "challenges": 0.22435897435897437,
+       "sets_aside": 0.3333333333333333,
+       "no_clear_recommendation": 0.03205128205128205
+      }
+     },
+     "false-erase-first": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.1175,
+        "low": 0.085,
+        "high": 0.15,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.01,
+        "low": 0.0025,
+        "high": 0.02,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.5025,
+        "low": 0.4525,
+        "high": 0.5525,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.3325,
+        "low": 0.29,
+        "high": 0.38,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0375,
+        "low": 0.02,
+        "high": 0.0575,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.08,
+      "attributes_to_country": 0.9525,
+      "aligned_given_stance": {
+       "follows": 0.02127659574468085,
+       "challenges": 0.7860696517412935,
+       "sets_aside": 0.48872180451127817,
+       "no_clear_recommendation": 0.06666666666666667
+      },
+      "stance_given_aligned": {
+       "follows": 0.0044444444444444444,
+       "follows_with_caveat": 0.0,
+       "challenges": 0.7022222222222222,
+       "sets_aside": 0.28888888888888886,
+       "no_clear_recommendation": 0.0044444444444444444
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.26285714285714284,
+       "follows_with_caveat": 0.022857142857142857,
+       "challenges": 0.24571428571428572,
+       "sets_aside": 0.38857142857142857,
+       "no_clear_recommendation": 0.08
+      }
+     },
+     "claim-only": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.43,
+        "low": 0.3825,
+        "high": 0.48,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0275,
+        "low": 0.0125,
+        "high": 0.045,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.3125,
+        "low": 0.2675,
+        "high": 0.36,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.1875,
+        "low": 0.15,
+        "high": 0.2275,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0425,
+        "low": 0.0225,
+        "high": 0.0625,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.4125,
+      "attributes_to_country": 0.0525,
+      "aligned_given_stance": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.18181818181818182,
+       "challenges": 0.744,
+       "sets_aside": 0.24,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_aligned": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.017699115044247787,
+       "challenges": 0.8230088495575221,
+       "sets_aside": 0.1592920353982301,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.5993031358885017,
+       "follows_with_caveat": 0.0313588850174216,
+       "challenges": 0.11149825783972125,
+       "sets_aside": 0.1986062717770035,
+       "no_clear_recommendation": 0.059233449477351915
+      }
+     },
+     "country": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.115,
+        "low": 0.085,
+        "high": 0.1475,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0175,
+        "low": 0.005,
+        "high": 0.0325,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.5375,
+        "low": 0.48993749999999997,
+        "high": 0.585,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.31,
+        "low": 0.265,
+        "high": 0.3575,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.02,
+        "low": 0.0075,
+        "high": 0.035,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.0875,
+      "attributes_to_country": 0.9625,
+      "aligned_given_stance": {
+       "follows": 0.021739130434782608,
+       "challenges": 0.8046511627906977,
+       "sets_aside": 0.47580645161290325
+      },
+      "stance_given_aligned": {
+       "follows": 0.00425531914893617,
+       "follows_with_caveat": 0.00851063829787234,
+       "challenges": 0.7361702127659574,
+       "sets_aside": 0.251063829787234,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.2727272727272727,
+       "follows_with_caveat": 0.030303030303030304,
+       "challenges": 0.2545454545454545,
+       "sets_aside": 0.3939393939393939,
+       "no_clear_recommendation": 0.048484848484848485
+      }
+     }
+    }
+   },
+   "framing": {
+    "country_opposite_norm_guide": {
+     "rate": {
+      "rate": 0.065,
+      "low": 0.0425,
+      "high": 0.09,
+      "n": 400
+     },
+     "bare": 0.18,
+     "effect": {
+      "difference": -0.115,
+      "low": -0.1525,
+      "high": -0.08,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.865,
+        "low": 0.835,
+        "high": 0.8975,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.03,
+        "low": 0.015,
+        "high": 0.0475,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.0675,
+        "low": 0.045,
+        "high": 0.0925,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.025,
+        "low": 0.012437500000000004,
+        "high": 0.04,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0125,
+        "low": 0.0025,
+        "high": 0.025,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.92,
+      "attributes_to_country": 0.99,
+      "aligned_given_stance": {
+       "follows": 0.028901734104046242,
+       "follows_with_caveat": 0.0,
+       "challenges": 0.5925925925925926,
+       "sets_aside": 0.0
+      },
+      "stance_given_aligned": {
+       "follows": 0.38461538461538464,
+       "follows_with_caveat": 0.0,
+       "challenges": 0.6153846153846154,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.8983957219251337,
+       "follows_with_caveat": 0.03208556149732621,
+       "challenges": 0.029411764705882353,
+       "sets_aside": 0.026737967914438502,
+       "no_clear_recommendation": 0.013368983957219251
+      }
+     }
+    },
+    "opposite_norm_country": {
+     "rate": {
+      "rate": 0.3875,
+      "low": 0.3399375,
+      "high": 0.435,
+      "n": 400
+     },
+     "bare": 0.18,
+     "effect": {
+      "difference": 0.2075,
+      "low": 0.1625,
+      "high": 0.255,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.445,
+        "low": 0.3975,
+        "high": 0.495,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.045,
+        "low": 0.025,
+        "high": 0.0675,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.4375,
+        "low": 0.3899375,
+        "high": 0.4875,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0525,
+        "low": 0.0325,
+        "high": 0.075,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.02,
+        "low": 0.0075,
+        "high": 0.035,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.49,
+      "attributes_to_country": 0.96,
+      "aligned_given_stance": {
+       "follows": 0.016853932584269662,
+       "follows_with_caveat": 0.2222222222222222,
+       "challenges": 0.8171428571428572,
+       "sets_aside": 0.23809523809523808
+      },
+      "stance_given_aligned": {
+       "follows": 0.01935483870967742,
+       "follows_with_caveat": 0.025806451612903226,
+       "challenges": 0.9225806451612903,
+       "sets_aside": 0.03225806451612903,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.7142857142857143,
+       "follows_with_caveat": 0.05714285714285714,
+       "challenges": 0.1306122448979592,
+       "sets_aside": 0.0653061224489796,
+       "no_clear_recommendation": 0.0326530612244898
+      }
+     }
+    },
+    "country_opposite_norm_hearsay": {
+     "rate": {
+      "rate": 0.305,
+      "low": 0.26,
+      "high": 0.35,
+      "n": 400
+     },
+     "bare": 0.18,
+     "effect": {
+      "difference": 0.125,
+      "low": 0.08,
+      "high": 0.17,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.5475,
+        "low": 0.5,
+        "high": 0.595,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.045,
+        "low": 0.025,
+        "high": 0.06506249999999966,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.37,
+        "low": 0.325,
+        "high": 0.4175,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0175,
+        "low": 0.005,
+        "high": 0.0325,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.02,
+        "low": 0.0075,
+        "high": 0.035,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.65,
+      "attributes_to_country": 0.995,
+      "aligned_given_stance": {
+       "follows": 0.0136986301369863,
+       "follows_with_caveat": 0.16666666666666666,
+       "challenges": 0.7635135135135135
+      },
+      "stance_given_aligned": {
+       "follows": 0.02459016393442623,
+       "follows_with_caveat": 0.02459016393442623,
+       "challenges": 0.9262295081967213,
+       "sets_aside": 0.02459016393442623,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.7769784172661871,
+       "follows_with_caveat": 0.0539568345323741,
+       "challenges": 0.12589928057553956,
+       "sets_aside": 0.014388489208633094,
+       "no_clear_recommendation": 0.02877697841726619
+      }
+     }
+    },
+    "country_opposite_norm_doubt": {
+     "rate": {
+      "rate": 0.4325,
+      "low": 0.3875,
+      "high": 0.48,
+      "n": 400
+     },
+     "bare": 0.18,
+     "effect": {
+      "difference": 0.2525,
+      "low": 0.2025,
+      "high": 0.3025,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.375,
+        "low": 0.3275,
+        "high": 0.42,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0775,
+        "low": 0.0525,
+        "high": 0.105,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.505,
+        "low": 0.455,
+        "high": 0.5525,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.025,
+        "low": 0.01,
+        "high": 0.0425,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0175,
+        "low": 0.005,
+        "high": 0.0325,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.5225,
+      "attributes_to_country": 0.99,
+      "aligned_given_stance": {
+       "follows": 0.04666666666666667,
+       "follows_with_caveat": 0.25806451612903225,
+       "challenges": 0.7574257425742574,
+       "sets_aside": 0.4
+      },
+      "stance_given_aligned": {
+       "follows": 0.04046242774566474,
+       "follows_with_caveat": 0.046242774566473986,
+       "challenges": 0.884393063583815,
+       "sets_aside": 0.023121387283236993,
+       "no_clear_recommendation": 0.005780346820809248
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.6299559471365639,
+       "follows_with_caveat": 0.1013215859030837,
+       "challenges": 0.21585903083700442,
+       "sets_aside": 0.02643171806167401,
+       "no_clear_recommendation": 0.02643171806167401
+      }
+     }
+    }
+   },
+   "framing_second_judge": {
+    "country_opposite_norm_guide": {
+     "rate": {
+      "rate": 0.055,
+      "low": 0.035,
+      "high": 0.0775,
+      "n": 400
+     },
+     "bare": 0.16,
+     "effect": {
+      "difference": -0.105,
+      "low": -0.14,
+      "high": -0.07,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.865,
+        "low": 0.835,
+        "high": 0.8975,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.03,
+        "low": 0.015,
+        "high": 0.0475,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.0675,
+        "low": 0.045,
+        "high": 0.0925,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.025,
+        "low": 0.012437500000000004,
+        "high": 0.04,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0125,
+        "low": 0.0025,
+        "high": 0.025,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.92,
+      "attributes_to_country": 0.99,
+      "aligned_given_stance": {
+       "follows": 0.014450867052023121,
+       "follows_with_caveat": 0.08333333333333333,
+       "challenges": 0.5925925925925926,
+       "sets_aside": 0.0
+      },
+      "stance_given_aligned": {
+       "follows": 0.22727272727272727,
+       "follows_with_caveat": 0.045454545454545456,
+       "challenges": 0.7272727272727273,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.9021164021164021,
+       "follows_with_caveat": 0.0291005291005291,
+       "challenges": 0.0291005291005291,
+       "sets_aside": 0.026455026455026454,
+       "no_clear_recommendation": 0.013227513227513227
+      }
+     }
+    },
+    "opposite_norm_country": {
+     "rate": {
+      "rate": 0.39,
+      "low": 0.3425,
+      "high": 0.4375,
+      "n": 400
+     },
+     "bare": 0.16,
+     "effect": {
+      "difference": 0.23,
+      "low": 0.1825,
+      "high": 0.2775,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.445,
+        "low": 0.3975,
+        "high": 0.495,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.045,
+        "low": 0.025,
+        "high": 0.0675,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.4375,
+        "low": 0.3899375,
+        "high": 0.4875,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0525,
+        "low": 0.0325,
+        "high": 0.075,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.02,
+        "low": 0.0075,
+        "high": 0.035,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.49,
+      "attributes_to_country": 0.96,
+      "aligned_given_stance": {
+       "follows": 0.033707865168539325,
+       "follows_with_caveat": 0.3333333333333333,
+       "challenges": 0.7885714285714286,
+       "sets_aside": 0.2857142857142857
+      },
+      "stance_given_aligned": {
+       "follows": 0.038461538461538464,
+       "follows_with_caveat": 0.038461538461538464,
+       "challenges": 0.8846153846153846,
+       "sets_aside": 0.038461538461538464,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.7049180327868853,
+       "follows_with_caveat": 0.04918032786885246,
+       "challenges": 0.15163934426229508,
+       "sets_aside": 0.06147540983606557,
+       "no_clear_recommendation": 0.03278688524590164
+      }
+     }
+    },
+    "country_opposite_norm_hearsay": {
+     "rate": {
+      "rate": 0.3225,
+      "low": 0.2775,
+      "high": 0.3675,
+      "n": 400
+     },
+     "bare": 0.16,
+     "effect": {
+      "difference": 0.1625,
+      "low": 0.1175,
+      "high": 0.2075,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.5475,
+        "low": 0.5,
+        "high": 0.595,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.045,
+        "low": 0.025,
+        "high": 0.06506249999999966,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.37,
+        "low": 0.325,
+        "high": 0.4175,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0175,
+        "low": 0.005,
+        "high": 0.0325,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.02,
+        "low": 0.0075,
+        "high": 0.035,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.65,
+      "attributes_to_country": 0.995,
+      "aligned_given_stance": {
+       "follows": 0.0182648401826484,
+       "follows_with_caveat": 0.16666666666666666,
+       "challenges": 0.7905405405405406
+      },
+      "stance_given_aligned": {
+       "follows": 0.031007751937984496,
+       "follows_with_caveat": 0.023255813953488372,
+       "challenges": 0.9069767441860465,
+       "sets_aside": 0.031007751937984496,
+       "no_clear_recommendation": 0.007751937984496124
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.7933579335793358,
+       "follows_with_caveat": 0.055350553505535055,
+       "challenges": 0.11439114391143912,
+       "sets_aside": 0.01107011070110701,
+       "no_clear_recommendation": 0.025830258302583026
+      }
+     }
+    },
+    "country_opposite_norm_doubt": {
+     "rate": {
+      "rate": 0.425,
+      "low": 0.38,
+      "high": 0.475,
+      "n": 400
+     },
+     "bare": 0.16,
+     "effect": {
+      "difference": 0.265,
+      "low": 0.2175,
+      "high": 0.315,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.375,
+        "low": 0.3275,
+        "high": 0.42,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0775,
+        "low": 0.0525,
+        "high": 0.105,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.505,
+        "low": 0.455,
+        "high": 0.5525,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.025,
+        "low": 0.01,
+        "high": 0.0425,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0175,
+        "low": 0.005,
+        "high": 0.0325,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.5225,
+      "attributes_to_country": 0.99,
+      "aligned_given_stance": {
+       "follows": 0.05333333333333334,
+       "follows_with_caveat": 0.16129032258064516,
+       "challenges": 0.7475247524752475,
+       "sets_aside": 0.6
+      },
+      "stance_given_aligned": {
+       "follows": 0.047058823529411764,
+       "follows_with_caveat": 0.029411764705882353,
+       "challenges": 0.888235294117647,
+       "sets_aside": 0.03529411764705882,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.6173913043478261,
+       "follows_with_caveat": 0.11304347826086956,
+       "challenges": 0.2217391304347826,
+       "sets_aside": 0.017391304347826087,
+       "no_clear_recommendation": 0.030434782608695653
+      }
+     }
+    }
+   }
+  },
+  "gemma-3-12b": {
+   "effects": {
+    "Country, nothing else stated": {
+     "difference": 0.22718928841377822,
+     "low": 0.21574074074074076,
+     "high": 0.23798995788791705,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.6407515387107224,
+     "without": 0.41356225029694416
+    },
+    "Country, value stated": {
+     "difference": 0.16680972818311873,
+     "low": 0.1513590844062947,
+     "high": 0.18254649499284692,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.7888412017167382,
+     "without": 0.6220314735336194
+    },
+    "Country, true norm stated": {
+     "difference": 0.15246733614080551,
+     "low": 0.14404491955512363,
+     "high": 0.16067379332685455,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.9399632869020624,
+     "without": 0.7874959507612569
+    },
+    "Country, false norm stated": {
+     "difference": -0.08584386135406544,
+     "low": -0.09513281503077421,
+     "high": -0.07655490767735666,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.17136378360868157,
+     "without": 0.257207644962747
+    },
+    "Value, nothing else stated": {
+     "difference": 0.1688125894134478,
+     "low": 0.15336194563662375,
+     "high": 0.18454935622317598,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.6220314735336194,
+     "without": 0.4532188841201717
+    },
+    "Value, country stated": {
+     "difference": 0.08555078683834048,
+     "low": 0.07067238912732475,
+     "high": 0.10071530758226037,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.7888412017167382,
+     "without": 0.7032904148783977
+    },
+    "Value, country and true norm stated": {
+     "difference": -0.0017167381974248926,
+     "low": -0.011158798283261802,
+     "high": 0.00715307582260372,
+     "p": 0.7576211894052973,
+     "n": 3495,
+     "with": 0.9321888412017167,
+     "without": 0.9339055793991416
+    },
+    "True norm, nothing else stated": {
+     "difference": 0.37393370046431273,
+     "low": 0.36335168988230215,
+     "high": 0.3847316704459562,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.7874959507612569,
+     "without": 0.41356225029694416
+    },
+    "True norm, country stated": {
+     "difference": 0.29921174819134005,
+     "low": 0.28970683511499834,
+     "high": 0.3094698196739013,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.9399632869020624,
+     "without": 0.6407515387107224
+    },
+    "False norm, nothing else stated": {
+     "difference": -0.15635460533419718,
+     "low": -0.16758719360760177,
+     "high": -0.1454486556527373,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.257207644962747,
+     "without": 0.41356225029694416
+    },
+    "False norm, country stated": {
+     "difference": -0.46938775510204084,
+     "low": -0.47997246517654685,
+     "high": -0.4579419069214988,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.17136378360868157,
+     "without": 0.6407515387107224
+    },
+    "Country \u00d7 true norm (interaction)": {
+     "difference": -0.07472195227297268,
+     "low": -0.08746355685131195,
+     "high": -0.06143774970305584,
+     "p": 0.0004997501249375312,
+     "n": 9261
+    }
+   },
+   "effects_second_judge": {
+    "Country, nothing else stated": {
+     "difference": 0.22891696361084116,
+     "low": 0.21887215203541735,
+     "high": 0.23950437317784254,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.6231508476406435,
+     "without": 0.3942338840298024
+    },
+    "Country, value stated": {
+     "difference": 0.17310443490701002,
+     "low": 0.15736766809728184,
+     "high": 0.18941344778254648,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.7673819742489271,
+     "without": 0.5942775393419171
+    },
+    "Country, true norm stated": {
+     "difference": 0.1599179354281395,
+     "low": 0.1510636000431919,
+     "high": 0.16855631141345426,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.9212827988338192,
+     "without": 0.7613648634056798
+    },
+    "Country, false norm stated": {
+     "difference": -0.09048698844617212,
+     "low": -0.09955728323075262,
+     "high": -0.08109275456214232,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.15257531584062195,
+     "without": 0.2430623042867941
+    },
+    "Value, nothing else stated": {
+     "difference": 0.1536480686695279,
+     "low": 0.13819742489270387,
+     "high": 0.16909871244635194,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.5942775393419171,
+     "without": 0.4406294706723891
+    },
+    "Value, country stated": {
+     "difference": 0.08183118741058655,
+     "low": 0.06694563662374821,
+     "high": 0.09670958512160228,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.7673819742489271,
+     "without": 0.6855507868383405
+    },
+    "Value, country and true norm stated": {
+     "difference": -0.004864091559370529,
+     "low": -0.015164520743919885,
+     "high": 0.005157367668097243,
+     "p": 0.36081959020489757,
+     "n": 3495,
+     "with": 0.9041487839771102,
+     "without": 0.9090128755364807
+    },
+    "True norm, nothing else stated": {
+     "difference": 0.36713097937587735,
+     "low": 0.3571968469927654,
+     "high": 0.37846884785660295,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.7613648634056798,
+     "without": 0.3942338840298024
+    },
+    "True norm, country stated": {
+     "difference": 0.2981319511931757,
+     "low": 0.288521757909513,
+     "high": 0.30752618507720547,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.9212827988338192,
+     "without": 0.6231508476406435
+    },
+    "False norm, nothing else stated": {
+     "difference": -0.15117157974300832,
+     "low": -0.16196954972465177,
+     "high": -0.13994169096209913,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.2430623042867941,
+     "without": 0.3942338840298024
+    },
+    "False norm, country stated": {
+     "difference": -0.4705755318000216,
+     "low": -0.4814841809739769,
+     "high": -0.459993521218011,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.15257531584062195,
+     "without": 0.6231508476406435
+    },
+    "Country \u00d7 true norm (interaction)": {
+     "difference": -0.06899902818270165,
+     "low": -0.08249649065975596,
+     "high": -0.05679462261094916,
+     "p": 0.0004997501249375312,
+     "n": 9261
+    }
+   },
+   "outcome_shares": {
+    "country_only": {
+     "aligned": 0.6407515387107224,
+     "partially_aligned": 0.21693121693121692,
+     "misaligned": 0.14231724435806067
+    },
+    "country_opposite_norm": {
+     "aligned": 0.17136378360868157,
+     "partially_aligned": 0.06835114998380304,
+     "misaligned": 0.7602850664075154
+    },
+    "opposite_norm_only": {
+     "aligned": 0.257207644962747,
+     "partially_aligned": 0.09243062304286793,
+     "misaligned": 0.6503617319943851
+    }
+   },
+   "by_category": {
+    "business_culture": {
+     "n": 1722,
+     "resist": {
+      "rate": 0.20092915214866433,
+      "low": 0.18234610917537747,
+      "high": 0.22010743321718923,
+      "n": 1722
+     },
+     "country_only": 0.6596980255516841,
+     "resist_given_right": 0.2711267605633803
+    },
+    "communication": {
+     "n": 1494,
+     "resist": {
+      "rate": 0.1680053547523427,
+      "low": 0.14926372155287818,
+      "high": 0.18674698795180722,
+      "n": 1494
+     },
+     "country_only": 0.607095046854083,
+     "resist_given_right": 0.23594266813671444
+    },
+    "core_concepts": {
+     "n": 608,
+     "resist": {
+      "rate": 0.18092105263157895,
+      "low": 0.1513157894736842,
+      "high": 0.21052631578947367,
+      "n": 608
+     },
+     "country_only": 0.7072368421052632,
+     "resist_given_right": 0.2302325581395349
+    },
+    "dos_and_donts": {
+     "n": 512,
+     "resist": {
+      "rate": 0.31640625,
+      "low": 0.27734375,
+      "high": 0.357421875,
+      "n": 512
+     },
+     "country_only": 0.783203125,
+     "resist_given_right": 0.3765586034912718
+    },
+    "etiquette": {
+     "n": 2579,
+     "resist": {
+      "rate": 0.1446297014346646,
+      "low": 0.13105854982551376,
+      "high": 0.15820085304381543,
+      "n": 2579
+     },
+     "country_only": 0.6413338503295851,
+     "resist_given_right": 0.19709794437726724
+    },
+    "family": {
+     "n": 1228,
+     "resist": {
+      "rate": 0.1245928338762215,
+      "low": 0.10667752442996743,
+      "high": 0.14250814332247558,
+      "n": 1228
+     },
+     "country_only": 0.6131921824104235,
+     "resist_given_right": 0.1699867197875166
+    },
+    "greetings": {
+     "n": 816,
+     "resist": {
+      "rate": 0.17647058823529413,
+      "low": 0.14950980392156862,
+      "high": 0.2034313725490196,
+      "n": 816
+     },
+     "country_only": 0.5612745098039216,
+     "resist_given_right": 0.27074235807860264
+    },
+    "other_considerations": {
+     "n": 155,
+     "resist": {
+      "rate": 0.17419354838709677,
+      "low": 0.11612903225806452,
+      "high": 0.23870967741935484,
+      "n": 155
+     },
+     "country_only": 0.6258064516129033,
+     "resist_given_right": 0.24742268041237114
+    },
+    "religion": {
+     "n": 147,
+     "resist": {
+      "rate": 0.14285714285714285,
+      "low": 0.08843537414965986,
+      "high": 0.20408163265306123,
+      "n": 147
+     },
+     "country_only": 0.6666666666666666,
+     "resist_given_right": 0.19387755102040816
+    }
+   },
+   "resisting_model": {
+    "records": 9261,
+    "reference_category": "etiquette",
+    "odds_ratio": {
+     "Right with no country and no norm": {
+      "or": 1.874861028892525,
+      "low": 1.6278961704123165,
+      "high": 2.1920929029327363
+     },
+     "Right with the country alone": {
+      "or": 3.4932056386132353,
+      "low": 2.9596214218845747,
+      "high": 4.1582674577667
+     },
+     "Right with the true norm alone": {
+      "or": 1.0210322512651033,
+      "low": 0.8495628296534827,
+      "high": 1.2537667058120743
+     },
+     "Right with country + true norm": {
+      "or": 1.9211470837398643,
+      "low": 1.2888228683354133,
+      "high": 3.471396999048512
+     },
+     "Record has a value": {
+      "or": 1.4961685634320108,
+      "low": 1.3102892429616302,
+      "high": 1.709888990987291
+     },
+     "Category: business_culture (vs etiquette)": {
+      "or": 1.4311428532806496,
+      "low": 1.1896101553476952,
+      "high": 1.685432984554351
+     },
+     "Category: communication (vs etiquette)": {
+      "or": 1.3292744063183421,
+      "low": 1.08283816744807,
+      "high": 1.6437040462841639
+     },
+     "Category: core_concepts (vs etiquette)": {
+      "or": 1.1191632243474303,
+      "low": 0.815464411915062,
+      "high": 1.4979969949841785
+     },
+     "Category: dos_and_donts (vs etiquette)": {
+      "or": 1.9201422759237665,
+      "low": 1.564239449486691,
+      "high": 2.420749037708785
+     },
+     "Category: family (vs etiquette)": {
+      "or": 0.8901343810528668,
+      "low": 0.7161667567894091,
+      "high": 1.1338598625481322
+     },
+     "Category: greetings (vs etiquette)": {
+      "or": 1.601972617457258,
+      "low": 1.314628280173705,
+      "high": 1.9508445828451424
+     },
+     "Category: other_considerations (vs etiquette)": {
+      "or": 1.2935253636703379,
+      "low": 0.817934912049764,
+      "high": 1.963827553431585
+     },
+     "Category: religion (vs etiquette)": {
+      "or": 0.910807070727295,
+      "low": 0.49763175566630097,
+      "high": 1.449585078177903
+     }
+    }
+   },
+   "stance": {
+    "benchmark": {
+     "n": 9261,
+     "share": {
+      "follows": {
+       "rate": 0.7291869128603823,
+       "low": 0.7204378576827556,
+       "high": 0.7378279883381924,
+       "n": 9261
+      },
+      "follows_with_caveat": {
+       "rate": 0.08584386135406544,
+       "low": 0.08001295756397797,
+       "high": 0.09156948493683187,
+       "n": 9261
+      },
+      "challenges": {
+       "rate": 0.1495518842457618,
+       "low": 0.14253320375769354,
+       "high": 0.1561386459345643,
+       "n": 9261
+      },
+      "sets_aside": {
+       "rate": 0.018248569268977433,
+       "low": 0.015546377281071158,
+       "high": 0.020948061764388296,
+       "n": 9261
+      },
+      "no_clear_recommendation": {
+       "rate": 0.017168772270813086,
+       "low": 0.014469279775402225,
+       "high": 0.019760285066407514,
+       "n": 9261
+      }
+     },
+     "restates_claim": 0.8522837706511176,
+     "attributes_to_country": 0.9840190044271677,
+     "aligned_given_stance": {
+      "follows": 0.03479934843773138,
+      "follows_with_caveat": 0.23270440251572327,
+      "challenges": 0.7848375451263538,
+      "sets_aside": 0.35502958579881655,
+      "no_clear_recommendation": 0.12578616352201258
+     },
+     "stance_given_aligned": {
+      "follows": 0.14807813484562066,
+      "follows_with_caveat": 0.11657214870825457,
+      "challenges": 0.684940138626339,
+      "sets_aside": 0.03780718336483932,
+      "no_clear_recommendation": 0.01260239445494644
+     },
+     "stance_given_not_aligned": {
+      "follows": 0.8493614803231692,
+      "follows_with_caveat": 0.07948918425853531,
+      "challenges": 0.03883242116236643,
+      "sets_aside": 0.01420380505603336,
+      "no_clear_recommendation": 0.01811310919989575
+     }
+    },
+    "arms": {
+     "false": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.7625,
+        "low": 0.72,
+        "high": 0.8025,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0775,
+        "low": 0.0525,
+        "high": 0.105,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.1125,
+        "low": 0.0825,
+        "high": 0.1425,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.03,
+        "low": 0.015,
+        "high": 0.0475,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0175,
+        "low": 0.005,
+        "high": 0.0325,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.8875,
+      "attributes_to_country": 0.98,
+      "aligned_given_stance": {
+       "follows": 0.02622950819672131,
+       "follows_with_caveat": 0.3225806451612903,
+       "challenges": 0.7555555555555555,
+       "sets_aside": 0.3333333333333333
+      },
+      "stance_given_aligned": {
+       "follows": 0.14035087719298245,
+       "follows_with_caveat": 0.17543859649122806,
+       "challenges": 0.5964912280701754,
+       "sets_aside": 0.07017543859649122,
+       "no_clear_recommendation": 0.017543859649122806
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.8658892128279884,
+       "follows_with_caveat": 0.061224489795918366,
+       "challenges": 0.03206997084548105,
+       "sets_aside": 0.023323615160349854,
+       "no_clear_recommendation": 0.01749271137026239
+      }
+     },
+     "false-noclaim-win": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.205,
+        "low": 0.1675,
+        "high": 0.245,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.035,
+        "low": 0.0175,
+        "high": 0.0525,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.5775,
+        "low": 0.53,
+        "high": 0.625,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.1725,
+        "low": 0.135,
+        "high": 0.21,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.01,
+        "low": 0.0025,
+        "high": 0.02,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.1775,
+      "attributes_to_country": 0.9925,
+      "aligned_given_stance": {
+       "follows": 0.07317073170731707,
+       "follows_with_caveat": 0.2857142857142857,
+       "challenges": 0.8658008658008658,
+       "sets_aside": 0.37681159420289856
+      },
+      "stance_given_aligned": {
+       "follows": 0.025423728813559324,
+       "follows_with_caveat": 0.01694915254237288,
+       "challenges": 0.847457627118644,
+       "sets_aside": 0.11016949152542373,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.4634146341463415,
+       "follows_with_caveat": 0.06097560975609756,
+       "challenges": 0.18902439024390244,
+       "sets_aside": 0.2621951219512195,
+       "no_clear_recommendation": 0.024390243902439025
+      }
+     },
+     "false-noclaim-heads": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.64,
+        "low": 0.5925,
+        "high": 0.685,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0775,
+        "low": 0.0525,
+        "high": 0.105,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.205,
+        "low": 0.1675,
+        "high": 0.245,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0525,
+        "low": 0.0325,
+        "high": 0.075,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.025,
+        "low": 0.012437500000000004,
+        "high": 0.0425,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.7475,
+      "attributes_to_country": 0.9825,
+      "aligned_given_stance": {
+       "follows": 0.0390625,
+       "follows_with_caveat": 0.2903225806451613,
+       "challenges": 0.8414634146341463,
+       "sets_aside": 0.2857142857142857,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_aligned": {
+       "follows": 0.10638297872340426,
+       "follows_with_caveat": 0.09574468085106383,
+       "challenges": 0.7340425531914894,
+       "sets_aside": 0.06382978723404255,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.803921568627451,
+       "follows_with_caveat": 0.0718954248366013,
+       "challenges": 0.042483660130718956,
+       "sets_aside": 0.049019607843137254,
+       "no_clear_recommendation": 0.032679738562091505
+      }
+     },
+     "false-noclaim": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.0725,
+        "low": 0.0475,
+        "high": 0.1,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0075,
+        "low": 0.0,
+        "high": 0.0175,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.6025,
+        "low": 0.555,
+        "high": 0.6500624999999997,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.2975,
+        "low": 0.255,
+        "high": 0.3425,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.02,
+        "low": 0.0075,
+        "high": 0.035,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.05,
+      "attributes_to_country": 0.9825,
+      "aligned_given_stance": {
+       "follows": 0.034482758620689655,
+       "challenges": 0.8713692946058091,
+       "sets_aside": 0.4369747899159664
+      },
+      "stance_given_aligned": {
+       "follows": 0.0037593984962406013,
+       "follows_with_caveat": 0.007518796992481203,
+       "challenges": 0.7894736842105263,
+       "sets_aside": 0.19548872180451127,
+       "no_clear_recommendation": 0.0037593984962406013
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.208955223880597,
+       "follows_with_caveat": 0.007462686567164179,
+       "challenges": 0.23134328358208955,
+       "sets_aside": 0.5,
+       "no_clear_recommendation": 0.05223880597014925
+      }
+     },
+     "false-erase-before": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.085,
+        "low": 0.0575,
+        "high": 0.1125,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.62,
+        "low": 0.5724375,
+        "high": 0.665,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.275,
+        "low": 0.235,
+        "high": 0.32,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.02,
+        "low": 0.0075,
+        "high": 0.035,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.0625,
+      "attributes_to_country": 0.99,
+      "aligned_given_stance": {
+       "follows": 0.058823529411764705,
+       "challenges": 0.8911290322580645,
+       "sets_aside": 0.44545454545454544
+      },
+      "stance_given_aligned": {
+       "follows": 0.007326007326007326,
+       "follows_with_caveat": 0.0,
+       "challenges": 0.8095238095238095,
+       "sets_aside": 0.1794871794871795,
+       "no_clear_recommendation": 0.003663003663003663
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.25196850393700787,
+       "follows_with_caveat": 0.0,
+       "challenges": 0.2125984251968504,
+       "sets_aside": 0.48031496062992124,
+       "no_clear_recommendation": 0.05511811023622047
+      }
+     },
+     "false-erase-first": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.085,
+        "low": 0.06,
+        "high": 0.11,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0175,
+        "low": 0.007437500000000003,
+        "high": 0.03,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.5975,
+        "low": 0.55,
+        "high": 0.645,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.285,
+        "low": 0.2424375,
+        "high": 0.33,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.015,
+        "low": 0.005,
+        "high": 0.02756249999999966,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.0475,
+      "attributes_to_country": 0.9825,
+      "aligned_given_stance": {
+       "follows": 0.11764705882352941,
+       "challenges": 0.8577405857740585,
+       "sets_aside": 0.4298245614035088
+      },
+      "stance_given_aligned": {
+       "follows": 0.015444015444015444,
+       "follows_with_caveat": 0.003861003861003861,
+       "challenges": 0.7915057915057915,
+       "sets_aside": 0.1891891891891892,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.2127659574468085,
+       "follows_with_caveat": 0.0425531914893617,
+       "challenges": 0.24113475177304963,
+       "sets_aside": 0.46099290780141844,
+       "no_clear_recommendation": 0.0425531914893617
+      }
+     },
+     "claim-only": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.5725,
+        "low": 0.525,
+        "high": 0.62,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.08,
+        "low": 0.0525,
+        "high": 0.1075,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.29,
+        "low": 0.2475,
+        "high": 0.335,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0275,
+        "low": 0.0125,
+        "high": 0.045,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.03,
+        "low": 0.0125,
+        "high": 0.0475,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.695,
+      "attributes_to_country": 0.0275,
+      "aligned_given_stance": {
+       "follows": 0.021834061135371178,
+       "follows_with_caveat": 0.03125,
+       "challenges": 0.6724137931034483,
+       "sets_aside": 0.45454545454545453,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_aligned": {
+       "follows": 0.056179775280898875,
+       "follows_with_caveat": 0.011235955056179775,
+       "challenges": 0.8764044943820225,
+       "sets_aside": 0.056179775280898875,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.7202572347266881,
+       "follows_with_caveat": 0.09967845659163987,
+       "challenges": 0.12218649517684887,
+       "sets_aside": 0.01929260450160772,
+       "no_clear_recommendation": 0.03858520900321544
+      }
+     },
+     "country": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.07,
+        "low": 0.045,
+        "high": 0.095,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.015,
+        "low": 0.005,
+        "high": 0.0275,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.63,
+        "low": 0.5825,
+        "high": 0.6775,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.2775,
+        "low": 0.235,
+        "high": 0.3225,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0075,
+        "low": 0.0,
+        "high": 0.0175,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.035,
+      "attributes_to_country": 0.9875,
+      "aligned_given_stance": {
+       "follows": 0.07142857142857142,
+       "challenges": 0.873015873015873,
+       "sets_aside": 0.4144144144144144
+      },
+      "stance_given_aligned": {
+       "follows": 0.007352941176470588,
+       "follows_with_caveat": 0.014705882352941176,
+       "challenges": 0.8088235294117647,
+       "sets_aside": 0.16911764705882354,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.203125,
+       "follows_with_caveat": 0.015625,
+       "challenges": 0.25,
+       "sets_aside": 0.5078125,
+       "no_clear_recommendation": 0.0234375
+      }
+     }
+    }
+   },
+   "framing": {
+    "country_opposite_norm_guide": {
+     "rate": {
+      "rate": 0.075,
+      "low": 0.05,
+      "high": 0.1025,
+      "n": 400
+     },
+     "bare": 0.1525,
+     "effect": {
+      "difference": -0.0775,
+      "low": -0.1125,
+      "high": -0.045,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.8425,
+        "low": 0.8075,
+        "high": 0.8775,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.075,
+        "low": 0.05,
+        "high": 0.1025,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.06,
+        "low": 0.0375,
+        "high": 0.085,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0125,
+        "low": 0.0025,
+        "high": 0.025,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.01,
+        "low": 0.0025,
+        "high": 0.02,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.9525,
+      "attributes_to_country": 0.98,
+      "aligned_given_stance": {
+       "follows": 0.020771513353115726,
+       "follows_with_caveat": 0.2,
+       "challenges": 0.7083333333333334
+      },
+      "stance_given_aligned": {
+       "follows": 0.23333333333333334,
+       "follows_with_caveat": 0.2,
+       "challenges": 0.5666666666666667,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.8918918918918919,
+       "follows_with_caveat": 0.06486486486486487,
+       "challenges": 0.01891891891891892,
+       "sets_aside": 0.013513513513513514,
+       "no_clear_recommendation": 0.010810810810810811
+      }
+     }
+    },
+    "opposite_norm_country": {
+     "rate": {
+      "rate": 0.435,
+      "low": 0.385,
+      "high": 0.485,
+      "n": 400
+     },
+     "bare": 0.1525,
+     "effect": {
+      "difference": 0.2825,
+      "low": 0.235,
+      "high": 0.3275,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.39,
+        "low": 0.3425,
+        "high": 0.44,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0875,
+        "low": 0.06,
+        "high": 0.115,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.4525,
+        "low": 0.4025,
+        "high": 0.5025,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0525,
+        "low": 0.0325,
+        "high": 0.075,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0175,
+        "low": 0.005,
+        "high": 0.0325,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.5025,
+      "attributes_to_country": 0.97,
+      "aligned_given_stance": {
+       "follows": 0.019230769230769232,
+       "follows_with_caveat": 0.14285714285714285,
+       "challenges": 0.8784530386740331,
+       "sets_aside": 0.23809523809523808
+      },
+      "stance_given_aligned": {
+       "follows": 0.017241379310344827,
+       "follows_with_caveat": 0.028735632183908046,
+       "challenges": 0.9137931034482759,
+       "sets_aside": 0.028735632183908046,
+       "no_clear_recommendation": 0.011494252873563218
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.6769911504424779,
+       "follows_with_caveat": 0.13274336283185842,
+       "challenges": 0.09734513274336283,
+       "sets_aside": 0.07079646017699115,
+       "no_clear_recommendation": 0.022123893805309734
+      }
+     }
+    },
+    "country_opposite_norm_hearsay": {
+     "rate": {
+      "rate": 0.45,
+      "low": 0.4025,
+      "high": 0.5,
+      "n": 400
+     },
+     "bare": 0.1525,
+     "effect": {
+      "difference": 0.2975,
+      "low": 0.2525,
+      "high": 0.345,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.39,
+        "low": 0.3424375,
+        "high": 0.44,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.1075,
+        "low": 0.0775,
+        "high": 0.1375,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.4625,
+        "low": 0.41493749999999996,
+        "high": 0.5125,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0125,
+        "low": 0.0025,
+        "high": 0.025,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0275,
+        "low": 0.0125,
+        "high": 0.045,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.5525,
+      "attributes_to_country": 0.9975,
+      "aligned_given_stance": {
+       "follows": 0.04487179487179487,
+       "follows_with_caveat": 0.27906976744186046,
+       "challenges": 0.8486486486486486,
+       "no_clear_recommendation": 0.18181818181818182
+      },
+      "stance_given_aligned": {
+       "follows": 0.03888888888888889,
+       "follows_with_caveat": 0.06666666666666667,
+       "challenges": 0.8722222222222222,
+       "sets_aside": 0.011111111111111112,
+       "no_clear_recommendation": 0.011111111111111112
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.6772727272727272,
+       "follows_with_caveat": 0.1409090909090909,
+       "challenges": 0.12727272727272726,
+       "sets_aside": 0.013636363636363636,
+       "no_clear_recommendation": 0.04090909090909091
+      }
+     }
+    },
+    "country_opposite_norm_doubt": {
+     "rate": {
+      "rate": 0.595,
+      "low": 0.5474375,
+      "high": 0.6425,
+      "n": 400
+     },
+     "bare": 0.1525,
+     "effect": {
+      "difference": 0.4425,
+      "low": 0.3925,
+      "high": 0.4925,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.1525,
+        "low": 0.1175,
+        "high": 0.1875,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0925,
+        "low": 0.065,
+        "high": 0.12,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.715,
+        "low": 0.67,
+        "high": 0.76,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0125,
+        "low": 0.0025,
+        "high": 0.025,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0275,
+        "low": 0.0125,
+        "high": 0.045,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.24,
+      "attributes_to_country": 0.9925,
+      "aligned_given_stance": {
+       "follows": 0.04918032786885246,
+       "follows_with_caveat": 0.16216216216216217,
+       "challenges": 0.7937062937062938,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_aligned": {
+       "follows": 0.012605042016806723,
+       "follows_with_caveat": 0.025210084033613446,
+       "challenges": 0.9537815126050421,
+       "sets_aside": 0.008403361344537815,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.35802469135802467,
+       "follows_with_caveat": 0.19135802469135801,
+       "challenges": 0.36419753086419754,
+       "sets_aside": 0.018518518518518517,
+       "no_clear_recommendation": 0.06790123456790123
+      }
+     }
+    }
+   },
+   "framing_second_judge": {
+    "country_opposite_norm_guide": {
+     "rate": {
+      "rate": 0.0625,
+      "low": 0.04,
+      "high": 0.0875,
+      "n": 400
+     },
+     "bare": 0.14,
+     "effect": {
+      "difference": -0.0775,
+      "low": -0.10756249999999999,
+      "high": -0.0475,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.8425,
+        "low": 0.8075,
+        "high": 0.8775,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.075,
+        "low": 0.05,
+        "high": 0.1025,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.06,
+        "low": 0.0375,
+        "high": 0.085,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0125,
+        "low": 0.0025,
+        "high": 0.025,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.01,
+        "low": 0.0025,
+        "high": 0.02,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.9525,
+      "attributes_to_country": 0.98,
+      "aligned_given_stance": {
+       "follows": 0.011869436201780416,
+       "follows_with_caveat": 0.16666666666666666,
+       "challenges": 0.6666666666666666
+      },
+      "stance_given_aligned": {
+       "follows": 0.16,
+       "follows_with_caveat": 0.2,
+       "challenges": 0.64,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.888,
+       "follows_with_caveat": 0.06666666666666667,
+       "challenges": 0.021333333333333333,
+       "sets_aside": 0.013333333333333334,
+       "no_clear_recommendation": 0.010666666666666666
+      }
+     }
+    },
+    "opposite_norm_country": {
+     "rate": {
+      "rate": 0.43,
+      "low": 0.3825,
+      "high": 0.4775,
+      "n": 400
+     },
+     "bare": 0.14,
+     "effect": {
+      "difference": 0.29,
+      "low": 0.2425,
+      "high": 0.335,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.39,
+        "low": 0.3425,
+        "high": 0.44,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0875,
+        "low": 0.06,
+        "high": 0.115,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.4525,
+        "low": 0.4025,
+        "high": 0.5025,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0525,
+        "low": 0.0325,
+        "high": 0.075,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0175,
+        "low": 0.005,
+        "high": 0.0325,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.5025,
+      "attributes_to_country": 0.97,
+      "aligned_given_stance": {
+       "follows": 0.02564102564102564,
+       "follows_with_caveat": 0.11428571428571428,
+       "challenges": 0.850828729281768,
+       "sets_aside": 0.3333333333333333
+      },
+      "stance_given_aligned": {
+       "follows": 0.023255813953488372,
+       "follows_with_caveat": 0.023255813953488372,
+       "challenges": 0.8953488372093024,
+       "sets_aside": 0.040697674418604654,
+       "no_clear_recommendation": 0.01744186046511628
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.6666666666666666,
+       "follows_with_caveat": 0.13596491228070176,
+       "challenges": 0.11842105263157894,
+       "sets_aside": 0.06140350877192982,
+       "no_clear_recommendation": 0.017543859649122806
+      }
+     }
+    },
+    "country_opposite_norm_hearsay": {
+     "rate": {
+      "rate": 0.415,
+      "low": 0.3699375,
+      "high": 0.465,
+      "n": 400
+     },
+     "bare": 0.14,
+     "effect": {
+      "difference": 0.275,
+      "low": 0.225,
+      "high": 0.3225,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.39,
+        "low": 0.3424375,
+        "high": 0.44,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.1075,
+        "low": 0.0775,
+        "high": 0.1375,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.4625,
+        "low": 0.41493749999999996,
+        "high": 0.5125,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0125,
+        "low": 0.0025,
+        "high": 0.025,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0275,
+        "low": 0.0125,
+        "high": 0.045,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.5525,
+      "attributes_to_country": 0.9975,
+      "aligned_given_stance": {
+       "follows": 0.02564102564102564,
+       "follows_with_caveat": 0.27906976744186046,
+       "challenges": 0.8108108108108109,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_aligned": {
+       "follows": 0.024096385542168676,
+       "follows_with_caveat": 0.07228915662650602,
+       "challenges": 0.9036144578313253,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.6495726495726496,
+       "follows_with_caveat": 0.13247863247863248,
+       "challenges": 0.14957264957264957,
+       "sets_aside": 0.021367521367521368,
+       "no_clear_recommendation": 0.04700854700854701
+      }
+     }
+    },
+    "country_opposite_norm_doubt": {
+     "rate": {
+      "rate": 0.56,
+      "low": 0.51,
+      "high": 0.6075,
+      "n": 400
+     },
+     "bare": 0.14,
+     "effect": {
+      "difference": 0.42,
+      "low": 0.365,
+      "high": 0.47,
+      "p": 0.0004997501249375312,
+      "n": 400
+     },
+     "stance": {
+      "n": 400,
+      "share": {
+       "follows": {
+        "rate": 0.1525,
+        "low": 0.1175,
+        "high": 0.1875,
+        "n": 400
+       },
+       "follows_with_caveat": {
+        "rate": 0.0925,
+        "low": 0.065,
+        "high": 0.12,
+        "n": 400
+       },
+       "challenges": {
+        "rate": 0.715,
+        "low": 0.67,
+        "high": 0.76,
+        "n": 400
+       },
+       "sets_aside": {
+        "rate": 0.0125,
+        "low": 0.0025,
+        "high": 0.025,
+        "n": 400
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0275,
+        "low": 0.0125,
+        "high": 0.045,
+        "n": 400
+       }
+      },
+      "restates_claim": 0.24,
+      "attributes_to_country": 0.9925,
+      "aligned_given_stance": {
+       "follows": 0.01639344262295082,
+       "follows_with_caveat": 0.08108108108108109,
+       "challenges": 0.7587412587412588,
+       "no_clear_recommendation": 0.09090909090909091
+      },
+      "stance_given_aligned": {
+       "follows": 0.004464285714285714,
+       "follows_with_caveat": 0.013392857142857142,
+       "challenges": 0.96875,
+       "sets_aside": 0.008928571428571428,
+       "no_clear_recommendation": 0.004464285714285714
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.3409090909090909,
+       "follows_with_caveat": 0.19318181818181818,
+       "challenges": 0.39204545454545453,
+       "sets_aside": 0.017045454545454544,
+       "no_clear_recommendation": 0.056818181818181816
+      }
+     }
+    }
+   }
+  },
+  "qwen-3.5-27b": {
+   "effects": {
+    "Country, nothing else stated": {
+     "difference": 0.2328042328042328,
+     "low": 0.22200626282258934,
+     "high": 0.24371018248569268,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.7520786092214664,
+     "without": 0.5192743764172335
+    },
+    "Country, value stated": {
+     "difference": 0.1402002861230329,
+     "low": 0.12646638054363377,
+     "high": 0.15393419170243205,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.8886981402002861,
+     "without": 0.7484978540772532
+    },
+    "Country, true norm stated": {
+     "difference": 0.13087139617751864,
+     "low": 0.12352877659000108,
+     "high": 0.1386459345643019,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.9593996328690206,
+     "without": 0.828528236691502
+    },
+    "Country, false norm stated": {
+     "difference": -0.0058309037900874635,
+     "low": -0.01673955296404276,
+     "high": 0.005293704783500687,
+     "p": 0.28785607196401797,
+     "n": 9261,
+     "with": 0.4400172767519706,
+     "without": 0.4458481805420581
+    },
+    "Value, nothing else stated": {
+     "difference": 0.19027181688125894,
+     "low": 0.1753934191702432,
+     "high": 0.20544349070100137,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.7484978540772532,
+     "without": 0.5582260371959943
+    },
+    "Value, country stated": {
+     "difference": 0.10586552217453506,
+     "low": 0.09356223175965665,
+     "high": 0.11816881258941345,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.8886981402002861,
+     "without": 0.7828326180257511
+    },
+    "Value, country and true norm stated": {
+     "difference": 0.02861230329041488,
+     "low": 0.022317596566523604,
+     "high": 0.03490701001430615,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.984549356223176,
+     "without": 0.9559370529327611
+    },
+    "True norm, nothing else stated": {
+     "difference": 0.30925386027426843,
+     "low": 0.29899308929921176,
+     "high": 0.3194039520570133,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.828528236691502,
+     "without": 0.5192743764172335
+    },
+    "True norm, country stated": {
+     "difference": 0.20732102364755425,
+     "low": 0.19889860706187237,
+     "high": 0.21596209912536443,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.9593996328690206,
+     "without": 0.7520786092214664
+    },
+    "False norm, nothing else stated": {
+     "difference": -0.07342619587517547,
+     "low": -0.08422416585681892,
+     "high": -0.06306014469279775,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.4458481805420581,
+     "without": 0.5192743764172335
+    },
+    "False norm, country stated": {
+     "difference": -0.31206133246949574,
+     "low": -0.32329392074290036,
+     "high": -0.3007234639887701,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.4400172767519706,
+     "without": 0.7520786092214664
+    },
+    "Country \u00d7 true norm (interaction)": {
+     "difference": -0.10193283662671418,
+     "low": -0.11413724219846669,
+     "high": -0.08994708994708994,
+     "p": 0.0004997501249375312,
+     "n": 9261
+    }
+   },
+   "effects_second_judge": {
+    "Country, nothing else stated": {
+     "difference": 0.2196307094266278,
+     "low": 0.2087247597451679,
+     "high": 0.2296755210020516,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.737825288845697,
+     "without": 0.5181945794190692
+    },
+    "Country, value stated": {
+     "difference": 0.13419170243204578,
+     "low": 0.12074391988555079,
+     "high": 0.14793276108726747,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.8872675250357653,
+     "without": 0.7530758226037196
+    },
+    "Country, true norm stated": {
+     "difference": 0.13088552915766738,
+     "low": 0.12300215982721383,
+     "high": 0.13855291576673867,
+     "p": 0.0004997501249375312,
+     "n": 9260,
+     "with": 0.9496760259179265,
+     "without": 0.8187904967602592
+    },
+    "Country, false norm stated": {
+     "difference": -0.003240090722540231,
+     "low": -0.014796414299600389,
+     "high": 0.007994923857868005,
+     "p": 0.55872063968016,
+     "n": 9259,
+     "with": 0.41753969111135114,
+     "without": 0.42077978183389136
+    },
+    "Value, nothing else stated": {
+     "difference": 0.2011444921316166,
+     "low": 0.186552217453505,
+     "high": 0.21545064377682405,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.7530758226037196,
+     "without": 0.551931330472103
+    },
+    "Value, country stated": {
+     "difference": 0.12274678111587983,
+     "low": 0.11043633762517882,
+     "high": 0.1353361945636624,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.8872675250357653,
+     "without": 0.7645207439198856
+    },
+    "Value, country and true norm stated": {
+     "difference": 0.03490701001430615,
+     "low": 0.02804005722460658,
+     "high": 0.04206008583690987,
+     "p": 0.0004997501249375312,
+     "n": 3495,
+     "with": 0.976824034334764,
+     "without": 0.9419170243204578
+    },
+    "True norm, nothing else stated": {
+     "difference": 0.3005075045891372,
+     "low": 0.2903574128063924,
+     "high": 0.3107655760716985,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.8187020840082064,
+     "without": 0.5181945794190692
+    },
+    "True norm, country stated": {
+     "difference": 0.21187904967602592,
+     "low": 0.2031317494600432,
+     "high": 0.22084233261339092,
+     "p": 0.0004997501249375312,
+     "n": 9260,
+     "with": 0.9496760259179265,
+     "without": 0.7377969762419007
+    },
+    "False norm, nothing else stated": {
+     "difference": -0.09750566893424037,
+     "low": -0.10808767951625095,
+     "high": -0.08702893855955081,
+     "p": 0.0004997501249375312,
+     "n": 9261,
+     "with": 0.42068891048482887,
+     "without": 0.5181945794190692
+    },
+    "False norm, country stated": {
+     "difference": -0.3202289664110595,
+     "low": -0.3316799870396371,
+     "high": -0.3083486337617453,
+     "p": 0.0004997501249375312,
+     "n": 9259,
+     "with": 0.41753969111135114,
+     "without": 0.7377686575224106
+    },
+    "Country \u00d7 true norm (interaction)": {
+     "difference": -0.0886609071274298,
+     "low": -0.10043196544276457,
+     "high": -0.07687904967602598,
+     "p": 0.0004997501249375312,
+     "n": 9260
+    }
+   },
+   "outcome_shares": {
+    "country_only": {
+     "aligned": 0.7520786092214664,
+     "partially_aligned": 0.11629413670229997,
+     "misaligned": 0.13162725407623366
+    },
+    "country_opposite_norm": {
+     "aligned": 0.4400172767519706,
+     "partially_aligned": 0.024403412158514198,
+     "misaligned": 0.5355793110895152
+    },
+    "opposite_norm_only": {
+     "aligned": 0.4458481805420581,
+     "partially_aligned": 0.05809307850124177,
+     "misaligned": 0.49605874095670016
+    }
+   },
+   "by_category": {
+    "business_culture": {
+     "n": 1722,
+     "resist": {
+      "rate": 0.5116144018583043,
+      "low": 0.4878048780487805,
+      "high": 0.5336817653890824,
+      "n": 1722
+     },
+     "country_only": 0.7938443670150988,
+     "resist_given_right": 0.5925384052670081
+    },
+    "communication": {
+     "n": 1494,
+     "resist": {
+      "rate": 0.42704149933065594,
+      "low": 0.4009370816599732,
+      "high": 0.45113788487282463,
+      "n": 1494
+     },
+     "country_only": 0.7208835341365462,
+     "resist_given_right": 0.5153203342618384
+    },
+    "core_concepts": {
+     "n": 608,
+     "resist": {
+      "rate": 0.3404605263157895,
+      "low": 0.30423519736842103,
+      "high": 0.3782894736842105,
+      "n": 608
+     },
+     "country_only": 0.774671052631579,
+     "resist_given_right": 0.40976645435244163
+    },
+    "dos_and_donts": {
+     "n": 512,
+     "resist": {
+      "rate": 0.587890625,
+      "low": 0.54296875,
+      "high": 0.630859375,
+      "n": 512
+     },
+     "country_only": 0.869140625,
+     "resist_given_right": 0.6292134831460674
+    },
+    "etiquette": {
+     "n": 2579,
+     "resist": {
+      "rate": 0.44164404808065144,
+      "low": 0.4230321830166731,
+      "high": 0.4610314075222955,
+      "n": 2579
+     },
+     "country_only": 0.7723924001550989,
+     "resist_given_right": 0.5085341365461847
+    },
+    "family": {
+     "n": 1228,
+     "resist": {
+      "rate": 0.32084690553745926,
+      "low": 0.2931596091205212,
+      "high": 0.3469055374592834,
+      "n": 1228
+     },
+     "country_only": 0.6563517915309446,
+     "resist_given_right": 0.40818858560794047
+    },
+    "greetings": {
+     "n": 816,
+     "resist": {
+      "rate": 0.46691176470588236,
+      "low": 0.4325980392156863,
+      "high": 0.5,
+      "n": 816
+     },
+     "country_only": 0.7242647058823529,
+     "resist_given_right": 0.5651438240270727
+    },
+    "other_considerations": {
+     "n": 155,
+     "resist": {
+      "rate": 0.4258064516129032,
+      "low": 0.34838709677419355,
+      "high": 0.5032258064516129,
+      "n": 155
+     },
+     "country_only": 0.6580645161290323,
+     "resist_given_right": 0.5784313725490197
+    },
+    "religion": {
+     "n": 147,
+     "resist": {
+      "rate": 0.46258503401360546,
+      "low": 0.38095238095238093,
+      "high": 0.54421768707483,
+      "n": 147
+     },
+     "country_only": 0.7755102040816326,
+     "resist_given_right": 0.5350877192982456
+    }
+   },
+   "resisting_model": {
+    "records": 9261,
+    "reference_category": "etiquette",
+    "odds_ratio": {
+     "Right with no country and no norm": {
+      "or": 1.742194136494118,
+      "low": 1.5895968887145586,
+      "high": 1.8927744048859727
+     },
+     "Right with the country alone": {
+      "or": 3.2391557580753836,
+      "low": 2.8988654140498515,
+      "high": 3.70641497437431
+     },
+     "Right with the true norm alone": {
+      "or": 1.106460211030602,
+      "low": 0.9248162683284189,
+      "high": 1.2945909443873087
+     },
+     "Right with country + true norm": {
+      "or": 1.8616361156012997,
+      "low": 1.4441598835694454,
+      "high": 2.4486324308732588
+     },
+     "Record has a value": {
+      "or": 1.1608580385214011,
+      "low": 1.0407609667974491,
+      "high": 1.2974681259234033
+     },
+     "Category: business_culture (vs etiquette)": {
+      "or": 1.302127546327193,
+      "low": 1.1112787207273678,
+      "high": 1.5239218940233314
+     },
+     "Category: communication (vs etiquette)": {
+      "or": 1.0459742715180174,
+      "low": 0.904544131887786,
+      "high": 1.2114954754993208
+     },
+     "Category: core_concepts (vs etiquette)": {
+      "or": 0.6089638105735591,
+      "low": 0.4705353359073687,
+      "high": 0.8225210850983382
+     },
+     "Category: dos_and_donts (vs etiquette)": {
+      "or": 1.4363309087436342,
+      "low": 1.1819314228347402,
+      "high": 1.8034157336519998
+     },
+     "Category: family (vs etiquette)": {
+      "or": 0.733840666776263,
+      "low": 0.60680243561831,
+      "high": 0.8777010799676445
+     },
+     "Category: greetings (vs etiquette)": {
+      "or": 1.283767876293112,
+      "low": 1.0850342551605594,
+      "high": 1.531868526353838
+     },
+     "Category: other_considerations (vs etiquette)": {
+      "or": 1.1297467720070358,
+      "low": 0.7765731617624827,
+      "high": 1.5967092880010951
+     },
+     "Category: religion (vs etiquette)": {
+      "or": 1.1041549428040192,
+      "low": 0.7337235211807452,
+      "high": 1.5857365032463653
+     }
+    }
+   },
+   "stance": {
+    "benchmark": {
+     "n": 9261,
+     "share": {
+      "follows": {
+       "rate": 0.4680919987042436,
+       "low": 0.4584818054205809,
+       "high": 0.47824209048698846,
+       "n": 9261
+      },
+      "follows_with_caveat": {
+       "rate": 0.0923226433430515,
+       "low": 0.08681297915991794,
+       "high": 0.09848018572508367,
+       "n": 9261
+      },
+      "challenges": {
+       "rate": 0.43796566245545837,
+       "low": 0.42802883057985097,
+       "high": 0.44768653493143284,
+       "n": 9261
+      },
+      "sets_aside": {
+       "rate": 0.0006478781988986071,
+       "low": 0.00021595939963286903,
+       "high": 0.0011877766979807797,
+       "n": 9261
+      },
+      "no_clear_recommendation": {
+       "rate": 0.0009718172983479105,
+       "low": 0.00043191879926573806,
+       "high": 0.0016196954972465176,
+       "n": 9261
+      }
+     },
+     "restates_claim": 0.5815786632113162,
+     "attributes_to_country": 0.9308929921174819,
+     "aligned_given_stance": {
+      "follows": 0.018685121107266434,
+      "follows_with_caveat": 0.14853801169590644,
+      "challenges": 0.9519230769230769
+     },
+     "stance_given_aligned": {
+      "follows": 0.01987730061349693,
+      "follows_with_caveat": 0.031165644171779142,
+      "challenges": 0.9474846625766871,
+      "sets_aside": 0.000736196319018405,
+      "no_clear_recommendation": 0.000736196319018405
+     },
+     "stance_given_not_aligned": {
+      "follows": 0.8202853837254146,
+      "follows_with_caveat": 0.1403779406093328,
+      "challenges": 0.037601234091785576,
+      "sets_aside": 0.0005784805244890089,
+      "no_clear_recommendation": 0.0011569610489780178
+     }
+    },
+    "arms": {
+     "false": {
+      "n": 200,
+      "share": {
+       "follows": {
+        "rate": 0.39,
+        "low": 0.325,
+        "high": 0.455,
+        "n": 200
+       },
+       "follows_with_caveat": {
+        "rate": 0.11,
+        "low": 0.07,
+        "high": 0.155,
+        "n": 200
+       },
+       "challenges": {
+        "rate": 0.5,
+        "low": 0.434875,
+        "high": 0.57,
+        "n": 200
+       },
+       "sets_aside": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       }
+      },
+      "restates_claim": 0.5,
+      "attributes_to_country": 0.935,
+      "aligned_given_stance": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.045454545454545456,
+       "challenges": 0.93
+      },
+      "stance_given_aligned": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.010638297872340425,
+       "challenges": 0.9893617021276596,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.7358490566037735,
+       "follows_with_caveat": 0.19811320754716982,
+       "challenges": 0.0660377358490566,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      }
+     },
+     "false-erase-before": {
+      "n": 200,
+      "share": {
+       "follows": {
+        "rate": 0.09,
+        "low": 0.05,
+        "high": 0.13,
+        "n": 200
+       },
+       "follows_with_caveat": {
+        "rate": 0.025,
+        "low": 0.005,
+        "high": 0.05,
+        "n": 200
+       },
+       "challenges": {
+        "rate": 0.79,
+        "low": 0.735,
+        "high": 0.845,
+        "n": 200
+       },
+       "sets_aside": {
+        "rate": 0.09,
+        "low": 0.055,
+        "high": 0.13,
+        "n": 200
+       },
+       "no_clear_recommendation": {
+        "rate": 0.005,
+        "low": 0.0,
+        "high": 0.015,
+        "n": 200
+       }
+      },
+      "restates_claim": 0.09,
+      "attributes_to_country": 0.995,
+      "aligned_given_stance": {
+       "follows": 0.05555555555555555,
+       "challenges": 0.9177215189873418,
+       "sets_aside": 0.2222222222222222
+      },
+      "stance_given_aligned": {
+       "follows": 0.006535947712418301,
+       "follows_with_caveat": 0.0196078431372549,
+       "challenges": 0.9477124183006536,
+       "sets_aside": 0.026143790849673203,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.3617021276595745,
+       "follows_with_caveat": 0.0425531914893617,
+       "challenges": 0.2765957446808511,
+       "sets_aside": 0.2978723404255319,
+       "no_clear_recommendation": 0.02127659574468085
+      }
+     },
+     "false-erase-first": {
+      "n": 200,
+      "share": {
+       "follows": {
+        "rate": 0.085,
+        "low": 0.05,
+        "high": 0.125,
+        "n": 200
+       },
+       "follows_with_caveat": {
+        "rate": 0.005,
+        "low": 0.0,
+        "high": 0.015,
+        "n": 200
+       },
+       "challenges": {
+        "rate": 0.785,
+        "low": 0.73,
+        "high": 0.84,
+        "n": 200
+       },
+       "sets_aside": {
+        "rate": 0.12,
+        "low": 0.08,
+        "high": 0.165,
+        "n": 200
+       },
+       "no_clear_recommendation": {
+        "rate": 0.005,
+        "low": 0.0,
+        "high": 0.015,
+        "n": 200
+       }
+      },
+      "restates_claim": 0.065,
+      "attributes_to_country": 0.995,
+      "aligned_given_stance": {
+       "follows": 0.058823529411764705,
+       "challenges": 0.9235668789808917,
+       "sets_aside": 0.4166666666666667
+      },
+      "stance_given_aligned": {
+       "follows": 0.00641025641025641,
+       "follows_with_caveat": 0.0,
+       "challenges": 0.9294871794871795,
+       "sets_aside": 0.0641025641025641,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.36363636363636365,
+       "follows_with_caveat": 0.022727272727272728,
+       "challenges": 0.2727272727272727,
+       "sets_aside": 0.3181818181818182,
+       "no_clear_recommendation": 0.022727272727272728
+      }
+     },
+     "claim-only": {
+      "n": 200,
+      "share": {
+       "follows": {
+        "rate": 0.35,
+        "low": 0.29,
+        "high": 0.415,
+        "n": 200
+       },
+       "follows_with_caveat": {
+        "rate": 0.035,
+        "low": 0.01,
+        "high": 0.065,
+        "n": 200
+       },
+       "challenges": {
+        "rate": 0.595,
+        "low": 0.53,
+        "high": 0.66,
+        "n": 200
+       },
+       "sets_aside": {
+        "rate": 0.01,
+        "low": 0.0,
+        "high": 0.025,
+        "n": 200
+       },
+       "no_clear_recommendation": {
+        "rate": 0.01,
+        "low": 0.0,
+        "high": 0.025,
+        "n": 200
+       }
+      },
+      "restates_claim": 0.41,
+      "attributes_to_country": 0.07,
+      "aligned_given_stance": {
+       "follows": 0.0,
+       "challenges": 0.8235294117647058
+      },
+      "stance_given_aligned": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.0,
+       "challenges": 0.98,
+       "sets_aside": 0.01,
+       "no_clear_recommendation": 0.01
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.7,
+       "follows_with_caveat": 0.07,
+       "challenges": 0.21,
+       "sets_aside": 0.01,
+       "no_clear_recommendation": 0.01
+      }
+     }
+    }
+   },
+   "framing": {
+    "country_opposite_norm_guide": {
+     "rate": {
+      "rate": 0.05,
+      "low": 0.024875000000000008,
+      "high": 0.085,
+      "n": 200
+     },
+     "bare": 0.48,
+     "effect": {
+      "difference": -0.43,
+      "low": -0.495,
+      "high": -0.36,
+      "p": 0.0004997501249375312,
+      "n": 200
+     },
+     "stance": {
+      "n": 200,
+      "share": {
+       "follows": {
+        "rate": 0.745,
+        "low": 0.685,
+        "high": 0.805,
+        "n": 200
+       },
+       "follows_with_caveat": {
+        "rate": 0.175,
+        "low": 0.125,
+        "high": 0.23,
+        "n": 200
+       },
+       "challenges": {
+        "rate": 0.08,
+        "low": 0.045,
+        "high": 0.12,
+        "n": 200
+       },
+       "sets_aside": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       }
+      },
+      "restates_claim": 0.96,
+      "attributes_to_country": 0.9,
+      "aligned_given_stance": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.0,
+       "challenges": 0.625
+      },
+      "stance_given_aligned": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.0,
+       "challenges": 1.0,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.7842105263157895,
+       "follows_with_caveat": 0.18421052631578946,
+       "challenges": 0.031578947368421054,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      }
+     }
+    },
+    "opposite_norm_country": {
+     "rate": {
+      "rate": 0.805,
+      "low": 0.75,
+      "high": 0.86,
+      "n": 200
+     },
+     "bare": 0.48,
+     "effect": {
+      "difference": 0.325,
+      "low": 0.26,
+      "high": 0.395,
+      "p": 0.0004997501249375312,
+      "n": 200
+     },
+     "stance": {
+      "n": 200,
+      "share": {
+       "follows": {
+        "rate": 0.11,
+        "low": 0.07,
+        "high": 0.155,
+        "n": 200
+       },
+       "follows_with_caveat": {
+        "rate": 0.04,
+        "low": 0.015,
+        "high": 0.07,
+        "n": 200
+       },
+       "challenges": {
+        "rate": 0.85,
+        "low": 0.805,
+        "high": 0.9,
+        "n": 200
+       },
+       "sets_aside": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       }
+      },
+      "restates_claim": 0.18,
+      "attributes_to_country": 0.98,
+      "aligned_given_stance": {
+       "follows": 0.0,
+       "challenges": 0.9352941176470588
+      },
+      "stance_given_aligned": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.012422360248447204,
+       "challenges": 0.9875776397515528,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.5641025641025641,
+       "follows_with_caveat": 0.15384615384615385,
+       "challenges": 0.28205128205128205,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      }
+     }
+    },
+    "country_opposite_norm_hearsay": {
+     "rate": {
+      "rate": 0.86,
+      "low": 0.81,
+      "high": 0.905,
+      "n": 200
+     },
+     "bare": 0.48,
+     "effect": {
+      "difference": 0.38,
+      "low": 0.31,
+      "high": 0.45,
+      "p": 0.0004997501249375312,
+      "n": 200
+     },
+     "stance": {
+      "n": 200,
+      "share": {
+       "follows": {
+        "rate": 0.07,
+        "low": 0.035,
+        "high": 0.11,
+        "n": 200
+       },
+       "follows_with_caveat": {
+        "rate": 0.035,
+        "low": 0.01,
+        "high": 0.06,
+        "n": 200
+       },
+       "challenges": {
+        "rate": 0.88,
+        "low": 0.83,
+        "high": 0.92,
+        "n": 200
+       },
+       "sets_aside": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       },
+       "no_clear_recommendation": {
+        "rate": 0.015,
+        "low": 0.0,
+        "high": 0.035,
+        "n": 200
+       }
+      },
+      "restates_claim": 0.13,
+      "attributes_to_country": 1.0,
+      "aligned_given_stance": {
+       "follows": 0.0,
+       "challenges": 0.9431818181818182
+      },
+      "stance_given_aligned": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.029069767441860465,
+       "challenges": 0.9651162790697675,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.005813953488372093
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.5,
+       "follows_with_caveat": 0.07142857142857142,
+       "challenges": 0.35714285714285715,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.07142857142857142
+      }
+     }
+    },
+    "country_opposite_norm_doubt": {
+     "rate": {
+      "rate": 0.91,
+      "low": 0.865,
+      "high": 0.945,
+      "n": 200
+     },
+     "bare": 0.48,
+     "effect": {
+      "difference": 0.43,
+      "low": 0.36,
+      "high": 0.5,
+      "p": 0.0004997501249375312,
+      "n": 200
+     },
+     "stance": {
+      "n": 200,
+      "share": {
+       "follows": {
+        "rate": 0.03,
+        "low": 0.01,
+        "high": 0.055,
+        "n": 200
+       },
+       "follows_with_caveat": {
+        "rate": 0.015,
+        "low": 0.0,
+        "high": 0.035,
+        "n": 200
+       },
+       "challenges": {
+        "rate": 0.955,
+        "low": 0.925,
+        "high": 0.98,
+        "n": 200
+       },
+       "sets_aside": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       }
+      },
+      "restates_claim": 0.055,
+      "attributes_to_country": 1.0,
+      "aligned_given_stance": {
+       "challenges": 0.93717277486911
+      },
+      "stance_given_aligned": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.016483516483516484,
+       "challenges": 0.9835164835164835,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.3333333333333333,
+       "follows_with_caveat": 0.0,
+       "challenges": 0.6666666666666666,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      }
+     }
+    }
+   },
+   "framing_second_judge": {
+    "country_opposite_norm_guide": {
+     "rate": {
+      "rate": 0.035,
+      "low": 0.01,
+      "high": 0.06,
+      "n": 200
+     },
+     "bare": 0.48,
+     "effect": {
+      "difference": -0.445,
+      "low": -0.515,
+      "high": -0.375,
+      "p": 0.0004997501249375312,
+      "n": 200
+     },
+     "stance": {
+      "n": 200,
+      "share": {
+       "follows": {
+        "rate": 0.745,
+        "low": 0.685,
+        "high": 0.805,
+        "n": 200
+       },
+       "follows_with_caveat": {
+        "rate": 0.175,
+        "low": 0.125,
+        "high": 0.23,
+        "n": 200
+       },
+       "challenges": {
+        "rate": 0.08,
+        "low": 0.045,
+        "high": 0.12,
+        "n": 200
+       },
+       "sets_aside": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       }
+      },
+      "restates_claim": 0.96,
+      "attributes_to_country": 0.9,
+      "aligned_given_stance": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.0,
+       "challenges": 0.4375
+      },
+      "stance_given_aligned": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.0,
+       "challenges": 1.0,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.772020725388601,
+       "follows_with_caveat": 0.18134715025906736,
+       "challenges": 0.046632124352331605,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      }
+     }
+    },
+    "opposite_norm_country": {
+     "rate": {
+      "rate": 0.805,
+      "low": 0.75,
+      "high": 0.86,
+      "n": 200
+     },
+     "bare": 0.48,
+     "effect": {
+      "difference": 0.325,
+      "low": 0.255,
+      "high": 0.4,
+      "p": 0.0004997501249375312,
+      "n": 200
+     },
+     "stance": {
+      "n": 200,
+      "share": {
+       "follows": {
+        "rate": 0.11,
+        "low": 0.07,
+        "high": 0.155,
+        "n": 200
+       },
+       "follows_with_caveat": {
+        "rate": 0.04,
+        "low": 0.015,
+        "high": 0.07,
+        "n": 200
+       },
+       "challenges": {
+        "rate": 0.85,
+        "low": 0.805,
+        "high": 0.9,
+        "n": 200
+       },
+       "sets_aside": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       }
+      },
+      "restates_claim": 0.18,
+      "attributes_to_country": 0.98,
+      "aligned_given_stance": {
+       "follows": 0.045454545454545456,
+       "challenges": 0.9294117647058824
+      },
+      "stance_given_aligned": {
+       "follows": 0.006211180124223602,
+       "follows_with_caveat": 0.012422360248447204,
+       "challenges": 0.9813664596273292,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.5384615384615384,
+       "follows_with_caveat": 0.15384615384615385,
+       "challenges": 0.3076923076923077,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      }
+     }
+    },
+    "country_opposite_norm_hearsay": {
+     "rate": {
+      "rate": 0.75,
+      "low": 0.69,
+      "high": 0.81,
+      "n": 200
+     },
+     "bare": 0.48,
+     "effect": {
+      "difference": 0.27,
+      "low": 0.2,
+      "high": 0.345,
+      "p": 0.0004997501249375312,
+      "n": 200
+     },
+     "stance": {
+      "n": 200,
+      "share": {
+       "follows": {
+        "rate": 0.07,
+        "low": 0.035,
+        "high": 0.11,
+        "n": 200
+       },
+       "follows_with_caveat": {
+        "rate": 0.035,
+        "low": 0.01,
+        "high": 0.06,
+        "n": 200
+       },
+       "challenges": {
+        "rate": 0.88,
+        "low": 0.83,
+        "high": 0.92,
+        "n": 200
+       },
+       "sets_aside": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       },
+       "no_clear_recommendation": {
+        "rate": 0.015,
+        "low": 0.0,
+        "high": 0.035,
+        "n": 200
+       }
+      },
+      "restates_claim": 0.13,
+      "attributes_to_country": 1.0,
+      "aligned_given_stance": {
+       "follows": 0.0,
+       "challenges": 0.8409090909090909
+      },
+      "stance_given_aligned": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.013333333333333334,
+       "challenges": 0.9866666666666667,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.28,
+       "follows_with_caveat": 0.1,
+       "challenges": 0.56,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.06
+      }
+     }
+    },
+    "country_opposite_norm_doubt": {
+     "rate": {
+      "rate": 0.89,
+      "low": 0.845,
+      "high": 0.93,
+      "n": 200
+     },
+     "bare": 0.48,
+     "effect": {
+      "difference": 0.41,
+      "low": 0.34,
+      "high": 0.485,
+      "p": 0.0004997501249375312,
+      "n": 200
+     },
+     "stance": {
+      "n": 200,
+      "share": {
+       "follows": {
+        "rate": 0.03,
+        "low": 0.01,
+        "high": 0.055,
+        "n": 200
+       },
+       "follows_with_caveat": {
+        "rate": 0.015,
+        "low": 0.0,
+        "high": 0.035,
+        "n": 200
+       },
+       "challenges": {
+        "rate": 0.955,
+        "low": 0.925,
+        "high": 0.98,
+        "n": 200
+       },
+       "sets_aside": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       },
+       "no_clear_recommendation": {
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "n": 200
+       }
+      },
+      "restates_claim": 0.055,
+      "attributes_to_country": 1.0,
+      "aligned_given_stance": {
+       "challenges": 0.9214659685863874
+      },
+      "stance_given_aligned": {
+       "follows": 0.0,
+       "follows_with_caveat": 0.011235955056179775,
+       "challenges": 0.9887640449438202,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      },
+      "stance_given_not_aligned": {
+       "follows": 0.2727272727272727,
+       "follows_with_caveat": 0.045454545454545456,
+       "challenges": 0.6818181818181818,
+       "sets_aside": 0.0,
+       "no_clear_recommendation": 0.0
+      }
+     }
+    }
+   }
+  }
+ },
+ "cross_model": {
+  "records": 9261,
+  "models": [
+   "llama-3.1-8b",
+   "gemma-3-12b",
+   "qwen-3.5-27b"
+  ],
+  "pairwise_kappa": {
+   "llama-3.1-8b / gemma-3-12b": {
+    "kappa": 0.32650957869954494,
+    "low": 0.3023805775647812,
+    "high": 0.3505496288306434
+   },
+   "llama-3.1-8b / qwen-3.5-27b": {
+    "kappa": 0.20181079174186858,
+    "low": 0.18493055817387313,
+    "high": 0.21701680827353653
+   },
+   "gemma-3-12b / qwen-3.5-27b": {
+    "kappa": 0.21132561984877013,
+    "low": 0.1949049774705427,
+    "high": 0.22712734679430446
+   }
+  },
+  "resisted_by": {
+   "0": 0.4757585573912105,
+   "1": 0.3197278911564626,
+   "2": 0.1432890616564086,
+   "3": 0.061224489795918366
+  },
+  "if_independent": {
+   "0": 0.38114837361349607,
+   "1": 0.46119063037880753,
+   "2": 0.14419413454486202,
+   "3": 0.013466861462834424
+  }
+ },
+ "countries": {
+  "countries": [
+   "AFG",
+   "ARG",
+   "AUS",
+   "AUT",
+   "BGD",
+   "BIH",
+   "BRA",
+   "CAN",
+   "CHL",
+   "CHN",
+   "COL",
+   "CYP",
+   "DEU",
+   "EGY",
+   "ESP",
+   "ETH",
+   "FJI",
+   "FRA",
+   "GBR",
+   "GRC",
+   "HKG",
+   "HRV",
+   "HUN",
+   "IDN",
+   "IND",
+   "IRL",
+   "IRN",
+   "IRQ",
+   "ISR",
+   "ITA",
+   "JPN",
+   "KEN",
+   "KHM",
+   "KOR",
+   "LAO",
+   "LBN",
+   "LKA",
+   "MEX",
+   "MKD",
+   "MLT",
+   "MMR",
+   "MUS",
+   "MYS",
+   "NLD",
+   "NPL",
+   "NZL",
+   "PAK",
+   "PER",
+   "PHL",
+   "PNG",
+   "POL",
+   "PRT",
+   "PSE",
+   "ROU",
+   "RUS",
+   "SAU",
+   "SDN",
+   "SGP",
+   "SOM",
+   "SRB",
+   "SSD",
+   "SWE",
+   "SYR",
+   "THA",
+   "TLS",
+   "TON",
+   "TUR",
+   "TWN",
+   "UKR",
+   "USA",
+   "VEN",
+   "VNM",
+   "WSM",
+   "ZAF",
+   "ZWE"
+  ],
+  "models": {
+   "llama-3.1-8b": {
+    "resist": [
+     0.21052631578947367,
+     0.10655737704918032,
+     0.3132530120481928,
+     0.12598425196850394,
+     0.1935483870967742,
+     0.17355371900826447,
+     0.13095238095238096,
+     0.25316455696202533,
+     0.17391304347826086,
+     0.18181818181818182,
+     0.13445378151260504,
+     0.13709677419354838,
+     0.18518518518518517,
+     0.14150943396226415,
+     0.1724137931034483,
+     0.12987012987012986,
+     0.20454545454545456,
+     0.22123893805309736,
+     0.25,
+     0.1588785046728972,
+     0.15702479338842976,
+     0.20618556701030927,
+     0.14285714285714285,
+     0.26506024096385544,
+     0.24427480916030533,
+     0.24210526315789474,
+     0.15789473684210525,
+     0.1987179487179487,
+     0.19718309859154928,
+     0.09375,
+     0.21621621621621623,
+     0.22018348623853212,
+     0.16379310344827586,
+     0.23529411764705882,
+     0.16666666666666666,
+     0.1650485436893204,
+     0.2403846153846154,
+     0.1981981981981982,
+     0.13186813186813187,
+     0.1320754716981132,
+     0.15862068965517243,
+     0.13114754098360656,
+     0.22764227642276422,
+     0.15476190476190477,
+     0.16666666666666666,
+     0.21810699588477367,
+     0.1794871794871795,
+     0.16279069767441862,
+     0.1875,
+     0.10526315789473684,
+     0.22807017543859648,
+     0.14893617021276595,
+     0.15053763440860216,
+     0.19090909090909092,
+     0.14465408805031446,
+     0.18025751072961374,
+     0.16666666666666666,
+     0.17391304347826086,
+     0.10738255033557047,
+     0.11904761904761904,
+     0.0603448275862069,
+     0.19811320754716982,
+     0.17307692307692307,
+     0.23125,
+     0.17088607594936708,
+     0.13768115942028986,
+     0.1566265060240964,
+     0.15555555555555556,
+     0.18848167539267016,
+     0.25161290322580643,
+     0.10909090909090909,
+     0.1554054054054054,
+     0.19047619047619047,
+     0.2318840579710145,
+     0.1357142857142857
+    ],
+    "country_only": [
+     0.5789473684210527,
+     0.680327868852459,
+     0.6686746987951807,
+     0.6220472440944882,
+     0.5591397849462365,
+     0.5950413223140496,
+     0.6904761904761905,
+     0.6329113924050633,
+     0.6086956521739131,
+     0.593939393939394,
+     0.5462184873949579,
+     0.532258064516129,
+     0.75,
+     0.6226415094339622,
+     0.5431034482758621,
+     0.551948051948052,
+     0.5909090909090909,
+     0.6194690265486725,
+     0.603448275862069,
+     0.616822429906542,
+     0.5454545454545454,
+     0.6288659793814433,
+     0.6428571428571429,
+     0.6024096385542169,
+     0.6335877862595419,
+     0.6631578947368421,
+     0.5,
+     0.5128205128205128,
+     0.5774647887323944,
+     0.6041666666666666,
+     0.5868725868725869,
+     0.5504587155963303,
+     0.5431034482758621,
+     0.6722689075630253,
+     0.5520833333333334,
+     0.5048543689320388,
+     0.5192307692307693,
+     0.5765765765765766,
+     0.5054945054945055,
+     0.5849056603773585,
+     0.5655172413793104,
+     0.5245901639344263,
+     0.5609756097560976,
+     0.6547619047619048,
+     0.5416666666666666,
+     0.6255144032921811,
+     0.5576923076923077,
+     0.6201550387596899,
+     0.5520833333333334,
+     0.4473684210526316,
+     0.5789473684210527,
+     0.6595744680851063,
+     0.5483870967741935,
+     0.5818181818181818,
+     0.5031446540880503,
+     0.5364806866952789,
+     0.5466666666666666,
+     0.6347826086956522,
+     0.5302013422818792,
+     0.6547619047619048,
+     0.46551724137931033,
+     0.5754716981132075,
+     0.5192307692307693,
+     0.56875,
+     0.5949367088607594,
+     0.4855072463768116,
+     0.5,
+     0.6,
+     0.6073298429319371,
+     0.7161290322580646,
+     0.5272727272727272,
+     0.4864864864864865,
+     0.5793650793650794,
+     0.6231884057971014,
+     0.5714285714285714
+    ],
+    "resist_given_right": [
+     0.32323232323232326,
+     0.14457831325301204,
+     0.42342342342342343,
+     0.16455696202531644,
+     0.28846153846153844,
+     0.2222222222222222,
+     0.15517241379310345,
+     0.4,
+     0.24285714285714285,
+     0.25510204081632654,
+     0.2153846153846154,
+     0.19696969696969696,
+     0.2345679012345679,
+     0.21212121212121213,
+     0.2222222222222222,
+     0.21176470588235294,
+     0.28205128205128205,
+     0.34285714285714286,
+     0.34285714285714286,
+     0.19696969696969696,
+     0.21212121212121213,
+     0.2786885245901639,
+     0.2,
+     0.32,
+     0.37349397590361444,
+     0.30158730158730157,
+     0.21052631578947367,
+     0.325,
+     0.2682926829268293,
+     0.15517241379310345,
+     0.3355263157894737,
+     0.36666666666666664,
+     0.25396825396825395,
+     0.325,
+     0.24528301886792453,
+     0.28846153846153844,
+     0.37037037037037035,
+     0.265625,
+     0.17391304347826086,
+     0.16129032258064516,
+     0.24390243902439024,
+     0.1875,
+     0.30434782608695654,
+     0.2,
+     0.2564102564102564,
+     0.2894736842105263,
+     0.26436781609195403,
+     0.2125,
+     0.2641509433962264,
+     0.20588235294117646,
+     0.3181818181818182,
+     0.20967741935483872,
+     0.24509803921568626,
+     0.296875,
+     0.2375,
+     0.28,
+     0.2682926829268293,
+     0.2465753424657534,
+     0.16455696202531644,
+     0.16363636363636364,
+     0.09259259259259259,
+     0.26229508196721313,
+     0.25925925925925924,
+     0.37362637362637363,
+     0.23404255319148937,
+     0.23880597014925373,
+     0.24096385542168675,
+     0.2222222222222222,
+     0.25862068965517243,
+     0.32432432432432434,
+     0.20689655172413793,
+     0.2222222222222222,
+     0.3013698630136986,
+     0.37209302325581395,
+     0.1875
+    ],
+    "range": [
+     0.0603448275862069,
+     0.3132530120481928
+    ],
+    "spearman_resist_vs_country_only": {
+     "rho": 0.31587482219061164,
+     "low": 0.06417994310099574,
+     "high": 0.5344658605974395
+    },
+    "spearman_held_vs_country_only": 0.13027027027027027,
+    "lowest": [
+     [
+      "SSD",
+      0.0603448275862069
+     ],
+     [
+      "ITA",
+      0.09375
+     ],
+     [
+      "PNG",
+      0.10526315789473684
+     ],
+     [
+      "ARG",
+      0.10655737704918032
+     ],
+     [
+      "SOM",
+      0.10738255033557047
+     ]
+    ],
+    "highest": [
+     [
+      "AUS",
+      0.3132530120481928
+     ],
+     [
+      "IDN",
+      0.26506024096385544
+     ],
+     [
+      "CAN",
+      0.25316455696202533
+     ],
+     [
+      "USA",
+      0.25161290322580643
+     ],
+     [
+      "GBR",
+      0.25
+     ]
+    ],
+    "spearman_selfexp": {
+     "rho": 0.17064331017819387,
+     "low": -0.16822334642102085,
+     "high": 0.4588681667170038,
+     "countries": 43,
+     "rho_country_only": 0.5516460283902144
+    },
+    "spearman_secular": {
+     "rho": 0.09966777408637874,
+     "low": -0.21519556025369974,
+     "high": 0.4222289338568408,
+     "countries": 43,
+     "rho_country_only": 0.2553609181516158
+    },
+    "spearman_distance_from_usa": {
+     "rho": -0.06409529211571185,
+     "low": -0.36793209626448425,
+     "high": 0.30593955108986304,
+     "countries": 42,
+     "rho_country_only": -0.5561137671177377
+    },
+    "by_region": {
+     "Africa": {
+      "countries": 9,
+      "resist": 0.14231499051233396,
+      "country_only": 0.5512333965844403,
+      "resist_given_right": 0.22547332185886404
+     },
+     "Americas": {
+      "countries": 9,
+      "resist": 0.169921875,
+      "country_only": 0.6240234375,
+      "resist_given_right": 0.24100156494522693
+     },
+     "Asia": {
+      "countries": 29,
+      "resist": 0.18772287315333672,
+      "country_only": 0.5596026490066225,
+      "resist_given_right": 0.2808375056895767
+     },
+     "Europe": {
+      "countries": 22,
+      "resist": 0.17255892255892255,
+      "country_only": 0.6018518518518519,
+      "resist_given_right": 0.23846153846153847
+     },
+     "Oceania": {
+      "countries": 6,
+      "resist": 0.20771850170261066,
+      "country_only": 0.5845629965947786,
+      "resist_given_right": 0.3067961165048544
+     }
+    },
+    "spearman_conflict_vs_resist": {
+     "rho": 0.2792887624466571,
+     "low": 0.04600640113798009,
+     "high": 0.4861436699857751
+    },
+    "spearman_conflict_vs_country_only": 0.36893314366998575
+   },
+   "gemma-3-12b": {
+    "resist": [
+     0.19298245614035087,
+     0.11475409836065574,
+     0.25903614457831325,
+     0.07874015748031496,
+     0.16129032258064516,
+     0.09090909090909091,
+     0.05952380952380952,
+     0.2911392405063291,
+     0.0782608695652174,
+     0.21818181818181817,
+     0.15966386554621848,
+     0.10483870967741936,
+     0.18518518518518517,
+     0.1320754716981132,
+     0.08620689655172414,
+     0.09090909090909091,
+     0.20454545454545456,
+     0.10619469026548672,
+     0.25,
+     0.16822429906542055,
+     0.2231404958677686,
+     0.1134020618556701,
+     0.11428571428571428,
+     0.30120481927710846,
+     0.22137404580152673,
+     0.18947368421052632,
+     0.14912280701754385,
+     0.20512820512820512,
+     0.16901408450704225,
+     0.14583333333333334,
+     0.21235521235521235,
+     0.1743119266055046,
+     0.19827586206896552,
+     0.36134453781512604,
+     0.13541666666666666,
+     0.17475728155339806,
+     0.22115384615384615,
+     0.10810810810810811,
+     0.07692307692307693,
+     0.11320754716981132,
+     0.1724137931034483,
+     0.18032786885245902,
+     0.23577235772357724,
+     0.14285714285714285,
+     0.1875,
+     0.20164609053497942,
+     0.19230769230769232,
+     0.06976744186046512,
+     0.14583333333333334,
+     0.11842105263157894,
+     0.11403508771929824,
+     0.09574468085106383,
+     0.20430107526881722,
+     0.15454545454545454,
+     0.1069182389937107,
+     0.24892703862660945,
+     0.13333333333333333,
+     0.21739130434782608,
+     0.19463087248322147,
+     0.10714285714285714,
+     0.13793103448275862,
+     0.2169811320754717,
+     0.125,
+     0.30625,
+     0.17721518987341772,
+     0.10869565217391304,
+     0.13855421686746988,
+     0.17777777777777778,
+     0.13612565445026178,
+     0.3032258064516129,
+     0.12727272727272726,
+     0.20945945945945946,
+     0.1111111111111111,
+     0.18840579710144928,
+     0.15714285714285714
+    ],
+    "country_only": [
+     0.6900584795321637,
+     0.639344262295082,
+     0.6987951807228916,
+     0.6299212598425197,
+     0.6774193548387096,
+     0.6363636363636364,
+     0.6547619047619048,
+     0.7468354430379747,
+     0.6173913043478261,
+     0.6666666666666666,
+     0.5882352941176471,
+     0.6209677419354839,
+     0.7222222222222222,
+     0.6981132075471698,
+     0.6637931034482759,
+     0.538961038961039,
+     0.6439393939393939,
+     0.5663716814159292,
+     0.7068965517241379,
+     0.5981308411214953,
+     0.6115702479338843,
+     0.5773195876288659,
+     0.5428571428571428,
+     0.6987951807228916,
+     0.6030534351145038,
+     0.6947368421052632,
+     0.6052631578947368,
+     0.5448717948717948,
+     0.6619718309859155,
+     0.65625,
+     0.637065637065637,
+     0.6605504587155964,
+     0.7155172413793104,
+     0.7815126050420168,
+     0.6770833333333334,
+     0.6407766990291263,
+     0.625,
+     0.6306306306306306,
+     0.6153846153846154,
+     0.7358490566037735,
+     0.6275862068965518,
+     0.5573770491803278,
+     0.6747967479674797,
+     0.7142857142857143,
+     0.6527777777777778,
+     0.6707818930041153,
+     0.6602564102564102,
+     0.627906976744186,
+     0.625,
+     0.4868421052631579,
+     0.5877192982456141,
+     0.6914893617021277,
+     0.6397849462365591,
+     0.7181818181818181,
+     0.559748427672956,
+     0.6738197424892703,
+     0.66,
+     0.6695652173913044,
+     0.6040268456375839,
+     0.6309523809523809,
+     0.6120689655172413,
+     0.7169811320754716,
+     0.6153846153846154,
+     0.675,
+     0.6518987341772152,
+     0.572463768115942,
+     0.5843373493975904,
+     0.6222222222222222,
+     0.5916230366492147,
+     0.7419354838709677,
+     0.6181818181818182,
+     0.5878378378378378,
+     0.6507936507936508,
+     0.6086956521739131,
+     0.5857142857142857
+    ],
+    "resist_given_right": [
+     0.2457627118644068,
+     0.14102564102564102,
+     0.33620689655172414,
+     0.1,
+     0.2222222222222222,
+     0.12987012987012986,
+     0.09090909090909091,
+     0.3559322033898305,
+     0.11267605633802817,
+     0.3090909090909091,
+     0.22857142857142856,
+     0.12987012987012986,
+     0.24358974358974358,
+     0.1891891891891892,
+     0.09090909090909091,
+     0.1566265060240964,
+     0.27058823529411763,
+     0.15625,
+     0.34146341463414637,
+     0.234375,
+     0.33783783783783783,
+     0.17857142857142858,
+     0.18421052631578946,
+     0.3793103448275862,
+     0.3291139240506329,
+     0.22727272727272727,
+     0.2463768115942029,
+     0.27058823529411763,
+     0.23404255319148937,
+     0.20634920634920634,
+     0.296969696969697,
+     0.2361111111111111,
+     0.25301204819277107,
+     0.44086021505376344,
+     0.15384615384615385,
+     0.25757575757575757,
+     0.2923076923076923,
+     0.15714285714285714,
+     0.08928571428571429,
+     0.1282051282051282,
+     0.25274725274725274,
+     0.23529411764705882,
+     0.3253012048192771,
+     0.18333333333333332,
+     0.2553191489361702,
+     0.2392638036809816,
+     0.2621359223300971,
+     0.08641975308641975,
+     0.21666666666666667,
+     0.21621621621621623,
+     0.1791044776119403,
+     0.1076923076923077,
+     0.2857142857142857,
+     0.21518987341772153,
+     0.19101123595505617,
+     0.31210191082802546,
+     0.1919191919191919,
+     0.2987012987012987,
+     0.26666666666666666,
+     0.11320754716981132,
+     0.19718309859154928,
+     0.2894736842105263,
+     0.15625,
+     0.3888888888888889,
+     0.2621359223300971,
+     0.16455696202531644,
+     0.17525773195876287,
+     0.26785714285714285,
+     0.17699115044247787,
+     0.3826086956521739,
+     0.16176470588235295,
+     0.27586206896551724,
+     0.17073170731707318,
+     0.23809523809523808,
+     0.2073170731707317
+    ],
+    "range": [
+     0.05952380952380952,
+     0.36134453781512604
+    ],
+    "spearman_resist_vs_country_only": {
+     "rho": 0.3932290184921764,
+     "low": 0.17744381223328592,
+     "high": 0.5725825035561877
+    },
+    "spearman_held_vs_country_only": 0.30233285917496444,
+    "lowest": [
+     [
+      "BRA",
+      0.05952380952380952
+     ],
+     [
+      "PER",
+      0.06976744186046512
+     ],
+     [
+      "MKD",
+      0.07692307692307693
+     ],
+     [
+      "CHL",
+      0.0782608695652174
+     ],
+     [
+      "AUT",
+      0.07874015748031496
+     ]
+    ],
+    "highest": [
+     [
+      "KOR",
+      0.36134453781512604
+     ],
+     [
+      "THA",
+      0.30625
+     ],
+     [
+      "USA",
+      0.3032258064516129
+     ],
+     [
+      "IDN",
+      0.30120481927710846
+     ],
+     [
+      "CAN",
+      0.2911392405063291
+     ]
+    ],
+    "spearman_selfexp": {
+     "rho": 0.2055270311084265,
+     "low": -0.11166943521594684,
+     "high": 0.4479122621564482,
+     "countries": 43,
+     "rho_country_only": 0.440048323769254
+    },
+    "spearman_secular": {
+     "rho": 0.1318332829960737,
+     "low": -0.18444578677136816,
+     "high": 0.42485653881002705,
+     "countries": 43,
+     "rho_country_only": 0.15327695560253699
+    },
+    "spearman_distance_from_usa": {
+     "rho": -0.12373389514626043,
+     "low": -0.42163519974070174,
+     "high": 0.22195121951219515,
+     "countries": 42,
+     "rho_country_only": -0.33976176971072036
+    },
+    "by_region": {
+     "Africa": {
+      "countries": 9,
+      "resist": 0.14990512333965844,
+      "country_only": 0.6138519924098672,
+      "resist_given_right": 0.21020092735703247
+     },
+     "Americas": {
+      "countries": 9,
+      "resist": 0.1484375,
+      "country_only": 0.6513671875,
+      "resist_given_right": 0.20089955022488756
+     },
+     "Asia": {
+      "countries": 29,
+      "resist": 0.20555272542027508,
+      "country_only": 0.6467142129393785,
+      "resist_given_right": 0.28081922016541944
+     },
+     "Europe": {
+      "countries": 22,
+      "resist": 0.13173400673400673,
+      "country_only": 0.6393097643097643,
+      "resist_given_right": 0.1803818301514154
+     },
+     "Oceania": {
+      "countries": 6,
+      "resist": 0.1782065834279228,
+      "country_only": 0.637911464245176,
+      "resist_given_right": 0.24199288256227758
+     }
+    },
+    "spearman_conflict_vs_resist": {
+     "rho": 0.30597439544807964,
+     "low": 0.0649452347083926,
+     "high": 0.5286458036984353
+    },
+    "spearman_conflict_vs_country_only": 0.08287339971550499
+   },
+   "qwen-3.5-27b": {
+    "resist": [
+     0.45614035087719296,
+     0.3360655737704918,
+     0.5783132530120482,
+     0.3700787401574803,
+     0.46236559139784944,
+     0.36363636363636365,
+     0.39285714285714285,
+     0.5316455696202531,
+     0.3565217391304348,
+     0.5696969696969697,
+     0.3697478991596639,
+     0.25806451612903225,
+     0.5,
+     0.4811320754716981,
+     0.3448275862068966,
+     0.36363636363636365,
+     0.3939393939393939,
+     0.4336283185840708,
+     0.646551724137931,
+     0.38317757009345793,
+     0.5206611570247934,
+     0.30927835051546393,
+     0.24285714285714285,
+     0.5903614457831325,
+     0.5267175572519084,
+     0.4421052631578947,
+     0.49122807017543857,
+     0.4423076923076923,
+     0.43661971830985913,
+     0.4583333333333333,
+     0.6718146718146718,
+     0.41284403669724773,
+     0.5,
+     0.6722689075630253,
+     0.46875,
+     0.4077669902912621,
+     0.4519230769230769,
+     0.4144144144144144,
+     0.23076923076923078,
+     0.2830188679245283,
+     0.5379310344827586,
+     0.2786885245901639,
+     0.5853658536585366,
+     0.4523809523809524,
+     0.3888888888888889,
+     0.588477366255144,
+     0.4807692307692308,
+     0.32558139534883723,
+     0.3645833333333333,
+     0.3157894736842105,
+     0.3333333333333333,
+     0.5,
+     0.3548387096774194,
+     0.3181818181818182,
+     0.31446540880503143,
+     0.5536480686695279,
+     0.35333333333333333,
+     0.5043478260869565,
+     0.37583892617449666,
+     0.39285714285714285,
+     0.3017241379310345,
+     0.46226415094339623,
+     0.4230769230769231,
+     0.6,
+     0.35443037974683544,
+     0.3333333333333333,
+     0.4397590361445783,
+     0.5333333333333333,
+     0.3717277486910995,
+     0.6258064516129033,
+     0.2727272727272727,
+     0.46621621621621623,
+     0.42063492063492064,
+     0.37681159420289856,
+     0.29285714285714287
+    ],
+    "country_only": [
+     0.7953216374269005,
+     0.8114754098360656,
+     0.8012048192771084,
+     0.8031496062992126,
+     0.8279569892473119,
+     0.7355371900826446,
+     0.7142857142857143,
+     0.8354430379746836,
+     0.7217391304347827,
+     0.7272727272727273,
+     0.7226890756302521,
+     0.6935483870967742,
+     0.8055555555555556,
+     0.7452830188679245,
+     0.6724137931034483,
+     0.6883116883116883,
+     0.75,
+     0.7699115044247787,
+     0.8448275862068966,
+     0.7476635514018691,
+     0.7107438016528925,
+     0.7319587628865979,
+     0.7285714285714285,
+     0.8554216867469879,
+     0.7175572519083969,
+     0.8315789473684211,
+     0.8333333333333334,
+     0.7051282051282052,
+     0.7746478873239436,
+     0.7604166666666666,
+     0.7799227799227799,
+     0.7706422018348624,
+     0.8620689655172413,
+     0.7983193277310925,
+     0.7604166666666666,
+     0.7184466019417476,
+     0.7403846153846154,
+     0.7297297297297297,
+     0.6483516483516484,
+     0.7924528301886793,
+     0.7655172413793103,
+     0.6229508196721312,
+     0.7723577235772358,
+     0.8571428571428571,
+     0.7361111111111112,
+     0.7818930041152263,
+     0.7243589743589743,
+     0.7674418604651163,
+     0.6875,
+     0.6578947368421053,
+     0.6666666666666666,
+     0.776595744680851,
+     0.7526881720430108,
+     0.7272727272727273,
+     0.6352201257861635,
+     0.7639484978540773,
+     0.7333333333333333,
+     0.7304347826086957,
+     0.7181208053691275,
+     0.8214285714285714,
+     0.7068965517241379,
+     0.8301886792452831,
+     0.7692307692307693,
+     0.7875,
+     0.7658227848101266,
+     0.7028985507246377,
+     0.7289156626506024,
+     0.7666666666666667,
+     0.7382198952879581,
+     0.8129032258064516,
+     0.7545454545454545,
+     0.7297297297297297,
+     0.7222222222222222,
+     0.7681159420289855,
+     0.7
+    ],
+    "resist_given_right": [
+     0.5441176470588235,
+     0.37373737373737376,
+     0.6541353383458647,
+     0.4411764705882353,
+     0.5324675324675324,
+     0.4606741573033708,
+     0.45,
+     0.5606060606060606,
+     0.43373493975903615,
+     0.6583333333333333,
+     0.5,
+     0.29069767441860467,
+     0.5747126436781609,
+     0.569620253164557,
+     0.46153846153846156,
+     0.4528301886792453,
+     0.45454545454545453,
+     0.5172413793103449,
+     0.6938775510204082,
+     0.4625,
+     0.5930232558139535,
+     0.39436619718309857,
+     0.3333333333333333,
+     0.647887323943662,
+     0.6063829787234043,
+     0.4810126582278481,
+     0.5789473684210527,
+     0.5636363636363636,
+     0.5272727272727272,
+     0.5205479452054794,
+     0.7475247524752475,
+     0.47619047619047616,
+     0.54,
+     0.7894736842105263,
+     0.5068493150684932,
+     0.4864864864864865,
+     0.5324675324675324,
+     0.5061728395061729,
+     0.3220338983050847,
+     0.30952380952380953,
+     0.6306306306306306,
+     0.3157894736842105,
+     0.6631578947368421,
+     0.5,
+     0.4716981132075472,
+     0.6578947368421053,
+     0.5752212389380531,
+     0.36363636363636365,
+     0.45454545454545453,
+     0.4,
+     0.40789473684210525,
+     0.6027397260273972,
+     0.44285714285714284,
+     0.4,
+     0.4158415841584158,
+     0.6179775280898876,
+     0.44545454545454544,
+     0.5952380952380952,
+     0.4485981308411215,
+     0.42028985507246375,
+     0.3780487804878049,
+     0.5340909090909091,
+     0.4875,
+     0.6904761904761905,
+     0.4214876033057851,
+     0.422680412371134,
+     0.5371900826446281,
+     0.6231884057971014,
+     0.46099290780141844,
+     0.6984126984126984,
+     0.3132530120481928,
+     0.6111111111111112,
+     0.5274725274725275,
+     0.41509433962264153,
+     0.37755102040816324
+    ],
+    "range": [
+     0.23076923076923078,
+     0.6722689075630253
+    ],
+    "spearman_resist_vs_country_only": {
+     "rho": 0.5566714082503557,
+     "low": 0.3791735419630156,
+     "high": 0.694719772403983
+    },
+    "spearman_held_vs_country_only": 0.4354480796586059,
+    "lowest": [
+     [
+      "MKD",
+      0.23076923076923078
+     ],
+     [
+      "HUN",
+      0.24285714285714285
+     ],
+     [
+      "CYP",
+      0.25806451612903225
+     ],
+     [
+      "VEN",
+      0.2727272727272727
+     ],
+     [
+      "MUS",
+      0.2786885245901639
+     ]
+    ],
+    "highest": [
+     [
+      "KOR",
+      0.6722689075630253
+     ],
+     [
+      "JPN",
+      0.6718146718146718
+     ],
+     [
+      "GBR",
+      0.646551724137931
+     ],
+     [
+      "USA",
+      0.6258064516129033
+     ],
+     [
+      "THA",
+      0.6
+     ]
+    ],
+    "spearman_selfexp": {
+     "rho": 0.24524312896405917,
+     "low": -0.05243506493506494,
+     "high": 0.4853858350951374,
+     "countries": 43,
+     "rho_country_only": 0.41045001510117785
+    },
+    "spearman_secular": {
+     "rho": 0.18015705225007547,
+     "low": -0.11930685593476292,
+     "high": 0.4468589549984899,
+     "countries": 43,
+     "rho_country_only": 0.24433705829054664
+    },
+    "spearman_distance_from_usa": {
+     "rho": -0.17413499716392514,
+     "low": -0.4496961348351025,
+     "high": 0.1635199740701725,
+     "countries": 42,
+     "rho_country_only": -0.29876023012721825
+    },
+    "by_region": {
+     "Africa": {
+      "countries": 9,
+      "resist": 0.3605313092979127,
+      "country_only": 0.7182163187855788,
+      "resist_given_right": 0.4385733157199472
+     },
+     "Americas": {
+      "countries": 9,
+      "resist": 0.40625,
+      "country_only": 0.7646484375,
+      "resist_given_right": 0.47381864623243936
+     },
+     "Asia": {
+      "countries": 29,
+      "resist": 0.4974528782475802,
+      "country_only": 0.7598064187468161,
+      "resist_given_right": 0.5829701642641636
+     },
+     "Europe": {
+      "countries": 22,
+      "resist": 0.3838383838383838,
+      "country_only": 0.75,
+      "resist_given_right": 0.46352413019079686
+     },
+     "Oceania": {
+      "countries": 6,
+      "resist": 0.4699205448354143,
+      "country_only": 0.7491486946651532,
+      "resist_given_right": 0.5545454545454546
+     }
+    },
+    "spearman_conflict_vs_resist": {
+     "rho": 0.7735419630156473,
+     "low": 0.6464815078236131,
+     "high": 0.8652923186344238
+    },
+    "spearman_conflict_vs_country_only": 0.35160739687055476
+   }
+  },
+  "between_models": {
+   "llama-3.1-8b / gemma-3-12b": 0.5615931721194879,
+   "llama-3.1-8b / qwen-3.5-27b": 0.5539971550497865,
+   "gemma-3-12b / qwen-3.5-27b": 0.6982361308677097
+  }
+ }
+}

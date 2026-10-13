@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "culturelens"
+version = "1.0.0"
+license = { text = "MIT" }
+description = "CultureLens: a benchmark and mechanistic study of how language models use cultural information"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "pyarrow>=18.0",
+  "pycountry>=24.6",
+  "pydantic>=2.10",
+  "PyYAML>=6.0",
+  "scipy>=1.14",
+]
+
+[project.optional-dependencies]
+# Every generative stage needs a served model.
+generation = ["vllm>=0.8"]
+mechanistic = [
+  "accelerate>=1.2",
+  "safetensors>=0.4",
+  "torch>=2.5",
+  "transformers>=4.53",
+]
+finetune = [
+  "accelerate>=1.2",
+  "peft>=0.13",
+  "torch>=2.5",
+  "transformers>=4.53",
+]
+figures = ["matplotlib>=3.9"]
+# Semantic grouping embeds norms and scenarios before clustering.
+grouping = [
+  "scikit-learn>=1.6",
+  "sentence-transformers>=5.0",
+]
+dev = ["pytest>=8.0", "ruff>=0.11"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

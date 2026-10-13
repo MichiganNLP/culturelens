@@ -1,0 +1,182 @@
+{
+  "analysis": "claim_reading_heads",
+  "model_slug": "gemma-3-12b",
+  "dataset_sha256": "f06c2383b23f56fc12d8f70abaf7deb8c0bb79f9033ad944368f3ef7a7c0cfbf",
+  "sample": 200,
+  "sample_rule": "uniform without replacement over all records, seed 42 (the development sample)",
+  "window": [
+    18,
+    24
+  ],
+  "heads_in_window": 96,
+  "endpoint": "mean change in margin when the answer stream cannot attend to the false claim through the given heads",
+  "window_effect": 10.914443016052246,
+  "single_head_effects_ranked": [
+    {
+      "layer": 20,
+      "head": 0,
+      "effect": 1.6171467304229736
+    },
+    {
+      "layer": 23,
+      "head": 8,
+      "effect": 0.7788571119308472
+    },
+    {
+      "layer": 23,
+      "head": 3,
+      "effect": 0.5980924367904663
+    },
+    {
+      "layer": 22,
+      "head": 9,
+      "effect": 0.5136465430259705
+    },
+    {
+      "layer": 21,
+      "head": 11,
+      "effect": 0.4223836660385132
+    },
+    {
+      "layer": 23,
+      "head": 10,
+      "effect": 0.3430313467979431
+    },
+    {
+      "layer": 23,
+      "head": 5,
+      "effect": 0.3372457027435303
+    },
+    {
+      "layer": 23,
+      "head": 4,
+      "effect": 0.31077027320861816
+    },
+    {
+      "layer": 21,
+      "head": 0,
+      "effect": 0.2845863401889801
+    },
+    {
+      "layer": 21,
+      "head": 7,
+      "effect": 0.2820831537246704
+    },
+    {
+      "layer": 20,
+      "head": 11,
+      "effect": 0.28036925196647644
+    },
+    {
+      "layer": 22,
+      "head": 0,
+      "effect": 0.23826530575752258
+    },
+    {
+      "layer": 21,
+      "head": 4,
+      "effect": 0.23529446125030518
+    },
+    {
+      "layer": 19,
+      "head": 9,
+      "effect": 0.19915585219860077
+    },
+    {
+      "layer": 22,
+      "head": 5,
+      "effect": 0.19913746416568756
+    },
+    {
+      "layer": 19,
+      "head": 0,
+      "effect": 0.16365158557891846
+    },
+    {
+      "layer": 22,
+      "head": 10,
+      "effect": 0.12421540915966034
+    },
+    {
+      "layer": 19,
+      "head": 8,
+      "effect": 0.11642824113368988
+    },
+    {
+      "layer": 22,
+      "head": 1,
+      "effect": 0.10732219368219376
+    },
+    {
+      "layer": 22,
+      "head": 14,
+      "effect": 0.10501261055469513
+    }
+  ],
+  "joint_effect_top": {
+    "1": 1.6171467304229736,
+    "2": 2.466787099838257,
+    "4": 4.011224746704102,
+    "8": 6.209347724914551,
+    "16": 9.245453834533691,
+    "32": 11.763080596923828,
+    "64": 15.024372100830078
+  },
+  "joint_effect_random": {
+    "1": -0.22138682007789612,
+    "2": -0.10485721379518509,
+    "4": -0.5096253752708435,
+    "8": -1.2416819334030151,
+    "16": -1.0854486227035522,
+    "32": 0.17246046662330627,
+    "64": 5.8934526443481445
+  },
+  "selection_rule": "smallest size reaching 50% of the window effect",
+  "selection": {
+    "model_slug": "gemma-3-12b",
+    "window": [
+      18,
+      24
+    ],
+    "size": 8,
+    "heads": {
+      "20": [
+        0
+      ],
+      "23": [
+        8,
+        3,
+        10,
+        5,
+        4
+      ],
+      "22": [
+        9
+      ],
+      "21": [
+        11
+      ]
+    },
+    "random_heads": {
+      "21": [
+        9
+      ],
+      "19": [
+        5,
+        2,
+        11
+      ],
+      "22": [
+        11
+      ],
+      "20": [
+        1,
+        8
+      ],
+      "23": [
+        13
+      ]
+    }
+  },
+  "seconds": 610.0
+}

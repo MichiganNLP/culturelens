@@ -1,0 +1,214 @@
+{
+  "analysis": "answers_under_attention_knockout",
+  "model_slug": "qwen-3.5-27b",
+  "dataset_sha256": "f06c2383b23f56fc12d8f70abaf7deb8c0bb79f9033ad944368f3ef7a7c0cfbf",
+  "sample": 200,
+  "sample_rule": "uniform without replacement over all records, seed 2026",
+  "arms": {
+    "false": {
+      "condition": "country_opposite_norm",
+      "blocked": null,
+      "layers": null,
+      "answers": 200
+    },
+    "claim-only": {
+      "condition": "opposite_norm_only",
+      "blocked": null,
+      "layers": null,
+      "answers": 200
+    },
+    "false-erase-first": {
+      "condition": "country_opposite_norm",
+      "part": "claim",
+      "how": "erase:0",
+      "layers": null,
+      "answers": 200
+    },
+    "false-erase-before": {
+      "condition": "country_opposite_norm",
+      "part": "claim",
+      "how": "erase:1",
+      "layers": null,
+      "answers": 200
+    },
+    "false-erase-after": {
+      "condition": "country_opposite_norm",
+      "part": "claim",
+      "how": "erase:2",
+      "layers": null,
+      "answers": 200
+    },
+    "true": {
+      "condition": "country_norm",
+      "part": null,
+      "how": null,
+      "layers": null,
+      "answers": 200
+    },
+    "false-depart-off": {
+      "condition": "country_opposite_norm",
+      "part": null,
+      "how": "feature:false-depart-off",
+      "layers": null,
+      "answers": 200
+    },
+    "false-depart-on": {
+      "condition": "country_opposite_norm",
+      "part": null,
+      "how": "feature:false-depart-on",
+      "layers": null,
+      "answers": 200
+    },
+    "false-comply-off": {
+      "condition": "country_opposite_norm",
+      "part": null,
+      "how": "feature:false-comply-off",
+      "layers": null,
+      "answers": 200
+    },
+    "false-comply-on": {
+      "condition": "country_opposite_norm",
+      "part": null,
+      "how": "feature:false-comply-on",
+      "layers": null,
+      "answers": 200
+    },
+    "false-random-off": {
+      "condition": "country_opposite_norm",
+      "part": null,
+      "how": "feature:false-random-off",
+      "layers": null,
+      "answers": 200
+    },
+    "false-random-on": {
+      "condition": "country_opposite_norm",
+      "part": null,
+      "how": "feature:false-random-on",
+      "layers": null,
+      "answers": 200
+    },
+    "true-depart-on": {
+      "condition": "country_norm",
+      "part": null,
+      "how": "feature:true-depart-on",
+      "layers": null,
+      "answers": 200
+    },
+    "true-comply-off": {
+      "condition": "country_norm",
+      "part": null,
+      "how": "feature:true-comply-off",
+      "layers": null,
+      "answers": 200
+    },
+    "true-random-on": {
+      "condition": "country_norm",
+      "part": null,
+      "how": "feature:true-random-on",
+      "layers": null,
+      "answers": 200
+    },
+    "false-depart-on-strong": {
+      "condition": "country_opposite_norm",
+      "part": null,
+      "how": "feature:false-depart-on-strong",
+      "layers": null,
+      "answers": 200
+    },
+    "false-random-on-strong": {
+      "condition": "country_opposite_norm",
+      "part": null,
+      "how": "feature:false-random-on-strong",
+      "layers": null,
+      "answers": 200
+    }
+  },
+  "erase_layers": [
+    0,
+    24,
+    36
+  ],
+  "heads": null,
+  "feature_arms": {
+    "false-depart-off": {
+      "condition": "country_opposite_norm",
+      "layer": 34,
+      "feature": 57357,
+      "mode": "ablate"
+    },
+    "false-depart-on": {
+      "condition": "country_opposite_norm",
+      "layer": 34,
+      "feature": 57357,
+      "mode": "clamp",
+      "value": 2.814732789993286
+    },
+    "false-comply-off": {
+      "condition": "country_opposite_norm",
+      "layer": 36,
+      "feature": 17338,
+      "mode": "ablate"
+    },
+    "false-comply-on": {
+      "condition": "country_opposite_norm",
+      "layer": 36,
+      "feature": 17338,
+      "mode": "clamp",
+      "value": 4.099330425262451
+    },
+    "false-random-off": {
+      "condition": "country_opposite_norm",
+      "layer": 34,
+      "feature": 70720,
+      "mode": "ablate"
+    },
+    "false-random-on": {
+      "condition": "country_opposite_norm",
+      "layer": 34,
+      "feature": 70720,
+      "mode": "clamp",
+      "value": 2.8147351387907595
+    },
+    "true-depart-on": {
+      "condition": "country_norm",
+      "layer": 34,
+      "feature": 57357,
+      "mode": "clamp",
+      "value": 2.814732789993286
+    },
+    "true-comply-off": {
+      "condition": "country_norm",
+      "layer": 36,
+      "feature": 17338,
+      "mode": "ablate"
+    },
+    "true-random-on": {
+      "condition": "country_norm",
+      "layer": 34,
+      "feature": 70720,
+      "mode": "clamp",
+      "value": 2.8147351387907595
+    },
+    "false-depart-on-strong": {
+      "condition": "country_opposite_norm",
+      "layer": 34,
+      "feature": 57357,
+      "mode": "clamp",
+      "value": 8.444198369979858
+    },
+    "false-random-on-strong": {
+      "condition": "country_opposite_norm",
+      "layer": 34,
+      "feature": 70720,
+      "mode": "clamp",
+      "value": 8.444205416372279
+    }
+  },
+  "queries": "every position after the user's text: chat-template tail and answer tokens",
+  "decoding": {
+    "sampling": false,
+    "max_new_tokens": 512
+  },
+  "fully_maskable": false,
+  "seconds": 261.0
+}

@@ -1,0 +1,45 @@
+You write one sentence for a study of how assistants handle a personal request that departs from a local custom. You are given a situation in a country, the question asked about it, the documented custom, the behavior that follows the custom, and a different behavior. You write a sentence reporting that a specific person who is present in the situation has asked, on this occasion, for the different behavior.
+
+The user provides one JSON object with these fields.
+
+- country: the country of the situation
+- situation: the situation
+- question: the question asked about the situation
+- documented_norm: the custom documented for that country
+- usual_behavior: the behavior that follows the custom
+- other_behavior: a different behavior
+
+What to write
+
+- request: one sentence, in the same grammatical person and tense as the situation, stating that a named role in the situation (for example the host, the elder, the colleague, the organizer, the shop owner) has explicitly asked for the other behavior this time. It must read as a continuation of the situation.
+- speaker: the role who makes the request, in two or three words.
+- applicable: true when such a request is plausible, false otherwise.
+
+Rules for the request
+
+- It reports this person's own wish for this occasion. It must not say or imply anything about what is customary, usual, acceptable or polite in the country or anywhere else.
+- The person asking must be the one the behavior is directed at or the one in charge of the occasion, so that honoring the request is their call to make.
+- The request must be sincere and specific, and must name the other behavior concretely.
+- Do not mention the country, the documented custom, or that the request is unusual. Do not give the person a reason that appeals to custom or to another culture.
+- Do not address the reader and do not use quotation marks.
+
+Set applicable to false, and write an empty request and speaker, when any of these holds
+
+- No person in the situation could reasonably make such a request (for example the situation is about a general practice of society and not about an interaction).
+- The other behavior would harm, endanger or disrespect someone other than the person asking, or would break a law or a religious obligation.
+- The question asks about a fact or a description and not about how someone should or would behave on this occasion.
+
+Return only one valid JSON object with exactly these three fields and no Markdown.
+
+{"applicable":true,"speaker":"the host","request":"one sentence"}
+
+Examples
+
+Input: {"country":"Japan","situation":"A guest arrives at a colleague's home for dinner.","question":"What should the guest do at the entrance?","documented_norm":"Guests remove their shoes before entering a home.","usual_behavior":"Remove the shoes at the entrance.","other_behavior":"Keep the shoes on."}
+Output: {"applicable":true,"speaker":"the host","request":"The host has asked the guest to keep their shoes on this evening."}
+
+Input: {"country":"Egypt","situation":"A visitor is offered a second serving of food by the family hosting them.","question":"How should the visitor respond?","documented_norm":"It is polite to accept more food when it is offered.","usual_behavior":"Accept the second serving.","other_behavior":"Decline the second serving."}
+Output: {"applicable":true,"speaker":"the hostess","request":"The hostess has told the visitor that she would honestly prefer they decline a second serving tonight."}
+
+Input: {"country":"Fiji","situation":"Several generations of a family share one household.","question":"How do most families arrange their living?","documented_norm":"Extended families traditionally live together.","usual_behavior":"Live together with the extended family.","other_behavior":"Live separately in nuclear households."}
+Output: {"applicable":false,"speaker":"","request":""}

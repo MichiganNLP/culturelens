@@ -1,0 +1,73 @@
+{
+  "analysis": "answers_with_the_finetuning_shift",
+  "model_slug": "gemma-3-12b",
+  "adapter": "output/finetune/runs/collab-gemma-sft-cf/best",
+  "sample": 500,
+  "sample_rule": "uniform without replacement over the records file, seed 2026",
+  "vectors": "mean of state(tuned) - state(untuned) at the last prompt token over the records outside the sample; added at that token and at every generated token",
+  "arms": {
+    "untuned": {
+      "adapter": "off",
+      "layer": null,
+      "vector": null,
+      "sign": 0.0
+    },
+    "tuned": {
+      "adapter": "on",
+      "layer": null,
+      "vector": null,
+      "sign": 0.0
+    },
+    "steer-18": {
+      "adapter": "off",
+      "layer": 18,
+      "vector": "mean",
+      "sign": 1.0
+    },
+    "ablate-18": {
+      "adapter": "on",
+      "layer": 18,
+      "vector": "mean",
+      "sign": -1.0
+    },
+    "steer-30": {
+      "adapter": "off",
+      "layer": 30,
+      "vector": "mean",
+      "sign": 1.0
+    },
+    "ablate-30": {
+      "adapter": "on",
+      "layer": 30,
+      "vector": "mean",
+      "sign": -1.0
+    },
+    "random-18": {
+      "adapter": "off",
+      "layer": 18,
+      "vector": "random",
+      "sign": 1.0
+    }
+  },
+  "answers": {
+    "untuned.base": 500,
+    "untuned.country_only": 500,
+    "tuned.base": 500,
+    "tuned.country_only": 500,
+    "steer-18.base": 500,
+    "steer-18.country_only": 500,
+    "ablate-18.base": 500,
+    "ablate-18.country_only": 500,
+    "steer-30.base": 500,
+    "steer-30.country_only": 500,
+    "ablate-30.base": 500,
+    "ablate-30.country_only": 500,
+    "random-18.base": 500,
+    "random-18.country_only": 500
+  },
+  "decoding": {
+    "sampling": false,
+    "max_new_tokens": 1024
+  },
+  "seconds": 9988.9
+}

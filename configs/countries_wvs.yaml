@@ -1,0 +1,47 @@
+# Countries with both a Cultural Atlas entry and WVS Wave 7 coordinates.
+# Derived by preprocessing.build_countries_config; regenerate, don't edit.
+# This is NOT the benchmark universe -- see countries.yaml.
+countries:
+- ARG
+- AUS
+- BGD
+- BRA
+- CAN
+- CHL
+- CHN
+- COL
+- CYP
+- DEU
+- EGY
+- ETH
+- GBR
+- GRC
+- HKG
+- IDN
+- IND
+- IRN
+- IRQ
+- JPN
+- KEN
+- KOR
+- LBN
+- MEX
+- MMR
+- MYS
+- NLD
+- NZL
+- PAK
+- PER
+- PHL
+- ROU
+- RUS
+- SGP
+- SRB
+- THA
+- TUR
+- TWN
+- UKR
+- USA
+- VEN
+- VNM
+- ZWE

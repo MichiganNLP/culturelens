@@ -1,0 +1,82 @@
+# The benchmark country universe: every Cultural Atlas country.
+#
+# The first release restricted this to the WVS-Atlas overlap (43 countries,
+# now in countries_wvs.yaml). The remaining 32 have no WVS Wave 7
+# coordinates, which matters only for analyses that compare against WVS
+# geometry -- nothing in dataset construction reads WVS data.
+countries:
+- AFG
+- ARG
+- AUS
+- AUT
+- BGD
+- BIH
+- BRA
+- CAN
+- CHL
+- CHN
+- COL
+- CYP
+- DEU
+- EGY
+- ESP
+- ETH
+- FJI
+- FRA
+- GBR
+- GRC
+- HKG
+- HRV
+- HUN
+- IDN
+- IND
+- IRL
+- IRN
+- IRQ
+- ISR
+- ITA
+- JPN
+- KEN
+- KHM
+- KOR
+- LAO
+- LBN
+- LKA
+- MEX
+- MKD
+- MLT
+- MMR
+- MUS
+- MYS
+- NLD
+- NPL
+- NZL
+- PAK
+- PER
+- PHL
+- PNG
+- POL
+- PRT
+- PSE
+- ROU
+- RUS
+- SAU
+- SDN
+- SGP
+- SOM
+- SRB
+- SSD
+- SWE
+- SYR
+- THA
+- TLS
+- TON
+- TUR
+- TWN
+- UKR
+- USA
+- VEN
+- VNM
+- WSM
+- ZAF
+- ZWE

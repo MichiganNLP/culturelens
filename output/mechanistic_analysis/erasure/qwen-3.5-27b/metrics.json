@@ -1,0 +1,43 @@
+{
+  "analysis": "claim_erasure_by_depth",
+  "model_slug": "qwen-3.5-27b",
+  "dataset_sha256": "f06c2383b23f56fc12d8f70abaf7deb8c0bb79f9033ad944368f3ef7a7c0cfbf",
+  "sample": 200,
+  "completed": 200,
+  "sample_rule": "uniform without replacement over all records, seed 2026",
+  "cuts": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    40,
+    48,
+    56
+  ],
+  "intervention": "after the given block, the claim's positions take the mean state of the same prompt's situation text at that block",
+  "endpoint": "summed log P(option A) - summed log P(option B); option A is the reference",
+  "mean_change": {
+    "country_opposite_norm": {
+      "0": 8.622732162475586,
+      "8": 8.548912048339844,
+      "16": 8.150684356689453,
+      "24": 7.3860764503479,
+      "32": 5.49215841293335,
+      "40": 3.471653699874878,
+      "48": 3.0381712913513184,
+      "56": 0.8443931341171265
+    },
+    "country_norm": {
+      "0": -7.803145885467529,
+      "8": -7.641606330871582,
+      "16": -7.625854015350342,
+      "24": -6.983108043670654,
+      "32": -6.365192413330078,
+      "40": -3.5973434448242188,
+      "48": -2.7248663902282715,
+      "56": -0.4797745943069458
+    }
+  },
+  "seconds": 425.1
+}

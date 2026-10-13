@@ -1,0 +1,55 @@
+{
+  "analysis": "claim_erasure_by_depth",
+  "model_slug": "gemma-3-12b",
+  "dataset_sha256": "f06c2383b23f56fc12d8f70abaf7deb8c0bb79f9033ad944368f3ef7a7c0cfbf",
+  "sample": 400,
+  "completed": 400,
+  "sample_rule": "uniform without replacement over all records, seed 2026",
+  "cuts": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40,
+    44
+  ],
+  "intervention": "after the given block, the claim's positions take the mean state of the same prompt's situation text at that block",
+  "endpoint": "summed log P(option A) - summed log P(option B); option A is the reference",
+  "mean_change": {
+    "country_opposite_norm": {
+      "0": 20.858623504638672,
+      "4": 20.764755249023438,
+      "8": 20.4191837310791,
+      "12": 19.51663589477539,
+      "16": 19.415178298950195,
+      "20": 14.227012634277344,
+      "24": 8.518695831298828,
+      "28": 5.470736503601074,
+      "32": 2.4705209732055664,
+      "36": 1.1751983165740967,
+      "40": 1.120521903038025,
+      "44": 0.19545702636241913
+    },
+    "country_norm": {
+      "0": -17.418298721313477,
+      "4": -17.288087844848633,
+      "8": -17.058757781982422,
+      "12": -16.384098052978516,
+      "16": -14.505932807922363,
+      "20": -10.571935653686523,
+      "24": -7.4604315757751465,
+      "28": -5.138775825500488,
+      "32": -2.6712567806243896,
+      "36": -1.3570767641067505,
+      "40": -1.229313611984253,
+      "44": -0.28791090846061707
+    }
+  },
+  "seconds": 308.8
+}

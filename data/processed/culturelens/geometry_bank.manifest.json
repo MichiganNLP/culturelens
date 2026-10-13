@@ -1,0 +1,2337 @@
+{
+  "bank": "data/processed/culturelens/geometry_bank.json",
+  "bank_sha256": "8a5bff2d6bece29f9fa15b0721b7fca640911539a21aad1eed8146fee0df7de7",
+  "records_sha256": "f06c2383b23f56fc12d8f70abaf7deb8c0bb79f9033ad944368f3ef7a7c0cfbf",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "rows": 8600,
+  "countries": [
+    "ARG",
+    "AUS",
+    "BGD",
+    "BRA",
+    "CAN",
+    "CHL",
+    "CHN",
+    "COL",
+    "CYP",
+    "DEU",
+    "EGY",
+    "ETH",
+    "GBR",
+    "GRC",
+    "HKG",
+    "IDN",
+    "IND",
+    "IRN",
+    "IRQ",
+    "JPN",
+    "KEN",
+    "KOR",
+    "LBN",
+    "MEX",
+    "MMR",
+    "MYS",
+    "NLD",
+    "NZL",
+    "PAK",
+    "PER",
+    "PHL",
+    "ROU",
+    "RUS",
+    "SGP",
+    "SRB",
+    "THA",
+    "TUR",
+    "TWN",
+    "UKR",
+    "USA",
+    "VEN",
+    "VNM",
+    "ZWE"
+  ],
+  "culture_cues": [
+    "alcohol",
+    "beer",
+    "bow",
+    "bowing",
+    "bows",
+    "buddhist",
+    "caste",
+    "chopsticks",
+    "christian",
+    "christmas",
+    "church",
+    "diwali",
+    "easter",
+    "eid",
+    "halal",
+    "hijab",
+    "hindu",
+    "imam",
+    "kimono",
+    "kosher",
+    "lunar new year",
+    "monastery",
+    "monk",
+    "monks",
+    "mosque",
+    "muslim",
+    "namaste",
+    "pork",
+    "pray",
+    "prayer",
+    "prayers",
+    "praying",
+    "priest",
+    "pub",
+    "ramadan",
+    "sabbath",
+    "sari",
+    "sauna",
+    "shrine",
+    "siesta",
+    "slava",
+    "temple",
+    "tribe",
+    "wine"
+  ],
+  "unique_prompts": 8905,
+  "word_range_kept": [
+    17,
+    37
+  ],
+  "dropped_for_length": 708,
+  "dropped_for_culture_cues": 250,
+  "candidates": 7965,
+  "clusters": 663,
+  "threshold": 0.6,
+  "templates_per_category": {
+    "business_culture": 35,
+    "communication": 31,
+    "core_concepts": 15,
+    "dos_and_donts": 13,
+    "etiquette": 49,
+    "family": 26,
+    "greetings": 18,
+    "other_considerations": 7,
+    "religion": 6
+  },
+  "templates": [
+    {
+      "category": "etiquette",
+      "cluster_size": 155,
+      "situation": "A guest is visiting a friend's home for dinner. The host has prepared a meal and is about to serve drinks.",
+      "question": "What should the host do?",
+      "source_norm_ids": [
+        "POL__etiquette__001__038"
+      ],
+      "template_id": "t000",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 123,
+      "situation": "A guest is having dinner at a friend's home. The host has served a generous portion of food.",
+      "question": "What should the guest do with the food on their plate?",
+      "source_norm_ids": [
+        "CYP__etiquette__001__034",
+        "GRC__etiquette__001__035"
+      ],
+      "template_id": "t001",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 87,
+      "situation": "A colleague hands a wrapped gift to a coworker during a small office gathering.",
+      "question": "What should the recipient do with the gift?",
+      "source_norm_ids": [
+        "CHN__etiquette__001__035"
+      ],
+      "template_id": "t002",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 75,
+      "situation": "A guest arrives at a friend's house for a visit.",
+      "question": "What should the guest do upon entering?",
+      "source_norm_ids": [
+        "AFG__etiquette__001__025",
+        "SOM__etiquette__001__031",
+        "TON__etiquette__001__009"
+      ],
+      "template_id": "t003",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 63,
+      "situation": "A person is invited to a friend's home for dinner at 7:00 PM.",
+      "question": "What time should the guest arrive?",
+      "source_norm_ids": [
+        "IND__etiquette__001__018"
+      ],
+      "template_id": "t004",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 59,
+      "situation": "A person is invited to a colleague's house for dinner and wants to bring a gift.",
+      "question": "What should the person bring as a gift?",
+      "source_norm_ids": [
+        "CHN__etiquette__001__041",
+        "EGY__etiquette__001__032"
+      ],
+      "template_id": "t005",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 57,
+      "situation": "A group of colleagues is seated in a meeting room. An older colleague enters the room.",
+      "question": "What should the seated colleagues do?",
+      "source_norm_ids": [
+        "SYR__etiquette__001__002"
+      ],
+      "template_id": "t006",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 53,
+      "situation": "A person is sitting in a room with others, and their legs are extended.",
+      "question": "What should the person do with their feet?",
+      "source_norm_ids": [
+        "SAU__communication__001__074"
+      ],
+      "template_id": "t007",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 52,
+      "situation": "A person has been invited to a colleague's home for dinner.",
+      "question": "What should the person do before going to the dinner?",
+      "source_norm_ids": [
+        "KHM__etiquette__001__016"
+      ],
+      "template_id": "t008",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 50,
+      "situation": "A family is gathered for a meal. The food is served, and everyone is seated at the table.",
+      "question": "What should the other guests do before starting to eat?",
+      "source_norm_ids": [
+        "ZAF__etiquette__001__030"
+      ],
+      "template_id": "t009",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 49,
+      "situation": "A colleague is about to give a gift to a coworker in the office.",
+      "question": "How should the colleague present the gift?",
+      "source_norm_ids": [
+        "AFG__etiquette__001__054"
+      ],
+      "template_id": "t010",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 43,
+      "situation": "At a shared meal, a person is about to pass a plate of food to a colleague.",
+      "question": "Which hand should the person use to offer the food?",
+      "source_norm_ids": [
+        "MYS__etiquette__001__023"
+      ],
+      "template_id": "t011",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 41,
+      "situation": "A guest is offered a second serving of food at a dinner. The guest initially declines, but the host insists.",
+      "question": "What should the guest do?",
+      "source_norm_ids": [
+        "IRQ__etiquette__001__008"
+      ],
+      "template_id": "t012",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 37,
+      "situation": "A visitor arrives at a friend's home for a casual visit.",
+      "question": "What should the visitor do before entering the house?",
+      "source_norm_ids": [
+        "FJI__etiquette__001__019"
+      ],
+      "template_id": "t013",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 36,
+      "situation": "A person is preparing for a business meeting and is unsure about what to wear.",
+      "question": "What should the person wear?",
+      "source_norm_ids": [
+        "TON__business_culture__001__005"
+      ],
+      "template_id": "t014",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 36,
+      "situation": "A person is planning to visit a friend's home.",
+      "question": "What should the person do before going to the friend's home?",
+      "source_norm_ids": [
+        "PSE__etiquette__001__038"
+      ],
+      "template_id": "t015",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 35,
+      "situation": "A guest has finished a visit at a friend's home and is about to leave.",
+      "question": "What should the guest do before departing?",
+      "source_norm_ids": [
+        "MEX__etiquette__001__029"
+      ],
+      "template_id": "t016",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 34,
+      "situation": "A colleague arrives 20 minutes after the agreed time for a meeting.",
+      "question": "How would the colleague's lateness most likely be viewed?",
+      "source_norm_ids": [
+        "AFG__etiquette__001__012"
+      ],
+      "template_id": "t017",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 33,
+      "situation": "A visitor is about to enter a traditional meeting house for a community gathering.",
+      "question": "What should the visitor do before entering?",
+      "source_norm_ids": [
+        "NZL__etiquette__002__038"
+      ],
+      "template_id": "t018",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 33,
+      "situation": "A group of colleagues is having lunch together at a restaurant. Several shared dishes are placed in the center of the table.",
+      "question": "What is the customary way for each person to get food?",
+      "source_norm_ids": [
+        "VNM__etiquette__001__017"
+      ],
+      "template_id": "t019",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 33,
+      "situation": "A person is preparing a birthday gift for a friend.",
+      "question": "What should the person do when wrapping the gift?",
+      "source_norm_ids": [
+        "ESP__etiquette__001__057"
+      ],
+      "template_id": "t020",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 33,
+      "situation": "A colleague is handing a document to a coworker during a meeting.",
+      "question": "Which hand should the colleague use to offer the document?",
+      "source_norm_ids": [
+        "SDN__communication__001__039"
+      ],
+      "template_id": "t021",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 32,
+      "situation": "A group of friends is finishing a meal at a restaurant. The server brings the bill to the table.",
+      "question": "What should one of the friends do regarding the bill?",
+      "source_norm_ids": [
+        "SRB__etiquette__001__013"
+      ],
+      "template_id": "t022",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 32,
+      "situation": "A group of friends is seated at a dinner table with food served. One friend reaches for a fork.",
+      "question": "What should the friend do before starting to eat?",
+      "source_norm_ids": [
+        "HRV__etiquette__001__026"
+      ],
+      "template_id": "t023",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 31,
+      "situation": "A person invited to a colleague's dinner party has decided to bring flowers for the host.",
+      "question": "How many flowers should the person bring?",
+      "source_norm_ids": [
+        "HRV__etiquette__001__016"
+      ],
+      "template_id": "t024",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 29,
+      "situation": "A young adult is seated on a crowded bus when an elderly person boards and stands nearby.",
+      "question": "What should the young adult do?",
+      "source_norm_ids": [
+        "PER__dos_and_donts__001__007"
+      ],
+      "template_id": "t025",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 28,
+      "situation": "Two colleagues are having lunch together at a restaurant. One of them invited the other to the meal.",
+      "question": "Who should pay the bill?",
+      "source_norm_ids": [
+        "AUT__etiquette__001__027"
+      ],
+      "template_id": "t026",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 26,
+      "situation": "A person arrives at a busy coffee shop and sees several customers waiting to order.",
+      "question": "What should the person do?",
+      "source_norm_ids": [
+        "AUS__etiquette__001__016"
+      ],
+      "template_id": "t027",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 25,
+      "situation": "A person is at home on a weekend afternoon. A close friend who lives nearby is free and considers stopping by.",
+      "question": "What would be customary for the friend to do?",
+      "source_norm_ids": [
+        "SDN__etiquette__001__028"
+      ],
+      "template_id": "t028",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 24,
+      "situation": "A family is sitting down to dinner, and the food is ready to be served.",
+      "question": "Who should be served first?",
+      "source_norm_ids": [
+        "GRC__etiquette__001__027"
+      ],
+      "template_id": "t029",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 23,
+      "situation": "A person is having lunch with a colleague at a casual restaurant.",
+      "question": "What should the person do while eating?",
+      "source_norm_ids": [
+        "JPN__etiquette__001__039"
+      ],
+      "template_id": "t030",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 23,
+      "situation": "A young adult is sitting in a living room when an elderly neighbor enters.",
+      "question": "What should the young adult do?",
+      "source_norm_ids": [
+        "SOM__etiquette__001__012",
+        "TUR__etiquette__001__006"
+      ],
+      "template_id": "t031",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 22,
+      "situation": "During a family dinner, a young adult is seated at the table with their meal.",
+      "question": "What should the young adult do with their elbows while eating?",
+      "source_norm_ids": [
+        "IRL__etiquette__001__022"
+      ],
+      "template_id": "t032",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 22,
+      "situation": "A visitor arrives at a friend's home and is about to step inside.",
+      "question": "What should the visitor do with their shoes?",
+      "source_norm_ids": [
+        "KHM__etiquette__001__015"
+      ],
+      "template_id": "t033",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 20,
+      "situation": "A guest arrives at a home for a meal and sees several possible places to sit at the table.",
+      "question": "What should the host do regarding seating?",
+      "source_norm_ids": [
+        "TON__etiquette__001__031"
+      ],
+      "template_id": "t034",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 20,
+      "situation": "A person is selecting a gift for a colleague's housewarming party.",
+      "question": "What should the person give as a gift?",
+      "source_norm_ids": [
+        "SAU__etiquette__002__009"
+      ],
+      "template_id": "t035",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 19,
+      "situation": "A guest is visiting a friend's home. The host offers the guest a drink, and the guest politely declines.",
+      "question": "What should the host do next?",
+      "source_norm_ids": [
+        "SDN__etiquette__001__012"
+      ],
+      "template_id": "t036",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 18,
+      "situation": "A visitor is seated on a low cushion in a room where a host is also seated on the floor nearby.",
+      "question": "How should the visitor position their feet while sitting?",
+      "source_norm_ids": [
+        "LAO__etiquette__001__010"
+      ],
+      "template_id": "t037",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 18,
+      "situation": "A customer is seated at a table in a restaurant and needs to get the attention of a waiter who is walking past.",
+      "question": "What should the customer do to get the waiter's attention?",
+      "source_norm_ids": [
+        "AUS__etiquette__001__019"
+      ],
+      "template_id": "t038",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 18,
+      "situation": "During a small dinner gathering, a guest raises a glass to offer a toast to the host.",
+      "question": "What should the guest do while making the toast?",
+      "source_norm_ids": [
+        "DEU__etiquette__001__031"
+      ],
+      "template_id": "t039",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 18,
+      "situation": "Two colleagues are having dinner together. One colleague's glass is empty.",
+      "question": "What should the other colleague do?",
+      "source_norm_ids": [
+        "JPN__etiquette__001__053"
+      ],
+      "template_id": "t040",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 17,
+      "situation": "A customer finishes a meal at a restaurant and receives the bill.",
+      "question": "What should the customer do regarding a tip?",
+      "source_norm_ids": [
+        "CYP__etiquette__001__012",
+        "CYP__etiquette__001__010",
+        "JPN__etiquette__001__055"
+      ],
+      "template_id": "t041",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 17,
+      "situation": "A person has been invited to a social gathering at a colleague's home. The invitation does not mention any restrictions on additional guests.",
+      "question": "What should the invited person do regarding bringing friends or family?",
+      "source_norm_ids": [
+        "MEX__etiquette__001__017"
+      ],
+      "template_id": "t042",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 16,
+      "situation": "A guest is visiting a friend's home. The host offers the guest a cup of coffee.",
+      "question": "What should the guest do?",
+      "source_norm_ids": [
+        "HRV__etiquette__001__010",
+        "LBN__etiquette__001__015"
+      ],
+      "template_id": "t043",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 16,
+      "situation": "A young adult is speaking with an elder in a community gathering.",
+      "question": "What should the young adult do with their gaze?",
+      "source_norm_ids": [
+        "SOM__communication__001__019"
+      ],
+      "template_id": "t044",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 15,
+      "situation": "A person is eating a meal of rice with their hands at a dining table.",
+      "question": "What is the customary way for the person to eat the rice?",
+      "source_norm_ids": [
+        "SAU__etiquette__001__068"
+      ],
+      "template_id": "t045",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 15,
+      "situation": "A person is eating a meal with a knife and fork.",
+      "question": "What should the person do with their food?",
+      "source_norm_ids": [
+        "USA__etiquette__001__048"
+      ],
+      "template_id": "t046",
+      "half": "A"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 15,
+      "situation": "A person finishes a brief conversation with a colleague in the office and is about to leave for the day.",
+      "question": "What should the person do before leaving?",
+      "source_norm_ids": [
+        "MUS__dos_and_donts__001__004"
+      ],
+      "template_id": "t047",
+      "half": "B"
+    },
+    {
+      "category": "etiquette",
+      "cluster_size": 14,
+      "situation": "A guest is offered a cup of tea by the host.",
+      "question": "What should the guest do when first offered the tea?",
+      "source_norm_ids": [
+        "SDN__etiquette__001__013"
+      ],
+      "template_id": "t048",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 112,
+      "situation": "During a meeting, a person receives a business card from a counterpart.",
+      "question": "What should the person do with the business card?",
+      "source_norm_ids": [
+        "KHM__business_culture__001__028"
+      ],
+      "template_id": "t049",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 71,
+      "situation": "A project manager has scheduled a meeting with a colleague to discuss a new initiative. The meeting is set to begin at 10:00 AM.",
+      "question": "What should the colleague do regarding arrival time?",
+      "source_norm_ids": [
+        "PAK__business_culture__001__001"
+      ],
+      "template_id": "t050",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 56,
+      "situation": "A sales representative is meeting a potential client for the first time. They have just exchanged introductions and are about to discuss business.",
+      "question": "What should the sales representative do next?",
+      "source_norm_ids": [
+        "NZL__business_culture__001__015"
+      ],
+      "template_id": "t051",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 51,
+      "situation": "A person is introduced to a new colleague for the first time at work.",
+      "question": "What should the person do when meeting the new colleague?",
+      "source_norm_ids": [
+        "MYS__dos_and_donts__001__001"
+      ],
+      "template_id": "t052",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 47,
+      "situation": "A team is meeting to discuss a new project proposal. The team leader will make the final decision after hearing from everyone.",
+      "question": "What should the team members do during the meeting?",
+      "source_norm_ids": [
+        "CHL__business_culture__001__014"
+      ],
+      "template_id": "t053",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 43,
+      "situation": "Two business professionals are meeting for the first time to discuss a potential collaboration.",
+      "question": "What would be customary for them to do at this first meeting?",
+      "source_norm_ids": [
+        "JPN__business_culture__001__061"
+      ],
+      "template_id": "t054",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 40,
+      "situation": "A junior employee and a senior manager are in a meeting to discuss a project plan. The junior employee has an idea that could improve the plan.",
+      "question": "What should the junior employee do?",
+      "source_norm_ids": [
+        "AFG__business_culture__001__013"
+      ],
+      "template_id": "t055",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 36,
+      "situation": "Two business partners have agreed verbally on the terms of a new partnership. They are about to conclude their meeting.",
+      "question": "What should the partners do before considering the deal finalized?",
+      "source_norm_ids": [
+        "USA__business_culture__001__018"
+      ],
+      "template_id": "t056",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 33,
+      "situation": "A businessperson is meeting with a potential client for the first time to discuss a possible partnership.",
+      "question": "What should the businessperson do regarding gift giving?",
+      "source_norm_ids": [
+        "AUS__business_culture__001__051"
+      ],
+      "template_id": "t057",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 31,
+      "situation": "During a team meeting, a colleague is presenting a project update. Another team member has a relevant point to add.",
+      "question": "What should the team member do?",
+      "source_norm_ids": [
+        "GRC__business_culture__001__013"
+      ],
+      "template_id": "t058",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 27,
+      "situation": "A man is preparing for his first day at a new office job. He is considering what to wear.",
+      "question": "What should he wear to the office?",
+      "source_norm_ids": [
+        "CHL__business_culture__001__031"
+      ],
+      "template_id": "t059",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 25,
+      "situation": "A manager needs to schedule a meeting with a colleague to discuss a project update.",
+      "question": "How far in advance should the manager arrange the meeting?",
+      "source_norm_ids": [
+        "SWE__business_culture__001__001"
+      ],
+      "template_id": "t060",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 25,
+      "situation": "A manager is discussing a project deadline with a junior employee.",
+      "question": "How would the manager most likely communicate the deadline?",
+      "source_norm_ids": [
+        "UKR__communication__001__005"
+      ],
+      "template_id": "t061",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 25,
+      "situation": "During a team meeting, a colleague finishes explaining a proposal and then stops speaking. The room becomes quiet.",
+      "question": "What would people typically do in this situation?",
+      "source_norm_ids": [
+        "SWE__communication__001__016"
+      ],
+      "template_id": "t062",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 23,
+      "situation": "Two business partners are meeting for the first time to discuss a potential collaboration. They have different backgrounds and initial proposals.",
+      "question": "What should one partner do to gain more traction in the business relationship?",
+      "source_norm_ids": [
+        "ZAF__business_culture__001__016"
+      ],
+      "template_id": "t063",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 23,
+      "situation": "A business meeting is about to start between two professionals who have not met before.",
+      "question": "What should the host do first?",
+      "source_norm_ids": [
+        "PHL__business_culture__001__013"
+      ],
+      "template_id": "t064",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 22,
+      "situation": "A manager needs to discuss a project update with a colleague from another department.",
+      "question": "What should the manager do to arrange the meeting?",
+      "source_norm_ids": [
+        "RUS__business_culture__001__001"
+      ],
+      "template_id": "t065",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 22,
+      "situation": "A project team is holding a meeting to discuss the next phase of their work. The team leader has prepared a detailed agenda with specific time allocations for each topic.",
+      "question": "How would the meeting most likely proceed?",
+      "source_norm_ids": [
+        "PER__business_culture__001__007"
+      ],
+      "template_id": "t066",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 22,
+      "situation": "A project team is about to start a meeting to discuss the next phase of their work. The team members have gathered in the conference room.",
+      "question": "What is the customary way to begin the meeting?",
+      "source_norm_ids": [
+        "PAK__business_culture__001__007"
+      ],
+      "template_id": "t067",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 22,
+      "situation": "A manager is planning a meeting with a potential business partner to discuss a new project.",
+      "question": "What should the manager do before the meeting?",
+      "source_norm_ids": [
+        "THA__business_culture__001__001"
+      ],
+      "template_id": "t068",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 20,
+      "situation": "A team leader is giving a presentation to colleagues about a new project plan.",
+      "question": "What should the team leader do during the presentation?",
+      "source_norm_ids": [
+        "SGP__business_culture__001__016"
+      ],
+      "template_id": "t069",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 20,
+      "situation": "During a business meeting, a colleague is speaking at length about a proposal. Another participant has a relevant point to add.",
+      "question": "What should the participant do?",
+      "source_norm_ids": [
+        "IRQ__business_culture__001__017"
+      ],
+      "template_id": "t070",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 19,
+      "situation": "Two colleagues are discussing a project in the office. One of them is about to make a point.",
+      "question": "What should the colleague do?",
+      "source_norm_ids": [
+        "CHN__communication__001__010"
+      ],
+      "template_id": "t071",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 17,
+      "situation": "A team has gathered for a meeting to discuss a project. The organizer has prepared a list of topics, but as the meeting begins, some participants raise additional issues.",
+      "question": "How should the meeting proceed?",
+      "source_norm_ids": [
+        "LAO__business_culture__001__008"
+      ],
+      "template_id": "t072",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 17,
+      "situation": "A manager is hiring for a new position and one of the applicants is the manager's cousin.",
+      "question": "What should the manager do?",
+      "source_norm_ids": [
+        "AUS__business_culture__001__063"
+      ],
+      "template_id": "t073",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 17,
+      "situation": "During a business negotiation, one party has not yet agreed to the proposed terms.",
+      "question": "What should the other party do?",
+      "source_norm_ids": [
+        "HKG__business_culture__001__027"
+      ],
+      "template_id": "t074",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 16,
+      "situation": "During a team meeting, a project manager is asked about the status of a project that has recently encountered some delays.",
+      "question": "How should the project manager respond?",
+      "source_norm_ids": [
+        "GBR__business_culture__001__010"
+      ],
+      "template_id": "t075",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 16,
+      "situation": "A project manager and a client are about to start a meeting to discuss a new contract.",
+      "question": "What should the project manager do first?",
+      "source_norm_ids": [
+        "KHM__business_culture__001__003"
+      ],
+      "template_id": "t076",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 16,
+      "situation": "Two business partners have been discussing a potential collaboration over several meetings. They have not yet reached a final decision.",
+      "question": "What should the person do during the negotiation process?",
+      "source_norm_ids": [
+        "PRT__business_culture__001__006"
+      ],
+      "template_id": "t077",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 16,
+      "situation": "A colleague asks a team member to complete a report by tomorrow morning, but the team member knows it cannot be finished that quickly.",
+      "question": "What should the team member say?",
+      "source_norm_ids": [
+        "SYR__business_culture__001__028"
+      ],
+      "template_id": "t078",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 15,
+      "situation": "A visiting consultant is meeting with a local business owner for the first time to discuss a potential collaboration.",
+      "question": "What is the consultant expected to do during the meeting?",
+      "source_norm_ids": [
+        "WSM__business_culture__001__004"
+      ],
+      "template_id": "t079",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 14,
+      "situation": "A team member is struggling to complete their part of a group project before the deadline.",
+      "question": "What should the other team members do?",
+      "source_norm_ids": [
+        "THA__core_concepts__001__026"
+      ],
+      "template_id": "t080",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 14,
+      "situation": "During a negotiation, a manager realizes that a comment they made earlier in the meeting may have upset their business partner.",
+      "question": "What should the manager do?",
+      "source_norm_ids": [
+        "IND__business_culture__001__020"
+      ],
+      "template_id": "t081",
+      "half": "B"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 14,
+      "situation": "A junior employee notices that a senior manager has made an error in a report that will be presented to clients.",
+      "question": "How should the junior employee raise the error with the senior manager?",
+      "source_norm_ids": [
+        "POL__business_culture__001__014"
+      ],
+      "template_id": "t082",
+      "half": "A"
+    },
+    {
+      "category": "business_culture",
+      "cluster_size": 14,
+      "situation": "A buyer and a seller are negotiating the price of a shipment of goods. The seller has stated an initial price, and the buyer is considering how to respond.",
+      "question": "What should the buyer do in this negotiation?",
+      "source_norm_ids": [
+        "TUR__business_culture__001__028"
+      ],
+      "template_id": "t083",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 142,
+      "situation": "A colleague has made an error in a report that will be discussed in a team meeting.",
+      "question": "What should a team member do when they notice the error?",
+      "source_norm_ids": [
+        "PSE__dos_and_donts__001__005"
+      ],
+      "template_id": "t084",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 82,
+      "situation": "During a team meeting, a colleague proposes a new project plan. Another colleague disagrees with some aspects of the plan.",
+      "question": "What should the colleague who disagrees do?",
+      "source_norm_ids": [
+        "MYS__dos_and_donts__001__002"
+      ],
+      "template_id": "t085",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 63,
+      "situation": "A junior employee is speaking with a senior colleague about a work matter.",
+      "question": "How should the junior employee manage eye contact during the conversation?",
+      "source_norm_ids": [
+        "MMR__communication__001__019"
+      ],
+      "template_id": "t086",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 45,
+      "situation": "During a team meeting, a colleague proposes a new project timeline that several team members think is unrealistic.",
+      "question": "What should a team member do when they disagree with the proposed timeline?",
+      "source_norm_ids": [
+        "HRV__communication__001__005"
+      ],
+      "template_id": "t087",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 45,
+      "situation": "During a team meeting, a colleague presents a proposal that contains several flaws.",
+      "question": "How should a team member respond to the proposal?",
+      "source_norm_ids": [
+        "AFG__business_culture__001__031"
+      ],
+      "template_id": "t088",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 45,
+      "situation": "Two colleagues are chatting in a hallway at work.",
+      "question": "How close should they stand to each other?",
+      "source_norm_ids": [
+        "CHL__communication__001__019",
+        "PER__communication__001__025"
+      ],
+      "template_id": "t089",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 33,
+      "situation": "A person wants to get the attention of a friend who is across the room.",
+      "question": "How should the person beckon the friend?",
+      "source_norm_ids": [
+        "VEN__communication__001__043"
+      ],
+      "template_id": "t090",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 32,
+      "situation": "During a business meeting, a junior employee is speaking with a senior manager about a project update.",
+      "question": "What should the junior employee do while speaking?",
+      "source_norm_ids": [
+        "AUT__communication__001__021"
+      ],
+      "template_id": "t091",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 29,
+      "situation": "A colleague has just given a presentation that was well received by the team.",
+      "question": "What should the person do when speaking to the colleague afterward?",
+      "source_norm_ids": [
+        "JPN__dos_and_donts__001__012"
+      ],
+      "template_id": "t092",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 27,
+      "situation": "Two colleagues are discussing a project in a meeting room.",
+      "question": "What would the colleague who is listening most likely do?",
+      "source_norm_ids": [
+        "MLT__communication__001__007"
+      ],
+      "template_id": "t093",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 27,
+      "situation": "A person is walking down a quiet residential street and sees a stranger approaching from the opposite direction.",
+      "question": "What would the person typically do when they pass the stranger?",
+      "source_norm_ids": [
+        "USA__communication__001__039"
+      ],
+      "template_id": "t094",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 26,
+      "situation": "A young employee is speaking with a senior colleague about a work matter.",
+      "question": "What should the young employee do during the conversation?",
+      "source_norm_ids": [
+        "IRQ__communication__001__025"
+      ],
+      "template_id": "t095",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 26,
+      "situation": "A man and a woman are colleagues who meet in the office hallway to discuss a work matter.",
+      "question": "How much personal space should they maintain while talking?",
+      "source_norm_ids": [
+        "PNG__communication__001__007"
+      ],
+      "template_id": "t096",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 26,
+      "situation": "During a conversation, a person looks directly into the eyes of the other speaker.",
+      "question": "How is this behavior most likely interpreted?",
+      "source_norm_ids": [
+        "PRT__communication__001__017"
+      ],
+      "template_id": "t097",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 24,
+      "situation": "During a casual conversation, a person makes a hand gesture by placing their thumb between their middle and forefinger.",
+      "question": "How would this gesture most likely be interpreted?",
+      "source_norm_ids": [
+        "MMR__communication__001__026"
+      ],
+      "template_id": "t098",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 22,
+      "situation": "A colleague gives a presentation at a team meeting that contains several factual errors.",
+      "question": "What should a person do in this situation?",
+      "source_norm_ids": [
+        "GBR__dos_and_donts__001__013"
+      ],
+      "template_id": "t099",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 22,
+      "situation": "A visitor asks a local resident where the nearest bus stop is.",
+      "question": "How should the resident indicate the direction?",
+      "source_norm_ids": [
+        "SGP__communication__001__010",
+        "VEN__communication__001__041"
+      ],
+      "template_id": "t100",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 22,
+      "situation": "During a team meeting, a colleague is explaining a project delay and becomes visibly upset while speaking.",
+      "question": "What should the other team members do while the colleague is speaking?",
+      "source_norm_ids": [
+        "ZAF__business_culture__001__011"
+      ],
+      "template_id": "t101",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 21,
+      "situation": "Two colleagues are chatting during a break at work.",
+      "question": "What is common for them to do during their conversation?",
+      "source_norm_ids": [
+        "SYR__communication__001__004"
+      ],
+      "template_id": "t102",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 21,
+      "situation": "A couple is walking together in a public park.",
+      "question": "What should the couple do regarding physical affection?",
+      "source_norm_ids": [
+        "PSE__communication__001__025",
+        "THA__communication__001__017"
+      ],
+      "template_id": "t103",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 21,
+      "situation": "Two colleagues are waiting for a meeting to start. One of them seems to want to talk lightly.",
+      "question": "What would the other colleague most likely do?",
+      "source_norm_ids": [
+        "DEU__communication__001__004"
+      ],
+      "template_id": "t104",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 20,
+      "situation": "Two colleagues are having a conversation in the office hallway. One places a hand on the other's shoulder while speaking.",
+      "question": "How would this gesture most likely be interpreted?",
+      "source_norm_ids": [
+        "CHL__communication__001__017"
+      ],
+      "template_id": "t105",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 20,
+      "situation": "During a team meeting, a colleague makes a light-hearted joke about a minor work issue.",
+      "question": "How would the team typically react to the joke?",
+      "source_norm_ids": [
+        "HRV__business_culture__001__022"
+      ],
+      "template_id": "t106",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 20,
+      "situation": "A colleague asks a team member for feedback on a proposal.",
+      "question": "How should the team member respond?",
+      "source_norm_ids": [
+        "NLD__communication__001__001"
+      ],
+      "template_id": "t107",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 18,
+      "situation": "During a conversation, a person is speaking to a colleague about a work matter.",
+      "question": "What should the listener do while the colleague is speaking?",
+      "source_norm_ids": [
+        "CHL__communication__001__022"
+      ],
+      "template_id": "t108",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 17,
+      "situation": "During a team meeting, a colleague speaks in a noticeably louder voice while discussing a new project idea.",
+      "question": "How would the colleague's raised voice most likely be interpreted?",
+      "source_norm_ids": [
+        "ITA__communication__001__011"
+      ],
+      "template_id": "t109",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 17,
+      "situation": "Two colleagues are talking in a hallway. A third colleague needs to get to the other side.",
+      "question": "What should the third colleague do?",
+      "source_norm_ids": [
+        "LAO__communication__001__029"
+      ],
+      "template_id": "t110",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 17,
+      "situation": "Two male colleagues are chatting after a meeting. One of them briefly touches the other's arm while making a point.",
+      "question": "How would the touch most likely be interpreted?",
+      "source_norm_ids": [
+        "LAO__communication__001__014"
+      ],
+      "template_id": "t111",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 15,
+      "situation": "A colleague is sitting at a desk, and another person approaches from behind.",
+      "question": "What should the approaching person do?",
+      "source_norm_ids": [
+        "TLS__communication__001__037"
+      ],
+      "template_id": "t112",
+      "half": "A"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 14,
+      "situation": "A customer discovers a billing error and is speaking with a service representative in a busy office.",
+      "question": "How should the customer express their frustration?",
+      "source_norm_ids": [
+        "EGY__communication__001__001"
+      ],
+      "template_id": "t113",
+      "half": "B"
+    },
+    {
+      "category": "communication",
+      "cluster_size": 14,
+      "situation": "Two close friends are walking together through a park on a pleasant afternoon.",
+      "question": "What would be a customary way for them to walk?",
+      "source_norm_ids": [
+        "ITA__communication__001__024"
+      ],
+      "template_id": "t114",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 49,
+      "situation": "A middle-aged person's elderly parents are becoming frail and need help with daily tasks. The person has a full-time job and lives nearby.",
+      "question": "What should the person do?",
+      "source_norm_ids": [
+        "ARG__family__001__003"
+      ],
+      "template_id": "t115",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 40,
+      "situation": "A young adult has been offered a job in another city that would require moving away from their parents and siblings.",
+      "question": "What should the young adult do?",
+      "source_norm_ids": [
+        "KOR__family__001__002"
+      ],
+      "template_id": "t116",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 36,
+      "situation": "A married couple with young children is discussing how to divide household responsibilities.",
+      "question": "Who should primarily manage the home and care for the children?",
+      "source_norm_ids": [
+        "COL__family__001__013"
+      ],
+      "template_id": "t117",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 36,
+      "situation": "A young woman has received a marriage proposal from a man she likes. Her parents have not yet been involved in the discussions.",
+      "question": "What should the young woman do before accepting the proposal?",
+      "source_norm_ids": [
+        "EGY__family__001__021"
+      ],
+      "template_id": "t118",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 28,
+      "situation": "A young adult has a stable job and is considering whether to move into their own apartment or continue living with their parents.",
+      "question": "What would be the customary living arrangement for this young adult?",
+      "source_norm_ids": [
+        "THA__family__001__007"
+      ],
+      "template_id": "t119",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 28,
+      "situation": "A couple has been living together for several years and is discussing their future.",
+      "question": "What option is available to the couple for their future?",
+      "source_norm_ids": [
+        "NLD__family__001__017"
+      ],
+      "template_id": "t120",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 27,
+      "situation": "A couple with young children both work full-time. The household chores and childcare need to be managed.",
+      "question": "Who should take on most of the household and childcare responsibilities?",
+      "source_norm_ids": [
+        "MKD__family__001__023"
+      ],
+      "template_id": "t121",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 26,
+      "situation": "A couple is about to get married, and their families are discussing the wedding arrangements.",
+      "question": "What should the families do before finalizing the wedding?",
+      "source_norm_ids": [
+        "IND__family__001__018"
+      ],
+      "template_id": "t122",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 23,
+      "situation": "A young adult is deciding whether to accept a job offer in another city, while their parents prefer they stay nearby.",
+      "question": "What should the young adult do?",
+      "source_norm_ids": [
+        "VNM__family__001__012"
+      ],
+      "template_id": "t123",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 22,
+      "situation": "A young couple is planning their wedding and discussing where they will live afterward.",
+      "question": "Where should the couple live after marriage?",
+      "source_norm_ids": [
+        "PSE__family__001__003"
+      ],
+      "template_id": "t124",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 20,
+      "situation": "At a family gathering, a young adult is talking with an older relative.",
+      "question": "What is the older relative likely to do?",
+      "source_norm_ids": [
+        "VNM__dos_and_donts__001__009"
+      ],
+      "template_id": "t125",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 19,
+      "situation": "A young couple is deciding where to live after getting married.",
+      "question": "What living arrangement would be customary for them?",
+      "source_norm_ids": [
+        "TLS__family__001__004"
+      ],
+      "template_id": "t126",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 17,
+      "situation": "A married couple is discussing how to handle their monthly finances.",
+      "question": "Who should be responsible for managing the family budget?",
+      "source_norm_ids": [
+        "JPN__family__001__006"
+      ],
+      "template_id": "t127",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 16,
+      "situation": "A young adult is deciding how to respond to an elderly relative's advice about a major life decision.",
+      "question": "What should the young adult do?",
+      "source_norm_ids": [
+        "HKG__family__001__008"
+      ],
+      "template_id": "t128",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 14,
+      "situation": "A young adult has a demanding job in a city far from their aging parents, who live in their hometown.",
+      "question": "What should the young adult do regarding their parents?",
+      "source_norm_ids": [
+        "IDN__family__001__004"
+      ],
+      "template_id": "t129",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 13,
+      "situation": "A young adult is considering whom to marry and is discussing options with family members.",
+      "question": "What should the young adult do regarding the choice of a marriage partner?",
+      "source_norm_ids": [
+        "SDN__family__001__030"
+      ],
+      "template_id": "t130",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 13,
+      "situation": "A single adult is looking for a romantic partner and is considering how to meet someone.",
+      "question": "How would this person most likely meet a potential partner?",
+      "source_norm_ids": [
+        "SWE__family__001__009"
+      ],
+      "template_id": "t131",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 12,
+      "situation": "A family is discussing whether to sell a piece of land they own. The eldest man is present, along with other adult family members.",
+      "question": "Who should make the final decision about selling the land?",
+      "source_norm_ids": [
+        "LAO__family__001__009"
+      ],
+      "template_id": "t132",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 12,
+      "situation": "A woman is getting ready for a family gathering and is choosing her outfit.",
+      "question": "What should she wear?",
+      "source_norm_ids": [
+        "RUS__family__001__022"
+      ],
+      "template_id": "t133",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 12,
+      "situation": "A family is deciding where to go for their annual vacation. The father and children have different preferences, and the mother has not yet expressed her opinion.",
+      "question": "Whose preference is most likely to influence the final decision?",
+      "source_norm_ids": [
+        "PER__family__001__014"
+      ],
+      "template_id": "t134",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 12,
+      "situation": "A person has been going on dates with several people and has started to develop feelings for one of them.",
+      "question": "What should the person do?",
+      "source_norm_ids": [
+        "GBR__family__001__008"
+      ],
+      "template_id": "t135",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 12,
+      "situation": "A young adult is considering a career path that differs from what their parents have always wanted for them.",
+      "question": "What should the young adult do?",
+      "source_norm_ids": [
+        "SYR__family__001__012"
+      ],
+      "template_id": "t136",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 12,
+      "situation": "A young couple is planning to get married. They have not yet discussed their plans with their parents.",
+      "question": "What should the couple do before proceeding with the marriage?",
+      "source_norm_ids": [
+        "MMR__family__001__028"
+      ],
+      "template_id": "t137",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 11,
+      "situation": "A young adult has recently moved into their own apartment and is struggling to cover monthly expenses. Their parents are financially comfortable.",
+      "question": "What would the parents most likely do?",
+      "source_norm_ids": [
+        "ITA__family__001__006"
+      ],
+      "template_id": "t138",
+      "half": "A"
+    },
+    {
+      "category": "family",
+      "cluster_size": 11,
+      "situation": "A young couple is planning their first date. They are considering different activities for the evening.",
+      "question": "What kind of setting should they choose for their date?",
+      "source_norm_ids": [
+        "USA__family__001__011"
+      ],
+      "template_id": "t139",
+      "half": "B"
+    },
+    {
+      "category": "family",
+      "cluster_size": 11,
+      "situation": "A young couple has decided to get married and is planning their wedding.",
+      "question": "What should the couple do before finalizing their wedding plans?",
+      "source_norm_ids": [
+        "MUS__family__001__016"
+      ],
+      "template_id": "t140",
+      "half": "A"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 131,
+      "situation": "Two colleagues meet for the first time at a business meeting.",
+      "question": "What is the customary way for them to greet each other?",
+      "source_norm_ids": [
+        "CYP__greetings__001__001"
+      ],
+      "template_id": "t141",
+      "half": "B"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 105,
+      "situation": "Two close friends meet after not seeing each other for a while.",
+      "question": "What would be a customary way for them to greet each other?",
+      "source_norm_ids": [
+        "AUS__greetings__001__011"
+      ],
+      "template_id": "t142",
+      "half": "A"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 86,
+      "situation": "A new employee is meeting a senior colleague for the first time.",
+      "question": "How should the employee address the colleague?",
+      "source_norm_ids": [
+        "TUR__greetings__001__012"
+      ],
+      "template_id": "t143",
+      "half": "B"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 55,
+      "situation": "A young employee meets a senior colleague for the first time at a company event.",
+      "question": "How should the employee greet the senior colleague?",
+      "source_norm_ids": [
+        "VNM__greetings__001__012"
+      ],
+      "template_id": "t144",
+      "half": "A"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 45,
+      "situation": "A new employee is meeting a senior manager for the first time.",
+      "question": "How should the employee address the senior manager?",
+      "source_norm_ids": [
+        "KEN__business_culture__001__003"
+      ],
+      "template_id": "t145",
+      "half": "B"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 40,
+      "situation": "A man and a woman who are colleagues meet for the first time at a business meeting.",
+      "question": "What should the man do when greeting the woman?",
+      "source_norm_ids": [
+        "IDN__greetings__001__002",
+        "MYS__greetings__001__008",
+        "SAU__greetings__001__005",
+        "IRQ__greetings__001__019"
+      ],
+      "template_id": "t146",
+      "half": "A"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 39,
+      "situation": "Two colleagues meet for the first time at a business conference. They shake hands.",
+      "question": "What should the person do during the handshake?",
+      "source_norm_ids": [
+        "NZL__greetings__001__013"
+      ],
+      "template_id": "t147",
+      "half": "B"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 37,
+      "situation": "A young employee is about to speak with a senior colleague.",
+      "question": "How should the young employee address the senior colleague?",
+      "source_norm_ids": [
+        "SSD__etiquette__001__003"
+      ],
+      "template_id": "t148",
+      "half": "A"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 35,
+      "situation": "A person meets an acquaintance on the street.",
+      "question": "What is the customary way to greet the acquaintance?",
+      "source_norm_ids": [
+        "PNG__greetings__001__001"
+      ],
+      "template_id": "t149",
+      "half": "B"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 35,
+      "situation": "A young adult meets an older neighbor for the first time.",
+      "question": "How should the young adult address the older neighbor?",
+      "source_norm_ids": [
+        "PSE__greetings__001__017"
+      ],
+      "template_id": "t150",
+      "half": "A"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 33,
+      "situation": "A young adult is about to greet an elderly relative at a family gathering.",
+      "question": "What should the young adult do when greeting the elder?",
+      "source_norm_ids": [
+        "PHL__greetings__001__015"
+      ],
+      "template_id": "t151",
+      "half": "B"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 32,
+      "situation": "A man and a woman are meeting for the first time in a business setting. They have just been introduced.",
+      "question": "What should the man do regarding a handshake?",
+      "source_norm_ids": [
+        "TWN__greetings__001__004"
+      ],
+      "template_id": "t152",
+      "half": "A"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 30,
+      "situation": "A customer walks into a small shop and the shopkeeper looks up from behind the counter.",
+      "question": "What should the shopkeeper do?",
+      "source_norm_ids": [
+        "USA__communication__001__038"
+      ],
+      "template_id": "t153",
+      "half": "B"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 20,
+      "situation": "Two colleagues meet for the first time at a business meeting. One extends a hand in greeting.",
+      "question": "Which hand should the other person use to shake hands?",
+      "source_norm_ids": [
+        "PSE__greetings__001__002"
+      ],
+      "template_id": "t154",
+      "half": "A"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 18,
+      "situation": "A young employee is about to speak to an older female colleague whom she has not met before.",
+      "question": "How should the employee address the colleague?",
+      "source_norm_ids": [
+        "VNM__greetings__001__018"
+      ],
+      "template_id": "t155",
+      "half": "B"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 17,
+      "situation": "A junior employee is about to enter a meeting room where a senior manager is already seated.",
+      "question": "What should the junior employee do?",
+      "source_norm_ids": [
+        "TON__core_concepts__001__001"
+      ],
+      "template_id": "t156",
+      "half": "A"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 15,
+      "situation": "A colleague passes you in the hallway and says, \"Hi, how are you?\"",
+      "question": "What is the colleague expecting in response?",
+      "source_norm_ids": [
+        "NZL__greetings__001__003"
+      ],
+      "template_id": "t157",
+      "half": "B"
+    },
+    {
+      "category": "greetings",
+      "cluster_size": 14,
+      "situation": "A young adult enters a room where an older relative and a peer are both present.",
+      "question": "Who should the young adult greet first?",
+      "source_norm_ids": [
+        "CYP__greetings__001__007",
+        "TUR__greetings__001__007"
+      ],
+      "template_id": "t158",
+      "half": "A"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 30,
+      "situation": "A young employee is in a meeting with a much older colleague. The older colleague makes a suggestion that the young employee believes is not the best approach.",
+      "question": "What should the young employee do?",
+      "source_norm_ids": [
+        "ETH__dos_and_donts__001__008"
+      ],
+      "template_id": "t159",
+      "half": "B"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 16,
+      "situation": "A junior employee is in a meeting with a senior manager and disagrees with the manager's proposed plan.",
+      "question": "How should the junior employee express their disagreement?",
+      "source_norm_ids": [
+        "UKR__communication__001__006"
+      ],
+      "template_id": "t160",
+      "half": "A"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 15,
+      "situation": "A person is asked by a close friend to help with moving to a new apartment on a weekend.",
+      "question": "What should the person do?",
+      "source_norm_ids": [
+        "PSE__core_concepts__003__011"
+      ],
+      "template_id": "t161",
+      "half": "B"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 14,
+      "situation": "A colleague has just received a major award for their work. They are talking with a coworker about the recognition.",
+      "question": "What should the colleague do when discussing the award?",
+      "source_norm_ids": [
+        "CAN__dos_and_donts__001__006"
+      ],
+      "template_id": "t162",
+      "half": "A"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 13,
+      "situation": "A colleague has just received a promotion at work.",
+      "question": "What should the person do when talking with the colleague?",
+      "source_norm_ids": [
+        "NZL__etiquette__001__005"
+      ],
+      "template_id": "t163",
+      "half": "B"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 11,
+      "situation": "A family in the neighborhood has just lost a loved one. Their neighbors and friends are aware of the loss.",
+      "question": "What should the neighbors and friends do for the mourning family?",
+      "source_norm_ids": [
+        "SDN__core_concepts__002__009"
+      ],
+      "template_id": "t164",
+      "half": "A"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 10,
+      "situation": "Two colleagues who have worked together for years meet in the office hallway at the start of the day.",
+      "question": "What should the colleagues do when they meet?",
+      "source_norm_ids": [
+        "EGY__greetings__001__002"
+      ],
+      "template_id": "t165",
+      "half": "B"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 10,
+      "situation": "A family has just moved into the neighborhood, and a neighbor stops by to introduce themselves.",
+      "question": "What should the neighbor do?",
+      "source_norm_ids": [
+        "WSM__core_concepts__001__009"
+      ],
+      "template_id": "t166",
+      "half": "A"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 10,
+      "situation": "A person is struggling financially but sees a neighbor who needs a small amount of help.",
+      "question": "What should the person do?",
+      "source_norm_ids": [
+        "RUS__core_concepts__001__029"
+      ],
+      "template_id": "t167",
+      "half": "B"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 9,
+      "situation": "A traveler arrives at a village and asks a local family for a place to stay for the night.",
+      "question": "What should the family do?",
+      "source_norm_ids": [
+        "AFG__core_concepts__001__011"
+      ],
+      "template_id": "t168",
+      "half": "A"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 9,
+      "situation": "At a casual dinner party, a guest is chatting with a new acquaintance and the conversation turns to current events.",
+      "question": "What should the guest do when the topic of politics comes up?",
+      "source_norm_ids": [
+        "NZL__etiquette__001__003"
+      ],
+      "template_id": "t169",
+      "half": "B"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 8,
+      "situation": "A man is seated on a crowded bus when a woman boards and remains standing nearby.",
+      "question": "What should the man do?",
+      "source_norm_ids": [
+        "MEX__etiquette__001__005"
+      ],
+      "template_id": "t170",
+      "half": "A"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 8,
+      "situation": "Two neighbors in a village have a disagreement about the boundary between their properties. They have not been able to resolve it on their own.",
+      "question": "Where should the neighbors go to resolve their conflict?",
+      "source_norm_ids": [
+        "TLS__religion__001__010"
+      ],
+      "template_id": "t171",
+      "half": "B"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 8,
+      "situation": "A person receives a modest bonus at work and is considering what to do with the money.",
+      "question": "What should the person do with the bonus?",
+      "source_norm_ids": [
+        "SOM__core_concepts__002__018"
+      ],
+      "template_id": "t172",
+      "half": "A"
+    },
+    {
+      "category": "core_concepts",
+      "cluster_size": 8,
+      "situation": "A colleague receives unexpected critical feedback during a team meeting.",
+      "question": "How is the colleague likely to react facially?",
+      "source_norm_ids": [
+        "SDN__core_concepts__002__030"
+      ],
+      "template_id": "t173",
+      "half": "B"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 19,
+      "situation": "A colleague is about to tell a joke to a group of coworkers during a break.",
+      "question": "What should the colleague do?",
+      "source_norm_ids": [
+        "CHL__communication__001__014"
+      ],
+      "template_id": "t174",
+      "half": "A"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 17,
+      "situation": "A colleague asks for help moving some boxes to a storage room.",
+      "question": "What should the person do?",
+      "source_norm_ids": [
+        "PAK__other_considerations__001__002"
+      ],
+      "template_id": "t175",
+      "half": "B"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 15,
+      "situation": "A colleague asks a person to help with a task next week.",
+      "question": "What should the person do?",
+      "source_norm_ids": [
+        "IRQ__other_considerations__001__003"
+      ],
+      "template_id": "t176",
+      "half": "A"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 15,
+      "situation": "A colleague has just completed a major project successfully.",
+      "question": "What should the colleague do when discussing the project with others?",
+      "source_norm_ids": [
+        "NLD__dos_and_donts__001__008"
+      ],
+      "template_id": "t177",
+      "half": "B"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 13,
+      "situation": "A customer is upset because a store clerk made a mistake with their order.",
+      "question": "What should the customer do?",
+      "source_norm_ids": [
+        "SGP__dos_and_donts__001__010"
+      ],
+      "template_id": "t178",
+      "half": "A"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 13,
+      "situation": "A group of colleagues is having lunch together and the conversation turns to a recent political controversy.",
+      "question": "What should one of the colleagues do when the topic comes up?",
+      "source_norm_ids": [
+        "PRT__dos_and_donts__001__009"
+      ],
+      "template_id": "t179",
+      "half": "B"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 12,
+      "situation": "A person is at a social gathering with acquaintances and is considering what topic to bring up in conversation.",
+      "question": "What should the person do?",
+      "source_norm_ids": [
+        "PER__dos_and_donts__001__001"
+      ],
+      "template_id": "t180",
+      "half": "A"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 12,
+      "situation": "A colleague makes a mistake on a shared project. The team is deciding how to address it.",
+      "question": "What should the team do?",
+      "source_norm_ids": [
+        "PSE__dos_and_donts__001__006"
+      ],
+      "template_id": "t181",
+      "half": "B"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 12,
+      "situation": "A young employee is in a meeting with a senior colleague who proposes a plan that the young employee believes is flawed.",
+      "question": "What should the young employee do?",
+      "source_norm_ids": [
+        "KEN__dos_and_donts__001__004",
+        "ZWE__dos_and_donts__001__002"
+      ],
+      "template_id": "t182",
+      "half": "A"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 8,
+      "situation": "A colleague is discussing their recent vacation plans with a group of coworkers.",
+      "question": "What should the colleague do when the conversation turns to the cost of the trip?",
+      "source_norm_ids": [
+        "HUN__dos_and_donts__001__003"
+      ],
+      "template_id": "t183",
+      "half": "B"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 8,
+      "situation": "A colleague offers to share their lunch with a coworker who is not hungry.",
+      "question": "What should the coworker do while declining the offer?",
+      "source_norm_ids": [
+        "TUR__etiquette__001__004"
+      ],
+      "template_id": "t184",
+      "half": "A"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 7,
+      "situation": "A visitor is about to take a photo of a street performer in a public square.",
+      "question": "What should the visitor do before taking the photo?",
+      "source_norm_ids": [
+        "AUT__dos_and_donts__001__003"
+      ],
+      "template_id": "t185",
+      "half": "B"
+    },
+    {
+      "category": "dos_and_donts",
+      "cluster_size": 7,
+      "situation": "A colleague has been asking about your weekend plans and family, and you have been answering briefly. Now you are wondering how to interact with them.",
+      "question": "What should you do in your interactions with this colleague?",
+      "source_norm_ids": [
+        "SRB__business_culture__001__009"
+      ],
+      "template_id": "t186",
+      "half": "A"
+    },
+    {
+      "category": "other_considerations",
+      "cluster_size": 11,
+      "situation": "A woman is getting ready to visit a friend's home for a casual afternoon gathering. She is choosing what to wear.",
+      "question": "What should she wear?",
+      "source_norm_ids": [
+        "PRT__other_considerations__001__004"
+      ],
+      "template_id": "t187",
+      "half": "B"
+    },
+    {
+      "category": "other_considerations",
+      "cluster_size": 6,
+      "situation": "A person is choosing a number for a new apartment unit.",
+      "question": "Which number would the person prefer?",
+      "source_norm_ids": [
+        "VNM__other_considerations__001__016"
+      ],
+      "template_id": "t188",
+      "half": "A"
+    },
+    {
+      "category": "other_considerations",
+      "cluster_size": 5,
+      "situation": "A person is in a room with two windows. The weather is warm and there is a breeze outside.",
+      "question": "What should the person do regarding the windows?",
+      "source_norm_ids": [
+        "MKD__etiquette__001__004"
+      ],
+      "template_id": "t189",
+      "half": "B"
+    },
+    {
+      "category": "other_considerations",
+      "cluster_size": 4,
+      "situation": "A man is at a social gathering with his wife. Another guest makes a mildly disrespectful comment about her.",
+      "question": "What should the man do?",
+      "source_norm_ids": [
+        "COL__family__001__017"
+      ],
+      "template_id": "t190",
+      "half": "A"
+    },
+    {
+      "category": "other_considerations",
+      "cluster_size": 4,
+      "situation": "A family is choosing a new apartment and is considering two units on different floors of the same building.",
+      "question": "Which floor number would the family prefer to live on?",
+      "source_norm_ids": [
+        "HKG__other_considerations__001__002"
+      ],
+      "template_id": "t191",
+      "half": "B"
+    },
+    {
+      "category": "other_considerations",
+      "cluster_size": 4,
+      "situation": "A young woman is getting ready to attend a community gathering. She selects an outfit that is very revealing.",
+      "question": "How would her choice of clothing be viewed by others at the gathering?",
+      "source_norm_ids": [
+        "ZWE__etiquette__001__013"
+      ],
+      "template_id": "t192",
+      "half": "A"
+    },
+    {
+      "category": "other_considerations",
+      "cluster_size": 3,
+      "situation": "A young couple is planning their wedding and considering dates in August.",
+      "question": "What would be the customary choice for the wedding date?",
+      "source_norm_ids": [
+        "MMR__family__001__037"
+      ],
+      "template_id": "t193",
+      "half": "B"
+    },
+    {
+      "category": "religion",
+      "cluster_size": 14,
+      "situation": "A new colleague joins the team and during a lunch break, the conversation turns to personal beliefs. One team member is about to share their own religious perspective.",
+      "question": "What should the team member do?",
+      "source_norm_ids": [
+        "LKA__dos_and_donts__001__011"
+      ],
+      "template_id": "t194",
+      "half": "A"
+    },
+    {
+      "category": "religion",
+      "cluster_size": 12,
+      "situation": "A person is at a social gathering where the topic of religion comes up in conversation.",
+      "question": "What should the person do?",
+      "source_norm_ids": [
+        "HRV__dos_and_donts__001__014"
+      ],
+      "template_id": "t195",
+      "half": "B"
+    },
+    {
+      "category": "religion",
+      "cluster_size": 9,
+      "situation": "A family has recently moved into a new home and is discussing their household routines.",
+      "question": "What should the family do regarding regular ritual offerings?",
+      "source_norm_ids": [
+        "TLS__religion__001__006"
+      ],
+      "template_id": "t196",
+      "half": "A"
+    },
+    {
+      "category": "religion",
+      "cluster_size": 6,
+      "situation": "A new neighbor moves in next door. The neighbor is friendly and keeps to themselves.",
+      "question": "What is the neighbor expected to do regarding religious practice?",
+      "source_norm_ids": [
+        "SAU__religion__001__001"
+      ],
+      "template_id": "t197",
+      "half": "B"
+    },
+    {
+      "category": "religion",
+      "cluster_size": 5,
+      "situation": "A person is chatting with a colleague and considers making a remark about a religious figure.",
+      "question": "What should the person do?",
+      "source_norm_ids": [
+        "KEN__dos_and_donts__001__009"
+      ],
+      "template_id": "t198",
+      "half": "A"
+    },
+    {
+      "category": "religion",
+      "cluster_size": 3,
+      "situation": "A family is moving into a new apartment and is deciding how to decorate the living room.",
+      "question": "What would be customary for them to display on the wall?",
+      "source_norm_ids": [
+        "RUS__religion__001__007"
+      ],
+      "template_id": "t199",
+      "half": "B"
+    }
+  ]
+}

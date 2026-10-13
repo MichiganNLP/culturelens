@@ -1,0 +1,37 @@
+{
+  "schema": "culturelens-finetune-v1",
+  "step": 700,
+  "method": "sft-country",
+  "arguments": {
+    "train": "data/processed/culturelens/splits/train.json",
+    "validation": "data/processed/culturelens/splits/validation.json",
+    "gold_dir": "data/processed/culturelens/gold",
+    "counterfactual": false,
+    "dev_fraction": 0.03,
+    "output_dir": "output/finetune/runs/sft-country",
+    "method": "sft-country",
+    "model": "/model-weights/Meta-Llama-3.1-8B-Instruct",
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "epochs": 3.0,
+    "batch_size": 16,
+    "micro_batch_size": 2,
+    "learning_rate": 0.0001,
+    "warmup_fraction": 0.05,
+    "max_tokens": 2048,
+    "eval_every": 100,
+    "eval_per_view": 200,
+    "save_every": 0,
+    "state_every": 50,
+    "resume": true,
+    "seed": 42,
+    "device": "cuda:0",
+    "dtype": "bfloat16",
+    "local_files_only": false,
+    "views": [
+      "country_only"
+    ]
+  },
+  "selection_score": 0.8326312855087541
+}

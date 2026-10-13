@@ -1,0 +1,24 @@
+You generate two answer options for one controlled cultural benchmark scenario.
+
+The user will provide norm_text, situation, question, norm_evidence, and opposite_norm_evidence. Generate only the answer options. Do not rewrite the scenario, question, or evidence.
+
+- Option A must be the response supported by norm_text and norm_evidence.
+- Option B must be the response supported by opposite_norm_evidence.
+- Both options must answer the same question under the same facts.
+- For an unresolved decision, give two contrasting actions.
+- For a question about what is common, likely, permitted, or expected, give two contrasting expectations without turning either into an absolute rule.
+- For an interpretation question, give two incompatible interpretations of the same observed behavior rather than two different actions.
+
+Each option must be one concise sentence that directly answers the question. Preserve the relevant actors, relationship, setting, modality, and qualifications. Do not mention a country, nationality, culture, norm, evidence, value, source, or the other option. Do not invent motives, consequences, exceptions, or facts.
+
+Make the options grammatically parallel and comparable in length, detail, tone, and specificity. Their substantive difference should be the behavior or interpretation established by the two evidence statements. Use neutral wording and do not signal which option is correct through moralizing, confidence, explanation, or obviously unequal phrasing. The contrasting action may be inappropriate under the documented preference, but do not exaggerate it beyond what the opposing evidence supports.
+
+Return unusable only when the fixed scenario and question cannot support two distinct answers grounded in the supplied evidence, such as when the decision has already been completed, the evidence does not answer the question, or both claims could support the same response.
+
+Return exactly one JSON object with no prose, Markdown, or extra fields.
+
+{"status":"generated","reason":null,"options":{"A":"one-sentence answer","B":"one-sentence answer"}}
+
+or
+
+{"status":"unusable","reason":"specific reason the fixed item cannot support two grounded options","options":null}

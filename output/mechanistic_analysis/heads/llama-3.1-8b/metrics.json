@@ -1,0 +1,178 @@
+{
+  "analysis": "claim_reading_heads",
+  "model_slug": "llama-3.1-8b",
+  "dataset_sha256": "f06c2383b23f56fc12d8f70abaf7deb8c0bb79f9033ad944368f3ef7a7c0cfbf",
+  "sample": 200,
+  "sample_rule": "uniform without replacement over all records, seed 42 (the development sample)",
+  "window": [
+    12,
+    16
+  ],
+  "heads_in_window": 128,
+  "endpoint": "mean change in margin when the answer stream cannot attend to the false claim through the given heads",
+  "window_effect": 6.444850921630859,
+  "single_head_effects_ranked": [
+    {
+      "layer": 14,
+      "head": 24,
+      "effect": 0.7133517265319824
+    },
+    {
+      "layer": 12,
+      "head": 4,
+      "effect": 0.7074576616287231
+    },
+    {
+      "layer": 13,
+      "head": 21,
+      "effect": 0.5863633751869202
+    },
+    {
+      "layer": 13,
+      "head": 23,
+      "effect": 0.4383646249771118
+    },
+    {
+      "layer": 14,
+      "head": 5,
+      "effect": 0.4087330102920532
+    },
+    {
+      "layer": 13,
+      "head": 4,
+      "effect": 0.34387528896331787
+    },
+    {
+      "layer": 13,
+      "head": 22,
+      "effect": 0.3379942774772644
+    },
+    {
+      "layer": 12,
+      "head": 22,
+      "effect": 0.3259727358818054
+    },
+    {
+      "layer": 14,
+      "head": 23,
+      "effect": 0.2919023633003235
+    },
+    {
+      "layer": 13,
+      "head": 1,
+      "effect": 0.28912854194641113
+    },
+    {
+      "layer": 13,
+      "head": 18,
+      "effect": 0.2868109345436096
+    },
+    {
+      "layer": 14,
+      "head": 7,
+      "effect": 0.27031028270721436
+    },
+    {
+      "layer": 12,
+      "head": 13,
+      "effect": 0.22429253160953522
+    },
+    {
+      "layer": 13,
+      "head": 6,
+      "effect": 0.17912110686302185
+    },
+    {
+      "layer": 14,
+      "head": 20,
+      "effect": 0.16915984451770782
+    },
+    {
+      "layer": 14,
+      "head": 29,
+      "effect": 0.1548270434141159
+    },
+    {
+      "layer": 14,
+      "head": 31,
+      "effect": 0.12594223022460938
+    },
+    {
+      "layer": 12,
+      "head": 10,
+      "effect": 0.11583904176950455
+    },
+    {
+      "layer": 13,
+      "head": 11,
+      "effect": 0.11173766851425171
+    },
+    {
+      "layer": 13,
+      "head": 15,
+      "effect": 0.10980736464262009
+    }
+  ],
+  "joint_effect_top": {
+    "1": 0.7133517265319824,
+    "2": 1.5889863967895508,
+    "4": 3.1077475547790527,
+    "8": 5.1406731605529785,
+    "16": 7.116583824157715,
+    "32": 7.552914619445801,
+    "64": 8.71008586883545
+  },
+  "joint_effect_random": {
+    "1": 0.28912854194641113,
+    "2": 0.35658690333366394,
+    "4": 0.593344509601593,
+    "8": 1.3289567232131958,
+    "16": 1.9645729064941406,
+    "32": 1.2320148944854736,
+    "64": 3.3823962211608887
+  },
+  "selection_rule": "smallest size reaching 50% of the window effect",
+  "selection": {
+    "model_slug": "llama-3.1-8b",
+    "window": [
+      12,
+      16
+    ],
+    "size": 8,
+    "heads": {
+      "14": [
+        24,
+        5
+      ],
+      "12": [
+        4,
+        22
+      ],
+      "13": [
+        21,
+        23,
+        4,
+        22
+      ]
+    },
+    "random_heads": {
+      "13": [
+        1,
+        6,
+        31
+      ],
+      "12": [
+        2,
+        3
+      ],
+      "15": [
+        3,
+        8
+      ],
+      "14": [
+        20
+      ]
+    }
+  },
+  "seconds": 537.4
+}

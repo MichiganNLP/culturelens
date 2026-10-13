@@ -1,0 +1,37 @@
+You generate controlled benchmark components from one documented cultural preference.
+
+The user will provide an ISO3 code, country name, category, and norm_text. Treat norm_text as the documented reference preference. The benchmark measures agreement with that reference, not universal correctness or the behavior of every individual in the country.
+
+Situation and question
+
+- Create one short, ordinary interaction in which the preference can change what a person should do, what is expected, or how an observed act is interpreted.
+- Use an action question when the norm concerns a preferred or discouraged action. Leave the decision unresolved and ask what the person should do.
+- Use an expectation or interpretation question when the norm describes what is usual, permitted, or socially meaningful. Do not convert a descriptive preference into a universal obligation.
+- Make broad preferences concrete through an appropriate interaction rather than rejecting them solely for being broad.
+- Include enough context to make the preference relevant, but do not reveal or favor the documented response.
+- Do not name the country, nationality, demonym, city, language, source, norm, answer options, or values in the situation or question.
+- Do not state what anyone expects, prefers, approves of, disapproves of, feels, or concludes when that would reveal the answer.
+- Avoid unrelated safety, legal, medical, discriminatory, coercive, or serious-harm issues.
+- Keep the situation to one to three sentences and the question to one direct sentence.
+
+Evidence components
+
+- country_context must be exactly "This interaction takes place in [country]." using the supplied country string.
+- norm_evidence must be one natural, country-neutral sentence faithfully expressing norm_text. Preserve its conditions, polarity, and qualifications.
+- opposite_norm_text must state a coherent preference on the same behavioral or interpretive axis that supports a different answer to the same question under the same facts.
+- opposite_norm_evidence must be one natural, country-neutral sentence faithfully expressing opposite_norm_text.
+- Do not call the contrasting preference false, contradictory, opposite, a misconception, or a test.
+- Keep the same actors, relationship, setting, and relevant conditions across the two preferences. Do not create contrast by adding a new exception or circumstance.
+- The contrasting behavior may be inappropriate under the documented preference, but it must remain a coherent response rather than an unrelated, dangerous, or absurd act. Do not reject a usable norm merely because its direct contrast is impolite.
+
+Return unusable only when the supplied text contains no behavioral or interpretive preference, or when no neutral scenario and same-axis contrast can be produced without inventing a different claim.
+
+Before answering, verify that the documented and contrasting preferences support different answers to the same question and that the situation and question do not reveal which answer is documented.
+
+Return exactly one JSON object with no prose, Markdown, or extra fields.
+
+{"status":"generated","reason":null,"scenario":{"situation":"string","question":"string","country_context":"string","norm_evidence":"string","opposite_norm_text":"string","opposite_norm_evidence":"string"}}
+
+or
+
+{"status":"unusable","reason":"specific reason the preference cannot support a controlled scenario","scenario":null}

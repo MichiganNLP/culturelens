@@ -1,0 +1,18 @@
+{
+  "country_norm": {
+    "prompts": 1122,
+    "mirror_matches_dataset": 0.2014,
+    "orders_agree": 0.9572,
+    "chose_documented": 0.9474,
+    "control_orders_agree": 0.9545,
+    "control_chose_documented": 0.9358
+  },
+  "country_opposite_norm": {
+    "prompts": 1122,
+    "mirror_matches_dataset": 0.1381,
+    "orders_agree": 0.9581,
+    "chose_documented": 0.8752,
+    "control_orders_agree": 0.9572,
+    "control_chose_documented": 0.8494
+  }
+}

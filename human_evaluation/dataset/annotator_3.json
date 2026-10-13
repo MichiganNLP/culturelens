@@ -1,0 +1,5802 @@
+[
+ {
+  "id": 1,
+  "data": {
+   "record_id": "EGY_etiquette_022",
+   "flag": "🇪🇬",
+   "country": "Egypt",
+   "norm_text": "Alcohol is generally not offered nor consumed with food.",
+   "situation": "A host is preparing a meal for a guest and is deciding what drinks to serve alongside the food.",
+   "question": "What should the host provide for the guest to drink during the meal?",
+   "country_context": "This interaction takes place in Egypt.",
+   "norm_evidence": "In this setting, alcohol is generally not offered nor consumed with food.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Provide non-alcoholic beverages.",
+   "option_B": "Provide alcoholic beverages.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "ZYbGJ-R7cC",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "fWcyK8WI0V",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "gR7Eml2iR8",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 32.415
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "data": {
+   "record_id": "CAN_etiquette_020",
+   "flag": "🇨🇦",
+   "country": "Canada",
+   "norm_text": "A guest should ask whether they should take off their shoes before entering someone’s home.",
+   "situation": "A person arrives at a friend's house for a visit and is standing at the front door. The friend opens the door to let them inside.",
+   "question": "How should the guest behave before entering the home?",
+   "country_context": "This interaction takes place in Canada.",
+   "norm_evidence": "A guest should ask whether they should take off their shoes before entering.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "In this setting, avoiding offence and disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Ask the friend if they should remove their shoes.",
+   "option_B": "Enter the home while wearing their shoes.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "KcO3EhImSm",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 4
+      },
+      "id": "QfWT3nIN_y",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 3
+      },
+      "id": "_f9dhXrl3G",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 15.884
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "data": {
+   "record_id": "CAN_business_culture_010",
+   "flag": "🇨🇦",
+   "country": "Canada",
+   "norm_text": "Hard tactics or tough bargaining pressures are discouraged during negotiations.",
+   "situation": "Two business partners are negotiating the final terms of a contract. One partner believes the current offer is unfair and wants to push for better terms.",
+   "question": "How should the partner approach the negotiation to resolve the disagreement?",
+   "country_context": "This interaction takes place in Canada.",
+   "norm_evidence": "Hard tactics or tough bargaining pressures are discouraged during negotiations.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "In this setting, avoiding offence and disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Propose a compromise through a flexible and soft approach.",
+   "option_B": "Apply pressure and use firm bargaining tactics to get better terms.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "LYHBdpdwe_",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "u-ET79KMWh",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "3h6BJcr8o-",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 13.616
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "data": {
+   "record_id": "KOR_etiquette_004",
+   "flag": "🇰🇷",
+   "country": "South Korea",
+   "norm_text": "Showing respect to elders involves deferring to their opinion, waiting for their input, and lowering one's gaze.",
+   "situation": "A younger person and an older person are discussing a family decision. The younger person has a different perspective on the matter.",
+   "question": "How should the younger person behave during this discussion?",
+   "country_context": "This interaction takes place in Korea, Republic of.",
+   "norm_evidence": "The younger person defers to the older person's opinion, waits for their input, and lowers their gaze.",
+   "value_name": "Conformity Interpersonal, Tradition",
+   "value_evidence": "Adherence to social hierarchy and traditional roles is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Wait for the older person to speak first and lower their gaze.",
+   "option_B": "State their opinion immediately and maintain direct eye contact.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "GH7MfrNxAh",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "nj04cv3R1l",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "qkAi9a0YKF",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 16.65
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "data": {
+   "record_id": "UKR_communication_020",
+   "flag": "🇺🇦",
+   "country": "Ukraine",
+   "norm_text": "Direct eye contact is the norm and is expected to indicate sincerity and trust.",
+   "situation": "Two people are having a serious conversation about a personal matter. One person is speaking while the other listens.",
+   "question": "How should the listener use eye contact during this interaction?",
+   "country_context": "This interaction takes place in Ukraine.",
+   "norm_evidence": "The listener maintains direct eye contact.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Maintain direct eye contact with the speaker.",
+   "option_B": "Avoid direct eye contact with the speaker.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "F_tvP3RerZ",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "JTSa8veuCe",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "hTCyLpYrdt",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 7.121
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "data": {
+   "record_id": "VNM_etiquette_004",
+   "flag": "🇻🇳",
+   "country": "Vietnam",
+   "norm_text": "People are expected to defer to status and maintain a modest disposition.",
+   "situation": "A junior employee has a different perspective on a strategy proposed by a senior manager during a team meeting. The employee wants to share their view.",
+   "question": "How should the employee behave in this situation?",
+   "country_context": "This interaction takes place in Viet Nam.",
+   "norm_evidence": "The employee remains silent or expresses agreement with the senior manager's proposal.",
+   "value_name": "Conformity Interpersonal, Humility",
+   "value_evidence": "Adherence to social order and modesty are prioritized over individual assertion.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Remain silent or express agreement with the proposal.",
+   "option_B": "State their differing opinion and argue for their perspective.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "Q7Lbu8RutP",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "Nid5aQEPvd",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "rwNd-NGSgW",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.682
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "data": {
+   "record_id": "LBN_business_culture_023",
+   "flag": "🇱🇧",
+   "country": "Lebanon",
+   "norm_text": "A person should avoid being overly 'stiff and cold' when engaging in negotiations.",
+   "situation": "Two business partners are meeting to negotiate the terms of a new contract. One partner is preparing their approach for the discussion.",
+   "question": "How should the person behave during the negotiations?",
+   "country_context": "This interaction takes place in Lebanon.",
+   "norm_evidence": "A person should avoid being overly stiff and cold when engaging in negotiations.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining interpersonal harmony and avoiding social friction are prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Adopt a warm and friendly demeanor during the discussion.",
+   "option_B": "Maintain a formal and distant professional manner during the discussion.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "qCOzq8B3dc",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "mFwNkF7cmQ",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "L7Z_E9kKeI",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.134
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "data": {
+   "record_id": "ZWE_communication_021",
+   "flag": "🇿🇼",
+   "country": "Zimbabwe",
+   "norm_text": "Some men may kneel to their mother-in-laws, brothers, or older sisters.",
+   "situation": "A man is visiting the home of his extended family and greets his older sister and mother-in-law.",
+   "question": "How should the man behave during this greeting?",
+   "country_context": "This interaction takes place in Zimbabwe.",
+   "norm_evidence": "Some men may kneel to their mother-in-laws, brothers, or older sisters.",
+   "value_name": "Conformity Interpersonal, Tradition",
+   "value_evidence": "Adherence to traditional customs and maintaining interpersonal harmony are prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Kneel while greeting them.",
+   "option_B": "Remain standing while greeting them.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "iuFXvFoktW",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "uKCqqIC4xm",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "zjpxNVAuNh",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.995
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "data": {
+   "record_id": "MYS_business_culture_001",
+   "flag": "🇲🇾",
+   "country": "Malaysia",
+   "norm_text": "Punctuality is expected in a business setting.",
+   "situation": "A professional has a scheduled meeting with a business partner to discuss a new contract. The professional is running a few minutes behind the agreed start time.",
+   "question": "How should the professional handle their arrival time for this meeting?",
+   "country_context": "This interaction takes place in Malaysia.",
+   "norm_evidence": "In this setting, punctuality is expected in a business setting.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Arrive as close to the scheduled start time as possible and apologize for the delay.",
+   "option_B": "Arrive a short time after the scheduled start time without feeling the need to apologize.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "ZYlNhvAcp_",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "63vBO_5WVC",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "-ePBjM-lzM",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.388
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "data": {
+   "record_id": "MMR_family_009",
+   "flag": "🇲🇲",
+   "country": "Myanmar",
+   "norm_text": "Women are forbidden from entering some parts of monasteries.",
+   "situation": "A woman is visiting a religious complex and wishes to enter a specific restricted area. A guide is explaining the access rules for the site.",
+   "question": "How should the woman proceed regarding her entry into that part of the complex?",
+   "country_context": "This interaction takes place in Myanmar.",
+   "norm_evidence": "Women are forbidden from entering some parts of the complex.",
+   "value_name": "Conformity: Rules, Tradition",
+   "value_evidence": "Compliance with established rules and respect for inherited customs are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Refrain from entering the restricted area.",
+   "option_B": "Proceed to enter the restricted area.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "o8XeqgN236",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "fK2XXumQQ9",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "sgeNZ39u_n",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.648
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "data": {
+   "record_id": "IRQ_business_culture_024",
+   "flag": "🇮🇶",
+   "country": "Iraq",
+   "norm_text": "A person should be flexible in receiving and extending privileges or favors for a business partner's family based on friendship.",
+   "situation": "A business partner asks for a special favor or privilege to benefit a member of their family. The other partner is considering how to respond to this request.",
+   "question": "How should the person handle the request for a family favor?",
+   "country_context": "This interaction takes place in Iraq.",
+   "norm_evidence": "A person should be flexible in receiving and extending privileges or favors for a business partner's family.",
+   "value_name": "Benevolence: Caring",
+   "value_evidence": "In this setting, care and concern for the welfare of close others are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Grant the favor to the partner's family member.",
+   "option_B": "Decline the request to maintain professional boundaries.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "ZEn4zL-1HN",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "XNL6FMUAVW",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "LRoDH0XiHP",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 11.829
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "data": {
+   "record_id": "HKG_greetings_001",
+   "flag": "🇭🇰",
+   "country": "Hong Kong",
+   "norm_text": "A handshake is the norm for greetings and should be accompanied by a nod and direct eye contact.",
+   "situation": "Two business partners meet for the first time at a professional conference. They approach each other to begin their introduction.",
+   "question": "How should the partners greet each other?",
+   "country_context": "This interaction takes place in Hong Kong.",
+   "norm_evidence": "In this setting, a handshake is the norm for greetings and should be accompanied by a nod and direct eye contact.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Shake hands while nodding and maintaining eye contact.",
+   "option_B": "Bow or offer a verbal greeting without physical contact.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "NcMf0fBxKr",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "5VRmKZya8A",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "6yyakm9p1Q",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 6.641
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "data": {
+   "record_id": "HKG_etiquette_017",
+   "flag": "🇭🇰",
+   "country": "Hong Kong",
+   "norm_text": "A person should avoid talking a lot while eating.",
+   "situation": "A person is having a meal with a group of acquaintances. During the meal, a topic of conversation arises that the person feels strongly about.",
+   "question": "How should the person behave during the meal?",
+   "country_context": "This interaction takes place in Hong Kong.",
+   "norm_evidence": "In this setting, a person should avoid talking a lot while eating.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "In this setting, avoiding offence and disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Limit their speaking and focus on eating.",
+   "option_B": "Engage in frequent conversation while eating.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "2DpuE682G6",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "rw-Y5Ot1S4",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "D529KwwoZu",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.188
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "data": {
+   "record_id": "MYS_core_concepts_016",
+   "flag": "🇲🇾",
+   "country": "Malaysia",
+   "norm_text": "People are expected to adjust their behaviour to show the appropriate amount of respect based on another person's status relative to them.",
+   "situation": "A junior employee is attending a meeting with a senior executive to discuss a new project. The employee has a suggestion that differs from the executive's current plan.",
+   "question": "How should the employee communicate their suggestion to the executive?",
+   "country_context": "This interaction takes place in Malaysia.",
+   "norm_evidence": "The employee adjusts their communication style to reflect the executive's higher status.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining social order and adhering to established hierarchies is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Use formal language and a deferential tone when presenting the suggestion.",
+   "option_B": "Use the same casual language and tone as they would with a peer.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "9HCzcPKapT",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "E_M1fdTgOd",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "b9oowJpdwV",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.752
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "data": {
+   "record_id": "UKR_communication_023",
+   "flag": "🇺🇦",
+   "country": "Ukraine",
+   "norm_text": "Body language and movements are usually limited in public places.",
+   "situation": "A person is waiting in a crowded public area for a friend to arrive. They are feeling restless and impatient.",
+   "question": "How should the person behave while waiting in this public space?",
+   "country_context": "This interaction takes place in Ukraine.",
+   "norm_evidence": "Body language and movements are usually limited in public places.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining social order and avoiding disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Keep their movements minimal and stay still.",
+   "option_B": "Use expressive and animated gestures.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "Z5QvRHGxKe",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "sjR-fVQa9I",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "HxYnIGgV5y",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.583
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "data": {
+   "record_id": "IND_dos_and_donts_002",
+   "flag": "🇮🇳",
+   "country": "India",
+   "norm_text": "Elders should be treated with visible respect, such as by addressing them first.",
+   "situation": "A group of family members of different ages has gathered for a meal. A younger person is about to begin a conversation with the group.",
+   "question": "How should the younger person initiate the interaction?",
+   "country_context": "This interaction takes place in India.",
+   "norm_evidence": "Elders are addressed first.",
+   "value_name": "Conformity Interpersonal, Tradition",
+   "value_evidence": "Adherence to traditional hierarchies and maintaining interpersonal harmony are prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Address the oldest family members first.",
+   "option_B": "Address any family member regardless of their age.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "gtbGSs7ZXt",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "26cDr6WaPn",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "RljsIxv_Dt",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 12.939
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "data": {
+   "record_id": "ZWE_core_concepts_006",
+   "flag": "🇿🇼",
+   "country": "Zimbabwe",
+   "norm_text": "People tend to show off their wealth.",
+   "situation": "A person has recently acquired a significant amount of wealth and is attending a social gathering with acquaintances. They are deciding how to present themselves and their new status to the group.",
+   "question": "How should the person behave regarding the display of their wealth in this situation?",
+   "country_context": "This interaction takes place in Zimbabwe.",
+   "norm_evidence": "People tend to display their wealth openly.",
+   "value_name": "Power: Resources",
+   "value_evidence": "Having control over valuable resources is a key priority.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Wear expensive clothing and accessories that clearly signal their wealth.",
+   "option_B": "Wear simple clothing and avoid mentioning their financial status.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "D2p9G8x28p",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "MAjt_z1Jut",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "M8loQxKIEm",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 9.088
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "data": {
+   "record_id": "CHN_religion_001",
+   "flag": "🇨🇳",
+   "country": "China",
+   "norm_text": "Religious practitioners are expected to practice their faith within government guidelines.",
+   "situation": "A religious group is planning a community gathering. They are deciding whether to register the event with local authorities and follow official procedures, or to organize it privately without any official oversight.",
+   "question": "How should the group proceed with the organization of the gathering?",
+   "country_context": "This interaction takes place in China.",
+   "norm_evidence": "Religious practitioners are expected to practice their faith within government guidelines.",
+   "value_name": "Conformity: Rules",
+   "value_evidence": "In this setting, compliance with rules and formal obligations is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Register the event with local authorities and follow official procedures.",
+   "option_B": "Organize the event privately without official oversight.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "43y4VpDwZq",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "AFW67BeC6K",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "0UHpJ48MA6",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.171
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "data": {
+   "record_id": "NZL_business_culture_029",
+   "flag": "🇳🇿",
+   "country": "New Zealand",
+   "norm_text": "Supervisors should avoid micromanaging behaviours, such as closely observing, controlling, or reminding subordinates.",
+   "situation": "A supervisor is overseeing a project being handled by an experienced employee. The supervisor needs to ensure the work is progressing according to the timeline.",
+   "question": "How should the supervisor manage the employee's progress?",
+   "country_context": "This interaction takes place in New Zealand.",
+   "norm_evidence": "Supervisors avoid micromanaging behaviours, such as closely observing, controlling, or reminding subordinates.",
+   "value_name": "Self Direction Action",
+   "value_evidence": "Personal autonomy and freedom of choice are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Allow the employee to manage their own workflow with minimal intervention.",
+   "option_B": "Monitor the employee's progress frequently with detailed reminders.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "zm8M8EnZfD",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "7eb015WTPm",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "cP65SrnHXq",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 3.505
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "data": {
+   "record_id": "ARG_etiquette_014",
+   "flag": "🇦🇷",
+   "country": "Argentina",
+   "norm_text": "Guests are expected to wait until the host indicates the seating arrangements before being seated.",
+   "situation": "A person arrives at a friend's home for a dinner party and enters the dining room where the table is set. The host is currently standing by the table.",
+   "question": "How should the guest behave regarding where to sit?",
+   "country_context": "This interaction takes place in Argentina.",
+   "norm_evidence": "In this setting, guests are expected to wait until the host indicates the seating arrangements before being seated.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "In this setting, avoiding offence and disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Wait for the host to assign a seat.",
+   "option_B": "Choose a seat and sit down.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "_x1i3LZngO",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "zGClkU58l7",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "3FRxjtlrZ-",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.678
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "data": {
+   "record_id": "BRA_etiquette_010",
+   "flag": "🇧🇷",
+   "country": "Brazil",
+   "norm_text": "Burping is considered poor etiquette.",
+   "situation": "A person is eating a meal with a group of acquaintances. After finishing a drink, the person feels the need to burp.",
+   "question": "How should the person behave in this situation?",
+   "country_context": "This interaction takes place in Brazil.",
+   "norm_evidence": "The person suppresses the burp.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining social harmony and adhering to interpersonal norms is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Suppress the burp.",
+   "option_B": "Burp audibly.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "zl_yGOGfsI",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "VEYVCZIrzH",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "M55nI0rSTh",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 6.092
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "data": {
+   "record_id": "CAN_family_004",
+   "flag": "🇨🇦",
+   "country": "Canada",
+   "norm_text": "If feelings develop for a particular person, it is expected that a person stop meeting new dates or seeing other people.",
+   "situation": "A person has been dating several different people casually. They have recently started developing strong feelings for one of those individuals.",
+   "question": "How should the person handle their other dating arrangements?",
+   "country_context": "This interaction takes place in Canada.",
+   "norm_evidence": "It is expected that a person stop meeting new dates or seeing other people.",
+   "value_name": "Benevolence: Dependability",
+   "value_evidence": "In this setting, reliability and loyalty to close others are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Stop seeing other people and meeting new dates.",
+   "option_B": "Continue seeing other people and meeting new dates.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "aqzHEe9UBN",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "zy5NtirRrI",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "wa9exXaMPd",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 14.855
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "data": {
+   "record_id": "ROU_family_003",
+   "flag": "🇷🇴",
+   "country": "Romania",
+   "norm_text": "Families are expected to pass down cooking traditions and share home-cooked meals together.",
+   "situation": "A young adult is discussing their future living arrangements and daily habits with their parents. The conversation turns to how meals and recipes are handled within the family.",
+   "question": "How should the family approach the preparation and sharing of meals?",
+   "country_context": "This interaction takes place in Romania.",
+   "norm_evidence": "Families pass down cooking traditions and share home-cooked meals together.",
+   "value_name": "Benevolence: Caring, Tradition",
+   "value_evidence": "Care for family members and respect for inherited customs are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Prepare traditional family recipes and eat meals together.",
+   "option_B": "Prepare individual meals and choose their own recipes.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "eRVCT6edRE",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "Ssa2Wk2CZP",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "efLrh_QNHV",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.246
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "data": {
+   "record_id": "MYS_etiquette_025",
+   "flag": "🇲🇾",
+   "country": "Malaysia",
+   "norm_text": "When eating Malay meals, it is common practice to eat with one's hands or with a spoon and fork.",
+   "situation": "A person is invited to a meal featuring traditional local dishes. They are about to begin eating and are deciding which utensils to use.",
+   "question": "How should the person eat the meal?",
+   "country_context": "This interaction takes place in Malaysia.",
+   "norm_evidence": "In this setting, it is common practice to eat with one's hands or with a spoon and fork.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Eat the meal using their hands or a spoon and fork.",
+   "option_B": "Eat the meal using a knife and fork.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "VE7RPzs1ye",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "XymCYF8XrB",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "uzOFXkigBG",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.185
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "data": {
+   "record_id": "KOR_etiquette_024",
+   "flag": "🇰🇷",
+   "country": "South Korea",
+   "norm_text": "A person should avoid emptying their glass if they have had enough to drink.",
+   "situation": "A person is attending a social gathering where drinks are being served. They have had enough to drink, but their glass is not yet empty.",
+   "question": "How should the person handle their glass in this situation?",
+   "country_context": "This interaction takes place in Korea, Republic of.",
+   "norm_evidence": "A person should avoid emptying their glass if they have had enough to drink.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining social harmony and adhering to group expectations is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Leave some of the drink in the glass.",
+   "option_B": "Finish the remaining drink in the glass.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "IgJj1SWtOt",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "HUxkU7TiTJ",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "OXOTbZ9CZC",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.319
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "data": {
+   "record_id": "CHN_etiquette_012",
+   "flag": "🇨🇳",
+   "country": "China",
+   "norm_text": "Friends often bring gifts such as tea, cigarettes, fruit, chocolates, or cake when visiting a host.",
+   "situation": "A person is invited to a friend's home for a social visit. The guest is preparing to leave their own house to go to the host's residence.",
+   "question": "How should the guest behave when arriving at the host's home?",
+   "country_context": "This interaction takes place in China.",
+   "norm_evidence": "In this setting, friends often bring gifts such as tea, cigarettes, fruit, chocolates, or cake when visiting a host.",
+   "value_name": "Benevolence: Caring",
+   "value_evidence": "In this setting, showing care and support for close others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Bring a small gift such as fruit or chocolates.",
+   "option_B": "Arrive at the home without bringing a gift.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "3EeWIaID77",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "mEU9wV4DzL",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "xJq5ahT8xD",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.439
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "data": {
+   "record_id": "SRB_communication_007",
+   "flag": "🇷🇸",
+   "country": "Serbia",
+   "norm_text": "People often stand close to each other.",
+   "situation": "Two acquaintances meet in a public space to catch up. They are standing and talking to one another.",
+   "question": "How should the people position themselves relative to each other during the conversation?",
+   "country_context": "This interaction takes place in Serbia.",
+   "norm_evidence": "In this setting, people often stand close to each other.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Stand close to each other while talking.",
+   "option_B": "Maintain a significant physical distance from each other.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "KLiDbiKhKs",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "ADcypZwC0y",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "PlFcShvjRH",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 8.536
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "data": {
+   "record_id": "UKR_etiquette_043",
+   "flag": "🇺🇦",
+   "country": "Ukraine",
+   "norm_text": "When eating at someone's home, guests are customarily encouraged to eat multiple servings of food.",
+   "situation": "A person is visiting a friend's home for a meal. After finishing their first plate of food, the host offers them more.",
+   "question": "How should the guest respond to the offer of more food?",
+   "country_context": "This interaction takes place in Ukraine.",
+   "norm_evidence": "Guests are customarily encouraged to eat multiple servings of food.",
+   "value_name": "Benevolence: Caring, Conformity Interpersonal",
+   "value_evidence": "In this setting, showing care for others and avoiding offence are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Accept the offer and take a second serving.",
+   "option_B": "Decline the offer and stop eating.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "eWVZzv0fNx",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "rRj_AlwGJ7",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "nTYn1NpX3c",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.498
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "data": {
+   "record_id": "ETH_family_019",
+   "flag": "🇪🇹",
+   "country": "Ethiopia",
+   "norm_text": "Men usually wait until they have finished school, obtained a job, and can adequately support a couple before seeking to marry.",
+   "situation": "A young man wishes to marry the person he loves. He is currently still in school and does not yet have a steady income. He is considering when to formally ask for the partner's hand in marriage.",
+   "question": "When should the man seek to marry?",
+   "country_context": "This interaction takes place in Ethiopia.",
+   "norm_evidence": "Men usually wait until they have finished school, obtained a job, and can adequately support a couple before seeking to marry.",
+   "value_name": "Security: Personal",
+   "value_evidence": "Personal security and stability are prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Wait until he has completed his education and secured a steady income.",
+   "option_B": "Seek to marry now, regardless of his education or financial status.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "iUAO9lPXEg",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "u52W90wV-q",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "0Dzmlo7Ft1",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.821
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "data": {
+   "record_id": "MEX_business_culture_018",
+   "flag": "🇲🇽",
+   "country": "Mexico",
+   "norm_text": "A person should not address someone by their first name until they have been invited to do so.",
+   "situation": "An employee is meeting a senior manager for the first time during a business meeting. The employee needs to address the manager to ask a question.",
+   "question": "How should the employee address the manager?",
+   "country_context": "This interaction takes place in Mexico.",
+   "norm_evidence": "A person should not address someone by their first name until they have been invited to do so.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining social order and adhering to established interpersonal rules is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Address the manager by their title and last name.",
+   "option_B": "Address the manager by their first name.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "mSsBSgFtsR",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "wuG-SUodXT",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "f8ekNLEmUU",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.552
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "data": {
+   "record_id": "BRA_communication_010",
+   "flag": "🇧🇷",
+   "country": "Brazil",
+   "norm_text": "When in doubt regarding the level of formality, it is best to err on the side of formality.",
+   "situation": "A professional is meeting a new business partner for the first time. The professional is unsure whether to use a formal or an informal tone during the introduction.",
+   "question": "How should the professional handle the level of formality in this interaction?",
+   "country_context": "This interaction takes place in Brazil.",
+   "norm_evidence": "The professional uses a formal tone during the introduction.",
+   "value_name": "Conformity Interpersonal, Conformity: Rules",
+   "value_evidence": "In this setting, compliance with rules and avoiding offence to others are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Use a formal tone during the introduction.",
+   "option_B": "Use an informal tone during the introduction.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "CEPW7TWIJg",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "hTY-ESO7y4",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "kWWx4yAQ-M",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.604
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "data": {
+   "record_id": "COL_communication_019",
+   "flag": "🇨🇴",
+   "country": "Colombia",
+   "norm_text": "It is considered rude and aggressive to point with the index finger.",
+   "situation": "A person is giving directions to a stranger and needs to indicate which building they should enter.",
+   "question": "How should the person indicate the building to the stranger?",
+   "country_context": "This interaction takes place in Colombia.",
+   "norm_evidence": "The person avoids pointing with the index finger.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining interpersonal harmony and avoiding conflict is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Gesture toward the building using the whole hand.",
+   "option_B": "Point toward the building using the index finger.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "zPqa4aOp1I",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "ibivoa-YeF",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "T3XfUsQNUX",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.763
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "data": {
+   "record_id": "PAK_etiquette_026",
+   "flag": "🇵🇰",
+   "country": "Pakistan",
+   "norm_text": "People are expected to wait for elders to sit down and begin before eating.",
+   "situation": "A multi-generational family is gathered around a table for a meal. The food has been served, and the eldest family member is present.",
+   "question": "How should the younger family members behave regarding the start of the meal?",
+   "country_context": "This interaction takes place in Pakistan.",
+   "norm_evidence": "People wait for elders to sit down and begin before eating.",
+   "value_name": "Conformity Interpersonal, Tradition",
+   "value_evidence": "In this setting, respect for inherited customs and avoiding offence to others are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Wait for the eldest person to sit and start eating before beginning their own meal.",
+   "option_B": "Sit down and start eating as soon as the food is served.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "KnmsX8WtBv",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "rhesKi79eY",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "UDfgFLhOnb",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.704
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "data": {
+   "record_id": "BRA_family_007",
+   "flag": "🇧🇷",
+   "country": "Brazil",
+   "norm_text": "Attending to household matters is often considered exclusively the role of the wife, regardless of whether she is employed.",
+   "situation": "A couple both work full-time jobs and have a list of household chores and administrative tasks that need to be completed over the weekend. They need to decide how to divide these responsibilities.",
+   "question": "How should the couple decide who is responsible for attending to these household matters?",
+   "country_context": "This interaction takes place in Brazil.",
+   "norm_evidence": "Attending to household matters is considered exclusively the role of the wife.",
+   "value_name": "Tradition",
+   "value_evidence": "In this setting, respect for inherited customs and long-established practices is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Assign all the household tasks to the wife.",
+   "option_B": "Divide the household tasks equally between both partners.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "1-BUKaLBNS",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "T3oNBIYYRa",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "XTDsq_c_HS",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.991
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "data": {
+   "record_id": "TUR_etiquette_008",
+   "flag": "🇹🇷",
+   "country": "Turkey",
+   "norm_text": "It is considered rude or disrespectful to chew gum while talking to someone of a higher status.",
+   "situation": "An employee is having a conversation with their manager about a performance review. The employee is currently chewing gum.",
+   "question": "How should the employee behave during this conversation?",
+   "country_context": "This interaction takes place in Türkiye.",
+   "norm_evidence": "The employee stops chewing gum while talking to the manager.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining social order and adhering to interpersonal expectations is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Stop chewing the gum during the conversation.",
+   "option_B": "Continue chewing the gum during the conversation.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "LZMBl4aqi4",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "HzgsonXtlJ",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "_Y9C3lOYlm",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 8.195
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "data": {
+   "record_id": "CHL_etiquette_004",
+   "flag": "🇨🇱",
+   "country": "Chile",
+   "norm_text": "Showing up to an event half an hour to an hour after the designated time is common.",
+   "situation": "A person is invited to a social gathering that is scheduled to begin at 8:00 PM.",
+   "question": "What time should the person arrive at the event?",
+   "country_context": "This interaction takes place in Chile.",
+   "norm_evidence": "In this setting, showing up to an event half an hour to an hour after the designated time is common.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Arrive between 8:30 PM and 9:00 PM.",
+   "option_B": "Arrive at or slightly before 8:00 PM.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "9RdlOd51c9",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "Mxx_mqEgjf",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "CfKmCCaYTF",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 7.152
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "data": {
+   "record_id": "JPN_business_culture_017",
+   "flag": "🇯🇵",
+   "country": "Japan",
+   "norm_text": "A received business card should be placed in front of the person on the table until everyone is seated.",
+   "situation": "A professional has just received a business card from a new contact during an initial meeting. The group is currently moving toward a table to sit down.",
+   "question": "How should the professional handle the business card until everyone is seated?",
+   "country_context": "This interaction takes place in Japan.",
+   "norm_evidence": "In this setting, a received business card should be placed in front of the person on the table until everyone is seated.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Place the card on the table in front of them until everyone is seated.",
+   "option_B": "Put the card away in a wallet or card holder immediately after receiving it.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "huegIeaAW3",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "bzJqkg2YYr",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "SG5t75QxCP",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 6.412
+   }
+  ]
+ },
+ {
+  "id": 38,
+  "data": {
+   "record_id": "SRB_business_culture_011",
+   "flag": "🇷🇸",
+   "country": "Serbia",
+   "norm_text": "It is a good idea to allow more time for deadlines due to bureaucracy.",
+   "situation": "A project manager is setting a timeline for a new contract that requires several official government approvals. The manager must decide how much time to allocate for these administrative steps.",
+   "question": "How should the project manager determine the deadline for the approvals?",
+   "country_context": "This interaction takes place in Serbia.",
+   "norm_evidence": "It is a good idea to allow more time for deadlines.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Add extra time to the official processing window.",
+   "option_B": "Set the deadline based on the official processing times.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "I6DM7Fox1W",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "YLXw6ul_dZ",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "mlH9qKePLi",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 8.028
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "data": {
+   "record_id": "SGP_etiquette_010",
+   "flag": "🇸🇬",
+   "country": "Singapore",
+   "norm_text": "It is common to remove shoes when entering someone's home.",
+   "situation": "A person is visiting a friend's home for the first time. They have just arrived at the front door and are about to enter.",
+   "question": "How should the guest behave when entering the home?",
+   "country_context": "This interaction takes place in Singapore.",
+   "norm_evidence": "In this setting, it is common to remove shoes when entering someone's home.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Take off their shoes before entering.",
+   "option_B": "Keep their shoes on while entering.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "x5nqj2JTMx",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "kaSLnFOBji",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "FkIC-u8PaF",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 199.358
+   }
+  ]
+ },
+ {
+  "id": 40,
+  "data": {
+   "record_id": "KEN_family_006",
+   "flag": "🇰🇪",
+   "country": "Kenya",
+   "norm_text": "Women are generally expected to care for the home and children.",
+   "situation": "A couple is discussing how to divide the daily responsibilities of managing their household and looking after their children.",
+   "question": "How should the couple distribute these responsibilities?",
+   "country_context": "This interaction takes place in Kenya.",
+   "norm_evidence": "Women are generally expected to care for the home and children.",
+   "value_name": "Benevolence: Caring, Tradition",
+   "value_evidence": "In this setting, care for close others and respect for inherited customs are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Assign the home and childcare tasks to the woman.",
+   "option_B": "Divide the home and childcare tasks equally between both partners.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "RNUxBCzpBN",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "sDNwKqNJTB",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "gk9ZFB4A7z",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.454
+   }
+  ]
+ },
+ {
+  "id": 41,
+  "data": {
+   "record_id": "IRN_business_culture_008",
+   "flag": "🇮🇷",
+   "country": "Iran",
+   "norm_text": "In negotiations, a person is expected to be persuasive and persistent even when met with refusal.",
+   "situation": "A business professional is negotiating the terms of a contract with a potential partner. The partner has just declined a specific proposal regarding the pricing.",
+   "question": "How should the professional respond to this refusal?",
+   "country_context": "This interaction takes place in Iran, Islamic Republic of.",
+   "norm_evidence": "In this setting, a person is expected to be persuasive and persistent.",
+   "value_name": "Achievement",
+   "value_evidence": "In this setting, competence and demonstrated success are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Continue to argue for the proposal and offer alternative reasons to accept it.",
+   "option_B": "Accept the refusal and move on to the next topic of negotiation.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "pZfnGAgi4g",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "6grOdI8ceM",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "M9NOfpf4Ec",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.287
+   }
+  ]
+ },
+ {
+  "id": 42,
+  "data": {
+   "record_id": "VEN_greetings_007",
+   "flag": "🇻🇪",
+   "country": "Venezuela",
+   "norm_text": "When leaving a group setting, people are expected to say goodbye to each person individually.",
+   "situation": "A person is attending a small social gathering with several acquaintances. It is time for the person to leave the event.",
+   "question": "How should the person handle the goodbyes before departing?",
+   "country_context": "This interaction takes place in Venezuela, Bolivarian Republic of.",
+   "norm_evidence": "People say goodbye to each person individually.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining interpersonal harmony and adhering to social expectations is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Say goodbye to each person individually.",
+   "option_B": "Give a single general goodbye to the entire group.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "Pnw9zQOu4n",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "S0eATuheSJ",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "gxLG37HN7X",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 3.485
+   }
+  ]
+ },
+ {
+  "id": 43,
+  "data": {
+   "record_id": "CHL_communication_006",
+   "flag": "🇨🇱",
+   "country": "Chile",
+   "norm_text": "The formal form of 'you' ('usted') is the polite form of speech and is used irrespective of the conversation partner's social status.",
+   "situation": "A person is starting a conversation with someone they have just met for the first time in a professional setting.",
+   "question": "How should the person address the other individual?",
+   "country_context": "This interaction takes place in Chile.",
+   "norm_evidence": "The formal form of address is used irrespective of the conversation partner's social status.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "The person uses the formal form of address.",
+   "option_B": "The person uses the informal form of address.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "_27S02So08",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "EgGnFe3u2o",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "kIUih8tCx0",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.21
+   }
+  ]
+ },
+ {
+  "id": 44,
+  "data": {
+   "record_id": "COL_core_concepts_010",
+   "flag": "🇨🇴",
+   "country": "Colombia",
+   "norm_text": "People generally place a high value on manners, formality, and dignified behaviour.",
+   "situation": "A person is meeting a senior professional for the first time to discuss a potential business opportunity. They are deciding how to conduct themselves during the initial introduction.",
+   "question": "How should the person behave during this interaction?",
+   "country_context": "This interaction takes place in Colombia.",
+   "norm_evidence": "People use formal language and maintain a dignified demeanor.",
+   "value_name": "Face",
+   "value_evidence": "Maintaining social order and adhering to established interpersonal expectations are prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Use formal language and maintain a professional demeanor.",
+   "option_B": "Use casual language and maintain a relaxed demeanor.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "zKJAkQ-4YV",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "qzsZFLUpNv",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "F3ouVTT_Lh",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.339
+   }
+  ]
+ },
+ {
+  "id": 45,
+  "data": {
+   "record_id": "CHN_business_culture_012",
+   "flag": "🇨🇳",
+   "country": "China",
+   "norm_text": "A person should not put a received business card away immediately, but should regard it carefully and place it on the table until everyone is seated.",
+   "situation": "A professional receives a business card from a new contact during an initial meeting. The meeting is about to begin, and the participants are moving toward their seats.",
+   "question": "How should the person handle the business card they just received?",
+   "country_context": "This interaction takes place in China.",
+   "norm_evidence": "A person should not put a received business card away immediately, but should regard it carefully and place it on the table until everyone is seated.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining social harmony and adhering to established interpersonal protocols is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Look at the card and place it on the table until the meeting starts.",
+   "option_B": "Put the card away immediately after receiving it.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "aratVedMaR",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "0mzRLjQbP9",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "NDqXWUdjBY",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 9.651
+   }
+  ]
+ },
+ {
+  "id": 46,
+  "data": {
+   "record_id": "CYP_business_culture_008",
+   "flag": "🇨🇾",
+   "country": "Cyprus",
+   "norm_text": "A person should be open to concessions in their opening offer during negotiations.",
+   "situation": "Two business partners are meeting to negotiate the terms of a new contract. One partner is preparing to present their initial offer.",
+   "question": "How should the person approach their opening offer during the negotiation?",
+   "country_context": "This interaction takes place in Cyprus.",
+   "norm_evidence": "In this setting, a person should be open to concessions in their opening offer during negotiations.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Present an opening offer that includes room for concessions.",
+   "option_B": "Present a firm opening offer with little to no room for concessions.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "pGaxFsdqxY",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "ShpTMLT7Xk",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "5Lq6dkaHSy",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.218
+   }
+  ]
+ },
+ {
+  "id": 47,
+  "data": {
+   "record_id": "GRC_business_culture_011",
+   "flag": "🇬🇷",
+   "country": "Greece",
+   "norm_text": "When negotiating, a person should be friendly and patient, though they may also be firm.",
+   "situation": "Two business partners are negotiating the terms of a new contract. One partner is presenting a proposal that the other finds unfavorable.",
+   "question": "How should the person respond during the negotiation?",
+   "country_context": "This interaction takes place in Greece.",
+   "norm_evidence": "A person should be friendly and patient, though they may also be firm.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining interpersonal harmony and adhering to social expectations is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Smile and ask clarifying questions before stating their counter-proposal.",
+   "option_B": "State their counter-proposal immediately without small talk.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "hdTJYcvwt_",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "srHwlmrI7x",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "ELHz3TrZxn",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.495
+   }
+  ]
+ },
+ {
+  "id": 48,
+  "data": {
+   "record_id": "KEN_communication_014",
+   "flag": "🇰🇪",
+   "country": "Kenya",
+   "norm_text": "Public displays of affection between couples are considered inappropriate in most communities.",
+   "situation": "A couple is spending the day together in a crowded public square. One partner wants to express their affection for the other through a physical gesture.",
+   "question": "How should the couple behave in this situation?",
+   "country_context": "This interaction takes place in Kenya.",
+   "norm_evidence": "Couples avoid public displays of affection.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining social order and adhering to group expectations is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Refrain from physical contact while in the public square.",
+   "option_B": "Engage in physical contact while in the public square.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "Tzz4hTjbVn",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "gXCJ9avGUT",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "FNFBSgL6up",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.336
+   }
+  ]
+ },
+ {
+  "id": 49,
+  "data": {
+   "record_id": "USA_core_concepts_003",
+   "flag": "🇺🇸",
+   "country": "United States",
+   "norm_text": "Showing respect, loyalty, and love for one's country is typically associated with being patriotic.",
+   "situation": "A person is attending a public gathering that commemorates national history. They are deciding how to conduct themselves during the event.",
+   "question": "How should the person behave in this situation?",
+   "country_context": "This interaction takes place in the United States.",
+   "norm_evidence": "The person displays symbols of national pride and expresses support for the nation.",
+   "value_name": "Benevolence: Dependability, Conformity: Rules",
+   "value_evidence": "Maintaining group cohesion and adhering to established social rules are prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "The person wears a flag pin and joins in singing the national anthem.",
+   "option_B": "The person holds up a sign criticizing government policies.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "nhpdP9tZ2o",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "4rq2N_RsmA",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "px6cmI4IMF",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 17.207
+   }
+  ]
+ },
+ {
+  "id": 50,
+  "data": {
+   "record_id": "MEX_dos_and_donts_008",
+   "flag": "🇲🇽",
+   "country": "Mexico",
+   "norm_text": "A person is encouraged to share stories from their own country, home, and family life.",
+   "situation": "Two people from different backgrounds are meeting for the first time during a social gathering. They are getting to know each other.",
+   "question": "How should the person approach the conversation?",
+   "country_context": "This interaction takes place in Mexico.",
+   "norm_evidence": "A person is encouraged to share stories from their own country, home, and family life.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Share stories about their home, family, and country.",
+   "option_B": "Avoid sharing details about their home, family, and country.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "BWrWuJmDEu",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "8-S0MhhP0L",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "W_w1HoqEGe",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 10.404
+   }
+  ]
+ },
+ {
+  "id": 51,
+  "data": {
+   "record_id": "MYS_etiquette_001",
+   "flag": "🇲🇾",
+   "country": "Malaysia",
+   "norm_text": "Objects should be given or received with two hands.",
+   "situation": "A person is handing a document to a colleague during a professional meeting.",
+   "question": "How should the person hand over the document?",
+   "country_context": "This interaction takes place in Malaysia.",
+   "norm_evidence": "In this setting, objects should be given or received with two hands.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Hand the document over using both hands.",
+   "option_B": "Hand the document over using one hand.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "u1muULFqYa",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "51YExLZnUh",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "J6rUNVLc5u",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.437
+   }
+  ]
+ },
+ {
+  "id": 52,
+  "data": {
+   "record_id": "NLD_business_culture_013",
+   "flag": "🇳🇱",
+   "country": "Netherlands",
+   "norm_text": "Cutting corners is not appreciated.",
+   "situation": "An employee discovers a way to complete a mandatory quality-control process much faster by skipping several minor steps. The employee must decide whether to use this shortcut to meet a tight deadline.",
+   "question": "What is the most appropriate way for the employee to handle the quality-control process?",
+   "country_context": "This interaction takes place in Netherlands.",
+   "norm_evidence": "Cutting corners is not appreciated.",
+   "value_name": "Achievement, Conformity: Rules",
+   "value_evidence": "Competence and compliance with established procedures are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Follow every step of the process exactly as written.",
+   "option_B": "Use the shortcut to complete the process more quickly.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "QPxjxiRcmi",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "RfERD11M1B",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "XSeHDn5U-8",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.373
+   }
+  ]
+ },
+ {
+  "id": 53,
+  "data": {
+   "record_id": "AUS_greetings_003",
+   "flag": "🇦🇺",
+   "country": "Australia",
+   "norm_text": "A handshake is the common greeting between strangers.",
+   "situation": "Two people who have never met before are introduced to each other for the first time in a professional setting.",
+   "question": "How should the two people greet each other?",
+   "country_context": "This interaction takes place in Australia.",
+   "norm_evidence": "In this setting, a handshake is the common greeting between strangers.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Shake hands with each other.",
+   "option_B": "Exchange a verbal greeting without touching.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "bDBOEFyGqP",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "Z2axfDfhLu",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "Xm1u_hjClW",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.501
+   }
+  ]
+ },
+ {
+  "id": 54,
+  "data": {
+   "record_id": "NZL_etiquette_028",
+   "flag": "🇳🇿",
+   "country": "New Zealand",
+   "norm_text": "A visit to a home should be arranged in advance.",
+   "situation": "A person wants to visit a friend at their home. The person is deciding whether to stop by unexpectedly or contact the friend first.",
+   "question": "How should the person handle the visit?",
+   "country_context": "This interaction takes place in New Zealand.",
+   "norm_evidence": "In this setting, a visit to a home should be arranged in advance.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Contact the friend to schedule a time before visiting.",
+   "option_B": "Stop by the friend's home without prior notice.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "KuRvwYWR4V",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "m0IL_oVj87",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "rGXz5fBrGc",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 6.707
+   }
+  ]
+ },
+ {
+  "id": 55,
+  "data": {
+   "record_id": "MYS_business_culture_003",
+   "flag": "🇲🇾",
+   "country": "Malaysia",
+   "norm_text": "Introductions in a meeting are expected to follow the order of importance, with the highest-ranking person first.",
+   "situation": "A team is gathering for a business meeting with a new client. The team leader needs to introduce the members of their group to the client's representatives.",
+   "question": "In what order should the team leader introduce the group members?",
+   "country_context": "This interaction takes place in Malaysia.",
+   "norm_evidence": "Introductions in a meeting follow the order of importance, with the highest-ranking person first.",
+   "value_name": "Conformity: Rules, Power: Dominance",
+   "value_evidence": "Adherence to established rules and recognition of hierarchical authority are prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Introduce the members starting with the highest-ranking person first.",
+   "option_B": "Introduce the members in a random or casual order.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "l7Ez54zsiZ",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "NpvHxUpO89",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "6B8ejTq0yD",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 3.744
+   }
+  ]
+ },
+ {
+  "id": 56,
+  "data": {
+   "record_id": "BRA_greetings_009",
+   "flag": "🇧🇷",
+   "country": "Brazil",
+   "norm_text": "If a female wishes to shake hands with a male, she is expected to extend her hand first.",
+   "situation": "A woman and a man are meeting for the first time in a professional setting. They are standing face-to-face and preparing to greet one another.",
+   "question": "How should the greeting be initiated?",
+   "country_context": "This interaction takes place in Brazil.",
+   "norm_evidence": "In this setting, if a female wishes to shake hands with a male, she is expected to extend her hand first.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "The woman extends her hand first to initiate the handshake.",
+   "option_B": "The man extends his hand first to initiate the handshake.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "s3AbZfyr5P",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "WI9LgFUNfU",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "mmOilhG_bx",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 3.704
+   }
+  ]
+ },
+ {
+  "id": 57,
+  "data": {
+   "record_id": "KEN_dos_and_donts_001",
+   "flag": "🇰🇪",
+   "country": "Kenya",
+   "norm_text": "It is important to enquire about a person's well-being, family, home, and work whenever they are seen to show personal interest.",
+   "situation": "Two acquaintances run into each other unexpectedly while running errands. They stop to speak for a few moments before continuing on their way.",
+   "question": "How should the individuals conduct their conversation during this encounter?",
+   "country_context": "This interaction takes place in Kenya.",
+   "norm_evidence": "The individuals enquire about each other's well-being, family, home, and work.",
+   "value_name": "Benevolence: Caring",
+   "value_evidence": "Care and concern for the welfare of others are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Ask each other about their family, work, and general well-being.",
+   "option_B": "Keep the conversation brief and avoid asking personal questions.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "GTMv7-r7cm",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "vPSb9t47z0",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "xUCeTdi6yP",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.567
+   }
+  ]
+ },
+ {
+  "id": 58,
+  "data": {
+   "record_id": "JPN_communication_002",
+   "flag": "🇯🇵",
+   "country": "Japan",
+   "norm_text": "Disagreements that must be discussed are usually conducted in private and at a later time.",
+   "situation": "Two colleagues have a disagreement about a strategy during a team meeting. One colleague believes the other's approach is flawed and wants to address it.",
+   "question": "What would be the most appropriate way for the colleague to handle this disagreement?",
+   "country_context": "This interaction takes place in Japan.",
+   "norm_evidence": "Disagreements that must be discussed are conducted in private and at a later time.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining interpersonal harmony and conforming to group expectations is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Wait until after the meeting to discuss the issue in private.",
+   "option_B": "Address the disagreement immediately during the meeting.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "ggIeHQJ2DI",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "Y__VlM6EmI",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "m36vxcoJjM",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.313
+   }
+  ]
+ },
+ {
+  "id": 59,
+  "data": {
+   "record_id": "EGY_communication_008",
+   "flag": "🇪🇬",
+   "country": "Egypt",
+   "norm_text": "Women may stand closer to each other than the general arm's length distance.",
+   "situation": "Two women are having a conversation in a social setting. One woman is deciding how much physical distance to maintain while speaking with the other.",
+   "question": "What is the most appropriate physical distance for the women to maintain during their conversation?",
+   "country_context": "This interaction takes place in Egypt.",
+   "norm_evidence": "In this setting, women may stand closer to each other than the general arm's length distance.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Stand closer than an arm's length apart.",
+   "option_B": "Maintain at least an arm's length of distance.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "BEG7tCOdNM",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "s7_6voUHzU",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "AHqLfb3ZWe",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 537.309
+   }
+  ]
+ },
+ {
+  "id": 60,
+  "data": {
+   "record_id": "HKG_dos_and_donts_010",
+   "flag": "🇭🇰",
+   "country": "Hong Kong",
+   "norm_text": "Direct criticism towards a person, their family, business, or country should be avoided.",
+   "situation": "A business partner has made a significant error in a report that will affect a joint venture. A colleague needs to address this mistake with the partner.",
+   "question": "How should the colleague address the mistake with the partner?",
+   "country_context": "This interaction takes place in Hong Kong.",
+   "norm_evidence": "Direct criticism towards a person, their family, business, or country is avoided.",
+   "value_name": "Conformity Interpersonal, Face",
+   "value_evidence": "Adherence to social expectations and the preservation of personal dignity are prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Mention the error without attributing it to the partner.",
+   "option_B": "Point out the error and attribute it directly to the partner.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "DA__YV79KQ",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "N0Treffqha",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "S8odUmGspo",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 1343.943
+   }
+  ]
+ },
+ {
+  "id": 61,
+  "data": {
+   "record_id": "NZL_dos_and_donts_013",
+   "flag": "🇳🇿",
+   "country": "New Zealand",
+   "norm_text": "Points of criticism should be explained through a participative discussion that allows the person to identify their own mistake.",
+   "situation": "A manager notices a recurring error in a report submitted by an employee. The manager needs to address this mistake with the employee.",
+   "question": "How should the manager handle the criticism of the employee's work?",
+   "country_context": "This interaction takes place in New Zealand.",
+   "norm_evidence": "Points of criticism are explained through a participative discussion that allows the person to identify their own mistake.",
+   "value_name": "Self-Direction: Thought",
+   "value_evidence": "In this setting, independent thinking and forming one's own judgment are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Lead a discussion that helps the employee identify the error themselves.",
+   "option_B": "Provide the employee with direct and explicit corrections.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "nGR9bXDBbJ",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "2zfgpeKctg",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "Y1Z1iLRNiU",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.641
+   }
+  ]
+ },
+ {
+  "id": 62,
+  "data": {
+   "record_id": "EGY_greetings_002",
+   "flag": "🇪🇬",
+   "country": "Egypt",
+   "norm_text": "Handshakes are expected in situations involving people with whom a person is familiar.",
+   "situation": "Two people who have known each other for several years meet unexpectedly in a public space.",
+   "question": "How should the two people greet each other?",
+   "country_context": "This interaction takes place in Egypt.",
+   "norm_evidence": "The two people shake hands.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "They shake hands with each other.",
+   "option_B": "They greet each other without shaking hands.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "mZD2KX_1mr",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "XFgfEWuziB",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "L2Kwqv0isH",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 3.801
+   }
+  ]
+ },
+ {
+  "id": 63,
+  "data": {
+   "record_id": "THA_business_culture_013",
+   "flag": "🇹🇭",
+   "country": "Thailand",
+   "norm_text": "In a business setting, listeners are often docile and rarely interrupt a speaker.",
+   "situation": "A manager is presenting a new strategy to a team during a meeting. Several team members have questions and different perspectives on the plan.",
+   "question": "What is the expected behavior for team members while the manager is speaking?",
+   "country_context": "This interaction takes place in Thailand.",
+   "norm_evidence": "Listeners remain quiet and do not interrupt the speaker.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Adherence to social expectations and maintaining group cohesion are prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Listen in silence until the manager has finished speaking.",
+   "option_B": "Interrupt the manager to provide immediate feedback and questions.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "3F0CQuHbXf",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "F2aOFRT-Dr",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "9ADID0Q7Di",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.313
+   }
+  ]
+ },
+ {
+  "id": 64,
+  "data": {
+   "record_id": "RUS_religion_004",
+   "flag": "🇷🇺",
+   "country": "Russia",
+   "norm_text": "It is normal for people to wear crosses around their necks in public.",
+   "situation": "A person is choosing their attire for a public outing. They are deciding whether to include a necklace with a religious symbol as part of their outfit.",
+   "question": "What is the most appropriate behavior regarding the wearing of the necklace in this public setting?",
+   "country_context": "This interaction takes place in the Russian Federation.",
+   "norm_evidence": "People wear crosses around their necks in public.",
+   "value_name": "Tradition",
+   "value_evidence": "Respect for inherited customs and long-established institutions is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Wear the necklace with the religious symbol.",
+   "option_B": "Keep the necklace with the religious symbol hidden.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "iFKyDRH6gx",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "smXbvdW78e",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "Kg4oFkEIHN",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 41.245
+   }
+  ]
+ },
+ {
+  "id": 65,
+  "data": {
+   "record_id": "TWN_communication_009",
+   "flag": "🇹🇼",
+   "country": "Taiwan",
+   "norm_text": "To indicate 'no' through a gesture, a person may face the palm outward in front of the face and move it back and forth.",
+   "situation": "A person is asked a question that requires a 'no' response, but they are in a situation where they cannot speak. They need to communicate their negative answer using a hand gesture.",
+   "question": "How should the person use a gesture to indicate 'no'?",
+   "country_context": "This interaction takes place in Taiwan, Province of China.",
+   "norm_evidence": "In this setting, to indicate 'no' through a gesture, a person may face the palm outward in front of the face and move it back and forth.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Move the palm of the hand back and forth in front of the face.",
+   "option_B": "Shake the head from side to side.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "omGpFdOQDQ",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "6F1XLOFT3j",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "aAH7_ND1RT",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 3.878
+   }
+  ]
+ },
+ {
+  "id": 66,
+  "data": {
+   "record_id": "CAN_etiquette_029",
+   "flag": "🇨🇦",
+   "country": "Canada",
+   "norm_text": "For occasions that require a gift, such as a birthday, wedding, or baby shower, a modest value of about 5 is acceptable unless the giver knows the recipient very well.",
+   "situation": "A person is attending a birthday party for an acquaintance. They are deciding on the value of the gift to bring for the host.",
+   "question": "What is an appropriate amount to spend on the gift?",
+   "country_context": "This interaction takes place in Canada.",
+   "norm_evidence": "A modest value of about 5 is acceptable.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Spend around 5.",
+   "option_B": "Spend 50 or more.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "wDX_lMVyZd",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "cIga3UlMg6",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "Sm59Nk6lRB",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 6.62
+   }
+  ]
+ },
+ {
+  "id": 67,
+  "data": {
+   "record_id": "ROU_etiquette_023",
+   "flag": "🇷🇴",
+   "country": "Romania",
+   "norm_text": "A person should inform their counterpart of dietary requirements in advance.",
+   "situation": "A person has been invited to a dinner party at a friend's home. The guest has specific dietary requirements that the host is unaware of.",
+   "question": "What is the appropriate way for the guest to handle their dietary requirements in this situation?",
+   "country_context": "This interaction takes place in Romania.",
+   "norm_evidence": "A person should inform their counterpart of dietary requirements in advance.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining social harmony and avoiding disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Notify the host about the dietary requirements before the event.",
+   "option_B": "Notify the host about the dietary requirements upon arrival or during the meal.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "5lpeKZ0uJv",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "8PgFQh-Kyl",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "1LrHyA3gVW",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 32.674
+   }
+  ]
+ },
+ {
+  "id": 68,
+  "data": {
+   "record_id": "MMR_dos_and_donts_009",
+   "flag": "🇲🇲",
+   "country": "Myanmar",
+   "norm_text": "It is discouraged to be openly critical or to point out mistakes.",
+   "situation": "A team member notices a significant error in a report prepared by a senior colleague. The team member needs to address the mistake before the report is submitted.",
+   "question": "How should the team member handle the discovery of the mistake?",
+   "country_context": "This interaction takes place in Myanmar.",
+   "norm_evidence": "The team member addresses the error privately and tactfully, avoiding public criticism.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Prioritizing interpersonal alignment and social cohesion.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Mention the error to the senior colleague in a private conversation.",
+   "option_B": "Point out the error to the senior colleague during a team meeting.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "Z5T_M-nFW7",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "qp-EyLTwV9",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "WSMa2YCaAV",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 6.817
+   }
+  ]
+ },
+ {
+  "id": 69,
+  "data": {
+   "record_id": "KOR_business_culture_024",
+   "flag": "🇰🇷",
+   "country": "South Korea",
+   "norm_text": "A person should be patient when providing details, even seemingly irrelevant ones, when a business partner asks comprehensive or tangential questions.",
+   "situation": "A business professional is explaining a project proposal to a potential partner. The partner begins asking a series of detailed questions that appear to diverge from the main agenda.",
+   "question": "How should the professional respond to these questions?",
+   "country_context": "This interaction takes place in Korea, Republic of.",
+   "norm_evidence": "A person should be patient when providing details, even seemingly irrelevant ones, when a business partner asks comprehensive or tangential questions.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "In this setting, avoiding offence and disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Provide detailed answers to each question, including the tangential ones.",
+   "option_B": "Give concise answers and steer the conversation back to the main agenda.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "-Z41CgRU6s",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "WP6-6drDLM",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "NnjZs6fOIO",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 169.333
+   }
+  ]
+ },
+ {
+  "id": 70,
+  "data": {
+   "record_id": "MEX_business_culture_008",
+   "flag": "🇲🇽",
+   "country": "Mexico",
+   "norm_text": "Third-party introductions are helpful when establishing business connections.",
+   "situation": "A professional wants to establish a business connection with a potential partner in a different company. The professional is deciding how to initiate the first contact.",
+   "question": "What is the most appropriate way for the professional to initiate this connection?",
+   "country_context": "This interaction takes place in Mexico.",
+   "norm_evidence": "In this setting, third-party introductions are helpful when establishing business connections.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Ask a mutual acquaintance to introduce them to the potential partner.",
+   "option_B": "Contact the potential partner directly without a prior introduction.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "52HiR-0OWq",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "b9O4tuAc3R",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "pASp3dvC3h",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.406
+   }
+  ]
+ },
+ {
+  "id": 71,
+  "data": {
+   "record_id": "ETH_etiquette_036",
+   "flag": "🇪🇹",
+   "country": "Ethiopia",
+   "norm_text": "When unsure if a guest is fasting, it is advisable to provide a vegan-based food option.",
+   "situation": "A person is hosting a guest for a meal and is not certain about the guest's current dietary restrictions. The host is deciding what food to prepare.",
+   "question": "How should the host handle the food preparation for the guest?",
+   "country_context": "This interaction takes place in Ethiopia.",
+   "norm_evidence": "The host provides a vegan-based food option.",
+   "value_name": "Benevolence: Caring, Conformity Interpersonal",
+   "value_evidence": "Prioritizing the care and well-being of others and maintaining interpersonal harmony are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Prepare a vegan-based meal option for the guest.",
+   "option_B": "Ask the guest about their dietary restrictions before preparing the meal.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "hJRKEMXj_4",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "VrCLxSeBLD",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "g2x_i5b6Vg",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 6.637
+   }
+  ]
+ },
+ {
+  "id": 72,
+  "data": {
+   "record_id": "EGY_greetings_012",
+   "flag": "🇪🇬",
+   "country": "Egypt",
+   "norm_text": "When men meet for the first time, a light handshake with the right hand is common.",
+   "situation": "Two men are meeting for the first time in a professional setting. They are introducing themselves to one another.",
+   "question": "How should the men greet each other?",
+   "country_context": "This interaction takes place in Egypt.",
+   "norm_evidence": "In this setting, when men meet for the first time, a light handshake with the right hand is common.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Shake hands using the right hand.",
+   "option_B": "Greet each other verbally without physical contact.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "BabNuntriY",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "rc3BPQjvPl",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "NXhfgWK4QO",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 13.092
+   }
+  ]
+ },
+ {
+  "id": 73,
+  "data": {
+   "record_id": "ETH_etiquette_030",
+   "flag": "🇪🇹",
+   "country": "Ethiopia",
+   "norm_text": "The right hand should be used to serve oneself from a dish using the fingers to scoop food.",
+   "situation": "A person is attending a meal where food is served from a large shared platter. They are preparing to take a portion of the food for themselves.",
+   "question": "How should the person serve themselves from the dish?",
+   "country_context": "This interaction takes place in Ethiopia.",
+   "norm_evidence": "In this setting, the right hand should be used to serve oneself from a dish using the fingers to scoop food.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Use the right hand to scoop the food with the fingers.",
+   "option_B": "Use the left hand to scoop the food with the fingers.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "kt-1SMXPvP",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "uKTismZgof",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "vw_Mn443KR",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.556
+   }
+  ]
+ },
+ {
+  "id": 74,
+  "data": {
+   "record_id": "AUS_business_culture_009",
+   "flag": "🇦🇺",
+   "country": "Australia",
+   "norm_text": "A person should engage in a few minutes of social chat to break the ice before discussing business.",
+   "situation": "A professional is meeting with a new business partner for the first time to discuss a contract. The meeting has just begun.",
+   "question": "How should the professional begin the meeting?",
+   "country_context": "This interaction takes place in Australia.",
+   "norm_evidence": "A person should engage in a few minutes of social chat to break the ice before discussing business.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining interpersonal harmony and adhering to social expectations is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Spend a few minutes on small talk before discussing the contract.",
+   "option_B": "Start discussing the contract immediately.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "R8B3k3ikvs",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "lSxWMQa3CD",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "bfD81rdwrR",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.089
+   }
+  ]
+ },
+ {
+  "id": 75,
+  "data": {
+   "record_id": "MYS_etiquette_012",
+   "flag": "🇲🇾",
+   "country": "Malaysia",
+   "norm_text": "People generally start events later than the scheduled time.",
+   "situation": "A person is organizing a social gathering and has set a specific start time for the guests to arrive.",
+   "question": "How should the host expect the guests to arrive in relation to the scheduled time?",
+   "country_context": "This interaction takes place in Malaysia.",
+   "norm_evidence": "In this setting, people generally start events later than the scheduled time.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Expect the guests to arrive some time after the scheduled start.",
+   "option_B": "Expect the guests to arrive exactly at the scheduled start.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "SRpUTaTjKN",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "2mP7p5zug4",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "EENv1vnkwr",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 6.775
+   }
+  ]
+ },
+ {
+  "id": 76,
+  "data": {
+   "record_id": "COL_dos_and_donts_013",
+   "flag": "🇨🇴",
+   "country": "Colombia",
+   "norm_text": "A person should avoid referring to the United States as 'America'.",
+   "situation": "A person is having a conversation about geography and international relations. They are about to mention a specific North American country in their sentence.",
+   "question": "How should the person refer to the country in this conversation?",
+   "country_context": "This interaction takes place in Colombia.",
+   "norm_evidence": "A person should avoid using the name of the continent as a synonym for the country.",
+   "value_name": "Conformity Interpersonal, Conformity: Rules",
+   "value_evidence": "Adhering to established social conventions and avoiding interpersonal friction are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "The person refers to the country as the United States.",
+   "option_B": "The person refers to the country as America.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "FqcxE2G5LJ",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "mrrdCt-zR1",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "_rhvrd3dEu",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 6.145
+   }
+  ]
+ },
+ {
+  "id": 77,
+  "data": {
+   "record_id": "USA_etiquette_003",
+   "flag": "🇺🇸",
+   "country": "United States",
+   "norm_text": "It is normal to initiate conversations with strangers without introducing oneself, such as when standing in a queue or sitting next to each other at an event.",
+   "situation": "A person is waiting in a long line for a ticket and notices someone standing next to them. They decide to start a conversation about the wait.",
+   "question": "How does the person initiate the conversation with the stranger?",
+   "country_context": "This interaction takes place in the United States.",
+   "norm_evidence": "The person initiates the conversation with the stranger without introducing themselves.",
+   "value_name": "Universalism: Tolerance",
+   "value_evidence": "Openness and tolerance toward others are prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Start talking about the wait without introducing themselves.",
+   "option_B": "Introduce themselves formally before talking about the wait.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "eBqXzCiYNl",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "grmJd8_pgB",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "nrMhnFWVRC",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.28
+   }
+  ]
+ },
+ {
+  "id": 78,
+  "data": {
+   "record_id": "AUS_other_considerations_008",
+   "flag": "🇦🇺",
+   "country": "Australia",
+   "norm_text": "It is advised to use 'Aboriginal and Torres Strait Islander' or 'First Nations' instead of 'Indigenous' where possible.",
+   "situation": "A professional is writing a formal report and needs to select a term to refer to the original inhabitants of the land.",
+   "question": "Which term is most appropriate to use in the report?",
+   "country_context": "This interaction takes place in Australia.",
+   "norm_evidence": "The terms 'Aboriginal and Torres Strait Islander' or 'First Nations' are used instead of 'Indigenous'.",
+   "value_name": "Universalism: Tolerance",
+   "value_evidence": "Recognition of the distinct identities and autonomy of different groups is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Use the terms 'Aboriginal and Torres Strait Islander' or 'First Nations'.",
+   "option_B": "Use the term 'Indigenous'.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "nrSmQBp5QN",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "AOEHW2x1aV",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "WbB4rwQCNI",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.351
+   }
+  ]
+ },
+ {
+  "id": 79,
+  "data": {
+   "record_id": "MYS_business_culture_027",
+   "flag": "🇲🇾",
+   "country": "Malaysia",
+   "norm_text": "When rewarding or treating a colleague or business partner, a person should clearly explain that the act does not require a reciprocating favor.",
+   "situation": "A professional gives a gift to a business partner to show appreciation for their hard work.",
+   "question": "How should the professional present the gift to the business partner?",
+   "country_context": "This interaction takes place in Malaysia.",
+   "norm_evidence": "The person clearly explains that the act does not require a reciprocating favor.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Adhering to interpersonal expectations is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "State clearly that no return favor is expected.",
+   "option_B": "Give the gift without mentioning whether a return favor is expected.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "C2VUtRSLDe",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "o65EMYW3__",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "CFnvCH3rmi",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.084
+   }
+  ]
+ },
+ {
+  "id": 80,
+  "data": {
+   "record_id": "JPN_business_culture_059",
+   "flag": "🇯🇵",
+   "country": "Japan",
+   "norm_text": "A person should consider concealing tattoos if possible.",
+   "situation": "An employee is preparing for a formal business meeting with a new client. The employee has visible tattoos on their arms.",
+   "question": "How should the employee handle their tattoos for this meeting?",
+   "country_context": "This interaction takes place in Japan.",
+   "norm_evidence": "A person should consider concealing tattoos if possible.",
+   "value_name": "Conformity Interpersonal, Face",
+   "value_evidence": "Adhering to group expectations and maintaining interpersonal harmony are prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Wear clothing that covers the tattoos.",
+   "option_B": "Leave the tattoos visible.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "AcY65noqZl",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "WCo-wjaLVG",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "EClT20SFB2",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.14
+   }
+  ]
+ },
+ {
+  "id": 81,
+  "data": {
+   "record_id": "ARG_etiquette_007",
+   "flag": "🇦🇷",
+   "country": "Argentina",
+   "norm_text": "Apart from formal work commitments, arriving late to an event is acceptable.",
+   "situation": "A person is invited to a social gathering at a friend's home that is scheduled to start at 8:00 PM.",
+   "question": "What time should the person arrive at the event?",
+   "country_context": "This interaction takes place in Argentina.",
+   "norm_evidence": "In this setting, arriving late to a social event is acceptable.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Arrive some time after 8:00 PM.",
+   "option_B": "Arrive at or slightly before 8:00 PM.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "57MsNS33Hr",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "F3XPjru7-m",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "OsqzNYKl1a",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 3.527
+   }
+  ]
+ },
+ {
+  "id": 82,
+  "data": {
+   "record_id": "ETH_communication_023",
+   "flag": "🇪🇹",
+   "country": "Ethiopia",
+   "norm_text": "It is inappropriate to point at a person directly.",
+   "situation": "A person is introducing a group of people to a friend and wants to indicate which person they are talking about.",
+   "question": "How should the person indicate the individual they are referring to?",
+   "country_context": "This interaction takes place in Ethiopia.",
+   "norm_evidence": "In this setting, it is inappropriate to point at a person directly.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "In this setting, avoiding offence and disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Gesture toward the person with an open hand.",
+   "option_B": "Point at the person with a finger.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "K_8wgTqOA-",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "LVp3dMq-O9",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "5OMnRqrlTK",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 3.152
+   }
+  ]
+ },
+ {
+  "id": 83,
+  "data": {
+   "record_id": "CHN_etiquette_027",
+   "flag": "🇨🇳",
+   "country": "China",
+   "norm_text": "A person may decline receiving a gift two or three times out of politeness before accepting.",
+   "situation": "A person is offered a gift by an acquaintance during a social visit. The person intends to accept the gift.",
+   "question": "How should the person behave when the gift is first presented?",
+   "country_context": "This interaction takes place in China.",
+   "norm_evidence": "A person may decline receiving a gift two or three times before accepting.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "In this setting, avoiding offence and disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Decline the gift a few times before finally accepting it.",
+   "option_B": "Accept the gift immediately upon the first offer.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "BJLoPIL1ys",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "XuWsDsAndL",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "mctoFBVJSp",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.696
+   }
+  ]
+ },
+ {
+  "id": 84,
+  "data": {
+   "record_id": "NLD_communication_008",
+   "flag": "🇳🇱",
+   "country": "Netherlands",
+   "norm_text": "A person should avoid moving their chair closer if the furniture is arranged to maintain distance between people in a room.",
+   "situation": "Two colleagues are sitting in a meeting room where the chairs are arranged with a significant amount of space between them. One colleague wants to discuss a sensitive matter with the other.",
+   "question": "How should the colleague handle the seating arrangement during the discussion?",
+   "country_context": "This interaction takes place in Netherlands.",
+   "norm_evidence": "The person keeps their chair in its original position.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Adherence to established social structures and interpersonal boundaries is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Keep the chair in its original position.",
+   "option_B": "Move the chair closer to the other person.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "qm9RQYRLmI",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "NMbkbMSrKx",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "d4-PefKuv9",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.587
+   }
+  ]
+ },
+ {
+  "id": 85,
+  "data": {
+   "record_id": "MEX_greetings_005",
+   "flag": "🇲🇽",
+   "country": "Mexico",
+   "norm_text": "Casual verbal greetings include “Hola” (Hello), “¿Qué tal?” (What’s up?), or “¿Cómo estás?” (How are you?).",
+   "situation": "Two acquaintances run into each other unexpectedly on a sidewalk. One person initiates a greeting to the other.",
+   "question": "How does the person greet the other acquaintance?",
+   "country_context": "This interaction takes place in Mexico.",
+   "norm_evidence": "The person uses a casual verbal greeting such as “Hola”, “¿Qué tal?”, or “¿Cómo estás?”.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Say a casual verbal greeting like \"Hello\" or \"How are you?\"",
+   "option_B": "Use a non-verbal gesture such as a nod or a wave.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "-ny7txgADu",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "1biZ82JYS_",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "youvDyXTSn",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.55
+   }
+  ]
+ },
+ {
+  "id": 86,
+  "data": {
+   "record_id": "THA_etiquette_019",
+   "flag": "🇹🇭",
+   "country": "Thailand",
+   "norm_text": "It is offensive to stretch one’s feet and legs out in front of others while sitting on the floor.",
+   "situation": "A person is sitting on the floor in a room with several other people. They feel the need to adjust their posture and stretch their legs.",
+   "question": "How should the person position their legs and feet in this situation?",
+   "country_context": "This interaction takes place in Thailand.",
+   "norm_evidence": "One keeps one's feet and legs tucked in or to the side, not stretched out in front of others.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining social harmony and adhering to group expectations is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Keep the legs tucked in or positioned to the side.",
+   "option_B": "Stretch the legs out in front of the other people.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "YKsiMqysLd",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "j655MG-Epk",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "NkaGucNGUm",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.171
+   }
+  ]
+ },
+ {
+  "id": 87,
+  "data": {
+   "record_id": "RUS_family_004",
+   "flag": "🇷🇺",
+   "country": "Russia",
+   "norm_text": "People may be expected to boast of their son or daughter's success.",
+   "situation": "A parent is talking with a long-time acquaintance about their adult child's recent professional accomplishments.",
+   "question": "How should the parent describe their child's success during the conversation?",
+   "country_context": "This interaction takes place in the Russian Federation.",
+   "norm_evidence": "People may be expected to boast of their son or daughter's success.",
+   "value_name": "Achievement",
+   "value_evidence": "In this setting, competence and demonstrated accomplishment are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Speak openly and with pride about the child's achievements.",
+   "option_B": "Downplay the child's achievements and speak modestly.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "oTpo9HuKiV",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "BGe24hhWJi",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "olMkV7w4uc",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 418.457
+   }
+  ]
+ },
+ {
+  "id": 88,
+  "data": {
+   "record_id": "MYS_dos_and_donts_023",
+   "flag": "🇲🇾",
+   "country": "Malaysia",
+   "norm_text": "A person should avoid mentioning the divisive topic of ethnic relations.",
+   "situation": "Two acquaintances are having a casual conversation. One person begins to discuss sensitive social issues related to ethnic groups.",
+   "question": "How should the other person respond?",
+   "country_context": "This interaction takes place in Malaysia.",
+   "norm_evidence": "A person avoids discussing sensitive social issues related to ethnic groups.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining interpersonal harmony and avoiding conflict is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Change the subject to a different topic.",
+   "option_B": "Engage in a direct discussion about the issues.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "-ZaW5GXq85",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "SERiA0zaHy",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "stRhhKutKK",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 10.731
+   }
+  ]
+ },
+ {
+  "id": 89,
+  "data": {
+   "record_id": "ZWE_etiquette_015",
+   "flag": "🇿🇼",
+   "country": "Zimbabwe",
+   "norm_text": "Shoulders and midriffs should be covered.",
+   "situation": "A person is choosing an outfit to wear to a formal community gathering. They are deciding between different styles of clothing.",
+   "question": "What would be the most appropriate way for the person to dress for this event?",
+   "country_context": "This interaction takes place in Zimbabwe.",
+   "norm_evidence": "In this setting, shoulders and midriffs should be covered.",
+   "value_name": "Conformity: Rules",
+   "value_evidence": "In this setting, compliance with established rules and procedures is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Wear clothing that covers the shoulders and midriff.",
+   "option_B": "Wear clothing that leaves the shoulders or midriff uncovered.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "FcKIbbBLq4",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "Kr32uzAD0J",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "4wk-rszOC5",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.577
+   }
+  ]
+ },
+ {
+  "id": 90,
+  "data": {
+   "record_id": "THA_core_concepts_015",
+   "flag": "🇹🇭",
+   "country": "Thailand",
+   "norm_text": "People often take responsibility for fellow members of their collective group.",
+   "situation": "A member of a close-knit social group has fallen behind on their obligations due to a personal crisis. Other members of the group are discussing how to handle the situation.",
+   "question": "How should the other group members respond to this situation?",
+   "country_context": "This interaction takes place in Thailand.",
+   "norm_evidence": "People often take responsibility for fellow members of their collective group.",
+   "value_name": "Benevolence: Dependability",
+   "value_evidence": "Reliability and loyalty to close others are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Cover the member's obligations for them.",
+   "option_B": "Leave the member to handle their own obligations.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "qf13CsR4dv",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "DZ2QCLz0kx",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "DbV5-Cbniw",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 3.983
+   }
+  ]
+ },
+ {
+  "id": 91,
+  "data": {
+   "record_id": "DEU_business_culture_009",
+   "flag": "🇩🇪",
+   "country": "Germany",
+   "norm_text": "All parties in a meeting are expected to participate in discussion an equal amount.",
+   "situation": "A team is holding a meeting to decide on a new strategy. The participants are discussing various options.",
+   "question": "How should the participants manage the discussion?",
+   "country_context": "This interaction takes place in Germany.",
+   "norm_evidence": "In this setting, all parties in a meeting are expected to participate in discussion an equal amount.",
+   "value_name": "Universalism: Concern",
+   "value_evidence": "In this setting, equality and fairness are important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Ensure that every participant contributes an equal amount to the discussion.",
+   "option_B": "Allow the most senior person or the designated leader to lead the discussion.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "B4iCf3GMRg",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "caR_qMXt4q",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "yts6YJXRGr",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 6.122
+   }
+  ]
+ },
+ {
+  "id": 92,
+  "data": {
+   "record_id": "SGP_communication_016",
+   "flag": "🇸🇬",
+   "country": "Singapore",
+   "norm_text": "It is considered disrespectful and offensive to touch someone's head.",
+   "situation": "A person notices a small piece of lint on the hair of an acquaintance. They are considering whether to reach out and remove it.",
+   "question": "How should the person behave in this situation?",
+   "country_context": "This interaction takes place in Singapore.",
+   "norm_evidence": "One should not touch someone's head.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining social order and adhering to interpersonal expectations is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Leave the lint on the person's hair.",
+   "option_B": "Reach out and remove the lint from the person's hair.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "C1Zev1kWfG",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "4yRNYuRQnz",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "kbLIsTLOxS",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.4
+   }
+  ]
+ },
+ {
+  "id": 93,
+  "data": {
+   "record_id": "KEN_business_culture_005",
+   "flag": "🇰🇪",
+   "country": "Kenya",
+   "norm_text": "A person should wait for their counterpart to determine when it is appropriate to use first names or nicknames.",
+   "situation": "Two business partners are meeting for the first time to discuss a contract. One partner is considering whether to address the other by their first name.",
+   "question": "How should the person decide when to use their counterpart's first name?",
+   "country_context": "This interaction takes place in Kenya.",
+   "norm_evidence": "A person should wait for their counterpart to determine when it is appropriate to use first names or nicknames.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "In this setting, avoiding offence and disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Wait for the other person to suggest using first names.",
+   "option_B": "Use the other person's first name from the start of the meeting.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "GljMDN2P81",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "8PLQh6L42d",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "NlbM22TdlM",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 14.913
+   }
+  ]
+ },
+ {
+  "id": 94,
+  "data": {
+   "record_id": "THA_etiquette_010",
+   "flag": "🇹🇭",
+   "country": "Thailand",
+   "norm_text": "A person should sit in a way that avoids pointing the soles of their feet at others.",
+   "situation": "A person is sitting on the floor during a social gathering with several other people. They are adjusting their position to get comfortable.",
+   "question": "How should the person position their feet in this situation?",
+   "country_context": "This interaction takes place in Thailand.",
+   "norm_evidence": "A person should sit in a way that avoids pointing the soles of their feet at others.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "In this setting, avoiding offence and disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Tuck the feet away so the soles do not face other people.",
+   "option_B": "Position the feet in whichever direction is most comfortable.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "qacH7zZYSO",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "Y78DRIWbg2",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "6Ff6vZYTt8",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 4.648
+   }
+  ]
+ },
+ {
+  "id": 95,
+  "data": {
+   "record_id": "ZWE_etiquette_021",
+   "flag": "🇿🇼",
+   "country": "Zimbabwe",
+   "norm_text": "A person should remove their hat when entering a home.",
+   "situation": "A person is visiting a friend and is about to step inside the friend's house. The person is currently wearing a hat.",
+   "question": "How should the person behave regarding their hat when entering the home?",
+   "country_context": "This interaction takes place in Zimbabwe.",
+   "norm_evidence": "In this setting, a person should remove their hat when entering a home.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "In this setting, avoiding offence and disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Take off the hat before entering.",
+   "option_B": "Keep the hat on while entering.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "0Zdq5E8wx2",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "XsbAwktoy4",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "CCkN4RyEnq",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 8.15
+   }
+  ]
+ },
+ {
+  "id": 96,
+  "data": {
+   "record_id": "BRA_etiquette_021",
+   "flag": "🇧🇷",
+   "country": "Brazil",
+   "norm_text": "A person should avoid giving sharp gifts, such as knives or scissors, as they may be interpreted as an intention to sever ties.",
+   "situation": "A person is choosing a gift for a friend to celebrate a special occasion. They are considering giving a high-quality set of kitchen shears.",
+   "question": "How should the person proceed with the gift choice?",
+   "country_context": "This interaction takes place in Brazil.",
+   "norm_evidence": "In this setting, a person should avoid giving sharp gifts, such as knives or scissors.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "In this setting, avoiding offence and disruption to others is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Choose a different gift that is not a sharp object.",
+   "option_B": "Proceed with giving the set of kitchen shears.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "t8N8HTfk_M",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "cv5Kw049ft",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "LODqkLQESF",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 6.5
+   }
+  ]
+ },
+ {
+  "id": 97,
+  "data": {
+   "record_id": "VEN_etiquette_028",
+   "flag": "🇻🇪",
+   "country": "Venezuela",
+   "norm_text": "A person should not give knives as a gift.",
+   "situation": "A person is choosing a gift for a friend's housewarming party and is considering giving a high-quality kitchen knife set.",
+   "question": "How should the person proceed with the gift choice?",
+   "country_context": "This interaction takes place in Venezuela, Bolivarian Republic of.",
+   "norm_evidence": "A person should not give knives as a gift.",
+   "value_name": "Conformity Interpersonal",
+   "value_evidence": "Maintaining social harmony and adhering to interpersonal expectations is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Choose a different gift instead of the knife set.",
+   "option_B": "Proceed with giving the knife set as the gift.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "6tQ8rYdiL2",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "WeopZQzlZq",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "BJqjPOcuJ5",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 5.154
+   }
+  ]
+ },
+ {
+  "id": 98,
+  "data": {
+   "record_id": "HKG_etiquette_032",
+   "flag": "🇭🇰",
+   "country": "Hong Kong",
+   "norm_text": "Clocks are taboo as gifts.",
+   "situation": "A person is choosing a gift for a business associate they are meeting for the first time. They are considering several different items, including a high-quality desk clock.",
+   "question": "What would be the most appropriate choice for the gift?",
+   "country_context": "This interaction takes place in Hong Kong.",
+   "norm_evidence": "Clocks are not given as gifts.",
+   "value_name": "Tradition",
+   "value_evidence": "Adherence to traditional customs is prioritized.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Choose a different item instead of the desk clock.",
+   "option_B": "Choose the high-quality desk clock as the gift.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "vUcAvgPWAr",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "dAf9lhMBwJ",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "cRNRHi38QI",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 13.353
+   }
+  ]
+ },
+ {
+  "id": 99,
+  "data": {
+   "record_id": "NZL_etiquette_100",
+   "flag": "🇳🇿",
+   "country": "New Zealand",
+   "norm_text": "It is commonplace and often appreciated for visitors to sing a traditional song from their home country during a pōwhiri.",
+   "situation": "A visitor is attending a formal welcoming ceremony hosted by a local community. The ceremony includes a period where guests are invited to contribute to the interaction.",
+   "question": "How should the visitor behave during this part of the ceremony?",
+   "country_context": "This interaction takes place in New Zealand.",
+   "norm_evidence": "Visitors sing a traditional song from their home country during the ceremony.",
+   "value_name": "Tradition",
+   "value_evidence": "Respect for inherited customs and long-established practices is important.",
+   "value_label": "Value",
+   "value_evidence_label": "Value Evidence",
+   "option_A": "Perform a traditional song from their home country.",
+   "option_B": "Remain silent and observe the proceedings.",
+   "is_overlap": "True"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "8Ud7gZij17",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "hKOYt44CDA",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "-5YpFrpZB9",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 448.448
+   }
+  ]
+ },
+ {
+  "id": 100,
+  "data": {
+   "record_id": "NZL_greetings_002",
+   "flag": "🇳🇿",
+   "country": "New Zealand",
+   "norm_text": "When greeted with \"Hi, how are you?\", a person is not expected to answer in detail.",
+   "situation": "A person encounters an acquaintance and is greeted with the phrase, \"Hi, how are you?\"",
+   "question": "How should the person respond to this greeting?",
+   "country_context": "This interaction takes place in New Zealand.",
+   "norm_evidence": "In this setting, when greeted with \"Hi, how are you?\", a person is not expected to answer in detail.",
+   "value_name": "",
+   "value_evidence": "",
+   "value_label": "",
+   "value_evidence_label": "",
+   "option_A": "Give a brief, general response.",
+   "option_B": "Give a detailed account of their current well-being.",
+   "is_overlap": "False"
+  },
+  "annotations": [
+   {
+    "result": [
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "dM8Mm7NFGi",
+      "from_name": "q1_scenario_reflects_norm",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 1
+      },
+      "id": "-3XO1PCHSf",
+      "from_name": "q2_scenario_reflects_value",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     },
+     {
+      "value": {
+       "rating": 5
+      },
+      "id": "OOuKArfjiI",
+      "from_name": "q3_options_contrast",
+      "to_name": "situation",
+      "type": "rating",
+      "origin": "manual"
+     }
+    ],
+    "was_cancelled": false,
+    "lead_time": 10.567
+   }
+  ]
+ }
+]

@@ -1,0 +1,690 @@
+{
+ "model": "llama-3.1-8b",
+ "layers": {
+  "11": {
+   "feature": 80286,
+   "decoder_norm": 0.9999999403953552,
+   "active_by_condition": {
+    "base": 0.0009718172983479105,
+    "country_norm": 0.4034121585141993,
+    "country_only": 0.014145340675952921,
+    "country_opposite_norm": 0.5359032501889645,
+    "norm_only": 0.18734477918151388,
+    "opposite_norm_only": 0.2609869344563222,
+    "shuffled_country_norm": 0.42468415937803694,
+    "shuffled_country_opposite_norm": 0.5538278803584926
+   },
+   "mean_by_condition": {
+    "base": 0.0003156658785883337,
+    "country_norm": 0.14471063017845154,
+    "country_only": 0.004575005732476711,
+    "country_opposite_norm": 0.19939269125461578,
+    "norm_only": 0.06481868028640747,
+    "opposite_norm_only": 0.09109555184841156,
+    "shuffled_country_norm": 0.15267737209796906,
+    "shuffled_country_opposite_norm": 0.2068614810705185
+   },
+   "active_when_resisting": 0.43833131801692865,
+   "active_when_not_resisting": 0.5571184435388458,
+   "feature_auroc": 0.4464449468914983,
+   "active_percentiles": {
+    "50": 0.3628012239933014,
+    "90": 0.4468635320663452
+   },
+   "active_true_norm_aligned": 0.40835266821345706,
+   "active_true_norm_not_aligned": 0.3369734789391576,
+   "active_country_only_aligned": 0.012308839985080195,
+   "active_country_only_not_aligned": 0.016670941266991535,
+   "direction_auroc": 0.5675619127612527,
+   "top_records": [
+    {
+     "norm_id": "MKD__etiquette__001__012",
+     "activation": 0.6193748712539673,
+     "resists": false,
+     "norm": "A guest should expect tea or coffee to be offered when at someone's house.",
+     "contradictory_norm": "A guest should not expect tea or coffee to be offered when at someone's house."
+    },
+    {
+     "norm_id": "MKD__etiquette__001__019",
+     "activation": 0.6126885414123535,
+     "resists": false,
+     "norm": "If a person wishes to have a second helping, they serve themselves.",
+     "contradictory_norm": "If a person wishes to have a second helping, they wait for the host to offer or serve them."
+    },
+    {
+     "norm_id": "ITA__business_culture__001__013",
+     "activation": 0.5818806290626526,
+     "resists": false,
+     "norm": "A person should not expect decisions to always be reached during meetings.",
+     "contradictory_norm": "A person should expect decisions to generally be reached during meetings."
+    },
+    {
+     "norm_id": "ROU__other_considerations__001__005",
+     "activation": 0.5778295993804932,
+     "resists": false,
+     "norm": "A person can expect to be offered alcohol in both casual and celebratory settings.",
+     "contradictory_norm": "A person can expect not to be offered alcohol in either casual or celebratory settings."
+    },
+    {
+     "norm_id": "POL__etiquette__001__014",
+     "activation": 0.5769762992858887,
+     "resists": false,
+     "norm": "Avoid resting one's ankle on the other knee whilst sitting.",
+     "contradictory_norm": "It is acceptable to rest one's ankle on the other knee whilst sitting."
+    },
+    {
+     "norm_id": "PRT__business_culture__001__001",
+     "activation": 0.5744001865386963,
+     "resists": true,
+     "norm": "Punctuality is generally expected at meetings, although sometimes people may arrive late.",
+     "contradictory_norm": "Arriving late to meetings is generally acceptable and not a concern."
+    },
+    {
+     "norm_id": "SAU__communication__001__002",
+     "activation": 0.5709154009819031,
+     "resists": false,
+     "norm": "A person may have to make assumptions about what is not said in conversation.",
+     "contradictory_norm": "A person should rely only on what is explicitly stated in conversation."
+    },
+    {
+     "norm_id": "EGY__etiquette__001__025",
+     "activation": 0.5647971630096436,
+     "resists": false,
+     "norm": "Only the right hand should be used when eating food with one's hands.",
+     "contradictory_norm": "Either hand may be used when eating food with one's hands."
+    },
+    {
+     "norm_id": "GRC__business_culture__001__018",
+     "activation": 0.5636531114578247,
+     "resists": false,
+     "norm": "A person should expect that business meetings commonly progress slowly and run several hours overtime.",
+     "contradictory_norm": "Business meetings commonly progress efficiently and end on time."
+    },
+    {
+     "norm_id": "TLS__etiquette__001__033",
+     "activation": 0.5634779930114746,
+     "resists": false,
+     "norm": "Gifts and cards are often exchanged during the Christmas and New Year festive season.",
+     "contradictory_norm": "Gifts and cards are rarely exchanged during the Christmas and New Year festive season."
+    },
+    {
+     "norm_id": "LAO__other_considerations__001__003",
+     "activation": 0.562147855758667,
+     "resists": false,
+     "norm": "When visiting a house or temple, wearing singlets with thin straps that expose the shoulders is sometimes considered lacking modesty and too revealing.",
+     "contradictory_norm": "When visiting a house or temple, wearing singlets with thin straps that expose the shoulders is generally considered acceptable and not a concern."
+    },
+    {
+     "norm_id": "MKD__family__001__017",
+     "activation": 0.5608349442481995,
+     "resists": false,
+     "norm": "Almost all children are allocated a godmother and godfather at birth.",
+     "contradictory_norm": "Only some children are allocated a godmother and godfather at birth, and it is not a widespread practice."
+    }
+   ],
+   "promotes": [
+    "icher",
+    "antt",
+    " Kramer",
+    "userService",
+    "irut",
+    "ighbors",
+    " heat",
+    "ypo",
+    " desperation",
+    "amber",
+    "itle",
+    ".scalar",
+    ".BorderFactory",
+    " dipping",
+    "INF",
+    "reetings",
+    "icut",
+    "askan",
+    " же",
+    "aryawan"
+   ],
+   "suppresses": [
+    "èm",
+    " dil",
+    "íses",
+    "zas",
+    ";base",
+    "&type",
+    "idunt",
+    "mund",
+    "ーラ",
+    "暮",
+    "LEGRO",
+    "angelo",
+    " Lionel",
+    "ẹn",
+    "enan",
+    "óng",
+    "-prepend",
+    " elkaar",
+    "QUIRED",
+    "CLUDING"
+   ],
+   "next_layer": {
+    "layer": 19,
+    "cosine_with_its_chosen_feature": 0.03365003317594528,
+    "nearest_feature": 71289,
+    "nearest_cosine": 0.17992247641086578,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "19": {
+   "feature": 33869,
+   "decoder_norm": 1.0,
+   "active_by_condition": {
+    "base": 0.0,
+    "country_norm": 0.005722924090271029,
+    "country_only": 0.00021595939963286903,
+    "country_opposite_norm": 0.04038440773134651,
+    "norm_only": 0.0794730590648958,
+    "opposite_norm_only": 0.2296728215095562,
+    "shuffled_country_norm": 0.013497462477054314,
+    "shuffled_country_opposite_norm": 0.042328042328042326
+   },
+   "mean_by_condition": {
+    "base": 0.0,
+    "country_norm": 0.0046714493073523045,
+    "country_only": 0.00014435648336075246,
+    "country_opposite_norm": 0.047268763184547424,
+    "norm_only": 0.1090254858136177,
+    "opposite_norm_only": 0.34006205201148987,
+    "shuffled_country_norm": 0.013659036718308926,
+    "shuffled_country_opposite_norm": 0.047626957297325134
+   },
+   "active_when_resisting": 0.11729141475211609,
+   "active_when_not_resisting": 0.02366241619560931,
+   "feature_auroc": 0.5401430124897691,
+   "active_percentiles": {
+    "50": 1.010682225227356,
+    "90": 1.9243505001068115
+   },
+   "active_true_norm_aligned": 0.0030162412993039443,
+   "active_true_norm_not_aligned": 0.0421216848673947,
+   "active_country_only_aligned": 0.0,
+   "active_country_only_not_aligned": 0.0005129520389843549,
+   "direction_auroc": 0.6283269609913481,
+   "top_records": [
+    {
+     "norm_id": "AUS__business_culture__001__041",
+     "activation": 3.210521697998047,
+     "resists": false,
+     "norm": "In business, a person should be more interested in another person's experience, credentials, and the longevity of their company than in personal relationships.",
+     "contradictory_norm": "In business, a person should be more interested in personal relationships than in another person's experience, credentials, and the longevity of their company."
+    },
+    {
+     "norm_id": "USA__communication__001__042",
+     "activation": 2.914766311645508,
+     "resists": false,
+     "norm": "It is offensive to give someone the middle finger, by which a person flips up their middle finger with their hand in a fist, palm facing inwards.",
+     "contradictory_norm": "Giving someone the middle finger is a harmless, playful gesture that is not offensive."
+    },
+    {
+     "norm_id": "PAK__family__001__005",
+     "activation": 2.886815071105957,
+     "resists": false,
+     "norm": "Men are generally expected to be the main source of income in the household.",
+     "contradictory_norm": "Women are generally expected to be the main source of income in the household."
+    },
+    {
+     "norm_id": "USA__business_culture__001__015",
+     "activation": 2.743649959564209,
+     "resists": true,
+     "norm": "Bargaining is usually done by negotiating a give-and-take scenario.",
+     "contradictory_norm": "Bargaining is usually done by accepting the first price offered without negotiation."
+    },
+    {
+     "norm_id": "IND__dos_and_donts__001__019",
+     "activation": 2.7230615615844727,
+     "resists": false,
+     "norm": "It is more appropriate to ask about a person's occupation than to ask what caste they belong to.",
+     "contradictory_norm": "It is more appropriate to ask what caste a person belongs to than to ask about their occupation."
+    },
+    {
+     "norm_id": "NPL__family__001__003",
+     "activation": 2.631669044494629,
+     "resists": false,
+     "norm": "People with a stable income may choose to live as a couple alone while continuing to support their parents financially.",
+     "contradictory_norm": "People with a stable income should live with their parents in a joint family and support them financially."
+    },
+    {
+     "norm_id": "IND__business_culture__001__020",
+     "activation": 2.6003706455230713,
+     "resists": false,
+     "norm": "If a person offends their business partner, they should not ignore the fact that they did so.",
+     "contradictory_norm": "If a person offends their business partner, they should ignore the fact that they did so."
+    },
+    {
+     "norm_id": "GBR__etiquette__001__003",
+     "activation": 2.590385913848877,
+     "resists": false,
+     "norm": "Spitting in public is considered rude.",
+     "contradictory_norm": "Spitting in public is acceptable."
+    },
+    {
+     "norm_id": "NZL__business_culture__001__029",
+     "activation": 2.5607872009277344,
+     "resists": true,
+     "norm": "Emphasise win-win scenarios in negotiations.",
+     "contradictory_norm": "In negotiations, people should emphasize win-lose scenarios."
+    },
+    {
+     "norm_id": "TON__family__001__008",
+     "activation": 2.5544626712799072,
+     "resists": false,
+     "norm": "Parents who work abroad may leave their child with relatives.",
+     "contradictory_norm": "Parents who work abroad should take their child with them rather than leave the child with relatives."
+    },
+    {
+     "norm_id": "NZL__core_concepts__001__003",
+     "activation": 2.5091140270233154,
+     "resists": true,
+     "norm": "Showing arrogance is likely to be resented and swiftly cut down with ridicule.",
+     "contradictory_norm": "Showing arrogance is likely to be admired and met with respect."
+    },
+    {
+     "norm_id": "SDN__communication__001__015",
+     "activation": 2.399287223815918,
+     "resists": true,
+     "norm": "Swearing may affect a person’s impression of someone’s character.",
+     "contradictory_norm": "Swearing does not affect a person’s impression of someone’s character."
+    }
+   ],
+   "promotes": [
+    "vou",
+    "bu",
+    "#__",
+    " disagree",
+    " contrary",
+    "ilere",
+    " untrue",
+    "/false",
+    " disagrees",
+    " Hog",
+    ".templates",
+    " Klo",
+    "decorators",
+    ".xx",
+    " respectfully",
+    " opposite",
+    " assertion",
+    "uition",
+    "clid",
+    " tun"
+   ],
+   "suppresses": [
+    " Fres",
+    "UGIN",
+    "IGNAL",
+    " hypocrisy",
+    "arma",
+    "elta",
+    " hypoc",
+    ".easy",
+    "itan",
+    "elps",
+    "asan",
+    "lete",
+    "ands",
+    "upid",
+    "ire",
+    "elp",
+    "eah",
+    "rama",
+    "砂",
+    "aktu"
+   ],
+   "next_layer": {
+    "layer": 23,
+    "cosine_with_its_chosen_feature": 0.09212429821491241,
+    "nearest_feature": 57218,
+    "nearest_cosine": 0.3569042682647705,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "23": {
+   "feature": 64142,
+   "decoder_norm": 0.9999997615814209,
+   "active_by_condition": {
+    "base": 0.10754778101716878,
+    "country_norm": 0.08055285606306015,
+    "country_only": 0.09221466364323508,
+    "country_opposite_norm": 0.257963502861462,
+    "norm_only": 0.29424468199978404,
+    "opposite_norm_only": 0.5397905193823561,
+    "shuffled_country_norm": 0.1188856494978944,
+    "shuffled_country_opposite_norm": 0.26077097505668934
+   },
+   "mean_by_condition": {
+    "base": 0.13297177851200104,
+    "country_norm": 0.10180392861366272,
+    "country_only": 0.10348273068666458,
+    "country_opposite_norm": 0.35063865780830383,
+    "norm_only": 0.5150827765464783,
+    "opposite_norm_only": 1.0152757167816162,
+    "shuffled_country_norm": 0.15517152845859528,
+    "shuffled_country_opposite_norm": 0.3551619052886963
+   },
+   "active_when_resisting": 0.435912938331318,
+   "active_when_not_resisting": 0.21927172341264625,
+   "feature_auroc": 0.6092025037716645,
+   "active_percentiles": {
+    "50": 1.2293744087219238,
+    "90": 1.9572230577468872
+   },
+   "active_true_norm_aligned": 0.06635730858468677,
+   "active_true_norm_not_aligned": 0.2714508580343214,
+   "active_country_only_aligned": 0.08989183140619172,
+   "active_country_only_not_aligned": 0.09540907925109002,
+   "direction_auroc": 0.6583067463637275,
+   "top_records": [
+    {
+     "norm_id": "KOR__family__001__009",
+     "activation": 4.448253631591797,
+     "resists": true,
+     "norm": "Under the traditional Confucian family model, a father is expected to protect his children.",
+     "contradictory_norm": "A father should let his children handle their own problems to build independence."
+    },
+    {
+     "norm_id": "KEN__business_culture__001__028",
+     "activation": 3.705441474914551,
+     "resists": true,
+     "norm": "A common way to build relationships with business partners is through sharing meals.",
+     "contradictory_norm": "A common way to build relationships with business partners is through formal written correspondence."
+    },
+    {
+     "norm_id": "AUS__business_culture__001__030",
+     "activation": 3.643383026123047,
+     "resists": true,
+     "norm": "A person should aim for a win-win outcome in negotiations.",
+     "contradictory_norm": "A person should aim to maximize their own gain in negotiations."
+    },
+    {
+     "norm_id": "AFG__business_culture__001__032",
+     "activation": 3.554385185241699,
+     "resists": true,
+     "norm": "Relationship building is essential to business.",
+     "contradictory_norm": "In business, it is acceptable to focus on the deal itself without investing time in personal relationship building."
+    },
+    {
+     "norm_id": "PSE__business_culture__001__007",
+     "activation": 3.3574728965759277,
+     "resists": true,
+     "norm": "Losing one's temper is unlikely to further negotiations and may make counterparts hesitant to do business.",
+     "contradictory_norm": "Losing one's temper can be an effective way to show seriousness and push negotiations forward."
+    },
+    {
+     "norm_id": "CHN__other_considerations__001__009",
+     "activation": 3.3391265869140625,
+     "resists": true,
+     "norm": "It is a good idea to approach the topic of pollution with sensitivity.",
+     "contradictory_norm": "It is a good idea to approach the topic of pollution directly and bluntly."
+    },
+    {
+     "norm_id": "NZL__business_culture__001__063",
+     "activation": 3.333737373352051,
+     "resists": true,
+     "norm": "Employ and retain family members on the basis of their individual merit and competence alone.",
+     "contradictory_norm": "Employ and retain family members on the basis of family loyalty and personal relationships."
+    },
+    {
+     "norm_id": "AUS__business_culture__001__063",
+     "activation": 3.279069662094116,
+     "resists": true,
+     "norm": "Bias towards family members in recruitment processes may be looked down upon as unfair.",
+     "contradictory_norm": "Favoring family members in recruitment processes is often seen as acceptable and even expected."
+    },
+    {
+     "norm_id": "ROU__communication__001__009",
+     "activation": 3.166536331176758,
+     "resists": true,
+     "norm": "A raised voice is not necessarily a sign of anger but can be an expression of excitement or conviction.",
+     "contradictory_norm": "A raised voice is generally a sign of anger or frustration."
+    },
+    {
+     "norm_id": "GBR__dos_and_donts__001__012",
+     "activation": 3.1611130237579346,
+     "resists": true,
+     "norm": "Bragging and boasting is often seen as contrived and obnoxious.",
+     "contradictory_norm": "Bragging and boasting is often seen as confident and impressive."
+    },
+    {
+     "norm_id": "HUN__dos_and_donts__001__006",
+     "activation": 3.14928936958313,
+     "resists": true,
+     "norm": "It is appropriate to approach conversations about the World Wars and the Cold War sensitively.",
+     "contradictory_norm": "It is appropriate to approach conversations about the World Wars and the Cold War directly and without special sensitivity."
+    },
+    {
+     "norm_id": "KHM__business_culture__001__023",
+     "activation": 3.105607509613037,
+     "resists": true,
+     "norm": "If a business person disagrees with someone, they often remain silent rather than voice their position in order to avoid tarnishing someone's face.",
+     "contradictory_norm": "If a business person disagrees with someone, they often voice their position directly in order to ensure the best decision is made."
+    }
+   ],
+   "promotes": [
+    " although",
+    " while",
+    "although",
+    " though",
+    " Although",
+    "while",
+    "虽然",
+    " While",
+    "Although",
+    "While",
+    " aunque",
+    "\twhile",
+    " whilst",
+    " WHILE",
+    " Though",
+    "Though",
+    "though",
+    " mentre",
+    " mientras",
+    "_while"
+   ],
+   "suppresses": [
+    "なら",
+    "trl",
+    "तम",
+    " varsa",
+    "فو",
+    " 又",
+    " hence",
+    "_documento",
+    "ethe",
+    "дал",
+    " Uncategorized",
+    "pecially",
+    "したら",
+    "veral",
+    ".this",
+    " therefore",
+    " 그래서",
+    " UCHAR",
+    " แล",
+    "ıyorlar"
+   ],
+   "next_layer": {
+    "layer": 27,
+    "cosine_with_its_chosen_feature": 0.9007739424705505,
+    "nearest_feature": 71651,
+    "nearest_cosine": 0.9007739424705505,
+    "nearest_is_its_chosen_feature": true
+   }
+  },
+  "27": {
+   "feature": 71651,
+   "decoder_norm": 0.9999998807907104,
+   "active_by_condition": {
+    "base": 0.16564085951841054,
+    "country_norm": 0.15754238203217796,
+    "country_only": 0.18183781449087572,
+    "country_opposite_norm": 0.3861354065435698,
+    "norm_only": 0.3980131735233776,
+    "opposite_norm_only": 0.6639671741712558,
+    "shuffled_country_norm": 0.20667314544865564,
+    "shuffled_country_opposite_norm": 0.40006478781988986
+   },
+   "mean_by_condition": {
+    "base": 0.28708508610725403,
+    "country_norm": 0.27143600583076477,
+    "country_only": 0.28523892164230347,
+    "country_opposite_norm": 0.7420763969421387,
+    "norm_only": 0.9738908410072327,
+    "opposite_norm_only": 1.8117399215698242,
+    "shuffled_country_norm": 0.37272995710372925,
+    "shuffled_country_opposite_norm": 0.7613272070884705
+   },
+   "active_when_resisting": 0.558645707376058,
+   "active_when_not_resisting": 0.3486262652819771,
+   "feature_auroc": 0.6254685471553042,
+   "active_percentiles": {
+    "50": 1.7242696285247803,
+    "90": 2.8826141357421875
+   },
+   "active_true_norm_aligned": 0.1425754060324826,
+   "active_true_norm_not_aligned": 0.358814352574103,
+   "active_country_only_aligned": 0.1721372622155912,
+   "active_country_only_not_aligned": 0.19517825083354706,
+   "direction_auroc": 0.6568790694118206,
+   "top_records": [
+    {
+     "norm_id": "KOR__family__001__009",
+     "activation": 5.7418599128723145,
+     "resists": true,
+     "norm": "Under the traditional Confucian family model, a father is expected to protect his children.",
+     "contradictory_norm": "A father should let his children handle their own problems to build independence."
+    },
+    {
+     "norm_id": "KEN__business_culture__001__028",
+     "activation": 5.221741199493408,
+     "resists": true,
+     "norm": "A common way to build relationships with business partners is through sharing meals.",
+     "contradictory_norm": "A common way to build relationships with business partners is through formal written correspondence."
+    },
+    {
+     "norm_id": "AFG__business_culture__001__032",
+     "activation": 4.995136737823486,
+     "resists": true,
+     "norm": "Relationship building is essential to business.",
+     "contradictory_norm": "In business, it is acceptable to focus on the deal itself without investing time in personal relationship building."
+    },
+    {
+     "norm_id": "AUS__business_culture__001__030",
+     "activation": 4.930499076843262,
+     "resists": true,
+     "norm": "A person should aim for a win-win outcome in negotiations.",
+     "contradictory_norm": "A person should aim to maximize their own gain in negotiations."
+    },
+    {
+     "norm_id": "PSE__business_culture__001__007",
+     "activation": 4.832949161529541,
+     "resists": true,
+     "norm": "Losing one's temper is unlikely to further negotiations and may make counterparts hesitant to do business.",
+     "contradictory_norm": "Losing one's temper can be an effective way to show seriousness and push negotiations forward."
+    },
+    {
+     "norm_id": "ROU__communication__001__009",
+     "activation": 4.771917819976807,
+     "resists": true,
+     "norm": "A raised voice is not necessarily a sign of anger but can be an expression of excitement or conviction.",
+     "contradictory_norm": "A raised voice is generally a sign of anger or frustration."
+    },
+    {
+     "norm_id": "CHN__other_considerations__001__009",
+     "activation": 4.770755767822266,
+     "resists": true,
+     "norm": "It is a good idea to approach the topic of pollution with sensitivity.",
+     "contradictory_norm": "It is a good idea to approach the topic of pollution directly and bluntly."
+    },
+    {
+     "norm_id": "HUN__dos_and_donts__001__006",
+     "activation": 4.67344331741333,
+     "resists": true,
+     "norm": "It is appropriate to approach conversations about the World Wars and the Cold War sensitively.",
+     "contradictory_norm": "It is appropriate to approach conversations about the World Wars and the Cold War directly and without special sensitivity."
+    },
+    {
+     "norm_id": "NZL__business_culture__001__063",
+     "activation": 4.66734504699707,
+     "resists": true,
+     "norm": "Employ and retain family members on the basis of their individual merit and competence alone.",
+     "contradictory_norm": "Employ and retain family members on the basis of family loyalty and personal relationships."
+    },
+    {
+     "norm_id": "PNG__dos_and_donts__001__002",
+     "activation": 4.552945613861084,
+     "resists": true,
+     "norm": "It is appropriate to identify people who are older and be polite and sensitive to their opinions.",
+     "contradictory_norm": "It is appropriate to treat older people the same as everyone else and openly challenge their opinions when they seem wrong."
+    },
+    {
+     "norm_id": "KHM__business_culture__001__023",
+     "activation": 4.509745121002197,
+     "resists": true,
+     "norm": "If a business person disagrees with someone, they often remain silent rather than voice their position in order to avoid tarnishing someone's face.",
+     "contradictory_norm": "If a business person disagrees with someone, they often voice their position directly in order to ensure the best decision is made."
+    },
+    {
+     "norm_id": "GBR__dos_and_donts__001__012",
+     "activation": 4.383997440338135,
+     "resists": true,
+     "norm": "Bragging and boasting is often seen as contrived and obnoxious.",
+     "contradictory_norm": "Bragging and boasting is often seen as confident and impressive."
+    }
+   ],
+   "promotes": [
+    " while",
+    "while",
+    " While",
+    "While",
+    "\twhile",
+    " although",
+    " WHILE",
+    " whilst",
+    " mentre",
+    "_while",
+    " mientras",
+    "although",
+    " enquanto",
+    "虽然",
+    " Although",
+    " जबक",
+    " though",
+    "Although",
+    " whereas",
+    " Whilst"
+   ],
+   "suppresses": [
+    "なら",
+    "तम",
+    " hence",
+    "atoi",
+    "，因此",
+    " 又",
+    "_documento",
+    "pecially",
+    "ethe",
+    " toch",
+    "alarından",
+    " başka",
+    " 언제",
+    "فو",
+    "ực",
+    "ostream",
+    "Anyway",
+    "WithTag",
+    " GetLastError",
+    "관"
+   ]
+  }
+ }
+}
