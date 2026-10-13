@@ -39,8 +39,7 @@ All models are LoRA adapters of rank 16 for the instruction-tuned base model.
 ```python
 from datasets import load_dataset
 
-benchmark = load_dataset("sameearif/CultureLens")                          # train, validation, test_seen, test_unseen
-everything = load_dataset("sameearif/CultureLens", "all", split="full")    # all 9,261 records
+benchmark = load_dataset("sameearif/CultureLens")   # train, validation, test_seen, test_unseen
 ```
 
 ```python
