@@ -1,0 +1,73 @@
+{
+  "analysis": "answers_with_the_finetuning_shift",
+  "model_slug": "qwen-3.5-27b",
+  "adapter": "output/finetune/runs/collab-qwen-sft-cf/best",
+  "sample": 500,
+  "sample_rule": "uniform without replacement over the records file, seed 2026",
+  "vectors": "mean of state(tuned) - state(untuned) at the last prompt token over the records outside the sample; added at that token and at every generated token",
+  "arms": {
+    "untuned": {
+      "adapter": "off",
+      "layer": null,
+      "vector": null,
+      "sign": 0.0
+    },
+    "tuned": {
+      "adapter": "on",
+      "layer": null,
+      "vector": null,
+      "sign": 0.0
+    },
+    "steer-24": {
+      "adapter": "off",
+      "layer": 24,
+      "vector": "mean",
+      "sign": 1.0
+    },
+    "ablate-24": {
+      "adapter": "on",
+      "layer": 24,
+      "vector": "mean",
+      "sign": -1.0
+    },
+    "steer-40": {
+      "adapter": "off",
+      "layer": 40,
+      "vector": "mean",
+      "sign": 1.0
+    },
+    "ablate-40": {
+      "adapter": "on",
+      "layer": 40,
+      "vector": "mean",
+      "sign": -1.0
+    },
+    "random-24": {
+      "adapter": "off",
+      "layer": 24,
+      "vector": "random",
+      "sign": 1.0
+    }
+  },
+  "answers": {
+    "untuned.base": 500,
+    "untuned.country_only": 500,
+    "tuned.base": 500,
+    "tuned.country_only": 500,
+    "steer-24.base": 500,
+    "steer-24.country_only": 500,
+    "ablate-24.base": 500,
+    "ablate-24.country_only": 500,
+    "steer-40.base": 500,
+    "steer-40.country_only": 500,
+    "ablate-40.base": 500,
+    "ablate-40.country_only": 500,
+    "random-24.base": 500,
+    "random-24.country_only": 500
+  },
+  "decoding": {
+    "sampling": false,
+    "max_new_tokens": 1024
+  },
+  "seconds": 157.4
+}

@@ -1,0 +1,2074 @@
+{
+ "model": "qwen-3.5-27b",
+ "layers": {
+  "0": {
+   "feature": 71321,
+   "decoder_norm": 0.9999999403953552,
+   "active_by_condition": {
+    "base": 1.0,
+    "country_norm": 1.0,
+    "country_only": 1.0,
+    "country_opposite_norm": 1.0,
+    "norm_only": 1.0,
+    "opposite_norm_only": 1.0,
+    "shuffled_country_norm": 1.0,
+    "shuffled_country_opposite_norm": 1.0
+   },
+   "mean_by_condition": {
+    "base": 0.3308814465999603,
+    "country_norm": 0.33240076899528503,
+    "country_only": 0.3323438763618469,
+    "country_opposite_norm": 0.33232685923576355,
+    "norm_only": 0.33076995611190796,
+    "opposite_norm_only": 0.33063897490501404,
+    "shuffled_country_norm": 0.33242470026016235,
+    "shuffled_country_opposite_norm": 0.3323458731174469
+   },
+   "active_when_resisting": 1.0,
+   "active_when_not_resisting": 1.0,
+   "feature_auroc": 0.44412540606020456,
+   "active_percentiles": {
+    "50": 0.33230772614479065,
+    "90": 0.3355502188205719
+   },
+   "active_true_norm_aligned": 1.0,
+   "active_true_norm_not_aligned": 1.0,
+   "active_country_only_aligned": 1.0,
+   "active_country_only_not_aligned": 1.0,
+   "direction_auroc": 0.4761408132797361,
+   "top_records": [
+    {
+     "norm_id": "NZL__communication__001__007",
+     "activation": 0.348408967256546,
+     "resists": false,
+     "norm": "People may say “no” in a roundabout or indirect way, such as “I’m not sure” or “not really”.",
+     "contradictory_norm": "People may say “no” directly and explicitly, such as “No, I can’t”."
+    },
+    {
+     "norm_id": "SOM__greetings__001__006",
+     "activation": 0.34662899374961853,
+     "resists": true,
+     "norm": "The correct response to “As-Salam Alaykum” is “Wa ‘alikum assalaam” (And peace be upon you).",
+     "contradictory_norm": "The correct response to “As-Salam Alaykum” is to simply say “Hello” in return."
+    },
+    {
+     "norm_id": "GBR__etiquette__001__022",
+     "activation": 0.34504827857017517,
+     "resists": true,
+     "norm": "Gifts are expected to reflect the recipient’s interests.",
+     "contradictory_norm": "Gifts are expected to reflect the giver’s own taste."
+    },
+    {
+     "norm_id": "WSM__communication__001__003",
+     "activation": 0.34480035305023193,
+     "resists": true,
+     "norm": "Encouraging words such as “work on” or “try to” are often used instead of direct words such as “do not”.",
+     "contradictory_norm": "Direct words such as “do not” are often used instead of encouraging words such as “work on” or “try to”."
+    },
+    {
+     "norm_id": "LAO__greetings__001__005",
+     "activation": 0.3434072732925415,
+     "resists": false,
+     "norm": "Informally, people may greet each other with 'pai sai maa' ('where are you coming from?').",
+     "contradictory_norm": "Informally, people may greet each other with a simple 'sabaidee' (hello)."
+    },
+    {
+     "norm_id": "PNG__family__001__009",
+     "activation": 0.3430081307888031,
+     "resists": false,
+     "norm": "Boys are generally expected to follow their father’s example.",
+     "contradictory_norm": "Boys are generally expected to pursue their own interests independently of their father’s example."
+    },
+    {
+     "norm_id": "KHM__communication__001__012",
+     "activation": 0.3423903286457062,
+     "resists": true,
+     "norm": "Public displays of affection between couples, such as kissing, are generally not shown.",
+     "contradictory_norm": "Public displays of affection between couples, such as kissing, are generally shown."
+    },
+    {
+     "norm_id": "TON__communication__001__025",
+     "activation": 0.3421129882335663,
+     "resists": false,
+     "norm": "A quick lifting of the eyebrows means “yes”.",
+     "contradictory_norm": "A quick lifting of the eyebrows means “no”."
+    },
+    {
+     "norm_id": "BIH__greetings__001__011",
+     "activation": 0.3420790433883667,
+     "resists": false,
+     "norm": "People commonly greet one another with the question “Kako si?” (How are you?).",
+     "contradictory_norm": "People commonly greet one another with a simple “Hello” without asking how the other is."
+    },
+    {
+     "norm_id": "MEX__etiquette__001__025",
+     "activation": 0.3418639600276947,
+     "resists": false,
+     "norm": "If offered something by a host, a guest may politely decline by saying \"ahorita\".",
+     "contradictory_norm": "If offered something by a host, a guest should decline directly by saying \"no, thank you\"."
+    },
+    {
+     "norm_id": "AUT__core_concepts__001__006",
+     "activation": 0.3417017161846161,
+     "resists": false,
+     "norm": "Among younger generations, the topic of World War II may be approached lightheartedly.",
+     "contradictory_norm": "Among younger generations, the topic of World War II is treated with solemn respect."
+    },
+    {
+     "norm_id": "KOR__etiquette__001__004",
+     "activation": 0.34154292941093445,
+     "resists": true,
+     "norm": "A person should defer to the opinion of those who are older than them.",
+     "contradictory_norm": "A person should treat everyone's opinion equally regardless of age."
+    }
+   ],
+   "promotes": [
+    "谓",
+    "匹马",
+    " INDUS",
+    "以防",
+    " Kalim",
+    " resizable",
+    "_markup",
+    "idio",
+    "羡",
+    "эм",
+    "敬",
+    "意识的",
+    "önh",
+    "调剂",
+    "缪",
+    " Balik",
+    "其一",
+    "锦上添花",
+    "�",
+    " constantes"
+   ],
+   "suppresses": [
+    " Bot",
+    "agoon",
+    "群",
+    "芹",
+    "quette",
+    "zell",
+    "金陵",
+    "必须符合",
+    "人去",
+    "aptic",
+    "esai",
+    " Doyle",
+    "滋滋",
+    "生态修复",
+    " Singer",
+    "一连",
+    "ommy",
+    "spre",
+    " existential",
+    "奔"
+   ],
+   "next_layer": {
+    "layer": 16,
+    "cosine_with_its_chosen_feature": 0.035199619829654694,
+    "nearest_feature": 20111,
+    "nearest_cosine": 0.255110502243042,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "16": {
+   "feature": 15608,
+   "decoder_norm": 0.9999999403953552,
+   "active_by_condition": {
+    "base": 0.9995680812007343,
+    "country_norm": 0.9997840406003672,
+    "country_only": 0.9995680812007343,
+    "country_opposite_norm": 0.9997840406003672,
+    "norm_only": 0.9997840406003672,
+    "opposite_norm_only": 0.9998920203001835,
+    "shuffled_country_norm": 1.0,
+    "shuffled_country_opposite_norm": 0.9997840406003672
+   },
+   "mean_by_condition": {
+    "base": 0.6312357187271118,
+    "country_norm": 0.6356121897697449,
+    "country_only": 0.583500325679779,
+    "country_opposite_norm": 0.6508103609085083,
+    "norm_only": 0.6586297750473022,
+    "opposite_norm_only": 0.6725650429725647,
+    "shuffled_country_norm": 0.6352622509002686,
+    "shuffled_country_opposite_norm": 0.649812638759613
+   },
+   "active_when_resisting": 1.0,
+   "active_when_not_resisting": 0.9996143463170073,
+   "feature_auroc": 0.5944090862846881,
+   "active_percentiles": {
+    "50": 0.6516610980033875,
+    "90": 0.7694814205169678
+   },
+   "active_true_norm_aligned": 0.9997749015194147,
+   "active_true_norm_not_aligned": 1.0,
+   "active_country_only_aligned": 0.9995692749461593,
+   "active_country_only_not_aligned": 0.9995644599303136,
+   "direction_auroc": 0.5863240579284955,
+   "top_records": [
+    {
+     "norm_id": "HKG__greetings__001__001",
+     "activation": 0.9929711818695068,
+     "resists": true,
+     "norm": "A handshake is the expected greeting, accompanied by a nod and direct eye contact.",
+     "contradictory_norm": "A slight bow without physical contact is the expected greeting, with eyes lowered."
+    },
+    {
+     "norm_id": "UKR__business_culture__002__007",
+     "activation": 0.981056272983551,
+     "resists": true,
+     "norm": "Encourage employees to provide input on solutions to problems raised.",
+     "contradictory_norm": "Discourage employees from providing input on solutions to problems raised."
+    },
+    {
+     "norm_id": "ZAF__business_culture__001__005",
+     "activation": 0.9580861330032349,
+     "resists": true,
+     "norm": "Take a recognisable moment to examine the content of a business card before putting it away.",
+     "contradictory_norm": "Put the business card away immediately without examining it."
+    },
+    {
+     "norm_id": "JPN__communication__001__007",
+     "activation": 0.956896185874939,
+     "resists": true,
+     "norm": "A person may respond to a request with \"Kento-shimasu\" meaning 'I will consider it', even if the speaker does not intend to consider the proposal.",
+     "contradictory_norm": "A person should directly decline a request if they do not intend to consider it."
+    },
+    {
+     "norm_id": "HKG__greetings__001__004",
+     "activation": 0.9498624205589294,
+     "resists": true,
+     "norm": "A person should be addressed by their title and surname.",
+     "contradictory_norm": "A person should be addressed by their first name."
+    },
+    {
+     "norm_id": "CHN__dos_and_donts__001__011",
+     "activation": 0.9391725063323975,
+     "resists": true,
+     "norm": "Avoid directly criticising someone.",
+     "contradictory_norm": "Directly criticise someone when they make a mistake."
+    },
+    {
+     "norm_id": "IRQ__business_culture__001__036",
+     "activation": 0.9382688999176025,
+     "resists": true,
+     "norm": "A person should express any reluctance or disapproval calmly, with tact, or in a one-on-one setting.",
+     "contradictory_norm": "A person should express any reluctance or disapproval directly and openly in front of the group."
+    },
+    {
+     "norm_id": "BGD__family__001__007",
+     "activation": 0.9369891285896301,
+     "resists": false,
+     "norm": "Parents generally decide when their child should be married.",
+     "contradictory_norm": "The child generally decides when they should be married."
+    },
+    {
+     "norm_id": "JPN__dos_and_donts__001__010",
+     "activation": 0.9312803149223328,
+     "resists": true,
+     "norm": "A person is expected to be humble and modest in communication and expression.",
+     "contradictory_norm": "A person is expected to openly highlight their own achievements and take credit for their contributions."
+    },
+    {
+     "norm_id": "THA__business_culture__001__014",
+     "activation": 0.9258795976638794,
+     "resists": false,
+     "norm": "Sensitive or difficult conversations are expected to be initiated by those of higher authority or status.",
+     "contradictory_norm": "Sensitive or difficult conversations may be initiated by anyone regardless of authority or status."
+    },
+    {
+     "norm_id": "JPN__business_culture__001__041",
+     "activation": 0.9236770272254944,
+     "resists": true,
+     "norm": "A person can show attentiveness to a speaker by using interjections or nodding their head.",
+     "contradictory_norm": "A person can show attentiveness to a speaker by remaining completely still and silent."
+    },
+    {
+     "norm_id": "NZL__communication__001__017",
+     "activation": 0.9211578369140625,
+     "resists": true,
+     "norm": "Avoid adamantly agreeing with someone else’s self-deprecating jokes or comments.",
+     "contradictory_norm": "It is acceptable to adamantly agree with someone else’s self-deprecating jokes or comments."
+    }
+   ],
+   "promotes": [
+    "�",
+    "ytt",
+    "reja",
+    "ctxt",
+    " Zab",
+    "废弃物",
+    "三板",
+    "格格",
+    ".zh",
+    "Zend",
+    "Fahr",
+    "igny",
+    "phia",
+    "吃醋",
+    "ikin",
+    "уй",
+    "wl",
+    "Sep",
+    "偎",
+    "锐意"
+   ],
+   "suppresses": [
+    "倩",
+    " ",
+    "ation",
+    "ء",
+    "ature",
+    "名企",
+    "逾期",
+    " duga",
+    "ognition",
+    " Roth",
+    " Moose",
+    " th",
+    "ăr",
+    "г",
+    "提",
+    "喻",
+    "各自",
+    "ooks",
+    " Minds",
+    "ational"
+   ],
+   "next_layer": {
+    "layer": 24,
+    "cosine_with_its_chosen_feature": 0.041165463626384735,
+    "nearest_feature": 36216,
+    "nearest_cosine": 0.46154114603996277,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "24": {
+   "feature": 6926,
+   "decoder_norm": 1.0,
+   "active_by_condition": {
+    "base": 0.013821401576503618,
+    "country_norm": 0.18723679948169744,
+    "country_only": 0.0020516142965122555,
+    "country_opposite_norm": 0.30623042867940825,
+    "norm_only": 0.5389266817838246,
+    "opposite_norm_only": 0.6831875607385811,
+    "shuffled_country_norm": 0.19954648526077098,
+    "shuffled_country_opposite_norm": 0.30925386027426843
+   },
+   "mean_by_condition": {
+    "base": 0.010493774898350239,
+    "country_norm": 0.14604716002941132,
+    "country_only": 0.001469357404857874,
+    "country_opposite_norm": 0.2489929348230362,
+    "norm_only": 0.48349323868751526,
+    "opposite_norm_only": 0.6558966636657715,
+    "shuffled_country_norm": 0.15500235557556152,
+    "shuffled_country_opposite_norm": 0.2523173391819
+   },
+   "active_when_resisting": 0.41570552147239265,
+   "active_when_not_resisting": 0.22020825298881605,
+   "feature_auroc": 0.6034410009014359,
+   "active_percentiles": {
+    "50": 0.7665329575538635,
+    "90": 1.0744839906692505
+   },
+   "active_true_norm_aligned": 0.18446820483961734,
+   "active_true_norm_not_aligned": 0.2526595744680851,
+   "active_country_only_aligned": 0.002297200287150036,
+   "active_country_only_not_aligned": 0.0013066202090592336,
+   "direction_auroc": 0.6135403244696079,
+   "top_records": [
+    {
+     "norm_id": "AFG__dos_and_donts__001__004",
+     "activation": 1.9205305576324463,
+     "resists": true,
+     "norm": "It is appropriate to recognise that experiences of persecution differ between ethnicities.",
+     "contradictory_norm": "It is appropriate to treat experiences of persecution as uniform across ethnicities."
+    },
+    {
+     "norm_id": "PNG__family__001__005",
+     "activation": 1.7614080905914307,
+     "resists": true,
+     "norm": "All members of a kin group are generally expected to participate in clan affairs, such as negotiating a bride price and conducting initiation ceremonies.",
+     "contradictory_norm": "Only senior elders are expected to participate in clan affairs, while other members are not required to take part."
+    },
+    {
+     "norm_id": "AFG__family__001__064",
+     "activation": 1.7376163005828857,
+     "resists": true,
+     "norm": "A man may marry his deceased brother's widow into his family.",
+     "contradictory_norm": "A man should not marry his deceased brother's widow; instead, he should help her find a new husband outside the family."
+    },
+    {
+     "norm_id": "CHN__core_concepts__002__012",
+     "activation": 1.7024331092834473,
+     "resists": true,
+     "norm": "People may hold ballroom dance classes in public spaces.",
+     "contradictory_norm": "People should not hold ballroom dance classes in public spaces."
+    },
+    {
+     "norm_id": "COL__business_culture__001__032",
+     "activation": 1.6214513778686523,
+     "resists": true,
+     "norm": "Showing thoughtfulness toward a businessperson's secretary can sometimes facilitate future success and appointments.",
+     "contradictory_norm": "Showing thoughtfulness toward a businessperson's secretary is irrelevant to future success and appointments."
+    },
+    {
+     "norm_id": "FRA__business_culture__001__019",
+     "activation": 1.601186752319336,
+     "resists": true,
+     "norm": "A low-key, logical presentation that thoroughly explains the advantages of a proposal is more receptive in negotiations.",
+     "contradictory_norm": "A high-energy, emotional presentation that focuses on excitement is more receptive in negotiations."
+    },
+    {
+     "norm_id": "TLS__religion__001__006",
+     "activation": 1.5954794883728027,
+     "resists": true,
+     "norm": "Making regular ritual offerings to sacred beings such as gods, spirits (rai-nain), and ancestors (matebian) is expected.",
+     "contradictory_norm": "Making regular ritual offerings to sacred beings such as gods, spirits, and ancestors is not necessary."
+    },
+    {
+     "norm_id": "CHN__business_culture__001__012",
+     "activation": 1.587735652923584,
+     "resists": true,
+     "norm": "A person should expect to be asked many questions until they have covered in-depth information about their company, its history, the context of the negotiations, and all corresponding details.",
+     "contradictory_norm": "A person should expect to be asked only a few brief questions focusing on the immediate deal terms, without delving into company history or broader context."
+    },
+    {
+     "norm_id": "CYP__family__001__006",
+     "activation": 1.5805683135986328,
+     "resists": true,
+     "norm": "Grandparents may play a role in keeping the extended family together and involved with one another.",
+     "contradictory_norm": "Grandparents should not be involved in keeping the extended family together and involved with one another."
+    },
+    {
+     "norm_id": "SOM__family__001__013",
+     "activation": 1.5447502136230469,
+     "resists": false,
+     "norm": "Men are traditionally responsible for the financial well-being and safety of the family.",
+     "contradictory_norm": "Both spouses should share equal responsibility for the financial well-being and safety of the family."
+    },
+    {
+     "norm_id": "TLS__religion__001__004",
+     "activation": 1.5334382057189941,
+     "resists": true,
+     "norm": "Maintaining a positive relationship with the sacred (lulik) by following and respecting certain customs and rituals (lisan) is one of the most important expectations.",
+     "contradictory_norm": "Maintaining a positive relationship with the sacred does not require following traditional customs and rituals; personal spiritual connection is more important."
+    },
+    {
+     "norm_id": "NZL__etiquette__002__004",
+     "activation": 1.5078984498977661,
+     "resists": false,
+     "norm": "It is acceptable for an invited visitor to contact the marae representative to ask if they can suggest someone to perform the call of welcome on the group's behalf.",
+     "contradictory_norm": "It is not acceptable for an invited visitor to contact the community representative to ask if they can suggest someone to perform the call of welcome on the group's behalf; the visitor should arrange it themselves."
+    }
+   ],
+   "promotes": [
+    "答",
+    "atz",
+    " SOLUTION",
+    "答案是",
+    "antz",
+    "思路",
+    "_hidden",
+    " soluzione",
+    "思路和",
+    " Solution",
+    "的思路",
+    "πω",
+    "的答案",
+    "vertis",
+    " solution",
+    "解决办法",
+    "蛉",
+    " ",
+    "答案",
+    "embl"
+   ],
+   "suppresses": [
+    "问到",
+    "onas",
+    "楓",
+    " Cac",
+    "anni",
+    " Niem",
+    "蝉",
+    "码",
+    "输",
+    "遍",
+    "柠檬",
+    "JsonValue",
+    "檀",
+    "功臣",
+    "irting",
+    "ائه",
+    "次",
+    "elen",
+    " Caesar",
+    "iasm"
+   ],
+   "next_layer": {
+    "layer": 28,
+    "cosine_with_its_chosen_feature": 0.054068028926849365,
+    "nearest_feature": 69767,
+    "nearest_cosine": 0.6418145895004272,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "28": {
+   "feature": 7022,
+   "decoder_norm": 0.9999997615814209,
+   "active_by_condition": {
+    "base": 0.19187992657380412,
+    "country_norm": 0.49022783716661267,
+    "country_only": 0.5988554151819458,
+    "country_opposite_norm": 0.49411510636000433,
+    "norm_only": 0.13583846236907463,
+    "opposite_norm_only": 0.13529856386999245,
+    "shuffled_country_norm": 0.49487096425871935,
+    "shuffled_country_opposite_norm": 0.502969441744952
+   },
+   "mean_by_condition": {
+    "base": 0.22747579216957092,
+    "country_norm": 0.5175670981407166,
+    "country_only": 0.6830279231071472,
+    "country_opposite_norm": 0.5268386602401733,
+    "norm_only": 0.13447070121765137,
+    "opposite_norm_only": 0.1354171186685562,
+    "shuffled_country_norm": 0.5229652523994446,
+    "shuffled_country_opposite_norm": 0.534720242023468
+   },
+   "active_when_resisting": 0.3815950920245399,
+   "active_when_not_resisting": 0.5825298881604319,
+   "feature_auroc": 0.3944238262996884,
+   "active_percentiles": {
+    "50": 0.9808327555656433,
+    "90": 1.5659854412078857
+   },
+   "active_true_norm_aligned": 0.4954417557681486,
+   "active_true_norm_not_aligned": 0.3670212765957447,
+   "active_country_only_aligned": 0.5964106245513281,
+   "active_country_only_not_aligned": 0.6062717770034843,
+   "direction_auroc": 0.6414824007060065,
+   "top_records": [
+    {
+     "norm_id": "TON__greetings__001__009",
+     "activation": 2.4652090072631836,
+     "resists": false,
+     "norm": "People usually greet each other when passing casually on the street, even if they are not closely acquainted.",
+     "contradictory_norm": "People usually do not greet each other when passing casually on the street unless they are closely acquainted."
+    },
+    {
+     "norm_id": "IDN__etiquette__001__024",
+     "activation": 2.464238166809082,
+     "resists": false,
+     "norm": "Many Muslims accept foods without halal certification as long as they do not contain any pork products, including pork oil or fat.",
+     "contradictory_norm": "Many Muslims require halal certification for any food they consume, even if it contains no pork products."
+    },
+    {
+     "norm_id": "CHL__family__001__011",
+     "activation": 2.3397300243377686,
+     "resists": false,
+     "norm": "Married children usually visit their parents on the weekend if their parents live in a separate household.",
+     "contradictory_norm": "Married children usually do not visit their parents on the weekend even if their parents live in a separate household."
+    },
+    {
+     "norm_id": "SAU__communication__001__048",
+     "activation": 2.3367109298706055,
+     "resists": false,
+     "norm": "Swearing is common among people of the same age.",
+     "contradictory_norm": "Swearing is uncommon among people of the same age."
+    },
+    {
+     "norm_id": "ISR__greetings__001__006",
+     "activation": 2.3320910930633545,
+     "resists": false,
+     "norm": "Kissing on the cheek and hugging are common greetings between people depending on their ethnic origin and level of comfort with physical contact between opposite genders.",
+     "contradictory_norm": "People generally avoid physical contact when greeting someone of the opposite gender, preferring a verbal greeting or a nod."
+    },
+    {
+     "norm_id": "KOR__etiquette__001__001",
+     "activation": 2.3145930767059326,
+     "resists": false,
+     "norm": "People rarely thank one another for gestures of courtesy such as holding open doors.",
+     "contradictory_norm": "People usually thank one another for gestures of courtesy such as holding open doors."
+    },
+    {
+     "norm_id": "SSD__core_concepts__002__014",
+     "activation": 2.2932581901550293,
+     "resists": false,
+     "norm": "People generally do not hold grudges after a confrontation.",
+     "contradictory_norm": "People generally hold grudges after a confrontation."
+    },
+    {
+     "norm_id": "ESP__family__001__003",
+     "activation": 2.2909433841705322,
+     "resists": false,
+     "norm": "Pre-teen children are usually allowed to stay up late with their parents and parents' friends at restaurants long past 10 pm.",
+     "contradictory_norm": "Pre-teen children are usually expected to go to bed early and not stay up late at restaurants with adults."
+    },
+    {
+     "norm_id": "TLS__etiquette__001__007",
+     "activation": 2.2810754776000977,
+     "resists": false,
+     "norm": "Spitting in public is somewhat common, especially when consuming a wad of betel.",
+     "contradictory_norm": "Spitting in public is generally considered impolite and is avoided, even when consuming betel."
+    },
+    {
+     "norm_id": "SGP__communication__001__013",
+     "activation": 2.2741291522979736,
+     "resists": true,
+     "norm": "People are generally less accustomed to receiving a lot of physical affection from strangers.",
+     "contradictory_norm": "People are generally accustomed to receiving a lot of physical affection from strangers."
+    },
+    {
+     "norm_id": "HKG__religion__001__005",
+     "activation": 2.2617530822753906,
+     "resists": false,
+     "norm": "Praying or offering respect to religious figures or deities is fairly common.",
+     "contradictory_norm": "Praying or offering respect to religious figures or deities is uncommon."
+    },
+    {
+     "norm_id": "ZWE__family__001__007",
+     "activation": 2.258723258972168,
+     "resists": false,
+     "norm": "There is strong disapproval of people who wish not to bear children.",
+     "contradictory_norm": "There is strong approval of people who wish not to bear children."
+    }
+   ],
+   "promotes": [
+    " realistically",
+    " Expect",
+    "应该会",
+    " predict",
+    "大概率",
+    "因为没有",
+    "预期",
+    " theoretically",
+    "不会有",
+    "预期的",
+    " expectation",
+    ".Expect",
+    " scenario",
+    "结局",
+    " outcome",
+    "还是会",
+    " expect",
+    "会因为",
+    "expect",
+    " likely"
+   ],
+   "suppresses": [
+    "不欲",
+    "uji",
+    "FML",
+    ".req",
+    "Needed",
+    "也经常",
+    "成功后即可",
+    " getVersion",
+    ".matches",
+    "Classes",
+    " getSource",
+    " реже",
+    "eper",
+    "庆",
+    "adang",
+    ".pt",
+    "定义",
+    "格斯",
+    "快速获取",
+    " embr"
+   ],
+   "next_layer": {
+    "layer": 30,
+    "cosine_with_its_chosen_feature": 0.09498441964387894,
+    "nearest_feature": 11511,
+    "nearest_cosine": 0.6300353407859802,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "30": {
+   "feature": 3270,
+   "decoder_norm": 0.9999998211860657,
+   "active_by_condition": {
+    "base": 0.43666990605766115,
+    "country_norm": 0.8323075261850772,
+    "country_only": 0.8345750998812224,
+    "country_opposite_norm": 0.9604794298671849,
+    "norm_only": 0.834251160781773,
+    "opposite_norm_only": 0.9467660079904978,
+    "shuffled_country_norm": 0.861354065435698,
+    "shuffled_country_opposite_norm": 0.9592916531692042
+   },
+   "mean_by_condition": {
+    "base": 0.5068338513374329,
+    "country_norm": 0.9422716498374939,
+    "country_only": 0.9986491203308105,
+    "country_opposite_norm": 1.307068109512329,
+    "norm_only": 1.0114456415176392,
+    "opposite_norm_only": 1.29413902759552,
+    "shuffled_country_norm": 1.0331735610961914,
+    "shuffled_country_opposite_norm": 1.3256973028182983
+   },
+   "active_when_resisting": 0.9882208588957055,
+   "active_when_not_resisting": 0.9386810644041651,
+   "feature_auroc": 0.7115049011141369,
+   "active_percentiles": {
+    "50": 1.3534135818481445,
+    "90": 1.7759184837341309
+   },
+   "active_true_norm_aligned": 0.827236916150816,
+   "active_true_norm_not_aligned": 0.9521276595744681,
+   "active_country_only_aligned": 0.8292893036611629,
+   "active_country_only_not_aligned": 0.850609756097561,
+   "direction_auroc": 0.6955581449821251,
+   "top_records": [
+    {
+     "norm_id": "SOM__greetings__001__006",
+     "activation": 2.6031875610351562,
+     "resists": true,
+     "norm": "The correct response to “As-Salam Alaykum” is “Wa ‘alikum assalaam” (And peace be upon you).",
+     "contradictory_norm": "The correct response to “As-Salam Alaykum” is to simply say “Hello” in return."
+    },
+    {
+     "norm_id": "IRQ__greetings__001__003",
+     "activation": 2.5309224128723145,
+     "resists": true,
+     "norm": "The appropriate response to “Asalaamu alaikum” is “Wa alaikum salaam”.",
+     "contradictory_norm": "The appropriate response to 'Asalaamu alaikum' is to simply say 'Hello'."
+    },
+    {
+     "norm_id": "LBN__business_culture__001__011",
+     "activation": 2.3794116973876953,
+     "resists": true,
+     "norm": "A person is expected to use only the right hand when presenting a business card.",
+     "contradictory_norm": "A person is expected to use either hand when presenting a business card."
+    },
+    {
+     "norm_id": "CYP__business_culture__001__020",
+     "activation": 2.3242666721343994,
+     "resists": true,
+     "norm": "A verbal promise with a handshake and eye contact is considered binding.",
+     "contradictory_norm": "A verbal promise with a handshake and eye contact is not considered binding until a written contract is signed."
+    },
+    {
+     "norm_id": "BGD__business_culture__001__021",
+     "activation": 2.3191680908203125,
+     "resists": true,
+     "norm": "A person should always use their right hand when receiving or offering items such as business cards.",
+     "contradictory_norm": "A person may use either hand when receiving or offering items such as business cards."
+    },
+    {
+     "norm_id": "ZAF__etiquette__001__004",
+     "activation": 2.3188812732696533,
+     "resists": true,
+     "norm": "It is rude to spit in public.",
+     "contradictory_norm": "It is acceptable to spit in public."
+    },
+    {
+     "norm_id": "SRB__etiquette__001__018",
+     "activation": 2.3078088760375977,
+     "resists": true,
+     "norm": "A guest should leave their glass unfinished to indicate that they do not want more alcohol.",
+     "contradictory_norm": "A guest should finish their glass to indicate that they do not want more alcohol."
+    },
+    {
+     "norm_id": "KEN__greetings__001__006",
+     "activation": 2.2830655574798584,
+     "resists": false,
+     "norm": "Grasping the other person's arm at elbow level when one's hand is not clean is a polite courtesy.",
+     "contradictory_norm": "Shaking hands even with dirty hands is acceptable and expected."
+    },
+    {
+     "norm_id": "AUS__etiquette__001__015",
+     "activation": 2.2755391597747803,
+     "resists": true,
+     "norm": "Spitting in public is rude.",
+     "contradictory_norm": "Spitting in public is acceptable."
+    },
+    {
+     "norm_id": "SAU__communication__001__002",
+     "activation": 2.2742297649383545,
+     "resists": false,
+     "norm": "A person may have to make assumptions about what is not said in conversation.",
+     "contradictory_norm": "A person should rely only on what is explicitly stated in conversation."
+    },
+    {
+     "norm_id": "IRL__communication__001__022",
+     "activation": 2.267064094543457,
+     "resists": true,
+     "norm": "One should not ask a person if they have a problem with breathing when they make an ingressive sound while saying 'yes'.",
+     "contradictory_norm": "One should ask a person if they have a problem with breathing when they make an ingressive sound while saying 'yes'."
+    },
+    {
+     "norm_id": "ISR__etiquette__001__033",
+     "activation": 2.2595250606536865,
+     "resists": true,
+     "norm": "If giving a mezuzah with a scroll inside, be sure it is from a reputable source to ensure it is in line with Jewish law.",
+     "contradictory_norm": "If giving a mezuzah with a scroll inside, it is acceptable to choose one from any source without concern for its adherence to Jewish law."
+    }
+   ],
+   "promotes": [
+    "指正",
+    "大公",
+    "�",
+    "惊心",
+    "致",
+    "amis",
+    "َرَ",
+    "foy",
+    " konteks",
+    "ụa",
+    "所指",
+    "owl",
+    "延伸閱讀",
+    "َر",
+    "σύ",
+    "科威",
+    "ーマ",
+    "етка",
+    "�",
+    "发霉"
+   ],
+   "suppresses": [
+    "坐落于",
+    "高原",
+    "不再是",
+    "ฎ",
+    "bs",
+    "英文字",
+    ".abstract",
+    "ohana",
+    "جان",
+    "ласти",
+    "gui",
+    "丽娜",
+    "把自己的",
+    "リーン",
+    "gor",
+    " yas",
+    "贴心的",
+    "NonNull",
+    "aira",
+    "вое"
+   ],
+   "next_layer": {
+    "layer": 34,
+    "cosine_with_its_chosen_feature": 0.12033797055482864,
+    "nearest_feature": 65792,
+    "nearest_cosine": 0.3341720998287201,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "34": {
+   "feature": 57357,
+   "decoder_norm": 0.9999999403953552,
+   "active_by_condition": {
+    "base": 0.0024835330957779936,
+    "country_norm": 0.1930677032717849,
+    "country_only": 0.1213691825936724,
+    "country_opposite_norm": 0.5986394557823129,
+    "norm_only": 0.23172443580606847,
+    "opposite_norm_only": 0.5403304178814383,
+    "shuffled_country_norm": 0.26822157434402333,
+    "shuffled_country_opposite_norm": 0.5459453622718928
+   },
+   "mean_by_condition": {
+    "base": 0.003696370404213667,
+    "country_norm": 0.30014359951019287,
+    "country_only": 0.16811466217041016,
+    "country_opposite_norm": 1.183247685432434,
+    "norm_only": 0.40323394536972046,
+    "opposite_norm_only": 1.0723756551742554,
+    "shuffled_country_norm": 0.4554503560066223,
+    "shuffled_country_opposite_norm": 1.0700726509094238
+   },
+   "active_when_resisting": 0.8868711656441718,
+   "active_when_not_resisting": 0.37215580408792903,
+   "feature_auroc": 0.8350345077237206,
+   "active_percentiles": {
+    "50": 1.8892314434051514,
+    "90": 2.814732789993286
+   },
+   "active_true_norm_aligned": 0.17377602701181766,
+   "active_true_norm_not_aligned": 0.648936170212766,
+   "active_country_only_aligned": 0.12089016511127064,
+   "active_country_only_not_aligned": 0.12282229965156795,
+   "direction_auroc": 0.8192344892691271,
+   "top_records": [
+    {
+     "norm_id": "GRC__other_considerations__001__007",
+     "activation": 4.1401777267456055,
+     "resists": true,
+     "norm": "It is appropriate to be sensitive when approaching the topic of migration, as a person's position or education on the matter cannot be presumed.",
+     "contradictory_norm": "It is appropriate to be direct when approaching the topic of migration, as people generally appreciate straightforward questions about their background."
+    },
+    {
+     "norm_id": "VNM__etiquette__001__016",
+     "activation": 3.940746784210205,
+     "resists": true,
+     "norm": "When someone is humble about their cooking, it is appropriate to offer compliments in return.",
+     "contradictory_norm": "When someone is humble about their cooking, it is appropriate to agree with their self-assessment and not offer compliments."
+    },
+    {
+     "norm_id": "CHL__dos_and_donts__001__004",
+     "activation": 3.9163460731506348,
+     "resists": true,
+     "norm": "It is generally not appropriate to be offended if called 'gringo' or 'gringa', as the term is generally used as a nickname for foreigners of European descent rather than an insult.",
+     "contradictory_norm": "It is generally appropriate to be offended if called 'gringo' or 'gringa', as the term is generally used as a derogatory label for foreigners of European descent."
+    },
+    {
+     "norm_id": "LKA__etiquette__001__027",
+     "activation": 3.8995227813720703,
+     "resists": true,
+     "norm": "Do not give a Hindu gifts containing cow-related products, such as leather.",
+     "contradictory_norm": "It is acceptable to give a Hindu gifts containing cow-related products, such as leather."
+    },
+    {
+     "norm_id": "NZL__etiquette__002__008",
+     "activation": 3.8855338096618652,
+     "resists": true,
+     "norm": "If a visiting group has no male or no one who can speak Te Reo Māori, contact the inviting marae representative before the visit to ask whether someone may speak on the group's behalf.",
+     "contradictory_norm": "If a visiting group has no male or no one who can speak Te Reo Māori, they should simply attend the marae without prior contact, as the marae will handle all speaking roles."
+    },
+    {
+     "norm_id": "HUN__dos_and_donts__001__006",
+     "activation": 3.873961925506592,
+     "resists": true,
+     "norm": "It is appropriate to approach conversations about the World Wars and the Cold War sensitively.",
+     "contradictory_norm": "It is appropriate to approach conversations about the World Wars and the Cold War directly and without special sensitivity."
+    },
+    {
+     "norm_id": "UKR__communication__001__027",
+     "activation": 3.854701042175293,
+     "resists": false,
+     "norm": "It is best to offer personal feedback in an indirect way that frames it as advice, not criticism.",
+     "contradictory_norm": "It is best to offer personal feedback in a direct way that clearly identifies mistakes as criticism."
+    },
+    {
+     "norm_id": "NPL__dos_and_donts__001__024",
+     "activation": 3.8545451164245605,
+     "resists": true,
+     "norm": "It is acceptable to ask someone to repeat themselves, but be sensitive to the isolation an accent barrier can create.",
+     "contradictory_norm": "It is better not to ask someone to repeat themselves, as doing so may embarrass them about their accent."
+    },
+    {
+     "norm_id": "JPN__etiquette__001__025",
+     "activation": 3.84340238571167,
+     "resists": true,
+     "norm": "If the host does not indicate where to sit, the most appropriate choice is to sit closest to the entrance to demonstrate humility.",
+     "contradictory_norm": "If the host does not indicate where to sit, the most appropriate choice is to sit farthest from the entrance to show confidence."
+    },
+    {
+     "norm_id": "SOM__greetings__001__006",
+     "activation": 3.8380637168884277,
+     "resists": true,
+     "norm": "The correct response to “As-Salam Alaykum” is “Wa ‘alikum assalaam” (And peace be upon you).",
+     "contradictory_norm": "The correct response to “As-Salam Alaykum” is to simply say “Hello” in return."
+    },
+    {
+     "norm_id": "FRA__etiquette__001__028",
+     "activation": 3.7653732299804688,
+     "resists": true,
+     "norm": "When invited to someone's home, a person should try to bring a small, good-quality gift for the host.",
+     "contradictory_norm": "When invited to someone's home, a person should not bring a gift, as it may be seen as unnecessary or overly formal."
+    },
+    {
+     "norm_id": "VNM__business_culture__001__017",
+     "activation": 3.756962776184082,
+     "resists": true,
+     "norm": "Displaying anger or losing one's temper is likely to result in a loss of trust in business relationships.",
+     "contradictory_norm": "Displaying anger or losing one's temper is likely to be seen as a sign of passion and commitment, and may even strengthen trust in business relationships."
+    }
+   ],
+   "promotes": [
+    "拜",
+    ">>>>>>>",
+    "owie",
+    "imba",
+    "更新日期",
+    "駕",
+    "reu",
+    "כה",
+    "请与我们联系",
+    "zysz",
+    "მ",
+    "传的",
+    "ungalow",
+    "通報",
+    "сте",
+    "lig",
+    "君安",
+    "isert",
+    "文静",
+    "微不至"
+   ],
+   "suppresses": [
+    "CTest",
+    "ờ",
+    "rights",
+    "�",
+    "orns",
+    "ut",
+    "aze",
+    "akis",
+    "ummies",
+    " Cristi",
+    "ERE",
+    "难不成",
+    "惚",
+    "ів",
+    "�",
+    "看图",
+    "iah",
+    "花",
+    "vt",
+    "greg"
+   ],
+   "next_layer": {
+    "layer": 36,
+    "cosine_with_its_chosen_feature": 0.011409632861614227,
+    "nearest_feature": 64323,
+    "nearest_cosine": 0.3650243282318115,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "36": {
+   "feature": 17338,
+   "decoder_norm": 0.9999998211860657,
+   "active_by_condition": {
+    "base": 0.0034553503941259045,
+    "country_norm": 0.9073534175574992,
+    "country_only": 0.029370478350070187,
+    "country_opposite_norm": 0.7223841917719469,
+    "norm_only": 0.6594320267789655,
+    "opposite_norm_only": 0.421228808983911,
+    "shuffled_country_norm": 0.8634056797322104,
+    "shuffled_country_opposite_norm": 0.7364215527480834
+   },
+   "mean_by_condition": {
+    "base": 0.008196049369871616,
+    "country_norm": 2.8908214569091797,
+    "country_only": 0.056553035974502563,
+    "country_opposite_norm": 2.0731873512268066,
+    "norm_only": 1.7848578691482544,
+    "opposite_norm_only": 1.0717417001724243,
+    "shuffled_country_norm": 2.6872169971466064,
+    "shuffled_country_opposite_norm": 2.1643002033233643
+   },
+   "active_when_resisting": 0.47705521472392637,
+   "active_when_not_resisting": 0.9151561897416121,
+   "feature_auroc": 0.16086925866951846,
+   "active_percentiles": {
+    "50": 2.796921491622925,
+    "90": 4.099330425262451
+   },
+   "active_true_norm_aligned": 0.9211029825548678,
+   "active_true_norm_not_aligned": 0.5824468085106383,
+   "active_country_only_aligned": 0.03359655419956927,
+   "active_country_only_not_aligned": 0.016550522648083623,
+   "direction_auroc": 0.8388083774390229,
+   "top_records": [
+    {
+     "norm_id": "PNG__family__001__018",
+     "activation": 5.703639984130859,
+     "resists": false,
+     "norm": "In towns, women are usually expected to complete the domestic chores and care for children.",
+     "contradictory_norm": "In towns, men and women are usually expected to share domestic chores and childcare equally."
+    },
+    {
+     "norm_id": "TON__greetings__001__009",
+     "activation": 5.619865894317627,
+     "resists": false,
+     "norm": "People usually greet each other when passing casually on the street, even if they are not closely acquainted.",
+     "contradictory_norm": "People usually do not greet each other when passing casually on the street unless they are closely acquainted."
+    },
+    {
+     "norm_id": "PNG__family__001__016",
+     "activation": 5.539823055267334,
+     "resists": false,
+     "norm": "Women are typically expected to tend to the gardens and cook in village horticulture.",
+     "contradictory_norm": "Men and women are equally expected to tend to the gardens and cook in village horticulture."
+    },
+    {
+     "norm_id": "MKD__etiquette__001__007",
+     "activation": 5.5064520835876465,
+     "resists": false,
+     "norm": "Family members and close friends commonly visit each other's homes unannounced or unplanned.",
+     "contradictory_norm": "Family members and close friends generally arrange visits in advance and avoid dropping by unannounced."
+    },
+    {
+     "norm_id": "SOM__etiquette__001__027",
+     "activation": 5.464155197143555,
+     "resists": false,
+     "norm": "Close friends, family, and neighbours may visit one another frequently unannounced.",
+     "contradictory_norm": "Close friends, family, and neighbours generally schedule visits in advance and avoid unannounced visits."
+    },
+    {
+     "norm_id": "PNG__family__001__015",
+     "activation": 5.321467876434326,
+     "resists": false,
+     "norm": "Men are expected to clear forests and tend to crops in village horticulture.",
+     "contradictory_norm": "Women are expected to clear forests and tend to crops in village horticulture."
+    },
+    {
+     "norm_id": "SSD__family__001__020",
+     "activation": 5.31785249710083,
+     "resists": false,
+     "norm": "The father or eldest man leads the family and holds the most authority.",
+     "contradictory_norm": "All adult family members have equal say in family decisions."
+    },
+    {
+     "norm_id": "TLS__communication__001__005",
+     "activation": 5.292869567871094,
+     "resists": false,
+     "norm": "People tend to be more direct with those who are more familiar.",
+     "contradictory_norm": "People tend to be less direct with those who are more familiar."
+    },
+    {
+     "norm_id": "PSE__etiquette__001__051",
+     "activation": 5.24973726272583,
+     "resists": false,
+     "norm": "The father is usually served first out of respect, followed by the mother, but guests are served first if present.",
+     "contradictory_norm": "The mother is usually served first out of respect, followed by the father, but guests are served first if present."
+    },
+    {
+     "norm_id": "MLT__family__001__007",
+     "activation": 5.231308937072754,
+     "resists": false,
+     "norm": "People tend to have closer emotional ties and more frequent contact through the maternal side of the family.",
+     "contradictory_norm": "People tend to have closer emotional ties and more frequent contact through the paternal side of the family."
+    },
+    {
+     "norm_id": "ETH__family__001__021",
+     "activation": 5.21677303314209,
+     "resists": false,
+     "norm": "Women are expected to cook and prepare animals for food.",
+     "contradictory_norm": "Men are expected to cook and prepare animals for food."
+    },
+    {
+     "norm_id": "PNG__communication__001__012",
+     "activation": 5.209364414215088,
+     "resists": false,
+     "norm": "People are generally expected to pay attention to head, eye, and eyebrow expressions during communication.",
+     "contradictory_norm": "People are generally expected to focus mainly on the spoken words rather than facial expressions during communication."
+    }
+   ],
+   "promotes": [
+    "违反上述",
+    "上述",
+    "在上述",
+    "既然",
+    "对上述",
+    " aforementioned",
+    "前述",
+    "上記",
+    "如上",
+    " above",
+    "会因为",
+    "上述事实",
+    "上述作品",
+    "的这些",
+    "由于其",
+    "由于",
+    "above",
+    "以上の",
+    "正因为",
+    "因为有了"
+   ],
+   "suppresses": [
+    "是一种常见的",
+    "这是一种",
+    "喜欢在",
+    "都是我",
+    " бывают",
+    "wan",
+    "alak",
+    "alani",
+    "ppi",
+    "-Origin",
+    "定义了",
+    "使之",
+    ".std",
+    "ourn",
+    "诅",
+    "须知",
+    "Defines",
+    "วล",
+    "郎",
+    " origin"
+   ],
+   "next_layer": {
+    "layer": 40,
+    "cosine_with_its_chosen_feature": -0.06440097838640213,
+    "nearest_feature": 55957,
+    "nearest_cosine": 0.4606824517250061,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "40": {
+   "feature": 51180,
+   "decoder_norm": 0.9999998807907104,
+   "active_by_condition": {
+    "base": 0.0011877766979807797,
+    "country_norm": 0.02537522945686211,
+    "country_only": 0.00010797969981643452,
+    "country_opposite_norm": 0.41205053449951407,
+    "norm_only": 0.14631249325126877,
+    "opposite_norm_only": 0.4950869236583522,
+    "shuffled_country_norm": 0.10085303962854983,
+    "shuffled_country_opposite_norm": 0.35752078609221466
+   },
+   "mean_by_condition": {
+    "base": 0.002680900041013956,
+    "country_norm": 0.06077112630009651,
+    "country_only": 0.0002132784720743075,
+    "country_opposite_norm": 1.2586722373962402,
+    "norm_only": 0.3785112500190735,
+    "opposite_norm_only": 1.413967251777649,
+    "shuffled_country_norm": 0.29297304153442383,
+    "shuffled_country_opposite_norm": 1.0784668922424316
+   },
+   "active_when_resisting": 0.7575460122699387,
+   "active_when_not_resisting": 0.14057076745082916,
+   "feature_auroc": 0.8067012650860387,
+   "active_percentiles": {
+    "50": 3.0315613746643066,
+    "90": 4.108066082000732
+   },
+   "active_true_norm_aligned": 0.011142374788970174,
+   "active_true_norm_not_aligned": 0.3617021276595745,
+   "active_country_only_aligned": 0.0,
+   "active_country_only_not_aligned": 0.00043554006968641115,
+   "direction_auroc": 0.8580745234337847,
+   "top_records": [
+    {
+     "norm_id": "SAU__family__001__007",
+     "activation": 6.089692115783691,
+     "resists": true,
+     "norm": "Men are expected to work outside the home.",
+     "contradictory_norm": "Men are expected to stay home and manage the household."
+    },
+    {
+     "norm_id": "IRQ__family__001__013",
+     "activation": 5.703260898590088,
+     "resists": true,
+     "norm": "Mothers are generally expected to care for the family domestically.",
+     "contradictory_norm": "Fathers are generally expected to care for the family domestically."
+    },
+    {
+     "norm_id": "ROU__family__001__008",
+     "activation": 5.669210910797119,
+     "resists": true,
+     "norm": "Men are usually expected to be the main income earners.",
+     "contradictory_norm": "Women are usually expected to be the main income earners."
+    },
+    {
+     "norm_id": "SAU__family__001__033",
+     "activation": 5.646718978881836,
+     "resists": true,
+     "norm": "It is rare for men and women to show open affection in public.",
+     "contradictory_norm": "It is common for men and women to show open affection in public."
+    },
+    {
+     "norm_id": "ARG__greetings__001__002",
+     "activation": 5.553722381591797,
+     "resists": true,
+     "norm": "The most common greeting among friends and family is the abrazo, which consists of a handshake and an embrace.",
+     "contradictory_norm": "The most common greeting among friends and family is a simple handshake without an embrace."
+    },
+    {
+     "norm_id": "PHL__greetings__001__002",
+     "activation": 5.515227794647217,
+     "resists": true,
+     "norm": "When greeting strangers, women usually greet with a smile and a hand wave.",
+     "contradictory_norm": "When greeting strangers, women usually greet with a formal bow and no smile."
+    },
+    {
+     "norm_id": "CYP__family__001__013",
+     "activation": 5.504795551300049,
+     "resists": true,
+     "norm": "Men are generally expected to be the main income provider of the family.",
+     "contradictory_norm": "Women are generally expected to be the main income provider of the family."
+    },
+    {
+     "norm_id": "AUS__core_concepts__001__002",
+     "activation": 5.409498691558838,
+     "resists": true,
+     "norm": "People are expected to show respect to friends and peers through gestures of equality instead of deference.",
+     "contradictory_norm": "People are expected to show respect to friends and peers through gestures of deference instead of equality."
+    },
+    {
+     "norm_id": "AUS__family__001__005",
+     "activation": 5.338247776031494,
+     "resists": true,
+     "norm": "The general preference for most families is to have a small family with one to three children.",
+     "contradictory_norm": "Most families prefer to have a large family with four or more children."
+    },
+    {
+     "norm_id": "NZL__family__001__013",
+     "activation": 5.334815979003906,
+     "resists": false,
+     "norm": "It is expected in society that any strong couple will want to marry.",
+     "contradictory_norm": "It is expected in society that any strong couple will want to remain unmarried."
+    },
+    {
+     "norm_id": "PAK__communication__001__023",
+     "activation": 5.27149772644043,
+     "resists": true,
+     "norm": "Public displays of affection between opposite genders are considered very inappropriate.",
+     "contradictory_norm": "Public displays of affection between opposite genders are considered acceptable."
+    },
+    {
+     "norm_id": "IRL__etiquette__001__017",
+     "activation": 5.253220558166504,
+     "resists": true,
+     "norm": "When one wants to visit someone, it is typical to ask in advance.",
+     "contradictory_norm": "When one wants to visit someone, it is typical to just show up without asking in advance."
+    }
+   ],
+   "promotes": [
+    "现实中",
+    " actually",
+    "实际上",
+    "实际",
+    "其实",
+    " actual",
+    "真实",
+    "真实的",
+    " sebenarnya",
+    " historically",
+    " realistically",
+    "実際",
+    "实际情况",
+    "normally",
+    "actually",
+    "实际的",
+    "本来",
+    " normally",
+    " 실제로",
+    "其实是"
+   ],
+   "suppresses": [
+    "干净整洁",
+    "ایت",
+    "OrNull",
+    " Citt",
+    " Breitbart",
+    "icast",
+    "เด็ด",
+    "?key",
+    "เทศ",
+    "具有以下",
+    "楔",
+    " unmistak",
+    " decis",
+    "二话",
+    "飘荡",
+    "新闻中心",
+    "于是我",
+    "踏踏实",
+    "자리",
+    "hua"
+   ],
+   "next_layer": {
+    "layer": 44,
+    "cosine_with_its_chosen_feature": 0.003887833096086979,
+    "nearest_feature": 2271,
+    "nearest_cosine": 0.5586846470832825,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "44": {
+   "feature": 50126,
+   "decoder_norm": 0.9999999403953552,
+   "active_by_condition": {
+    "base": 0.4583738257207645,
+    "country_norm": 0.9898499082172552,
+    "country_only": 0.9775402224381816,
+    "country_opposite_norm": 0.8785228377065112,
+    "norm_only": 0.7687074829931972,
+    "opposite_norm_only": 0.5031854011445848,
+    "shuffled_country_norm": 0.9676060900550697,
+    "shuffled_country_opposite_norm": 0.8810063708022892
+   },
+   "mean_by_condition": {
+    "base": 1.3769179582595825,
+    "country_norm": 5.140564918518066,
+    "country_only": 3.6725406646728516,
+    "country_opposite_norm": 3.616868257522583,
+    "norm_only": 2.8814806938171387,
+    "opposite_norm_only": 1.8633522987365723,
+    "shuffled_country_norm": 4.831014633178711,
+    "shuffled_country_opposite_norm": 3.8199644088745117
+   },
+   "active_when_resisting": 0.7496932515337423,
+   "active_when_not_resisting": 0.9797531816428847,
+   "feature_auroc": 0.13141870869897482,
+   "active_percentiles": {
+    "50": 4.01312255859375,
+    "90": 6.1117401123046875
+   },
+   "active_true_norm_aligned": 0.9962858750703433,
+   "active_true_norm_not_aligned": 0.8377659574468085,
+   "active_country_only_aligned": 0.9781765972720746,
+   "active_country_only_not_aligned": 0.975609756097561,
+   "direction_auroc": 0.8631391736600901,
+   "top_records": [
+    {
+     "norm_id": "IND__business_culture__001__026",
+     "activation": 10.877848625183105,
+     "resists": false,
+     "norm": "Workplaces are hierarchical, based on age and position.",
+     "contradictory_norm": "Workplaces are egalitarian, with open communication regardless of age or position."
+    },
+    {
+     "norm_id": "GBR__communication__001__001",
+     "activation": 9.327847480773926,
+     "resists": false,
+     "norm": "People are expected to communicate indirectly and avoid making statements that upset the status quo.",
+     "contradictory_norm": "People are expected to communicate directly and openly challenge the status quo."
+    },
+    {
+     "norm_id": "ESP__business_culture__001__005",
+     "activation": 9.067095756530762,
+     "resists": false,
+     "norm": "Do not expect a meeting agenda to be strictly followed.",
+     "contradictory_norm": "Expect a meeting agenda to be strictly followed."
+    },
+    {
+     "norm_id": "AUT__business_culture__001__046",
+     "activation": 9.050996780395508,
+     "resists": false,
+     "norm": "Responsibilities and distinctions between roles are made clear in the hierarchy.",
+     "contradictory_norm": "Responsibilities and distinctions between roles are flexible and not strictly defined by hierarchy."
+    },
+    {
+     "norm_id": "NZL__business_culture__001__047",
+     "activation": 8.962682723999023,
+     "resists": false,
+     "norm": "Directions and instructions to subordinates are generally hinted at or framed as polite suggestions.",
+     "contradictory_norm": "Directions and instructions to subordinates are generally given directly and explicitly."
+    },
+    {
+     "norm_id": "MMR__communication__001__002",
+     "activation": 8.896244049072266,
+     "resists": false,
+     "norm": "Upfront honesty can be considered deeply intimidating and uncouth.",
+     "contradictory_norm": "Upfront honesty is expected and appreciated."
+    },
+    {
+     "norm_id": "LKA__business_culture__001__001",
+     "activation": 8.83297061920166,
+     "resists": false,
+     "norm": "It is best to be punctual for meetings, but also be prepared to wait as the sense of time is relaxed.",
+     "contradictory_norm": "Punctuality is strictly expected, and arriving late is considered disrespectful."
+    },
+    {
+     "norm_id": "MUS__core_concepts__001__012",
+     "activation": 8.809464454650879,
+     "resists": false,
+     "norm": "Being too bold is considered inappropriate.",
+     "contradictory_norm": "Being bold and direct is valued."
+    },
+    {
+     "norm_id": "PER__business_culture__001__002",
+     "activation": 8.78989315032959,
+     "resists": false,
+     "norm": "It is not uncommon for people to arrive late to business meetings.",
+     "contradictory_norm": "Punctuality is strictly expected for business meetings."
+    },
+    {
+     "norm_id": "PSE__business_culture__001__008",
+     "activation": 8.689247131347656,
+     "resists": false,
+     "norm": "People generally try to avoid confrontation in business settings.",
+     "contradictory_norm": "People generally address issues directly and openly in business settings."
+    },
+    {
+     "norm_id": "LBN__dos_and_donts__001__009",
+     "activation": 8.65432071685791,
+     "resists": false,
+     "norm": "It is appropriate to avoid being stringent about time and punctuality.",
+     "contradictory_norm": "It is appropriate to be stringent about time and punctuality."
+    },
+    {
+     "norm_id": "MLT__family__001__016",
+     "activation": 8.476475715637207,
+     "resists": false,
+     "norm": "Marriage is viewed as an opportunity for two families to establish ties.",
+     "contradictory_norm": "Marriage is viewed primarily as a personal commitment between the two individuals."
+    }
+   ],
+   "promotes": [
+    "因为是",
+    "由于",
+    "既然是",
+    "既然",
+    "鉴于",
+    "但因为",
+    "由于其",
+    "Since",
+    " Since",
+    "但由于",
+    " since",
+    "由於",
+    "但是由于",
+    "since",
+    "但因",
+    "Due",
+    " Due",
+    "因",
+    "因为",
+    "会因为"
+   ],
+   "suppresses": [
+    "igy",
+    "在某些",
+    "送去",
+    "atto",
+    "让人觉得",
+    "lang",
+    "actical",
+    " Unt",
+    "pil",
+    "生命中",
+    "于事",
+    "鲲",
+    "اسب",
+    "在工作上",
+    "在不同的",
+    "有些事",
+    "历",
+    "也未必",
+    "让更多人",
+    "lish"
+   ],
+   "next_layer": {
+    "layer": 52,
+    "cosine_with_its_chosen_feature": -0.005029281601309776,
+    "nearest_feature": 80321,
+    "nearest_cosine": 0.4740871489048004,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "52": {
+   "feature": 31691,
+   "decoder_norm": 1.0,
+   "active_by_condition": {
+    "base": 0.00010797969981643452,
+    "country_norm": 0.0888672929489256,
+    "country_only": 0.00010797969981643452,
+    "country_opposite_norm": 0.5378468847856603,
+    "norm_only": 0.239067055393586,
+    "opposite_norm_only": 0.6352445740200843,
+    "shuffled_country_norm": 0.16909620991253643,
+    "shuffled_country_opposite_norm": 0.47316704459561604
+   },
+   "mean_by_condition": {
+    "base": 0.0005119588458910584,
+    "country_norm": 0.4822922646999359,
+    "country_only": 0.0005243219202384353,
+    "country_opposite_norm": 4.551727294921875,
+    "norm_only": 1.5390828847885132,
+    "opposite_norm_only": 5.485050678253174,
+    "shuffled_country_norm": 1.131649374961853,
+    "shuffled_country_opposite_norm": 3.848205327987671
+   },
+   "active_when_resisting": 0.8539877300613496,
+   "active_when_not_resisting": 0.2894330890860008,
+   "feature_auroc": 0.8430608126172635,
+   "active_percentiles": {
+    "50": 8.707202911376953,
+    "90": 12.12771987915039
+   },
+   "active_true_norm_aligned": 0.07439504783342712,
+   "active_true_norm_not_aligned": 0.4308510638297872,
+   "active_country_only_aligned": 0.0,
+   "active_country_only_not_aligned": 0.00043554006968641115,
+   "direction_auroc": 0.837619404768383,
+   "top_records": [
+    {
+     "norm_id": "GBR__etiquette__001__016",
+     "activation": 15.71822452545166,
+     "resists": true,
+     "norm": "When visiting a home, a guest may not always receive a tour of the house.",
+     "contradictory_norm": "When visiting a home, a guest should always be offered a tour of the house."
+    },
+    {
+     "norm_id": "AUS__family__001__022",
+     "activation": 15.608155250549316,
+     "resists": true,
+     "norm": "People who live with a partner unmarried often organise their finances separately.",
+     "contradictory_norm": "People who live with a partner unmarried often combine their finances completely."
+    },
+    {
+     "norm_id": "HRV__greetings__001__014",
+     "activation": 15.266926765441895,
+     "resists": true,
+     "norm": "Kissing both cheeks when greeting is more common when a woman greets her female friends.",
+     "contradictory_norm": "Kissing both cheeks when greeting is less common when a woman greets her female friends."
+    },
+    {
+     "norm_id": "AUS__communication__001__035",
+     "activation": 15.031350135803223,
+     "resists": true,
+     "norm": "Making the 'V' sign with one's palm facing oneself is considered very rude.",
+     "contradictory_norm": "Making the 'V' sign with one's palm facing oneself is considered a friendly gesture."
+    },
+    {
+     "norm_id": "ISR__greetings__001__005",
+     "activation": 14.993489265441895,
+     "resists": true,
+     "norm": "Women may shake hands when greeting, though some women, such as those who identify as Orthodox, may prefer to avoid physical contact with men.",
+     "contradictory_norm": "Women should always shake hands when greeting men in business settings."
+    },
+    {
+     "norm_id": "GBR__communication__001__027",
+     "activation": 14.93810749053955,
+     "resists": true,
+     "norm": "When talking to a group, be sure to make equal eye contact with all who are present.",
+     "contradictory_norm": "When talking to a group, it is acceptable to focus eye contact mainly on the most senior person present."
+    },
+    {
+     "norm_id": "AUS__business_culture__001__061",
+     "activation": 14.9379301071167,
+     "resists": true,
+     "norm": "A person is not obliged to drink alcohol at a business function if they do not wish to.",
+     "contradictory_norm": "A person is expected to drink alcohol at a business function when offered."
+    },
+    {
+     "norm_id": "AUS__communication__001__022",
+     "activation": 14.808579444885254,
+     "resists": true,
+     "norm": "When talking to a group, one should make equal eye contact with all people present.",
+     "contradictory_norm": "When talking to a group, one should focus eye contact mainly on the most senior person present."
+    },
+    {
+     "norm_id": "USA__family__001__015",
+     "activation": 14.760529518127441,
+     "resists": true,
+     "norm": "Most young adults now cohabit with their partner instead of moving in with them at marriage.",
+     "contradictory_norm": "Most young adults move in with their partner only after getting married."
+    },
+    {
+     "norm_id": "GBR__communication__001__005",
+     "activation": 14.751082420349121,
+     "resists": true,
+     "norm": "Agreeing with someone's self-deprecating comments or jokes too enthusiastically can become insulting to the person making them.",
+     "contradictory_norm": "Agreeing with someone's self-deprecating comments or jokes enthusiastically is a sign of honesty and rapport."
+    },
+    {
+     "norm_id": "USA__family__001__008",
+     "activation": 14.74028491973877,
+     "resists": true,
+     "norm": "It is common for couples to meet through their social circles, workplaces, or hobbies.",
+     "contradictory_norm": "It is common for couples to meet through arranged introductions by family members."
+    },
+    {
+     "norm_id": "NLD__etiquette__001__016",
+     "activation": 14.646891593933105,
+     "resists": true,
+     "norm": "It is more common to invite acquaintances to meet for coffee in a public space than to visit one's house.",
+     "contradictory_norm": "It is more common to invite acquaintances to visit one's house than to meet for coffee in a public space."
+    }
+   ],
+   "promotes": [
+    " statement",
+    " Statement",
+    " statements",
+    "statement",
+    "的说法",
+    "这句话",
+    "那句话",
+    "Statement",
+    "陈述",
+    " assertion",
+    "那句",
+    "命题",
+    "则该",
+    " assertions",
+    "他的话",
+    " Aussage",
+    " Assertion",
+    "(statement",
+    " untrue",
+    "stmt"
+   ],
+   "suppresses": [
+    "浑然",
+    "的雪",
+    "类似问题",
+    "aska",
+    "ось",
+    "我们在",
+    "之急",
+    "隐",
+    "就只能",
+    "мур",
+    "确定为",
+    "uito",
+    "也只能",
+    "伏羲",
+    "选好",
+    " 나선",
+    "的一致",
+    "eker",
+    "槛",
+    "水乡"
+   ],
+   "next_layer": {
+    "layer": 56,
+    "cosine_with_its_chosen_feature": 0.3545701503753662,
+    "nearest_feature": 47328,
+    "nearest_cosine": 0.5776259899139404,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "56": {
+   "feature": 75853,
+   "decoder_norm": 0.9999998807907104,
+   "active_by_condition": {
+    "base": 0.0,
+    "country_norm": 0.16952812871180217,
+    "country_only": 0.0,
+    "country_opposite_norm": 0.6550048590864918,
+    "norm_only": 0.3488824101068999,
+    "opposite_norm_only": 0.7252996436669906,
+    "shuffled_country_norm": 0.24705755318000217,
+    "shuffled_country_opposite_norm": 0.5908649173955296
+   },
+   "mean_by_condition": {
+    "base": 0.0,
+    "country_norm": 1.8299977779388428,
+    "country_only": 0.0,
+    "country_opposite_norm": 13.478178024291992,
+    "norm_only": 4.343183517456055,
+    "opposite_norm_only": 14.252721786499023,
+    "shuffled_country_norm": 3.4385499954223633,
+    "shuffled_country_opposite_norm": 11.481515884399414
+   },
+   "active_when_resisting": 0.8917791411042945,
+   "active_when_not_resisting": 0.46895487851908985,
+   "feature_auroc": 0.828714471950201,
+   "active_percentiles": {
+    "50": 20.327770233154297,
+    "90": 33.60150146484375
+   },
+   "active_true_norm_aligned": 0.15610579628587506,
+   "active_true_norm_not_aligned": 0.4867021276595745,
+   "active_country_only_aligned": 0.0,
+   "active_country_only_not_aligned": 0.0,
+   "direction_auroc": 0.834849843490852,
+   "top_records": [
+    {
+     "norm_id": "JPN__greetings__001__003",
+     "activation": 44.2878532409668,
+     "resists": true,
+     "norm": "The depth, length, and style of bow depends on the social context.",
+     "contradictory_norm": "The depth, length, and style of bow is the same regardless of the social context."
+    },
+    {
+     "norm_id": "KOR__greetings__001__007",
+     "activation": 43.48631286621094,
+     "resists": true,
+     "norm": "During the deepest, most polite bow, the head is kept lowered.",
+     "contradictory_norm": "During the deepest, most polite bow, the head is raised to maintain eye contact."
+    },
+    {
+     "norm_id": "ZWE__family__001__027",
+     "activation": 43.316734313964844,
+     "resists": true,
+     "norm": "Customary marriages often involve the exchange of a bride price.",
+     "contradictory_norm": "Customary marriages often do not involve the exchange of a bride price."
+    },
+    {
+     "norm_id": "ISR__family__001__013",
+     "activation": 42.79136657714844,
+     "resists": false,
+     "norm": "In ultra-Orthodox communities, official meetings with prospective partners are set up by the family.",
+     "contradictory_norm": "In ultra-Orthodox communities, official meetings with prospective partners are set up by the individuals themselves."
+    },
+    {
+     "norm_id": "KOR__communication__001__028",
+     "activation": 42.37106704711914,
+     "resists": true,
+     "norm": "It is appropriate to use two hands or the right hand alone to offer or receive something.",
+     "contradictory_norm": "It is appropriate to use the left hand alone to offer or receive something."
+    },
+    {
+     "norm_id": "SDN__core_concepts__002__008",
+     "activation": 42.26646041870117,
+     "resists": true,
+     "norm": "When a family goes through a hardship such as a death, it is customary for the entire community to rally together.",
+     "contradictory_norm": "When a family goes through a hardship such as a death, it is customary for the family to handle it privately without community involvement."
+    },
+    {
+     "norm_id": "CAN__etiquette__001__009",
+     "activation": 41.89533233642578,
+     "resists": true,
+     "norm": "When calling over a waiter or service person, it is appropriate to wait until they make eye contact and then nod or raise one’s hand.",
+     "contradictory_norm": "When calling over a waiter or service person, it is appropriate to call out to them or snap one’s fingers as soon as one wants service."
+    },
+    {
+     "norm_id": "WSM__core_concepts__001__004",
+     "activation": 41.779483795166016,
+     "resists": true,
+     "norm": "Matai are expected to ensure the family or village is self-sufficient and well-nourished.",
+     "contradictory_norm": "Matai are expected to prioritize personal wealth accumulation over communal self-sufficiency."
+    },
+    {
+     "norm_id": "THA__etiquette__001__006",
+     "activation": 41.610042572021484,
+     "resists": true,
+     "norm": "It is taboo to use only one's left hand to pass or receive items.",
+     "contradictory_norm": "It is acceptable to use only one's left hand to pass or receive items."
+    },
+    {
+     "norm_id": "IRQ__family__001__021",
+     "activation": 41.34083938598633,
+     "resists": true,
+     "norm": "Conservative Muslim families usually negotiate a marriage contract at a Katb Al-Kitab.",
+     "contradictory_norm": "Conservative Muslim families usually leave the marriage contract to the couple without family negotiation."
+    },
+    {
+     "norm_id": "THA__dos_and_donts__001__021",
+     "activation": 41.16332244873047,
+     "resists": false,
+     "norm": "If a woman must pass an object to a monk, it is best for her to hold the object with a tissue or handkerchief.",
+     "contradictory_norm": "If a woman must pass an object to a monk, it is acceptable for her to hand it directly without any barrier."
+    },
+    {
+     "norm_id": "TUR__greetings__001__008",
+     "activation": 41.12623977661133,
+     "resists": true,
+     "norm": "Elders are treated with more respect during greetings.",
+     "contradictory_norm": "Elders are greeted in the same casual manner as peers."
+    }
+   ],
+   "promotes": [
+    " statement",
+    " statements",
+    " Statement",
+    "statement",
+    "Statement",
+    " Statements",
+    "陈述",
+    "statements",
+    "_statement",
+    "Statements",
+    "语句",
+    " Aussage",
+    " pernyataan",
+    " stmt",
+    "(statement",
+    "这句话",
+    " assertion",
+    ".Statement",
+    "\tstatement",
+    " Aussagen"
+   ],
+   "suppresses": [
+    "unan",
+    "ojis",
+    "iante",
+    "uzzi",
+    "�",
+    "adá",
+    "ucci",
+    "ierge",
+    "玉溪",
+    "我问",
+    "ahir",
+    "မျ",
+    "allah",
+    "coration",
+    "�",
+    "usher",
+    "resse",
+    "दर्",
+    "合同约定的",
+    "odem"
+   ],
+   "next_layer": {
+    "layer": 63,
+    "cosine_with_its_chosen_feature": -0.03469016030430794,
+    "nearest_feature": 8728,
+    "nearest_cosine": 0.5913553833961487,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "63": {
+   "feature": 77418,
+   "decoder_norm": 0.9999998807907104,
+   "active_by_condition": {
+    "base": 0.2062412266493899,
+    "country_norm": 0.94881762228701,
+    "country_only": 0.6173199438505561,
+    "country_opposite_norm": 0.830255911888565,
+    "norm_only": 0.7592052694093511,
+    "opposite_norm_only": 0.542490011877767,
+    "shuffled_country_norm": 0.9342403628117913,
+    "shuffled_country_opposite_norm": 0.8532555879494655
+   },
+   "mean_by_condition": {
+    "base": 3.3176848888397217,
+    "country_norm": 29.13470458984375,
+    "country_only": 10.283092498779297,
+    "country_opposite_norm": 24.260696411132812,
+    "norm_only": 22.54235076904297,
+    "opposite_norm_only": 15.018823623657227,
+    "shuffled_country_norm": 28.420175552368164,
+    "shuffled_country_opposite_norm": 25.667110443115234
+   },
+   "active_when_resisting": 0.6652760736196319,
+   "active_when_not_resisting": 0.959892016968762,
+   "feature_auroc": 0.14253852396376274,
+   "active_percentiles": {
+    "50": 27.99887466430664,
+    "90": 45.985355377197266
+   },
+   "active_true_norm_aligned": 0.9619583567810918,
+   "active_true_norm_not_aligned": 0.6382978723404256,
+   "active_country_only_aligned": 0.6343144292893037,
+   "active_country_only_not_aligned": 0.5657665505226481,
+   "direction_auroc": 0.8588263824974743,
+   "top_records": [
+    {
+     "norm_id": "SSD__family__001__009",
+     "activation": 66.64956665039062,
+     "resists": false,
+     "norm": "Childcare is often shared among all adults within a family, or sometimes the community at large, rather than being the responsibility of singular parents.",
+     "contradictory_norm": "Childcare is primarily the responsibility of the child's own parents, with other adults rarely involved."
+    },
+    {
+     "norm_id": "HUN__family__001__007",
+     "activation": 66.636962890625,
+     "resists": false,
+     "norm": "In rural areas, authority in the household is expected to come from the most senior male.",
+     "contradictory_norm": "In rural areas, authority in the household is expected to be shared equally among adult members regardless of gender or age."
+    },
+    {
+     "norm_id": "MLT__family__001__007",
+     "activation": 65.1217041015625,
+     "resists": false,
+     "norm": "People tend to have closer emotional ties and more frequent contact through the maternal side of the family.",
+     "contradictory_norm": "People tend to have closer emotional ties and more frequent contact through the paternal side of the family."
+    },
+    {
+     "norm_id": "TLS__family__001__010",
+     "activation": 64.86776733398438,
+     "resists": false,
+     "norm": "There is a common societal expectation that couples will have large families of up to five to seven children.",
+     "contradictory_norm": "There is a common societal expectation that couples will have small families of one to two children."
+    },
+    {
+     "norm_id": "PSE__etiquette__001__051",
+     "activation": 64.63752746582031,
+     "resists": false,
+     "norm": "The father is usually served first out of respect, followed by the mother, but guests are served first if present.",
+     "contradictory_norm": "The mother is usually served first out of respect, followed by the father, but guests are served first if present."
+    },
+    {
+     "norm_id": "EGY__etiquette__001__013",
+     "activation": 63.6546630859375,
+     "resists": false,
+     "norm": "Adult children who live outside their parents' homes often visit their parents on Fridays and holidays.",
+     "contradictory_norm": "Adult children who live outside their parents' homes often visit their parents on any day of the week, without special preference for Fridays or holidays."
+    },
+    {
+     "norm_id": "HUN__family__001__014",
+     "activation": 63.144004821777344,
+     "resists": false,
+     "norm": "If a couple is unable to set up an independent household due to financial circumstances, they are expected to move in with the set of parents who will welcome them and have the most room.",
+     "contradictory_norm": "If a couple cannot set up an independent household due to financial circumstances, they are expected to move in with the set of parents who live closest to the husband's workplace."
+    },
+    {
+     "norm_id": "AUT__business_culture__001__022",
+     "activation": 62.92668151855469,
+     "resists": false,
+     "norm": "One's experience, credentials and the longevity of the company are more important than the individual and their personality.",
+     "contradictory_norm": "The individual and their personality are more important than one's experience, credentials and the longevity of the company."
+    },
+    {
+     "norm_id": "PSE__family__001__013",
+     "activation": 62.854217529296875,
+     "resists": false,
+     "norm": "If circumstances change, the role of caring for elderly parents is adopted by the most financially stable child or the family as a whole.",
+     "contradictory_norm": "If circumstances change, the role of caring for elderly parents is adopted by the child who lives closest, regardless of financial stability."
+    },
+    {
+     "norm_id": "LAO__family__001__001",
+     "activation": 62.511993408203125,
+     "resists": false,
+     "norm": "Older children are expected to assist in maintaining the household.",
+     "contradictory_norm": "Older children are not expected to assist in maintaining the household."
+    },
+    {
+     "norm_id": "PSE__family__001__012",
+     "activation": 62.36730194091797,
+     "resists": false,
+     "norm": "Widowed parents usually live with their eldest son, or with their daughter if they have no sons.",
+     "contradictory_norm": "Widowed parents usually live with their daughter, or with their son if they have no daughters."
+    },
+    {
+     "norm_id": "PAK__etiquette__001__029",
+     "activation": 62.36665344238281,
+     "resists": false,
+     "norm": "At social events hosted by conservative families, elders are always offered food first within their respective genders.",
+     "contradictory_norm": "At social events hosted by conservative families, food is offered to guests in order of arrival, regardless of age."
+    }
+   ],
+   "promotes": [
+    " According",
+    "According",
+    "Based",
+    " Based",
+    "根據",
+    " Según",
+    " Согласно",
+    "根据",
+    " BASE",
+    "_based",
+    " Berdasarkan",
+    "根据国家",
+    " Base",
+    " Selon",
+    " Bas",
+    "-Based",
+    "_BASE",
+    " according",
+    "BASE",
+    "根据公司"
+   ],
+   "suppresses": [
+    " by",
+    "by",
+    " oleh",
+    " bằng",
+    "由高",
+    " thus",
+    "详尽",
+    "(by",
+    "โดย",
+    " consider",
+    "何为",
+    "由",
+    "byn",
+    "之忧",
+    "�",
+    " dưới",
+    "考虑",
+    "aleb",
+    "#\\",
+    " 의해"
+   ]
+  }
+ }
+}

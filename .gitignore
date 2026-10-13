@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# local secrets
+.env
+
+# Restored by scripts/unpack_outputs.sh from the committed .jsonl.gz files.
+output/behavioral_evaluation/constrained/responses/llama-3.1-8b.jsonl
+output/behavioral_evaluation/constrained/responses/gemma-3-12b.jsonl
+output/behavioral_evaluation/constrained/responses/qwen-3.5-27b.jsonl
+output/behavioral_evaluation/unconstrained/responses/llama-3.1-8b.jsonl
+output/behavioral_evaluation/unconstrained/responses/gemma-3-12b.jsonl
+output/behavioral_evaluation/unconstrained/responses/qwen-3.5-27b.jsonl
+
+# Not distributed: the Cultural Atlas source pages and the WVS microdata are
+# obtained from their owners (see README), and generated pipeline state.
+data/raw/
+data/interim/
+
+# Hidden states (~45 GB) and adapter weights are regenerated, not committed.
+output/mechanistic_analysis/activations/
+output/mechanistic_analysis/sae/features/
+*.safetensors
+*.pt
+
+# Internal working notes and scratch material, not part of the release.
+culturelens.md
+mechanistic.md
+mechanistic_analysis.md
+finetune.md
+MANIFEST
+tmp/
+*.zip
+output/audits/

@@ -1,0 +1,797 @@
+{
+  "judge": "gemma-4-31b",
+  "models": {
+    "collab-sft-cf": {
+      "test_seen": {
+        "base": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6471641791044777,
+          "lenient": 0.7149253731343284,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8674626865671642,
+          "lenient": 0.868955223880597,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6967164179104478,
+          "lenient": 0.764179104477612,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8597014925373134,
+          "lenient": 0.8704477611940299,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8664440734557596,
+          "lenient": 0.9056761268781303,
+          "judged_n": 599,
+          "coverage": 1.0
+        },
+        "norm_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8083582089552239,
+          "lenient": 0.811044776119403,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "opposite_norm_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8125373134328359,
+          "lenient": 0.8247761194029851,
+          "judged_n": 1675,
+          "coverage": 1.0
+        }
+      },
+      "test_unseen": {
+        "base": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6096256684491979,
+          "lenient": 0.6889483065953654,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8538324420677362,
+          "lenient": 0.8556149732620321,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6675579322638147,
+          "lenient": 0.7384135472370766,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8609625668449198,
+          "lenient": 0.8725490196078431,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.871536523929471,
+          "lenient": 0.8992443324937027,
+          "judged_n": 397,
+          "coverage": 1.0
+        },
+        "norm_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.7896613190730838,
+          "lenient": 0.7927807486631016,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "opposite_norm_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.7985739750445633,
+          "lenient": 0.8123885918003565,
+          "judged_n": 1122,
+          "coverage": 1.0
+        }
+      }
+    },
+    "collab-sft-country": {
+      "test_seen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.9952238805970149,
+          "lenient": 0.9964179104477612,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6949253731343283,
+          "lenient": 0.757910447761194,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.05552238805970149,
+          "lenient": 0.06298507462686567,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8781302170283807,
+          "lenient": 0.9090150250417363,
+          "judged_n": 599,
+          "coverage": 1.0
+        }
+      },
+      "test_unseen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.9955436720142602,
+          "lenient": 0.9959893048128342,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6648841354723708,
+          "lenient": 0.7352941176470589,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.0677361853832442,
+          "lenient": 0.07040998217468805,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8337531486146096,
+          "lenient": 0.8690176322418136,
+          "judged_n": 397,
+          "coverage": 1.0
+        }
+      }
+    },
+    "sft-cf-conflict": {
+      "test_seen": {
+        "country_norm": {
+          "accuracy": 0.9194029850746268,
+          "constrained_n": 1675,
+          "aligned": 0.8931343283582089,
+          "lenient": 0.8937313432835821,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": 0.8334328358208956,
+          "constrained_n": 1675,
+          "aligned": 0.6794029850746268,
+          "lenient": 0.7486567164179104,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": 0.7379104477611941,
+          "constrained_n": 1675,
+          "aligned": 0.862089552238806,
+          "lenient": 0.8719402985074627,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": 0.9181969949916527,
+          "constrained_n": 599,
+          "aligned": 0.8447412353923205,
+          "lenient": 0.8864774624373957,
+          "judged_n": 599,
+          "coverage": 1.0
+        }
+      },
+      "test_unseen": {
+        "country_norm": {
+          "accuracy": 0.910873440285205,
+          "constrained_n": 1122,
+          "aligned": 0.8716577540106952,
+          "lenient": 0.8738859180035651,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": 0.8475935828877005,
+          "constrained_n": 1122,
+          "aligned": 0.6479500891265597,
+          "lenient": 0.7214795008912656,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": 0.7210338680926917,
+          "constrained_n": 1122,
+          "aligned": 0.8636363636363636,
+          "lenient": 0.8729946524064172,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": 0.8916876574307305,
+          "constrained_n": 397,
+          "aligned": 0.8639798488664987,
+          "lenient": 0.8954659949622166,
+          "judged_n": 397,
+          "coverage": 1.0
+        }
+      }
+    },
+    "sft-cf-f10": {
+      "test_seen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.7474626865671642,
+          "lenient": 0.7513432835820896,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6101492537313433,
+          "lenient": 0.6907462686567164,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.7862686567164179,
+          "lenient": 0.8005970149253732,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8230383973288815,
+          "lenient": 0.8639398998330551,
+          "judged_n": 599,
+          "coverage": 1.0
+        }
+      },
+      "test_unseen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.7468805704099821,
+          "lenient": 0.7526737967914439,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6158645276292335,
+          "lenient": 0.7027629233511586,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.7923351158645277,
+          "lenient": 0.8048128342245989,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8035264483627204,
+          "lenient": 0.8463476070528967,
+          "judged_n": 397,
+          "coverage": 1.0
+        }
+      }
+    },
+    "sft-cf-f25": {
+      "test_seen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8113432835820895,
+          "lenient": 0.8137313432835821,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6435820895522388,
+          "lenient": 0.7086567164179104,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8208955223880597,
+          "lenient": 0.8319402985074626,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8514190317195326,
+          "lenient": 0.8923205342237062,
+          "judged_n": 599,
+          "coverage": 1.0
+        }
+      },
+      "test_unseen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.7923351158645277,
+          "lenient": 0.7963458110516934,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6372549019607843,
+          "lenient": 0.7134581105169341,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8137254901960784,
+          "lenient": 0.8275401069518716,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8312342569269522,
+          "lenient": 0.8765743073047859,
+          "judged_n": 397,
+          "coverage": 1.0
+        }
+      }
+    },
+    "sft-cf-f50": {
+      "test_seen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8507462686567164,
+          "lenient": 0.8519402985074627,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6602985074626866,
+          "lenient": 0.7322388059701492,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8334328358208956,
+          "lenient": 0.844776119402985,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8647746243739566,
+          "lenient": 0.9065108514190318,
+          "judged_n": 599,
+          "coverage": 1.0
+        }
+      },
+      "test_unseen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8235294117647058,
+          "lenient": 0.8262032085561497,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.642602495543672,
+          "lenient": 0.7152406417112299,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8297682709447415,
+          "lenient": 0.8409090909090909,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8413098236775819,
+          "lenient": 0.8727959697732998,
+          "judged_n": 397,
+          "coverage": 1.0
+        }
+      }
+    },
+    "sft-cf-heads": {
+      "test_seen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6865671641791045,
+          "lenient": 0.6943283582089552,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6005970149253731,
+          "lenient": 0.6758208955223881,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6537313432835821,
+          "lenient": 0.6671641791044776,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.7846410684474123,
+          "lenient": 0.8363939899833055,
+          "judged_n": 599,
+          "coverage": 1.0
+        }
+      },
+      "test_unseen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.7067736185383244,
+          "lenient": 0.7174688057040999,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.5721925133689839,
+          "lenient": 0.6590909090909091,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6657754010695187,
+          "lenient": 0.6827094474153298,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.7884130982367759,
+          "lenient": 0.8287153652392947,
+          "judged_n": 397,
+          "coverage": 1.0
+        }
+      }
+    },
+    "sft-cf-memory": {
+      "test_seen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.9050746268656716,
+          "lenient": 0.9065671641791044,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6853731343283582,
+          "lenient": 0.7498507462686567,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8125373134328359,
+          "lenient": 0.8238805970149253,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8597662771285476,
+          "lenient": 0.8981636060100167,
+          "judged_n": 599,
+          "coverage": 1.0
+        }
+      },
+      "test_unseen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8859180035650623,
+          "lenient": 0.8868092691622104,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6586452762923352,
+          "lenient": 0.7312834224598931,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8297682709447415,
+          "lenient": 0.839126559714795,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8413098236775819,
+          "lenient": 0.8816120906801007,
+          "judged_n": 397,
+          "coverage": 1.0
+        }
+      }
+    },
+    "sft-cf-memory-direct": {
+      "test_seen": {
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.688955223880597,
+          "lenient": 0.7540298507462686,
+          "judged_n": 1675,
+          "coverage": 1.0
+        }
+      },
+      "test_unseen": {
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.660427807486631,
+          "lenient": 0.7330659536541889,
+          "judged_n": 1122,
+          "coverage": 1.0
+        }
+      }
+    },
+    "sft-cf-value": {
+      "test_seen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8764179104477612,
+          "lenient": 0.8776119402985074,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6632835820895523,
+          "lenient": 0.7388059701492538,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.866268656716418,
+          "lenient": 0.8776119402985074,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8764607679465777,
+          "lenient": 0.9148580968280468,
+          "judged_n": 599,
+          "coverage": 1.0
+        }
+      },
+      "test_unseen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8502673796791443,
+          "lenient": 0.8533868092691622,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6639928698752228,
+          "lenient": 0.7491087344028521,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8698752228163993,
+          "lenient": 0.8796791443850267,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8564231738035264,
+          "lenient": 0.8916876574307305,
+          "judged_n": 397,
+          "coverage": 1.0
+        }
+      }
+    },
+    "sft-cf-value-direct": {
+      "test_seen": {
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.7098507462686567,
+          "lenient": 0.7758208955223881,
+          "judged_n": 1675,
+          "coverage": 1.0
+        }
+      },
+      "test_unseen": {
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6871657754010695,
+          "lenient": 0.7598039215686274,
+          "judged_n": 1122,
+          "coverage": 1.0
+        }
+      }
+    },
+    "sft-mirror": {
+      "test_seen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.9492537313432836,
+          "lenient": 0.9504477611940298,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6764179104477612,
+          "lenient": 0.7465671641791045,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8161194029850747,
+          "lenient": 0.8283582089552238,
+          "judged_n": 1675,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8297161936560935,
+          "lenient": 0.8806343906510852,
+          "judged_n": 599,
+          "coverage": 1.0
+        }
+      },
+      "test_unseen": {
+        "country_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.9438502673796791,
+          "lenient": 0.9456327985739751,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_only": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.6541889483065954,
+          "lenient": 0.7344028520499108,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_opposite_norm": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.8110516934046346,
+          "lenient": 0.8239750445632799,
+          "judged_n": 1122,
+          "coverage": 1.0
+        },
+        "country_value": {
+          "accuracy": null,
+          "constrained_n": 0,
+          "aligned": 0.818639798488665,
+          "lenient": 0.8652392947103275,
+          "judged_n": 397,
+          "coverage": 1.0
+        }
+      }
+    }
+  }
+}

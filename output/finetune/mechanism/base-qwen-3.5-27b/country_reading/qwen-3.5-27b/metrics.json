@@ -1,0 +1,37 @@
+{
+  "analysis": "country_reading_by_depth",
+  "model_slug": "qwen-3.5-27b",
+  "lora": null,
+  "dataset_sha256": "890bef6051cad2d97807fe73113902f82f3473bc4321c1de1429da15ac2ffaae",
+  "sample": 1000,
+  "completed": 1000,
+  "sample_rule": "uniform without replacement over the records file, seed 2026",
+  "endpoint": "summed log P(option A) - summed log P(option B); option A is the reference",
+  "mean_margin": {
+    "country_only": 3.6102399826049805,
+    "base": 2.9292407035827637
+  },
+  "knockout_change": {
+    "country": {},
+    "control": {}
+  },
+  "erasure_change": {
+    "0": -0.44251543283462524,
+    "4": -0.47998353838920593,
+    "8": -0.7040315270423889,
+    "12": -0.6660187244415283,
+    "16": -0.6836113929748535,
+    "20": -0.5836074352264404,
+    "24": -0.518230676651001,
+    "28": -0.4034600257873535,
+    "32": -0.2734174430370331,
+    "36": -0.056844644248485565,
+    "40": 0.018130306154489517,
+    "44": 0.026875285431742668,
+    "48": 0.05007133632898331,
+    "52": 0.0028867684304714203,
+    "56": 0.008248849771916866,
+    "60": 0.005460324231535196
+  },
+  "seconds": 965.1
+}

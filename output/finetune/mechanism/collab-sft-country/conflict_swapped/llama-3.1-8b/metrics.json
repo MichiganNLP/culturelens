@@ -1,0 +1,236 @@
+{
+  "analysis": "country_norm_conflict_separability",
+  "model_slug": "llama-3.1-8b",
+  "lora": "output/finetune/runs/collab-sft-country/best",
+  "dataset_sha256": "c869ca56eb0890e27a8b00675778890e7ecb7e167be019e9a84938e731b56681",
+  "records": 1000,
+  "sample_rule": "uniform without replacement over the records file, seed 2026",
+  "folds": 5,
+  "layers": [
+    {
+      "layer": 0,
+      "auroc": 0.512836,
+      "paired": 0.579,
+      "size_true": 0.9354867654060428,
+      "size_false": 0.9310313886468565
+    },
+    {
+      "layer": 1,
+      "auroc": 0.517367,
+      "paired": 0.613,
+      "size_true": 0.9350813815760831,
+      "size_false": 0.9342954134587477
+    },
+    {
+      "layer": 2,
+      "auroc": 0.528803,
+      "paired": 0.611,
+      "size_true": 0.9265983628549181,
+      "size_false": 0.925825072003562
+    },
+    {
+      "layer": 3,
+      "auroc": 0.551404,
+      "paired": 0.646,
+      "size_true": 0.894171201983509,
+      "size_false": 0.8935677944770073
+    },
+    {
+      "layer": 4,
+      "auroc": 0.594314,
+      "paired": 0.696,
+      "size_true": 0.8495057291050107,
+      "size_false": 0.849450224607121
+    },
+    {
+      "layer": 5,
+      "auroc": 0.587268,
+      "paired": 0.698,
+      "size_true": 0.7885095903798057,
+      "size_false": 0.7880454105802104
+    },
+    {
+      "layer": 6,
+      "auroc": 0.577819,
+      "paired": 0.687,
+      "size_true": 0.7913208776587558,
+      "size_false": 0.7905756741193567
+    },
+    {
+      "layer": 7,
+      "auroc": 0.575772,
+      "paired": 0.693,
+      "size_true": 0.8070167780568224,
+      "size_false": 0.8052546756571188
+    },
+    {
+      "layer": 8,
+      "auroc": 0.6105,
+      "paired": 0.71,
+      "size_true": 0.8260427587459339,
+      "size_false": 0.8270889270231001
+    },
+    {
+      "layer": 9,
+      "auroc": 0.62023,
+      "paired": 0.743,
+      "size_true": 0.7836760729831403,
+      "size_false": 0.7840006543524718
+    },
+    {
+      "layer": 10,
+      "auroc": 0.681061,
+      "paired": 0.757,
+      "size_true": 0.7985999630659948,
+      "size_false": 0.8055845358776548
+    },
+    {
+      "layer": 11,
+      "auroc": 0.676869,
+      "paired": 0.735,
+      "size_true": 0.800744117247877,
+      "size_false": 0.8170865483900824
+    },
+    {
+      "layer": 12,
+      "auroc": 0.689948,
+      "paired": 0.729,
+      "size_true": 0.8108390350791783,
+      "size_false": 0.8266756916286869
+    },
+    {
+      "layer": 13,
+      "auroc": 0.711229,
+      "paired": 0.741,
+      "size_true": 0.8031714095904021,
+      "size_false": 0.8326954260567875
+    },
+    {
+      "layer": 14,
+      "auroc": 0.729567,
+      "paired": 0.755,
+      "size_true": 0.8248983013043532,
+      "size_false": 0.8722774634168365
+    },
+    {
+      "layer": 15,
+      "auroc": 0.729216,
+      "paired": 0.748,
+      "size_true": 0.702546081587097,
+      "size_false": 0.7512110173362458
+    },
+    {
+      "layer": 16,
+      "auroc": 0.728892,
+      "paired": 0.75,
+      "size_true": 0.6459534477027656,
+      "size_false": 0.6875226238281014
+    },
+    {
+      "layer": 17,
+      "auroc": 0.738277,
+      "paired": 0.765,
+      "size_true": 0.6408379680721622,
+      "size_false": 0.6796615503412277
+    },
+    {
+      "layer": 18,
+      "auroc": 0.737031,
+      "paired": 0.757,
+      "size_true": 0.6582607282103815,
+      "size_false": 0.7006693411141708
+    },
+    {
+      "layer": 19,
+      "auroc": 0.741742,
+      "paired": 0.765,
+      "size_true": 0.6476627948389002,
+      "size_false": 0.6914764843789962
+    },
+    {
+      "layer": 20,
+      "auroc": 0.741587,
+      "paired": 0.768,
+      "size_true": 0.626679718460359,
+      "size_false": 0.6612223656148903
+    },
+    {
+      "layer": 21,
+      "auroc": 0.743985,
+      "paired": 0.767,
+      "size_true": 0.6230797939703326,
+      "size_false": 0.6614794404725596
+    },
+    {
+      "layer": 22,
+      "auroc": 0.741376,
+      "paired": 0.773,
+      "size_true": 0.6150082605473254,
+      "size_false": 0.6540469932592685
+    },
+    {
+      "layer": 23,
+      "auroc": 0.743812,
+      "paired": 0.766,
+      "size_true": 0.615764602437942,
+      "size_false": 0.65434495455941
+    },
+    {
+      "layer": 24,
+      "auroc": 0.74325,
+      "paired": 0.768,
+      "size_true": 0.6121398028658662,
+      "size_false": 0.6509672434563905
+    },
+    {
+      "layer": 25,
+      "auroc": 0.74351,
+      "paired": 0.766,
+      "size_true": 0.6037076644859087,
+      "size_false": 0.6427793732915897
+    },
+    {
+      "layer": 26,
+      "auroc": 0.745225,
+      "paired": 0.769,
+      "size_true": 0.6186277203051357,
+      "size_false": 0.6578029962759805
+    },
+    {
+      "layer": 27,
+      "auroc": 0.742943,
+      "paired": 0.772,
+      "size_true": 0.622917112824009,
+      "size_false": 0.6626902302593509
+    },
+    {
+      "layer": 28,
+      "auroc": 0.744198,
+      "paired": 0.773,
+      "size_true": 0.6323209528807829,
+      "size_false": 0.6747476404835303
+    },
+    {
+      "layer": 29,
+      "auroc": 0.743262,
+      "paired": 0.774,
+      "size_true": 0.6307925127202682,
+      "size_false": 0.6732022022265278
+    },
+    {
+      "layer": 30,
+      "auroc": 0.742197,
+      "paired": 0.778,
+      "size_true": 0.6195587039377198,
+      "size_false": 0.6614915858322569
+    },
+    {
+      "layer": 31,
+      "auroc": 0.746644,
+      "paired": 0.781,
+      "size_true": 0.6376211995101252,
+      "size_false": 0.6857214606411743
+    }
+  ],
+  "seconds": 57.9
+}

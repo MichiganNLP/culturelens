@@ -1,0 +1,300 @@
+{
+  "analysis": "answers_under_attention_knockout",
+  "model_slug": "llama-3.1-8b",
+  "dataset_sha256": "f06c2383b23f56fc12d8f70abaf7deb8c0bb79f9033ad944368f3ef7a7c0cfbf",
+  "sample": 400,
+  "sample_rule": "uniform without replacement over all records, seed 2026",
+  "arms": {
+    "false": {
+      "condition": "country_opposite_norm",
+      "blocked": null,
+      "layers": null,
+      "answers": 400
+    },
+    "false-noclaim": {
+      "condition": "country_opposite_norm",
+      "blocked": "claim",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "answers": 400
+    },
+    "false-noclaim-win": {
+      "condition": "country_opposite_norm",
+      "blocked": "claim",
+      "layers": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "answers": 400
+    },
+    "false-noclaim-late": {
+      "condition": "country_opposite_norm",
+      "blocked": "claim",
+      "layers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "answers": 400
+    },
+    "false-nocountry": {
+      "condition": "country_opposite_norm",
+      "blocked": "country",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "answers": 400
+    },
+    "false-nocontrol": {
+      "condition": "country_opposite_norm",
+      "blocked": "control",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "answers": 400
+    },
+    "true": {
+      "condition": "country_norm",
+      "blocked": null,
+      "layers": null,
+      "answers": 400
+    },
+    "true-noclaim": {
+      "condition": "country_norm",
+      "blocked": "claim",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "answers": 400
+    },
+    "country": {
+      "condition": "country_only",
+      "blocked": null,
+      "layers": null,
+      "answers": 400
+    },
+    "claim-only": {
+      "condition": "opposite_norm_only",
+      "blocked": null,
+      "layers": null,
+      "answers": 400
+    },
+    "false-erase-first": {
+      "condition": "country_opposite_norm",
+      "part": "claim",
+      "how": "erase:0",
+      "layers": null,
+      "answers": 400
+    },
+    "false-erase-before": {
+      "condition": "country_opposite_norm",
+      "part": "claim",
+      "how": "erase:1",
+      "layers": null,
+      "answers": 400
+    },
+    "false-erase-after": {
+      "condition": "country_opposite_norm",
+      "part": "claim",
+      "how": "erase:2",
+      "layers": null,
+      "answers": 400
+    },
+    "false-noclaim-heads": {
+      "condition": "country_opposite_norm",
+      "part": "claim",
+      "how": "heads",
+      "layers": null,
+      "answers": 400
+    },
+    "false-noclaim-randheads": {
+      "condition": "country_opposite_norm",
+      "part": "claim",
+      "how": "random_heads",
+      "layers": null,
+      "answers": 400
+    }
+  },
+  "erase_layers": [
+    0,
+    8,
+    16
+  ],
+  "heads": {
+    "model_slug": "llama-3.1-8b",
+    "window": [
+      12,
+      16
+    ],
+    "size": 8,
+    "heads": {
+      "14": [
+        24,
+        5
+      ],
+      "12": [
+        4,
+        22
+      ],
+      "13": [
+        21,
+        23,
+        4,
+        22
+      ]
+    },
+    "random_heads": {
+      "13": [
+        1,
+        6,
+        31
+      ],
+      "12": [
+        2,
+        3
+      ],
+      "15": [
+        3,
+        8
+      ],
+      "14": [
+        20
+      ]
+    }
+  },
+  "queries": "every position after the user's text: chat-template tail and answer tokens",
+  "decoding": {
+    "sampling": false,
+    "max_new_tokens": 512
+  },
+  "fully_maskable": true,
+  "seconds": 1040.7
+}

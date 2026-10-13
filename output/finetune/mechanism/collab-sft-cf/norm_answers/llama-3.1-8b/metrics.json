@@ -1,0 +1,27 @@
+{
+  "analysis": "answers_with_the_finetuning_shift",
+  "model_slug": "llama-3.1-8b",
+  "adapter": "output/finetune/runs/collab-sft-cf/best",
+  "sample": 2797,
+  "sample_rule": "uniform without replacement over the records file, seed 2026",
+  "vectors": "mean of state(tuned) - state(untuned) at the last prompt token over the records outside the sample; added at that token and at every generated token",
+  "arms": {
+    "tuned": {
+      "adapter": "on",
+      "layer": null,
+      "vector": null,
+      "sign": 0.0
+    }
+  },
+  "answers": {
+    "tuned.country_norm": 2797,
+    "tuned.country_opposite_norm": 2797,
+    "tuned.norm_only": 2797,
+    "tuned.opposite_norm_only": 2797
+  },
+  "decoding": {
+    "sampling": false,
+    "max_new_tokens": 1024
+  },
+  "seconds": 1303.9
+}

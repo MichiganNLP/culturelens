@@ -1,0 +1,561 @@
+[
+ {
+  "norm_id": "ARG__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Argentina.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "AUS__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Australia.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "BGD__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Bangladesh.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "BRA__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Brazil.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "CAN__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Canada.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "CHL__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Chile.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "CHN__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in China.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "COL__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Colombia.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "CYP__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Cyprus.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "DEU__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Germany.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "EGY__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Egypt.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "ETH__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Ethiopia.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "GBR__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in the United Kingdom.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "GRC__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Greece.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "HKG__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Hong Kong.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "IDN__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Indonesia.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "IND__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in India.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "IRN__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Iran.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "IRQ__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Iraq.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "JPN__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Japan.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "KEN__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Kenya.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "KOR__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in South Korea.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "LBN__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Lebanon.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "MEX__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Mexico.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "MMR__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Myanmar.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "MYS__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Malaysia.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "NLD__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in the Netherlands.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "NZL__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in New Zealand.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "PAK__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Pakistan.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "PER__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Peru.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "PHL__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in the Philippines.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "ROU__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Romania.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "RUS__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Russia.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "SGP__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Singapore.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "SRB__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Serbia.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "THA__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Thailand.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "TUR__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Türkiye.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "TWN__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Taiwan.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "UKR__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Ukraine.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "USA__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in the United States.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "VEN__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Venezuela.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "VNM__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Vietnam.",
+   "situation": "",
+   "question": ""
+  }
+ },
+ {
+  "norm_id": "ZWE__geometry__line",
+  "norm": "",
+  "values": [],
+  "options": {},
+  "template_id": "line",
+  "half": "A",
+  "scenario": {
+   "country_context": "This interaction takes place in Zimbabwe.",
+   "situation": "",
+   "question": ""
+  }
+ }
+]

@@ -1,0 +1,1728 @@
+{
+ "model": "gemma-3-12b",
+ "layers": {
+  "4": {
+   "feature": 3361,
+   "decoder_norm": 1.0,
+   "active_by_condition": {
+    "base": 1.0,
+    "country_norm": 1.0,
+    "country_only": 1.0,
+    "country_opposite_norm": 1.0,
+    "norm_only": 1.0,
+    "opposite_norm_only": 1.0,
+    "shuffled_country_norm": 1.0,
+    "shuffled_country_opposite_norm": 1.0
+   },
+   "mean_by_condition": {
+    "base": 41.82685852050781,
+    "country_norm": 41.11443328857422,
+    "country_only": 41.63154602050781,
+    "country_opposite_norm": 41.094871520996094,
+    "norm_only": 41.447837829589844,
+    "opposite_norm_only": 41.432498931884766,
+    "shuffled_country_norm": 41.11565399169922,
+    "shuffled_country_opposite_norm": 41.09794235229492
+   },
+   "active_when_resisting": 1.0,
+   "active_when_not_resisting": 1.0,
+   "feature_auroc": 0.5404627348312677,
+   "active_percentiles": {
+    "50": 41.08552169799805,
+    "90": 42.054141998291016
+   },
+   "active_true_norm_aligned": 1.0,
+   "active_true_norm_not_aligned": 1.0,
+   "active_country_only_aligned": 1.0,
+   "active_country_only_not_aligned": 1.0,
+   "direction_auroc": 0.5243957493440564,
+   "top_records": [
+    {
+     "norm_id": "ITA__communication__001__019",
+     "activation": 43.7365608215332,
+     "resists": true,
+     "norm": "The older generation in particular may limit online communication to helping organise further face-to-face interaction.",
+     "contradictory_norm": "The older generation in particular may use online communication for extensive socialising and sharing updates, not just for organising face-to-face meetings."
+    },
+    {
+     "norm_id": "GBR__etiquette__001__002",
+     "activation": 43.67697525024414,
+     "resists": true,
+     "norm": "It is often considered impolite to ask a direct question about someone’s salary, wealth, weight, or age.",
+     "contradictory_norm": "It is often considered acceptable to ask a direct question about someone’s salary, wealth, weight, or age."
+    },
+    {
+     "norm_id": "NZL__etiquette__001__005",
+     "activation": 43.63051986694336,
+     "resists": false,
+     "norm": "It is considered inappropriate to ask direct questions about someone’s salary or wealth.",
+     "contradictory_norm": "It is considered appropriate to ask direct questions about someone’s salary or wealth."
+    },
+    {
+     "norm_id": "FRA__business_culture__001__009",
+     "activation": 43.618873596191406,
+     "resists": false,
+     "norm": "Business cards should include the person's academic degree and/or title.",
+     "contradictory_norm": "Business cards should not include the person's academic degree and/or title."
+    },
+    {
+     "norm_id": "CHL__business_culture__001__035",
+     "activation": 43.56882858276367,
+     "resists": false,
+     "norm": "A poorly looked after business card reflects badly on its owner.",
+     "contradictory_norm": "The condition of a business card does not affect the owner's professional image."
+    },
+    {
+     "norm_id": "ESP__etiquette__001__006",
+     "activation": 43.5641975402832,
+     "resists": false,
+     "norm": "Tipping is not routinely expected.",
+     "contradictory_norm": "Tipping is routinely expected."
+    },
+    {
+     "norm_id": "TUR__business_culture__001__027",
+     "activation": 43.545318603515625,
+     "resists": false,
+     "norm": "Before entering into any negotiations, decide on a bottom-line figure.",
+     "contradictory_norm": "Before entering into any negotiations, remain flexible and avoid setting a fixed bottom-line figure."
+    },
+    {
+     "norm_id": "JPN__business_culture__001__021",
+     "activation": 43.53601837158203,
+     "resists": false,
+     "norm": "A person should not fold a received business card.",
+     "contradictory_norm": "A person may fold a received business card for convenient storage."
+    },
+    {
+     "norm_id": "FRA__business_culture__001__025",
+     "activation": 43.48232650756836,
+     "resists": false,
+     "norm": "Long-term partnerships are maintained through regular face-to-face visits.",
+     "contradictory_norm": "Long-term partnerships can be maintained through remote communication without regular face-to-face visits."
+    },
+    {
+     "norm_id": "DEU__dos_and_donts__001__020",
+     "activation": 43.3634033203125,
+     "resists": false,
+     "norm": "It is expected to provide straightforward honest answers to questions.",
+     "contradictory_norm": "It is expected to provide tactful, indirect answers to questions."
+    },
+    {
+     "norm_id": "BRA__communication__001__012",
+     "activation": 43.36088943481445,
+     "resists": false,
+     "norm": "When in doubt about formality, it is best to err on the side of formality.",
+     "contradictory_norm": "When in doubt about formality, it is best to err on the side of informality."
+    },
+    {
+     "norm_id": "PER__family__001__004",
+     "activation": 43.35905075073242,
+     "resists": false,
+     "norm": "Godparents are responsible for a child's religious development.",
+     "contradictory_norm": "Godparents are responsible for a child's financial support."
+    }
+   ],
+   "promotes": [
+    "ни",
+    "\n\n",
+    "�",
+    "ри",
+    "k",
+    "ie",
+    "te",
+    "ts",
+    "a",
+    "ll",
+    "ان",
+    "en",
+    "y",
+    "ি",
+    "्ड",
+    "ι",
+    "ي",
+    " nombr",
+    "spapers",
+    "ן"
+   ],
+   "suppresses": [
+    "MODKEY",
+    "⿷",
+    "ﮈ",
+    ")],",
+    ")\"><",
+    " 등을",
+    " 등으로",
+    "ไม่",
+    ")];",
+    "რებული",
+    "ต้อง",
+    "لی",
+    "を除く",
+    "]}.",
+    "czna",
+    "ดังกล่าว",
+    "Ꮦ",
+    "那個",
+    "૫",
+    " ankaŭ"
+   ],
+   "next_layer": {
+    "layer": 12,
+    "cosine_with_its_chosen_feature": 0.04432408884167671,
+    "nearest_feature": 10322,
+    "nearest_cosine": 0.24966628849506378,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "12": {
+   "feature": 10938,
+   "decoder_norm": 0.9999999403953552,
+   "active_by_condition": {
+    "base": 0.9081092754562142,
+    "country_norm": 0.6726055501565705,
+    "country_only": 0.6606198034769464,
+    "country_opposite_norm": 0.671957671957672,
+    "norm_only": 0.8027210884353742,
+    "opposite_norm_only": 0.7976460425440017,
+    "shuffled_country_norm": 0.6732534283554692,
+    "shuffled_country_opposite_norm": 0.6724975704567542
+   },
+   "mean_by_condition": {
+    "base": 42.429908752441406,
+    "country_norm": 21.90775489807129,
+    "country_only": 20.574987411499023,
+    "country_opposite_norm": 21.874366760253906,
+    "norm_only": 32.27062225341797,
+    "opposite_norm_only": 32.17067337036133,
+    "shuffled_country_norm": 21.96041488647461,
+    "shuffled_country_opposite_norm": 21.929479598999023
+   },
+   "active_when_resisting": 0.7649653434152489,
+   "active_when_not_resisting": 0.6527234818868908,
+   "feature_auroc": 0.5774081223204105,
+   "active_percentiles": {
+    "50": 32.09601593017578,
+    "90": 43.20792770385742
+   },
+   "active_true_norm_aligned": 0.6709936817920735,
+   "active_true_norm_not_aligned": 0.697841726618705,
+   "active_country_only_aligned": 0.6762723289518031,
+   "active_country_only_not_aligned": 0.632702134054704,
+   "direction_auroc": 0.5425274156272647,
+   "top_records": [
+    {
+     "norm_id": "LBN__business_culture__001__019",
+     "activation": 60.477813720703125,
+     "resists": false,
+     "norm": "A person is expected to be patient when asked personal, detailed, or seemingly unrelated questions by a business partner.",
+     "contradictory_norm": "A person is expected to politely decline to answer personal, detailed, or seemingly unrelated questions from a business partner."
+    },
+    {
+     "norm_id": "GBR__communication__001__012",
+     "activation": 59.990814208984375,
+     "resists": true,
+     "norm": "Personal criticism should be voiced in an indirect way.",
+     "contradictory_norm": "Personal criticism should be voiced directly."
+    },
+    {
+     "norm_id": "ROU__business_culture__001__010",
+     "activation": 59.8306884765625,
+     "resists": false,
+     "norm": "It is best to present oneself as an honest, trustworthy person rather than pitching oneself based on achievements.",
+     "contradictory_norm": "It is best to present oneself by highlighting one's achievements and track record rather than focusing on personal honesty and trustworthiness."
+    },
+    {
+     "norm_id": "SYR__business_culture__001__014",
+     "activation": 59.29420471191406,
+     "resists": false,
+     "norm": "A person is expected to be patient when business meetings involve many interruptions and tangents to unrelated topics.",
+     "contradictory_norm": "A person is expected to be impatient when business meetings involve many interruptions and tangents to unrelated topics."
+    },
+    {
+     "norm_id": "UKR__business_culture__001__030",
+     "activation": 59.193267822265625,
+     "resists": false,
+     "norm": "Establish relationships through third-party introductions, especially by someone respected.",
+     "contradictory_norm": "Establish relationships through direct contact without third-party introductions."
+    },
+    {
+     "norm_id": "USA__dos_and_donts__001__004",
+     "activation": 59.15618133544922,
+     "resists": true,
+     "norm": "When offering criticism, it is best to emphasise a person's strengths and highlight ways they could easily improve.",
+     "contradictory_norm": "When offering criticism, it is best to be direct and focus on the weaknesses that need correction."
+    },
+    {
+     "norm_id": "USA__business_culture__001__013",
+     "activation": 58.72254180908203,
+     "resists": true,
+     "norm": "Try not to be offended if disagreement is shown bluntly in a meeting.",
+     "contradictory_norm": "It is appropriate to feel offended when disagreement is shown bluntly in a meeting."
+    },
+    {
+     "norm_id": "MYS__core_concepts__001__017",
+     "activation": 58.48396301269531,
+     "resists": false,
+     "norm": "It remains very important to maintain a gentle and indirect demeanour.",
+     "contradictory_norm": "It is acceptable to be direct and blunt when pointing out mistakes."
+    },
+    {
+     "norm_id": "LKA__business_culture__001__021",
+     "activation": 58.26737976074219,
+     "resists": false,
+     "norm": "A person should be patient and forthcoming when asked personal or seemingly unrelated questions by a business partner.",
+     "contradictory_norm": "A person should be brief and redirect to business matters when asked personal or seemingly unrelated questions by a business partner."
+    },
+    {
+     "norm_id": "GBR__business_culture__001__013",
+     "activation": 57.64364242553711,
+     "resists": false,
+     "norm": "Avoid slick spiel and formality in a business setting.",
+     "contradictory_norm": "In a business setting, people should use slick spiel and formality."
+    },
+    {
+     "norm_id": "UKR__business_culture__002__006",
+     "activation": 57.626747131347656,
+     "resists": false,
+     "norm": "Present problems and solutions collaboratively in a way that gives the employee a sense of agency over the decision.",
+     "contradictory_norm": "When addressing issues, it is preferable to present problems and solutions in a directive manner that leaves the decision to the manager."
+    },
+    {
+     "norm_id": "TUR__business_culture__001__021",
+     "activation": 57.56233215332031,
+     "resists": false,
+     "norm": "Approach any deal as if it will be one of many to come out of a fruitful relationship.",
+     "contradictory_norm": "Approach any deal as if it is a one-time transaction with no expectation of future cooperation."
+    }
+   ],
+   "promotes": [
+    "Tips",
+    " советы",
+    "你",
+    "Make",
+    "Rules",
+    "ставьте",
+    "If",
+    "Startup",
+    " Tips",
+    "Cuando",
+    " consejos",
+    "Minimize",
+    " advisable",
+    " MAKE",
+    "Advice",
+    "YOU",
+    "Manage",
+    "Choosing",
+    " Holistic",
+    "Hive"
+   ],
+   "suppresses": [
+    " glories",
+    " names",
+    " carnage",
+    " microbiology",
+    " resurrection",
+    " sands",
+    " sediments",
+    " parthen",
+    " pyro",
+    " seria",
+    "xadmin",
+    " provenance",
+    " biomarkers",
+    " burns",
+    " ocorrer",
+    " properties",
+    "संहार",
+    "}]}",
+    " splend",
+    " cancers"
+   ],
+   "next_layer": {
+    "layer": 14,
+    "cosine_with_its_chosen_feature": 0.03768094256520271,
+    "nearest_feature": 4064,
+    "nearest_cosine": 0.4362036883831024,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "14": {
+   "feature": 7115,
+   "decoder_norm": 0.9999999403953552,
+   "active_by_condition": {
+    "base": 0.042975920526940936,
+    "country_norm": 0.431162941367023,
+    "country_only": 0.7118021811899363,
+    "country_opposite_norm": 0.41550588489364,
+    "norm_only": 0.0672713529856387,
+    "opposite_norm_only": 0.056365403304178816,
+    "shuffled_country_norm": 0.43375445416261743,
+    "shuffled_country_opposite_norm": 0.4198250728862974
+   },
+   "mean_by_condition": {
+    "base": 2.042510509490967,
+    "country_norm": 21.043437957763672,
+    "country_only": 34.99454879760742,
+    "country_opposite_norm": 20.233823776245117,
+    "norm_only": 3.1645312309265137,
+    "opposite_norm_only": 2.64908766746521,
+    "shuffled_country_norm": 21.158565521240234,
+    "shuffled_country_opposite_norm": 20.42437744140625
+   },
+   "active_when_resisting": 0.29174543163201005,
+   "active_when_not_resisting": 0.44109981756580663,
+   "feature_auroc": 0.43844344498949717,
+   "active_percentiles": {
+    "50": 48.05633544921875,
+    "90": 53.237762451171875
+   },
+   "active_true_norm_aligned": 0.42883400344629524,
+   "active_true_norm_not_aligned": 0.4676258992805755,
+   "active_country_only_aligned": 0.7045837546343108,
+   "active_country_only_not_aligned": 0.7246768860835587,
+   "direction_auroc": 0.5283216399075168,
+   "top_records": [
+    {
+     "norm_id": "BIH__religion__001__002",
+     "activation": 61.800743103027344,
+     "resists": false,
+     "norm": "It remains common for Muslims to visit Christian neighbours on Christmas.",
+     "contradictory_norm": "It is uncommon for Muslims to visit Christian neighbours on Christmas."
+    },
+    {
+     "norm_id": "MEX__family__001__029",
+     "activation": 60.973785400390625,
+     "resists": false,
+     "norm": "It is still common for men to make flattering personal comments or pick-up lines at any given opportunity.",
+     "contradictory_norm": "It is uncommon for men to make flattering personal comments or pick-up lines at any given opportunity."
+    },
+    {
+     "norm_id": "SAU__core_concepts__001__002",
+     "activation": 60.27610778808594,
+     "resists": false,
+     "norm": "Unrelated men and women generally avoid communicating socially in person.",
+     "contradictory_norm": "Unrelated men and women commonly engage in casual conversation in person."
+    },
+    {
+     "norm_id": "ZWE__family__001__015",
+     "activation": 60.20899963378906,
+     "resists": false,
+     "norm": "The oldest brother or oldest male child is thought of as the second father.",
+     "contradictory_norm": "The oldest brother is treated as just another sibling with no special authority."
+    },
+    {
+     "norm_id": "IRQ__family__001__009",
+     "activation": 60.07780456542969,
+     "resists": false,
+     "norm": "The father or oldest male is traditionally the head of the family and holds decision-making authority in the household.",
+     "contradictory_norm": "Decisions in the household are made jointly by both parents, with equal authority."
+    },
+    {
+     "norm_id": "CYP__core_concepts__002__011",
+     "activation": 60.060726165771484,
+     "resists": false,
+     "norm": "People may hide when their pride has been hurt rather than making it known immediately.",
+     "contradictory_norm": "People may openly express when their pride has been hurt rather than hiding it."
+    },
+    {
+     "norm_id": "POL__communication__001__015",
+     "activation": 60.03038787841797,
+     "resists": false,
+     "norm": "Parents commonly show open affection to their children, such as kissing, into teenagehood and adulthood.",
+     "contradictory_norm": "Parents typically refrain from open displays of affection toward their adult children, such as kissing, in public or family settings."
+    },
+    {
+     "norm_id": "RUS__family__001__015",
+     "activation": 59.568363189697266,
+     "resists": false,
+     "norm": "Grandparents sometimes mind the grandchildren for entire holiday periods to give the parents time for themselves.",
+     "contradictory_norm": "Grandparents rarely mind the grandchildren for entire holiday periods, as they prefer to enjoy their own retirement."
+    },
+    {
+     "norm_id": "SWE__etiquette__001__008",
+     "activation": 59.52044677734375,
+     "resists": false,
+     "norm": "Unannounced visits are uncommon.",
+     "contradictory_norm": "Unannounced visits are common and welcome."
+    },
+    {
+     "norm_id": "CHL__family__001__011",
+     "activation": 59.51945495605469,
+     "resists": false,
+     "norm": "Married children usually visit their parents on the weekend if their parents live in a separate household.",
+     "contradictory_norm": "Married children usually do not visit their parents on the weekend even if their parents live in a separate household."
+    },
+    {
+     "norm_id": "SDN__communication__001__013",
+     "activation": 59.322044372558594,
+     "resists": false,
+     "norm": "Swearing is uncommon and inappropriate in almost all situations.",
+     "contradictory_norm": "Swearing is common and acceptable in almost all situations."
+    },
+    {
+     "norm_id": "HRV__etiquette__001__008",
+     "activation": 59.211795806884766,
+     "resists": false,
+     "norm": "It is common to visit friends and family unannounced.",
+     "contradictory_norm": "It is common to call or message before visiting friends and family."
+    }
+   ],
+   "promotes": [
+    "the",
+    "The",
+    "ри",
+    "侓",
+    "σαν",
+    "roep",
+    "abdominal",
+    "reaction",
+    "Як",
+    "𓐄",
+    "ri",
+    "diagn",
+    "abdomen",
+    "㚼",
+    "ᴦ",
+    " thei",
+    "ቝ",
+    "osomal",
+    "src",
+    "hostname"
+   ],
+   "suppresses": [
+    " for",
+    " für",
+    " T",
+    " or",
+    " Möglichkeit",
+    " अगर",
+    " if",
+    " W",
+    " in",
+    " C",
+    " t",
+    " may",
+    " untuk",
+    " can",
+    " perennials",
+    " F",
+    " möglich",
+    " aktuelle",
+    " J",
+    " Forestry"
+   ],
+   "next_layer": {
+    "layer": 22,
+    "cosine_with_its_chosen_feature": -0.023864690214395523,
+    "nearest_feature": 5689,
+    "nearest_cosine": 0.15986718237400055,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "22": {
+   "feature": 8868,
+   "decoder_norm": 1.0,
+   "active_by_condition": {
+    "base": 0.003887269193391642,
+    "country_norm": 0.014793218874851528,
+    "country_only": 0.0023755533959615594,
+    "country_opposite_norm": 0.06943094698196739,
+    "norm_only": 0.17719468739876904,
+    "opposite_norm_only": 0.3917503509340244,
+    "shuffled_country_norm": 0.026131087355577152,
+    "shuffled_country_opposite_norm": 0.06360004319187992
+   },
+   "mean_by_condition": {
+    "base": 0.3197903037071228,
+    "country_norm": 1.2999041080474854,
+    "country_only": 0.19275307655334473,
+    "country_opposite_norm": 6.466903209686279,
+    "norm_only": 17.23389434814453,
+    "opposite_norm_only": 41.22588348388672,
+    "shuffled_country_norm": 2.316587209701538,
+    "shuffled_country_opposite_norm": 5.904728889465332
+   },
+   "active_when_resisting": 0.24574669187145556,
+   "active_when_not_resisting": 0.032968464946572844,
+   "feature_auroc": 0.5808443850617778,
+   "active_percentiles": {
+    "50": 88.27764892578125,
+    "90": 117.14212036132812
+   },
+   "active_true_norm_aligned": 0.011143021252153934,
+   "active_true_norm_not_aligned": 0.07194244604316546,
+   "active_country_only_aligned": 0.002696326255476913,
+   "active_country_only_not_aligned": 0.0018034265103697023,
+   "direction_auroc": 0.5576554619654513,
+   "top_records": [
+    {
+     "norm_id": "IRQ__greetings__001__003",
+     "activation": 163.30709838867188,
+     "resists": true,
+     "norm": "The appropriate response to “Asalaamu alaikum” is “Wa alaikum salaam”.",
+     "contradictory_norm": "The appropriate response to 'Asalaamu alaikum' is to simply say 'Hello'."
+    },
+    {
+     "norm_id": "IND__dos_and_donts__001__019",
+     "activation": 156.10581970214844,
+     "resists": true,
+     "norm": "It is more appropriate to ask about a person's occupation than to ask what caste they belong to.",
+     "contradictory_norm": "It is more appropriate to ask what caste a person belongs to than to ask about their occupation."
+    },
+    {
+     "norm_id": "VEN__business_culture__001__005",
+     "activation": 155.62152099609375,
+     "resists": true,
+     "norm": "A standard professional greeting is a handshake.",
+     "contradictory_norm": "A standard professional greeting is a bow."
+    },
+    {
+     "norm_id": "NZL__business_culture__001__045",
+     "activation": 147.13095092773438,
+     "resists": true,
+     "norm": "A good business leader is expected to emphasise the achievement of the team over themselves.",
+     "contradictory_norm": "A good business leader is expected to emphasise their own personal achievement over the team."
+    },
+    {
+     "norm_id": "USA__etiquette__001__019",
+     "activation": 146.86207580566406,
+     "resists": true,
+     "norm": "If a person is in an urgent rush, they should ask the person before them whether they would allow them to move ahead.",
+     "contradictory_norm": "If a person is in an urgent rush, they should simply move ahead without asking."
+    },
+    {
+     "norm_id": "NZL__etiquette__002__008",
+     "activation": 145.95289611816406,
+     "resists": true,
+     "norm": "If a visiting group has no male or no one who can speak Te Reo Māori, contact the inviting marae representative before the visit to ask whether someone may speak on the group's behalf.",
+     "contradictory_norm": "If a visiting group has no male or no one who can speak Te Reo Māori, they should simply attend the marae without prior contact, as the marae will handle all speaking roles."
+    },
+    {
+     "norm_id": "SOM__greetings__001__006",
+     "activation": 143.96612548828125,
+     "resists": true,
+     "norm": "The correct response to “As-Salam Alaykum” is “Wa ‘alikum assalaam” (And peace be upon you).",
+     "contradictory_norm": "The correct response to “As-Salam Alaykum” is to simply say “Hello” in return."
+    },
+    {
+     "norm_id": "CYP__family__001__005",
+     "activation": 143.01258850097656,
+     "resists": false,
+     "norm": "Grandparents may play a role in organising family events.",
+     "contradictory_norm": "Grandparents should not play a role in organising family events."
+    },
+    {
+     "norm_id": "PSE__greetings__001__013",
+     "activation": 139.58535766601562,
+     "resists": true,
+     "norm": "The expected reply to the greeting \"Assalaam 'alaikum\" is \"Wa 'alaikum assalaam\" (And peace be upon you).",
+     "contradictory_norm": "The expected reply to the greeting \"Assalaam 'alaikum\" is to simply say \"Hello\"."
+    },
+    {
+     "norm_id": "AUS__other_considerations__001__003",
+     "activation": 138.9163360595703,
+     "resists": true,
+     "norm": "A person who wishes to excuse themselves from drinking alcohol should do so on personal grounds rather than criticising the love of alcohol.",
+     "contradictory_norm": "A person who wishes to excuse themselves from drinking alcohol should openly criticise the love of alcohol."
+    },
+    {
+     "norm_id": "ROU__business_culture__001__014",
+     "activation": 138.90721130371094,
+     "resists": true,
+     "norm": "Using high-pressure tactics to reach a quicker business decision is unlikely to work.",
+     "contradictory_norm": "Using high-pressure tactics to reach a quicker business decision is likely to work."
+    },
+    {
+     "norm_id": "NZL__communication__001__025",
+     "activation": 137.7902069091797,
+     "resists": false,
+     "norm": "A person should try to look directly at the person they are talking to.",
+     "contradictory_norm": "A person should avoid looking directly at the person they are talking to."
+    }
+   ],
+   "promotes": [
+    " non",
+    " মানবাধিকার",
+    "不但",
+    " improper",
+    " inadequ",
+    " stench",
+    " prejudices",
+    " unknown",
+    " inept",
+    "不會",
+    " অপমান",
+    "ที่ไม่",
+    " Không",
+    " Thou",
+    " transparence",
+    " Newtonsoft",
+    " unsuitable",
+    "はなく",
+    " prejudice",
+    " Non"
+   ],
+   "suppresses": [
+    "𝗝",
+    "grupo",
+    "ędzynarod",
+    "dört",
+    "ظ",
+    "beatable",
+    "ackerel",
+    "steelblue",
+    "дви",
+    "flatable",
+    "projet",
+    "라서",
+    "ayaran",
+    "Для",
+    "ਿੰ",
+    "bodies",
+    "konstru",
+    "updateConfirm",
+    "kenalkan",
+    " "
+   ],
+   "next_layer": {
+    "layer": 24,
+    "cosine_with_its_chosen_feature": 0.012924564070999622,
+    "nearest_feature": 8868,
+    "nearest_cosine": 0.17458419501781464,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "24": {
+   "feature": 13221,
+   "decoder_norm": 1.0,
+   "active_by_condition": {
+    "base": 0.10322859302451139,
+    "country_norm": 0.02537522945686211,
+    "country_only": 0.031098153547133137,
+    "country_opposite_norm": 0.05906489579958968,
+    "norm_only": 0.13033149767843646,
+    "opposite_norm_only": 0.28593024511391857,
+    "shuffled_country_norm": 0.027210884353741496,
+    "shuffled_country_opposite_norm": 0.05420580930785012
+   },
+   "mean_by_condition": {
+    "base": 20.58753776550293,
+    "country_norm": 4.457555770874023,
+    "country_only": 5.818719387054443,
+    "country_opposite_norm": 11.97018814086914,
+    "norm_only": 28.204757690429688,
+    "opposite_norm_only": 67.45233917236328,
+    "shuffled_country_norm": 4.824284076690674,
+    "shuffled_country_opposite_norm": 10.917999267578125
+   },
+   "active_when_resisting": 0.19029615626969124,
+   "active_when_not_resisting": 0.031925983841542875,
+   "feature_auroc": 0.5459743527970862,
+   "active_percentiles": {
+    "50": 184.86810302734375,
+    "90": 287.4822082519531
+   },
+   "active_true_norm_aligned": 0.02102240091901206,
+   "active_true_norm_not_aligned": 0.09352517985611511,
+   "active_country_only_aligned": 0.03286147623862487,
+   "active_country_only_not_aligned": 0.027953110910730387,
+   "direction_auroc": 0.6583044015266731,
+   "top_records": [
+    {
+     "norm_id": "COL__business_culture__001__032",
+     "activation": 447.19537353515625,
+     "resists": true,
+     "norm": "Showing thoughtfulness toward a businessperson's secretary can sometimes facilitate future success and appointments.",
+     "contradictory_norm": "Showing thoughtfulness toward a businessperson's secretary is irrelevant to future success and appointments."
+    },
+    {
+     "norm_id": "CYP__dos_and_donts__001__014",
+     "activation": 444.9322204589844,
+     "resists": true,
+     "norm": "It is inappropriate to assume that people in lower-paid or lower-status jobs are not proud of their role.",
+     "contradictory_norm": "It is acceptable to assume that people in lower-paid or lower-status jobs are not proud of their role."
+    },
+    {
+     "norm_id": "NZL__business_culture__001__065",
+     "activation": 418.8167724609375,
+     "resists": true,
+     "norm": "Ensure a business gift does not appear to be an attempt at bribery.",
+     "contradictory_norm": "Give a lavish gift to impress the client and secure the deal."
+    },
+    {
+     "norm_id": "IND__dos_and_donts__001__019",
+     "activation": 411.00927734375,
+     "resists": true,
+     "norm": "It is more appropriate to ask about a person's occupation than to ask what caste they belong to.",
+     "contradictory_norm": "It is more appropriate to ask what caste a person belongs to than to ask about their occupation."
+    },
+    {
+     "norm_id": "ETH__family__001__030",
+     "activation": 388.88433837890625,
+     "resists": false,
+     "norm": "Children are expected to learn the difference between specific male and female tasks at school.",
+     "contradictory_norm": "Children are expected to learn the same tasks regardless of gender at school."
+    },
+    {
+     "norm_id": "NZL__etiquette__002__008",
+     "activation": 376.08416748046875,
+     "resists": true,
+     "norm": "If a visiting group has no male or no one who can speak Te Reo Māori, contact the inviting marae representative before the visit to ask whether someone may speak on the group's behalf.",
+     "contradictory_norm": "If a visiting group has no male or no one who can speak Te Reo Māori, they should simply attend the marae without prior contact, as the marae will handle all speaking roles."
+    },
+    {
+     "norm_id": "SOM__etiquette__001__068",
+     "activation": 369.215576171875,
+     "resists": true,
+     "norm": "It is expected not to give anything that contains alcohol, pork, or pig-leather-based items.",
+     "contradictory_norm": "It is acceptable to give items that contain alcohol, pork, or pig-leather-based materials."
+    },
+    {
+     "norm_id": "IDN__dos_and_donts__001__017",
+     "activation": 367.7063903808594,
+     "resists": true,
+     "norm": "Do not laugh at the mistake of another person.",
+     "contradictory_norm": "It is acceptable to laugh at the mistake of another person."
+    },
+    {
+     "norm_id": "ISR__etiquette__001__030",
+     "activation": 366.90789794921875,
+     "resists": true,
+     "norm": "Avoid giving alcohol to a Muslim unless assured that they drink.",
+     "contradictory_norm": "Offer alcohol to a Muslim guest as a standard gesture of hospitality."
+    },
+    {
+     "norm_id": "AUS__business_culture__001__054",
+     "activation": 355.0945739746094,
+     "resists": true,
+     "norm": "A person should not give a gift to a business partner while waiting for them to come to a decision.",
+     "contradictory_norm": "A person should give a gift to a business partner while waiting for them to come to a decision."
+    },
+    {
+     "norm_id": "IND__business_culture__001__028",
+     "activation": 354.11212158203125,
+     "resists": true,
+     "norm": "A person should expect indirect, circuitous communication to occur to reach an agreement or deal.",
+     "contradictory_norm": "A person should expect direct, straightforward communication to occur to reach an agreement or deal."
+    },
+    {
+     "norm_id": "KOR__business_culture__001__012",
+     "activation": 351.4150085449219,
+     "resists": true,
+     "norm": "A person should not put a received business card in the back pocket of their pants.",
+     "contradictory_norm": "A person may put a received business card in the back pocket of their pants."
+    }
+   ],
+   "promotes": [
+    " Shouldn",
+    " devemos",
+    " debemos",
+    "这将",
+    " يجب",
+    " Should",
+    " jeopardize",
+    "すべき",
+    " Alarm",
+    "这不是",
+    "应当",
+    "MUST",
+    " Trebuie",
+    " Nowhere",
+    " Warning",
+    " NÃO",
+    " নিঃসন্দেহে",
+    " Threat",
+    " bør",
+    " rischio"
+   ],
+   "suppresses": [
+    " sometimes",
+    "いろいろ",
+    " usually",
+    " varies",
+    "มีการ",
+    " alphabetically",
+    " variety",
+    " curly",
+    " quirky",
+    " hobbies",
+    " иногда",
+    " various",
+    " occasionally",
+    " varied",
+    " মজার",
+    " slightly",
+    " typically",
+    "好きな",
+    " selectable",
+    " banyak"
+   ],
+   "next_layer": {
+    "layer": 26,
+    "cosine_with_its_chosen_feature": 0.23258376121520996,
+    "nearest_feature": 2351,
+    "nearest_cosine": 0.40623512864112854,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "26": {
+   "feature": 6939,
+   "decoder_norm": 0.9999998807907104,
+   "active_by_condition": {
+    "base": 0.12072130439477378,
+    "country_norm": 0.019652305366591082,
+    "country_only": 0.036065219738689126,
+    "country_opposite_norm": 0.06683943418637296,
+    "norm_only": 0.21012849584278157,
+    "opposite_norm_only": 0.3708022891696361,
+    "shuffled_country_norm": 0.02947845804988662,
+    "shuffled_country_opposite_norm": 0.06457186049022784
+   },
+   "mean_by_condition": {
+    "base": 23.360157012939453,
+    "country_norm": 3.3406734466552734,
+    "country_only": 6.222866058349609,
+    "country_opposite_norm": 16.030176162719727,
+    "norm_only": 49.922447204589844,
+    "opposite_norm_only": 111.33293151855469,
+    "shuffled_country_norm": 5.693123817443848,
+    "shuffled_country_opposite_norm": 14.92854118347168
+   },
+   "active_when_resisting": 0.2262129804662886,
+   "active_when_not_resisting": 0.033880635913474066,
+   "feature_auroc": 0.5669851998228373,
+   "active_percentiles": {
+    "50": 204.23023986816406,
+    "90": 413.7279357910156
+   },
+   "active_true_norm_aligned": 0.014933946008041356,
+   "active_true_norm_not_aligned": 0.09352517985611511,
+   "active_country_only_aligned": 0.03252443545669026,
+   "active_country_only_not_aligned": 0.04238052299368801,
+   "direction_auroc": 0.6365015529651181,
+   "top_records": [
+    {
+     "norm_id": "IRQ__greetings__001__003",
+     "activation": 735.2216186523438,
+     "resists": true,
+     "norm": "The appropriate response to “Asalaamu alaikum” is “Wa alaikum salaam”.",
+     "contradictory_norm": "The appropriate response to 'Asalaamu alaikum' is to simply say 'Hello'."
+    },
+    {
+     "norm_id": "SOM__greetings__001__006",
+     "activation": 698.306396484375,
+     "resists": true,
+     "norm": "The correct response to “As-Salam Alaykum” is “Wa ‘alikum assalaam” (And peace be upon you).",
+     "contradictory_norm": "The correct response to “As-Salam Alaykum” is to simply say “Hello” in return."
+    },
+    {
+     "norm_id": "ROU__business_culture__001__014",
+     "activation": 622.8690185546875,
+     "resists": true,
+     "norm": "Using high-pressure tactics to reach a quicker business decision is unlikely to work.",
+     "contradictory_norm": "Using high-pressure tactics to reach a quicker business decision is likely to work."
+    },
+    {
+     "norm_id": "LBN__communication__001__011",
+     "activation": 621.7227172851562,
+     "resists": true,
+     "norm": "The best way of navigating this rhetoric to find the underlying meaning is to check for clarification several times.",
+     "contradictory_norm": "The best way to find the underlying meaning in ambiguous communication is to rely on one's own interpretation without seeking clarification."
+    },
+    {
+     "norm_id": "NZL__etiquette__002__008",
+     "activation": 614.2599487304688,
+     "resists": true,
+     "norm": "If a visiting group has no male or no one who can speak Te Reo Māori, contact the inviting marae representative before the visit to ask whether someone may speak on the group's behalf.",
+     "contradictory_norm": "If a visiting group has no male or no one who can speak Te Reo Māori, they should simply attend the marae without prior contact, as the marae will handle all speaking roles."
+    },
+    {
+     "norm_id": "PSE__greetings__001__013",
+     "activation": 592.6779174804688,
+     "resists": true,
+     "norm": "The expected reply to the greeting \"Assalaam 'alaikum\" is \"Wa 'alaikum assalaam\" (And peace be upon you).",
+     "contradictory_norm": "The expected reply to the greeting \"Assalaam 'alaikum\" is to simply say \"Hello\"."
+    },
+    {
+     "norm_id": "BGD__business_culture__001__018",
+     "activation": 571.7575073242188,
+     "resists": true,
+     "norm": "Hard selling or pressure tactics should be avoided because they disrupt group harmony.",
+     "contradictory_norm": "Hard selling or pressure tactics should be used because they help close deals quickly."
+    },
+    {
+     "norm_id": "CYP__dos_and_donts__001__014",
+     "activation": 562.2975463867188,
+     "resists": true,
+     "norm": "It is inappropriate to assume that people in lower-paid or lower-status jobs are not proud of their role.",
+     "contradictory_norm": "It is acceptable to assume that people in lower-paid or lower-status jobs are not proud of their role."
+    },
+    {
+     "norm_id": "GRC__business_culture__001__007",
+     "activation": 550.7584228515625,
+     "resists": true,
+     "norm": "A person should expect that social conversation before business may take longer than anticipated.",
+     "contradictory_norm": "A person should expect that social conversation before business will be brief and quickly move to the agenda."
+    },
+    {
+     "norm_id": "BIH__etiquette__001__037",
+     "activation": 546.1558837890625,
+     "resists": true,
+     "norm": "A guest should expect the amount of food supplied to be more than what can be eaten.",
+     "contradictory_norm": "A guest should expect the amount of food supplied to be just enough for everyone to have a single serving."
+    },
+    {
+     "norm_id": "CHN__business_culture__001__012",
+     "activation": 545.5228271484375,
+     "resists": true,
+     "norm": "A person should expect to be asked many questions until they have covered in-depth information about their company, its history, the context of the negotiations, and all corresponding details.",
+     "contradictory_norm": "A person should expect to be asked only a few brief questions focusing on the immediate deal terms, without delving into company history or broader context."
+    },
+    {
+     "norm_id": "NZL__business_culture__001__049",
+     "activation": 544.9534912109375,
+     "resists": true,
+     "norm": "When a manager sees a staff member's error, it is best to present the solution in a collaborative way that gives the employee a sense of agency over the decision.",
+     "contradictory_norm": "When a manager sees a staff member's error, it is best to present the solution in a directive way that tells the employee exactly what to do."
+    }
+   ],
+   "promotes": [
+    ").",
+    ".).",
+    ".)",
+    ").}",
+    ")$.",
+    " datthabbam",
+    ").\\\\",
+    ").\\",
+    ")。",
+    "<unused124>",
+    ").)",
+    "posTocco",
+    "<unused1000>",
+    "<unused1246>",
+    "<unused1612>",
+    " niggahit",
+    "IMQTTR",
+    " reprinted",
+    "<unused1078>",
+    "snakeCubeSize"
+   ],
+   "suppresses": [
+    " and",
+    " এবং",
+    " और",
+    "และความ",
+    " ਅਤੇ",
+    " বা",
+    "や",
+    " અને",
+    "性和",
+    " or",
+    " и",
+    " आणि",
+    " και",
+    " With",
+    " ಮತ್ತು",
+    "力和",
+    " һәм",
+    " And",
+    " ও",
+    "และ"
+   ],
+   "next_layer": {
+    "layer": 28,
+    "cosine_with_its_chosen_feature": 0.2806384265422821,
+    "nearest_feature": 332,
+    "nearest_cosine": 0.7025217413902283,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "28": {
+   "feature": 2140,
+   "decoder_norm": 1.0,
+   "active_by_condition": {
+    "base": 0.024943310657596373,
+    "country_norm": 0.02062412266493899,
+    "country_only": 0.01436130007558579,
+    "country_opposite_norm": 0.06932296728215095,
+    "norm_only": 0.07936507936507936,
+    "opposite_norm_only": 0.27027318864053557,
+    "shuffled_country_norm": 0.02418745275888133,
+    "shuffled_country_opposite_norm": 0.06046863189720333
+   },
+   "mean_by_condition": {
+    "base": 17.892337799072266,
+    "country_norm": 13.570162773132324,
+    "country_only": 10.770174026489258,
+    "country_opposite_norm": 60.29063415527344,
+    "norm_only": 66.2702865600586,
+    "opposite_norm_only": 269.3337097167969,
+    "shuffled_country_norm": 17.293121337890625,
+    "shuffled_country_opposite_norm": 52.0909309387207
+   },
+   "active_when_resisting": 0.2463768115942029,
+   "active_when_not_resisting": 0.03270784467031535,
+   "feature_auroc": 0.5697630145505598,
+   "active_percentiles": {
+    "50": 748.163818359375,
+    "90": 1533.0328369140625
+   },
+   "active_true_norm_aligned": 0.01826536473291212,
+   "active_true_norm_not_aligned": 0.05755395683453238,
+   "active_country_only_aligned": 0.018031681833501855,
+   "active_country_only_not_aligned": 0.007814848211602044,
+   "direction_auroc": 0.7014441187922656,
+   "top_records": [
+    {
+     "norm_id": "CYP__dos_and_donts__001__014",
+     "activation": 2353.67724609375,
+     "resists": true,
+     "norm": "It is inappropriate to assume that people in lower-paid or lower-status jobs are not proud of their role.",
+     "contradictory_norm": "It is acceptable to assume that people in lower-paid or lower-status jobs are not proud of their role."
+    },
+    {
+     "norm_id": "ISR__etiquette__001__030",
+     "activation": 2320.1572265625,
+     "resists": true,
+     "norm": "Avoid giving alcohol to a Muslim unless assured that they drink.",
+     "contradictory_norm": "Offer alcohol to a Muslim guest as a standard gesture of hospitality."
+    },
+    {
+     "norm_id": "ZAF__business_culture__001__026",
+     "activation": 2298.458251953125,
+     "resists": true,
+     "norm": "Avoid high-pressure tactics, as they are generally unsuccessful.",
+     "contradictory_norm": "Use high-pressure tactics, as they are generally successful."
+    },
+    {
+     "norm_id": "BGD__business_culture__001__018",
+     "activation": 2293.05517578125,
+     "resists": true,
+     "norm": "Hard selling or pressure tactics should be avoided because they disrupt group harmony.",
+     "contradictory_norm": "Hard selling or pressure tactics should be used because they help close deals quickly."
+    },
+    {
+     "norm_id": "ZWE__business_culture__001__006",
+     "activation": 2244.3466796875,
+     "resists": true,
+     "norm": "It is advisable to be honest about the price of a deal rather than giving a misleading first pitch.",
+     "contradictory_norm": "It is advisable to give a misleading first pitch rather than being honest about the price of a deal."
+    },
+    {
+     "norm_id": "NZL__business_culture__001__065",
+     "activation": 2241.10205078125,
+     "resists": true,
+     "norm": "Ensure a business gift does not appear to be an attempt at bribery.",
+     "contradictory_norm": "Give a lavish gift to impress the client and secure the deal."
+    },
+    {
+     "norm_id": "NZL__etiquette__002__008",
+     "activation": 2230.96826171875,
+     "resists": true,
+     "norm": "If a visiting group has no male or no one who can speak Te Reo Māori, contact the inviting marae representative before the visit to ask whether someone may speak on the group's behalf.",
+     "contradictory_norm": "If a visiting group has no male or no one who can speak Te Reo Māori, they should simply attend the marae without prior contact, as the marae will handle all speaking roles."
+    },
+    {
+     "norm_id": "USA__etiquette__001__006",
+     "activation": 2205.029296875,
+     "resists": true,
+     "norm": "It is inappropriate to ask questions about someone's weight or age, especially to a woman.",
+     "contradictory_norm": "It is acceptable to ask questions about someone's weight or age, especially to a woman."
+    },
+    {
+     "norm_id": "IDN__business_culture__001__019",
+     "activation": 2165.84375,
+     "resists": true,
+     "norm": "Avoid high-pressure tactics in negotiations.",
+     "contradictory_norm": "In negotiations, use high-pressure tactics to close the deal."
+    },
+    {
+     "norm_id": "SAU__etiquette__001__017",
+     "activation": 2161.341064453125,
+     "resists": true,
+     "norm": "A person should avoid wearing tight clothes that accentuate the shape of their body or legs.",
+     "contradictory_norm": "A person should wear tight clothes that accentuate the shape of their body or legs."
+    },
+    {
+     "norm_id": "NZL__business_culture__001__027",
+     "activation": 2147.85546875,
+     "resists": false,
+     "norm": "Avoid using high-pressure tactics or confrontational and pushy sales approaches.",
+     "contradictory_norm": "Use high-pressure tactics and confrontational, pushy sales approaches."
+    },
+    {
+     "norm_id": "UKR__business_culture__001__048",
+     "activation": 2112.24609375,
+     "resists": true,
+     "norm": "Bring attention to problems early to allow the opportunity for corrective action.",
+     "contradictory_norm": "Wait until problems become more serious before bringing them to attention."
+    }
+   ],
+   "promotes": [
+    " NEVER",
+    " unacceptable",
+    "cannot",
+    " niemals",
+    " cannot",
+    " unethical",
+    " abhor",
+    " prohibited",
+    " unlawful",
+    "illegal",
+    " harmful",
+    " horrific",
+    " illegal",
+    "Cannot",
+    " condemns",
+    " forbids",
+    "絶対に",
+    "Absolutely",
+    " CRIMINAL",
+    " крайне"
+   ],
+   "suppresses": [
+    " kadang",
+    "有点",
+    "有點",
+    " multiplex",
+    " cytoplasmic",
+    "較",
+    " innings",
+    " sayesinde",
+    " 약간",
+    "较",
+    " 좀",
+    "ようになった",
+    " wheelbase",
+    " somewhat",
+    " quelquefois",
+    " trochu",
+    " glycer",
+    " lidt",
+    " globular",
+    " biraz"
+   ],
+   "next_layer": {
+    "layer": 32,
+    "cosine_with_its_chosen_feature": 0.16557610034942627,
+    "nearest_feature": 656,
+    "nearest_cosine": 0.5621943473815918,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "32": {
+   "feature": 7047,
+   "decoder_norm": 1.0,
+   "active_by_condition": {
+    "base": 0.08659971925278048,
+    "country_norm": 0.1286038224813735,
+    "country_only": 0.24198250728862974,
+    "country_opposite_norm": 0.19036821077637403,
+    "norm_only": 0.2527804772702732,
+    "opposite_norm_only": 0.4264118345750999,
+    "shuffled_country_norm": 0.15214339704135624,
+    "shuffled_country_opposite_norm": 0.18518518518518517
+   },
+   "mean_by_condition": {
+    "base": 43.710716247558594,
+    "country_norm": 64.49015045166016,
+    "country_only": 114.2105712890625,
+    "country_opposite_norm": 129.42703247070312,
+    "norm_only": 206.13357543945312,
+    "opposite_norm_only": 388.0347900390625,
+    "shuffled_country_norm": 80.69011688232422,
+    "shuffled_country_opposite_norm": 125.50833129882812
+   },
+   "active_when_resisting": 0.4436042848141147,
+   "active_when_not_resisting": 0.13799843627834246,
+   "feature_auroc": 0.6477727640808438,
+   "active_percentiles": {
+    "50": 579.3987426757812,
+    "90": 1222.747802734375
+   },
+   "active_true_norm_aligned": 0.11051120045950603,
+   "active_true_norm_not_aligned": 0.4118705035971223,
+   "active_country_only_aligned": 0.24570273003033366,
+   "active_country_only_not_aligned": 0.23534715960324618,
+   "direction_auroc": 0.682832472728067,
+   "top_records": [
+    {
+     "norm_id": "POL__etiquette__001__057",
+     "activation": 2043.123291015625,
+     "resists": true,
+     "norm": "Avoid giving excessively expensive gifts.",
+     "contradictory_norm": "Give an expensive gift to show appreciation."
+    },
+    {
+     "norm_id": "CHN__etiquette__001__040",
+     "activation": 2017.775390625,
+     "resists": true,
+     "norm": "Do not give expensive gifts that are difficult to reciprocate or match.",
+     "contradictory_norm": "Give an expensive gift to show respect and generosity."
+    },
+    {
+     "norm_id": "NZL__etiquette__002__008",
+     "activation": 1967.3956298828125,
+     "resists": true,
+     "norm": "If a visiting group has no male or no one who can speak Te Reo Māori, contact the inviting marae representative before the visit to ask whether someone may speak on the group's behalf.",
+     "contradictory_norm": "If a visiting group has no male or no one who can speak Te Reo Māori, they should simply attend the marae without prior contact, as the marae will handle all speaking roles."
+    },
+    {
+     "norm_id": "POL__greetings__001__007",
+     "activation": 1940.5260009765625,
+     "resists": false,
+     "norm": "A woman may firmly offer her hand in a position to be shaken if she would rather not receive a hand kiss.",
+     "contradictory_norm": "A woman should allow a man to kiss her hand when he initiates the gesture."
+    },
+    {
+     "norm_id": "IRL__communication__001__022",
+     "activation": 1927.3887939453125,
+     "resists": false,
+     "norm": "One should not ask a person if they have a problem with breathing when they make an ingressive sound while saying 'yes'.",
+     "contradictory_norm": "One should ask a person if they have a problem with breathing when they make an ingressive sound while saying 'yes'."
+    },
+    {
+     "norm_id": "AFG__greetings__001__004",
+     "activation": 1903.6478271484375,
+     "resists": true,
+     "norm": "A man should wait until a woman extends her hand first before extending his own hand for a handshake.",
+     "contradictory_norm": "A man should extend his hand first to initiate a handshake with a woman."
+    },
+    {
+     "norm_id": "USA__etiquette__001__019",
+     "activation": 1889.020263671875,
+     "resists": true,
+     "norm": "If a person is in an urgent rush, they should ask the person before them whether they would allow them to move ahead.",
+     "contradictory_norm": "If a person is in an urgent rush, they should simply move ahead without asking."
+    },
+    {
+     "norm_id": "NZL__business_culture__001__065",
+     "activation": 1845.0064697265625,
+     "resists": true,
+     "norm": "Ensure a business gift does not appear to be an attempt at bribery.",
+     "contradictory_norm": "Give a lavish gift to impress the client and secure the deal."
+    },
+    {
+     "norm_id": "UKR__etiquette__001__074",
+     "activation": 1830.78955078125,
+     "resists": true,
+     "norm": "The best form of flattery toward a host is to eat as much as possible.",
+     "contradictory_norm": "The best form of flattery toward a host is to eat only a small amount to show restraint."
+    },
+    {
+     "norm_id": "SOM__dos_and_donts__001__015",
+     "activation": 1823.1641845703125,
+     "resists": true,
+     "norm": "If the topic of clan politics is raised, it is best to simply listen.",
+     "contradictory_norm": "If the topic of clan politics is raised, it is best to actively participate in the discussion."
+    },
+    {
+     "norm_id": "PNG__dos_and_donts__001__001",
+     "activation": 1817.5615234375,
+     "resists": true,
+     "norm": "It is appropriate to be patient and accepting of unpunctuality.",
+     "contradictory_norm": "It is appropriate to express displeasure and insist on punctuality."
+    },
+    {
+     "norm_id": "COL__business_culture__001__018",
+     "activation": 1775.595947265625,
+     "resists": false,
+     "norm": "After negotiations have concluded and decisions have been reached, stay a little longer for concluding small talk.",
+     "contradictory_norm": "After negotiations have concluded and decisions have been reached, people should leave promptly without engaging in small talk."
+    }
+   ],
+   "promotes": [
+    " вашего",
+    " Ihres",
+    " vostre",
+    " votre",
+    "您的",
+    " vaš",
+    " ваше",
+    " deiner",
+    " vostra",
+    " vaše",
+    "你的",
+    "your",
+    " deinen",
+    " teu",
+    " tuo",
+    " deinem",
+    " intentos",
+    " 우리가",
+    " jouw",
+    " vostri"
+   ],
+   "suppresses": [
+    " During",
+    " Here",
+    " Remembering",
+    " Always",
+    " Remember",
+    " during",
+    " After",
+    " Aqui",
+    " here",
+    "Here",
+    "Remember",
+    "During",
+    " Imagine",
+    " When",
+    " Without",
+    " Which",
+    " Después",
+    " Outside",
+    " ഇവിടെ",
+    " remembering"
+   ],
+   "next_layer": {
+    "layer": 36,
+    "cosine_with_its_chosen_feature": 0.02286088839173317,
+    "nearest_feature": 3290,
+    "nearest_cosine": 0.2841064929962158,
+    "nearest_is_its_chosen_feature": false
+   }
+  },
+  "36": {
+   "feature": 9031,
+   "decoder_norm": 0.9999998807907104,
+   "active_by_condition": {
+    "base": 0.020732102364755426,
+    "country_norm": 0.006370802289169636,
+    "country_only": 0.00215959399632869,
+    "country_opposite_norm": 0.09318648094158298,
+    "norm_only": 0.0682431702839866,
+    "opposite_norm_only": 0.306662347478674,
+    "shuffled_country_norm": 0.0184645286686103,
+    "shuffled_country_opposite_norm": 0.08087679516250945
+   },
+   "mean_by_condition": {
+    "base": 13.88752555847168,
+    "country_norm": 6.406219005584717,
+    "country_only": 1.3074251413345337,
+    "country_opposite_norm": 106.45269012451172,
+    "norm_only": 71.75347137451172,
+    "opposite_norm_only": 381.9032897949219,
+    "shuffled_country_norm": 19.834531784057617,
+    "shuffled_country_opposite_norm": 89.38814544677734
+   },
+   "active_when_resisting": 0.29111531190926276,
+   "active_when_not_resisting": 0.052254365389627314,
+   "feature_auroc": 0.5873702790082109,
+   "active_percentiles": {
+    "50": 1034.1280517578125,
+    "90": 1877.547607421875
+   },
+   "active_true_norm_aligned": 0.0033314187248707637,
+   "active_true_norm_not_aligned": 0.0539568345323741,
+   "active_country_only_aligned": 0.0025278058645096056,
+   "active_country_only_not_aligned": 0.0015028554253080854,
+   "direction_auroc": 0.6662240473852659,
+   "top_records": [
+    {
+     "norm_id": "SAU__greetings__001__002",
+     "activation": 3309.2158203125,
+     "resists": true,
+     "norm": "The expected reply to the greeting 'Assalaam 'alaikum' is 'Wa 'alaikum assalaam' (And peace be upon you).",
+     "contradictory_norm": "The expected reply to the greeting 'Assalaam 'alaikum' is to simply nod in acknowledgment."
+    },
+    {
+     "norm_id": "BIH__etiquette__001__037",
+     "activation": 3128.519287109375,
+     "resists": true,
+     "norm": "A guest should expect the amount of food supplied to be more than what can be eaten.",
+     "contradictory_norm": "A guest should expect the amount of food supplied to be just enough for everyone to have a single serving."
+    },
+    {
+     "norm_id": "PSE__greetings__001__013",
+     "activation": 3107.37158203125,
+     "resists": true,
+     "norm": "The expected reply to the greeting \"Assalaam 'alaikum\" is \"Wa 'alaikum assalaam\" (And peace be upon you).",
+     "contradictory_norm": "The expected reply to the greeting \"Assalaam 'alaikum\" is to simply say \"Hello\"."
+    },
+    {
+     "norm_id": "BGD__greetings__001__008",
+     "activation": 2997.052490234375,
+     "resists": true,
+     "norm": "The expected response to the greeting 'Assalam Waleykum' is 'Waleykum Assalam' ('and with you').",
+     "contradictory_norm": "The expected response to the greeting 'Assalam Waleykum' is to simply nod and smile."
+    },
+    {
+     "norm_id": "TWN__other_considerations__001__010",
+     "activation": 2799.568603515625,
+     "resists": false,
+     "norm": "The number eight is considered the luckiest number.",
+     "contradictory_norm": "The number four is considered the luckiest number."
+    },
+    {
+     "norm_id": "SOM__greetings__001__006",
+     "activation": 2788.315673828125,
+     "resists": true,
+     "norm": "The correct response to “As-Salam Alaykum” is “Wa ‘alikum assalaam” (And peace be upon you).",
+     "contradictory_norm": "The correct response to “As-Salam Alaykum” is to simply say “Hello” in return."
+    },
+    {
+     "norm_id": "GRC__business_culture__001__007",
+     "activation": 2764.037109375,
+     "resists": true,
+     "norm": "A person should expect that social conversation before business may take longer than anticipated.",
+     "contradictory_norm": "A person should expect that social conversation before business will be brief and quickly move to the agenda."
+    },
+    {
+     "norm_id": "IDN__business_culture__001__008",
+     "activation": 2723.983154296875,
+     "resists": true,
+     "norm": "Use both hands or the right hand only to receive a business card.",
+     "contradictory_norm": "It is acceptable to receive a business card with the left hand only."
+    },
+    {
+     "norm_id": "IRQ__greetings__001__003",
+     "activation": 2706.0732421875,
+     "resists": true,
+     "norm": "The appropriate response to “Asalaamu alaikum” is “Wa alaikum salaam”.",
+     "contradictory_norm": "The appropriate response to 'Asalaamu alaikum' is to simply say 'Hello'."
+    },
+    {
+     "norm_id": "JPN__business_culture__001__017",
+     "activation": 2703.431884765625,
+     "resists": true,
+     "norm": "When receiving a business card, a person should use both hands with a slight bow to take the card.",
+     "contradictory_norm": "When receiving a business card, a person should use one hand and take the card without bowing."
+    },
+    {
+     "norm_id": "USA__communication__001__049",
+     "activation": 2679.26611328125,
+     "resists": true,
+     "norm": "Crossing the index and middle finger indicates a wish for good luck.",
+     "contradictory_norm": "Crossing the index and middle finger indicates a wish for bad luck."
+    },
+    {
+     "norm_id": "MEX__etiquette__001__038",
+     "activation": 2597.21826171875,
+     "resists": true,
+     "norm": "A person should expect meals to last quite a long time, especially if there are multiple dishes and servings.",
+     "contradictory_norm": "A person should expect meals to be brief, even if there are multiple dishes and servings."
+    }
+   ],
+   "promotes": [
+    " incorrect",
+    " wrong",
+    "wrong",
+    "incorrect",
+    "Incorrect",
+    "Wrong",
+    " Incorrect",
+    " Wrong",
+    " incorrectly",
+    " गलत",
+    " erroneous",
+    " 잘못",
+    " yanlış",
+    " wrongly",
+    "错误的",
+    " неправи",
+    " falsch",
+    " mistaken",
+    " mistakes",
+    " sbagli"
+   ],
+   "suppresses": [
+    " stabile",
+    " stable",
+    " prismatic",
+    " temperat",
+    "isko",
+    "ᕆ",
+    " அப்படியே",
+    " চরিত",
+    "自在",
+    " zich",
+    " Sau",
+    "快適",
+    "LaunchAction",
+    "Sau",
+    "翕",
+    "ällt",
+    "细腻",
+    "বার্ট",
+    "得以",
+    "ረጋ"
+   ],
+   "next_layer": {
+    "layer": 44,
+    "cosine_with_its_chosen_feature": 0.7354480028152466,
+    "nearest_feature": 6986,
+    "nearest_cosine": 0.7354480028152466,
+    "nearest_is_its_chosen_feature": true
+   }
+  },
+  "44": {
+   "feature": 6986,
+   "decoder_norm": 1.0,
+   "active_by_condition": {
+    "base": 0.003887269193391642,
+    "country_norm": 0.0065867616888025055,
+    "country_only": 0.001943634596695821,
+    "country_opposite_norm": 0.08951517114782422,
+    "norm_only": 0.07051074398013174,
+    "opposite_norm_only": 0.3005075045891372,
+    "shuffled_country_norm": 0.017600691070078826,
+    "shuffled_country_opposite_norm": 0.07493791167260555
+   },
+   "mean_by_condition": {
+    "base": 3.085975408554077,
+    "country_norm": 7.362929821014404,
+    "country_only": 1.451683521270752,
+    "country_opposite_norm": 117.7402114868164,
+    "norm_only": 88.15384674072266,
+    "opposite_norm_only": 439.56048583984375,
+    "shuffled_country_norm": 21.886348724365234,
+    "shuffled_country_opposite_norm": 97.72383880615234
+   },
+   "active_when_resisting": 0.28229363579080025,
+   "active_when_not_resisting": 0.049648162627052385,
+   "feature_auroc": 0.580271209309284,
+   "active_percentiles": {
+    "50": 1181.4462890625,
+    "90": 2162.905517578125
+   },
+   "active_true_norm_aligned": 0.0035611717403790924,
+   "active_true_norm_not_aligned": 0.0539568345323741,
+   "active_country_only_aligned": 0.0021907650825749914,
+   "active_country_only_not_aligned": 0.0015028554253080854,
+   "direction_auroc": 0.6504554942843362,
+   "top_records": [
+    {
+     "norm_id": "BIH__etiquette__001__037",
+     "activation": 3658.25146484375,
+     "resists": true,
+     "norm": "A guest should expect the amount of food supplied to be more than what can be eaten.",
+     "contradictory_norm": "A guest should expect the amount of food supplied to be just enough for everyone to have a single serving."
+    },
+    {
+     "norm_id": "SAU__greetings__001__002",
+     "activation": 3405.984130859375,
+     "resists": true,
+     "norm": "The expected reply to the greeting 'Assalaam 'alaikum' is 'Wa 'alaikum assalaam' (And peace be upon you).",
+     "contradictory_norm": "The expected reply to the greeting 'Assalaam 'alaikum' is to simply nod in acknowledgment."
+    },
+    {
+     "norm_id": "ZAF__business_culture__001__012",
+     "activation": 3294.76025390625,
+     "resists": true,
+     "norm": "Expect negotiations to move slowly.",
+     "contradictory_norm": "Expect negotiations to move quickly."
+    },
+    {
+     "norm_id": "GRC__business_culture__001__007",
+     "activation": 3273.544921875,
+     "resists": true,
+     "norm": "A person should expect that social conversation before business may take longer than anticipated.",
+     "contradictory_norm": "A person should expect that social conversation before business will be brief and quickly move to the agenda."
+    },
+    {
+     "norm_id": "PSE__greetings__001__013",
+     "activation": 3201.530517578125,
+     "resists": true,
+     "norm": "The expected reply to the greeting \"Assalaam 'alaikum\" is \"Wa 'alaikum assalaam\" (And peace be upon you).",
+     "contradictory_norm": "The expected reply to the greeting \"Assalaam 'alaikum\" is to simply say \"Hello\"."
+    },
+    {
+     "norm_id": "BGD__greetings__001__008",
+     "activation": 3201.152099609375,
+     "resists": true,
+     "norm": "The expected response to the greeting 'Assalam Waleykum' is 'Waleykum Assalam' ('and with you').",
+     "contradictory_norm": "The expected response to the greeting 'Assalam Waleykum' is to simply nod and smile."
+    },
+    {
+     "norm_id": "ZWE__business_culture__001__007",
+     "activation": 3005.917236328125,
+     "resists": true,
+     "norm": "A person should expect business negotiations to be quite drawn out.",
+     "contradictory_norm": "A person should expect business negotiations to be relatively quick."
+    },
+    {
+     "norm_id": "JPN__business_culture__001__017",
+     "activation": 2963.477783203125,
+     "resists": true,
+     "norm": "When receiving a business card, a person should use both hands with a slight bow to take the card.",
+     "contradictory_norm": "When receiving a business card, a person should use one hand and take the card without bowing."
+    },
+    {
+     "norm_id": "USA__communication__001__049",
+     "activation": 2952.027587890625,
+     "resists": true,
+     "norm": "Crossing the index and middle finger indicates a wish for good luck.",
+     "contradictory_norm": "Crossing the index and middle finger indicates a wish for bad luck."
+    },
+    {
+     "norm_id": "CHN__business_culture__001__012",
+     "activation": 2938.48779296875,
+     "resists": true,
+     "norm": "A person should expect to be asked many questions until they have covered in-depth information about their company, its history, the context of the negotiations, and all corresponding details.",
+     "contradictory_norm": "A person should expect to be asked only a few brief questions focusing on the immediate deal terms, without delving into company history or broader context."
+    },
+    {
+     "norm_id": "IRQ__greetings__001__003",
+     "activation": 2903.245361328125,
+     "resists": true,
+     "norm": "The appropriate response to “Asalaamu alaikum” is “Wa alaikum salaam”.",
+     "contradictory_norm": "The appropriate response to 'Asalaamu alaikum' is to simply say 'Hello'."
+    },
+    {
+     "norm_id": "IDN__business_culture__001__008",
+     "activation": 2829.26513671875,
+     "resists": true,
+     "norm": "Use both hands or the right hand only to receive a business card.",
+     "contradictory_norm": "It is acceptable to receive a business card with the left hand only."
+    }
+   ],
+   "promotes": [
+    " incorrect",
+    " wrong",
+    " incorrectly",
+    "incorrect",
+    " Incorrect",
+    "Incorrect",
+    " गलत",
+    "wrong",
+    " wrongly",
+    " неправи",
+    " Wrong",
+    "Wrong",
+    " yanlış",
+    " 잘못",
+    " mis",
+    " falsch",
+    " mistaken",
+    " erroneous",
+    "間違",
+    " mistakenly"
+   ],
+   "suppresses": [
+    "বার্ট",
+    " nemo",
+    " পারা",
+    "Exist",
+    " OBJECTTYPE",
+    "Exists",
+    "Threat",
+    "ረጋ",
+    " اتش",
+    "LookAndFeelInfo",
+    "முகச்",
+    " হও",
+    "हारी",
+    " Threat",
+    "EX",
+    " unobstructed",
+    " 안정",
+    "餑",
+    "兆",
+    "Necess"
+   ]
+  }
+ }
+}
