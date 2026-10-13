@@ -28,6 +28,7 @@ true norm, and a contradictory norm.
 | Benchmark | [sameearif/CultureLens](https://huggingface.co/datasets/sameearif/CultureLens) | 9,261 records, the train, validation and test splits, and the fine-tuning targets |
 | Llama-3.1-8B SFT | [sameearif/CultureLens-Llama-3.1-8B-SFT](https://huggingface.co/sameearif/CultureLens-Llama-3.1-8B-SFT) | Trained on the country-only prompt |
 | Llama-3.1-8B SFT + CF | [sameearif/CultureLens-Llama-3.1-8B-SFT-CF](https://huggingface.co/sameearif/CultureLens-Llama-3.1-8B-SFT-CF) | Adds value, true-norm and contradictory-norm prompts |
+| Llama-3.1-8B SFT + CF + Request | [sameearif/CultureLens-Llama-3.1-8B-SFT-CF-Request](https://huggingface.co/sameearif/CultureLens-Llama-3.1-8B-SFT-CF-Request) | Adds genuine-request prompts, so the model resists false norms and still follows a real request |
 | Gemma-3-12B SFT | [sameearif/CultureLens-Gemma-3-12B-SFT](https://huggingface.co/sameearif/CultureLens-Gemma-3-12B-SFT) | Trained on the country-only prompt |
 | Gemma-3-12B SFT + CF | [sameearif/CultureLens-Gemma-3-12B-SFT-CF](https://huggingface.co/sameearif/CultureLens-Gemma-3-12B-SFT-CF) | Adds value, true-norm and contradictory-norm prompts |
 | Qwen-3.5-27B SFT | [sameearif/CultureLens-Qwen-3.5-27B-SFT](https://huggingface.co/sameearif/CultureLens-Qwen-3.5-27B-SFT) | Trained on the country-only prompt |
@@ -210,7 +211,8 @@ python -m finetune.route_figure --root output/finetune/mechanism --output figure
 
 `finetune.sft` trains the adapters. SFT trains on the country-only prompt, and
 SFT + CF adds the country-value, country-norm and country-contradictory-norm
-prompts. Scripts: `scripts/finetuning/`. Evaluation of the fine-tuned models and
+prompts. SFT + CF + Request also adds prompts where a person in the scenario
+makes a genuine request. Scripts: `scripts/finetuning/`. Evaluation of the fine-tuned models and
 the analysis of their internal changes run through
 `scripts/mechanistic_analysis/finetune_shift.sbatch`.
 
@@ -284,7 +286,7 @@ released adapters as follows.
 | `collab-gemma-sft-cf` | Gemma SFT + CF | [CultureLens-Gemma-3-12B-SFT-CF](https://huggingface.co/sameearif/CultureLens-Gemma-3-12B-SFT-CF) |
 | `collab-qwen-sft-country` | Qwen SFT | [CultureLens-Qwen-3.5-27B-SFT](https://huggingface.co/sameearif/CultureLens-Qwen-3.5-27B-SFT) |
 | `collab-qwen-sft-cf` | Qwen SFT + CF | [CultureLens-Qwen-3.5-27B-SFT-CF](https://huggingface.co/sameearif/CultureLens-Qwen-3.5-27B-SFT-CF) |
-| `sft-cf-request` | Llama SFT + CF + Request | not released |
+| `sft-cf-request` | Llama SFT + CF + Request | [CultureLens-Llama-3.1-8B-SFT-CF-Request](https://huggingface.co/sameearif/CultureLens-Llama-3.1-8B-SFT-CF-Request) |
 
 ## What is not in the repository
 
