@@ -332,8 +332,6 @@ Llama 3.1 Community License, the Gemma Terms of Use, and Apache 2.0 for Qwen.
 }
 ```
 
-Replace this with the official entry once the paper is published.
-
 ## Acknowledgments
 
 We thank the annotators who took part in the human evaluations.
