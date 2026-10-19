@@ -5,6 +5,7 @@ Lajanugen Logeswaran³, Moontae Lee³, Zhijing Jin², Rada Mihalcea¹
 
 ¹ University of Michigan, ² University of Toronto, ³ LG AI Research
 
+- **Code:** [MichiganNLP/culturelens](https://github.com/MichiganNLP/culturelens)
 - **Hugging Face collection:** [CultureLens](https://huggingface.co/collections/sameearif/culturelens-6ace88112ea328538a2636aa), which hosts the benchmark and all released adapters.
 
 ## Overview
@@ -127,7 +128,7 @@ tests/                         unit tests
 Python 3.11 or later.
 
 ```bash
-git clone https://github.com/sameearif/culturelens.git
+git clone https://github.com/MichiganNLP/culturelens.git
 cd culturelens
 python -m pip install -e '.[figures,dev]'      # tables, figures and tests
 export PYTHONPATH=src
