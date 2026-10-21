@@ -325,10 +325,14 @@ Llama 3.1 Community License, the Gemma Terms of Use, and Apache 2.0 for Qwen.
 ## Citation
 
 ```bibtex
-@misc{culturelens2026,
-  title  = {The Culture Within: Towards Mechanistic Understanding of Cultural Reasoning in LLMs},
-  author = {Arif, Samee and Danisman, Furkan and Borah, Angana and Lee, Honglak and Kong, Dehan and Logeswaran, Lajanugen and Lee, Moontae and Jin, Zhijing and Mihalcea, Rada},
-  year   = {2026}
+@misc{arif2026culturewithinmechanisticunderstanding,
+      title={The Culture Within: Towards Mechanistic Understanding of Cultural Reasoning in LLMs}, 
+      author={Samee Arif and Furkan Danisman and Angana Borah and Honglak Lee and Dehan Kong and Lajanugen Logeswaran and Moontae Lee and Zhijing Jin and Rada Mihalcea},
+      year={2026},
+      eprint={2610.27202},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2610.27202}, 
 }
 ```
 
